@@ -59,7 +59,7 @@
   .mapwrap { position: relative; min-width: 0; }
   #pstatus { position: absolute; left: 10px; bottom: 10px; max-width: calc(100% - 64px); background: rgba(250,247,238,.96); border: 1px solid var(--rule); border-radius: 3px; padding: 6px 10px; font-size: 13px; line-height: 1.35; color: var(--ink); pointer-events: none; }
   #pstatus[data-state="error"] { border-color: var(--signal); }
-  #parcel-info { border-top: 1px solid var(--rule-soft); margin-top: 14px; padding-top: 12px; }
+  #parcel-info { border-bottom: 1px solid var(--rule); margin-bottom: 14px; padding-bottom: 6px; }
   @media (max-width: 860px) {
     .main { grid-template-columns: 1fr; }
     #map { height: 62vh; min-height: 380px; }
@@ -99,9 +99,10 @@
     </div>
     <div class="group" role="group" aria-label="See parcel outlines downtown in">
       <span>See parcels in</span>
-      <button class="chip" data-parcels="-122.3331,47.6030">Seattle</button>
-      <button class="chip" data-parcels="-77.0300,38.9000">Washington DC</button>
-      <button class="chip" data-parcels="-84.3880,33.7550">Atlanta</button>
+      <button class="chip" data-parcels="-117.4260,47.6588,15.8">Spokane</button>
+      <button class="chip" data-parcels="-77.0300,38.9000,15.8">Washington DC</button>
+      <button class="chip" data-parcels="-71.0589,42.3560,16.4">Boston</button>
+      <button class="chip" data-parcels="-122.3331,47.6030,15.8">Seattle</button>
     </div>
     <div class="group">
       <label for="find"><span>Find a county</span></label>
@@ -116,17 +117,17 @@
       <div id="pstatus" role="status" aria-live="polite" data-state="idle" hidden></div>
     </div>
     <aside id="panel" aria-live="polite">
+      <div id="parcel-info" hidden></div>
       <div class="eyebrow">County</div>
       <p class="hint" id="panel-hint">Click or tap a county to see what the store holds for it.</p>
       <div id="panel-body" hidden></div>
-      <div id="parcel-info" hidden></div>
     </aside>
   </div>
 
   <div class="legend" id="legend"></div>
 
   <footer>
-    <p><strong>What this page shows.</strong> County totals from the store: how many parcel records it holds, where they came from, and how often each field is filled. Zoomed in close, it also draws parcel outlines and parcel numbers straight from the county's own public server. Those do not come from the store, and this page never asks for an owner name or an address.</p>
+    <p><strong>What this page shows.</strong> County totals from the store: how many parcel records it holds, where they came from, and how often each field is filled. Zoomed in close, it also draws parcel outlines straight from the county's own public server. Click one for its parcel number and, where the county's server has them, its land use, value, size, year built, zoning and last sale. Those do not come from the store, and this page never asks for an owner name or an address.</p>
     <p><strong>What "filled" means.</strong> The share of a county's records where the field has a value. It does not measure whether the value is correct.</p>
     <p><strong>Limits.</strong> Counts are from the July 2026 build. A source date is recorded for about a third of the counties in the store. Puerto Rico's 78 municipios are recorded but are outside the store.</p>
     <p><strong>Code and method.</strong> <a href="https://github.com/aschulz714/us-parcel-coverage" style="color:inherit">github.com/aschulz714/us-parcel-coverage</a></p>
@@ -326,13 +327,15 @@
   });
   document.querySelectorAll('button[data-parcels]').forEach(function (b) {
     b.addEventListener('click', function () {
-      map.flyTo({ center: b.getAttribute('data-parcels').split(',').map(Number), zoom: 15.6, duration: 2200 });
+      var at = b.getAttribute('data-parcels').split(',').map(Number);
+      map.flyTo({ center: [at[0], at[1]], zoom: at[2], duration: 2200 });
     });
   });
 
   // ---- Parcel outlines, drawn live from the county's own public server ----
   // Nothing below comes from the store. The page asks the county's server for the
-  // outlines in view and, where the catalog names one, the parcel-number field.
+  // outlines in view and, where the catalog names them, the parcel number and a few
+  // facts about the land: land use, value, size, year built, zoning, last sale.
   // It never asks for owner names or addresses, and it keeps nothing.
   var PARCEL_ZOOM = 14.5;
   var GONE = "This county's public server no longer answers at the address in the catalog";
@@ -341,12 +344,43 @@
   var worked = {};   // per county: which request form the server accepted, or -1 for none
   var misses = {};   // per county: requests in a row that got no answer at all
   // Request forms, tried in order the first time a county is asked. Later moves reuse the one that worked.
+  // "all" = the parcel number plus the land facts; "pn" = the parcel number only; "none" = outlines only.
   var FORMS = [
-    { f: 'geojson', field: true },
-    { f: 'json', field: true },
-    { f: 'geojson', field: false },
-    { f: 'json', field: false }
+    { f: 'geojson', fields: 'all' },
+    { f: 'geojson', fields: 'pn' },
+    { f: 'json', fields: 'all' },
+    { f: 'json', fields: 'pn' },
+    { f: 'geojson', fields: 'none' },
+    { f: 'json', fields: 'none' }
   ];
+  // The land-fact fields the catalog names for a county, as [short key, field name] pairs.
+  function factFields(p) {
+    return p.x ? String(p.x).split(';').map(function (kv) { return kv.split('='); }) : [];
+  }
+  // The catalog's field names are checked against the fields the county's layer says it has,
+  // so one name that has since gone does not cost the rest. "plan" = what is worth asking for.
+  var layerFields = {};   // per layer address: its field names in lower case, or null if it would not say
+  // A plan is { pn: field or '', facts: [[short key, field], ...] }.
+  function planFor(p, known) {
+    function has(name) { var k = name.toLowerCase(); return !known || known[k] || known[k.split('.').pop()]; }
+    return { pn: p.pn && has(p.pn) ? p.pn : '', facts: factFields(p).filter(function (kv) { return has(kv[1]); }) };
+  }
+  function fieldsFor(plan, form) {
+    var out = [];
+    if (form.fields !== 'none' && plan.pn) out.push(plan.pn);
+    if (form.fields === 'all') plan.facts.forEach(function (kv) { out.push(kv[1]); });
+    return out;
+  }
+  function usable(plan, form) {
+    if (form.fields === 'all') return plan.facts.length > 0;
+    if (form.fields === 'pn') return !!plan.pn;
+    return true;
+  }
+  // A reply that says the service is gone, moved or closed. No other request form will fix that.
+  function closed(code, message) {
+    return code === 401 || code === 403 || code === 404 || code === 498 || code === 499 ||
+      /invalid url|not found|token|not supported|not started|stopped|could not find/i.test(String(message || ''));
+  }
 
   function setStatus(state, text) {
     pstatus.setAttribute('data-state', state);
@@ -391,43 +425,84 @@
     parcels = []; lastFetch = null;
     parcelInfo.hidden = true;
   }
-  // "soft" = the server answered, but with a refusal. "again" = worth one more try (a server hiccup).
-  function soft(again) { var e = new Error('refused'); e.soft = true; e.again = !!again; return e; }
+  // "soft" = the server answered, but with a refusal. "again" = worth one more try (a server
+  // hiccup). "final" = the service is gone or closed, so no other request form is tried.
+  function soft(again, final) { var e = new Error('refused'); e.soft = true; e.again = !!again; e.final = !!final; return e; }
 
   // County servers hiccup. When one errors, ask again after a short pause, three tries at
   // most; two when it gives no answer at all. Not when it plainly refuses (moved, removed,
   // sign-in needed).
-  function ask(p, form, box, signal, tries) {
+  // Every request of one map move draws on the same small budget, so a struggling server is
+  // never asked more than a handful of times however the retries and request forms combine.
+  function spend(budget) {
+    if (budget.left <= 0) { var e = soft(false, true); e.spent = true; throw e; }
+    budget.left -= 1;
+  }
+  function ask(p, plan, form, box, signal, budget, tries) {
     tries = tries || 1;
-    return askOnce(p, form, box, signal).catch(function (err) {
+    return askOnce(p, plan, form, box, signal, budget).catch(function (err) {
       if (signal.aborted || tries >= (err && err.soft ? 3 : 2) || (err && err.soft && !err.again)) throw err;
       return new Promise(function (resolve) { setTimeout(resolve, 800); }).then(function () {
         if (signal.aborted) throw err;
-        return ask(p, form, box, signal, tries + 1);
+        return ask(p, plan, form, box, signal, budget, tries + 1);
       });
     });
   }
 
-  function askOnce(p, form, box, signal) {
+  // Ask the layer which fields it has. Asked once per layer address per visit.
+  function learnFields(p, signal, budget) {
+    var base = p.q.replace(/\/query$/, '');
+    if (layerFields[base] !== undefined) return Promise.resolve(layerFields[base]);
+    return new Promise(function (resolve) { spend(budget); resolve(); }).then(function () {
+      return fetch(base + '?f=json', { signal: signal, credentials: 'omit' });
+    }).then(function (r) {
+      return r.text().then(function (text) { return { status: r.status, text: text }; });
+    }).then(function (r) {
+      var j = null, set = null;
+      try { j = JSON.parse(r.text); } catch (e) {}
+      if (j && j.error && closed(j.error.code, j.error.message)) throw soft(false, true);
+      if (!j && closed(r.status, '')) throw soft(false, true);
+      if (j && Array.isArray(j.fields)) { set = {}; j.fields.forEach(function (f) { set[String(f.name).toLowerCase()] = true; }); }
+      // A server hiccup tells us nothing; do not remember it, so a later move asks again.
+      if (set || r.status < 500) layerFields[base] = set;
+      return set;
+    });
+  }
+
+  function askOnce(p, plan, form, box, signal, budget) {
     var url = p.q + '?where=1%3D1&geometry=' + box.join('%2C') +
       '&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects' +
-      '&returnGeometry=true&outSR=4326&geometryPrecision=6' +
-      (form.field ? '&outFields=' + encodeURIComponent(p.pn) : '') + '&f=' + form.f;
-    return fetch(url, { signal: signal, credentials: 'omit' }).then(function (r) {
-      if (!r.ok) throw soft(r.status >= 500);
-      return r.text();
-    }).then(function (text) {
-      var j;
-      try { j = JSON.parse(text); } catch (e) { throw soft(); }
-      if (!j || j.error || !Array.isArray(j.features)) throw soft();
-      var want = (p.pn || '').toLowerCase(), out = [];
+      '&returnGeometry=true&outSR=4326&geometryPrecision=6';
+    var names = fieldsFor(plan, form);
+    if (names.length) url += '&outFields=' + encodeURIComponent(names.join(','));
+    url += '&f=' + form.f;
+    return new Promise(function (resolve) { spend(budget); resolve(); }).then(function () {
+      return fetch(url, { signal: signal, credentials: 'omit' });
+    }).then(function (r) {
+      return r.text().then(function (text) { return { ok: r.ok, status: r.status, text: text }; });
+    }).then(function (r) {
+      var j = null;
+      try { j = JSON.parse(r.text); } catch (e) {}
+      if (j && j.error) throw soft(Number(j.error.code) >= 500, closed(j.error.code, j.error.message));
+      if (!r.ok) throw soft(r.status >= 500, closed(r.status, ''));
+      if (!j || !Array.isArray(j.features)) throw soft();
+      var wantPn = plan.pn.toLowerCase(), wantFacts = form.fields === 'all' ? plan.facts : [], out = [];
+      // A field named with its table ("Parcels.PIN") may come back under the short name ("PIN").
+      function pick(low, name) {
+        var k = name.toLowerCase(), v = low[k];
+        if (v === undefined) v = low[k.split('.').pop()];
+        return v === null || v === undefined || v === '' ? undefined : v;
+      }
       j.features.forEach(function (ft) {
         var rings = ringsOf(ft.geometry);
         if (!rings.length) return;
-        var a = ft.properties || ft.attributes || {}, pn = '';
-        if (want) for (var k in a) { if (k.toLowerCase() === want && a[k] !== null && a[k] !== '') pn = String(a[k]); }
-        // Keep the outline and the parcel number. Anything else the server sent is dropped here.
-        out.push({ type: 'Feature', properties: { pn: pn }, geometry: { type: 'MultiLineString', coordinates: rings } });
+        var a = ft.properties || ft.attributes || {}, low = {}, facts = {};
+        for (var k in a) low[k.toLowerCase()] = a[k];
+        var pn = wantPn ? pick(low, wantPn) : undefined;
+        wantFacts.forEach(function (kv) { var v = pick(low, kv[1]); if (v !== undefined) facts[kv[0]] = v; });
+        // Keep the outline, the parcel number and the land facts that were asked for.
+        // Anything else the server sent is dropped here.
+        out.push({ type: 'Feature', properties: { pn: pn === undefined ? '' : String(pn), facts: facts }, geometry: { type: 'MultiLineString', coordinates: rings } });
       });
       return { features: out, cut: !!(j.exceededTransferLimit || (j.properties && j.properties.exceededTransferLimit)) };
     });
@@ -458,19 +533,24 @@
     var timer = setTimeout(function () { ctl.abort(); }, 25000);
     setStatus('loading', 'Asking ' + host + ' for parcel outlines…');
     var firstTime = worked[p.fips] === undefined;
-    var order = firstTime ? FORMS.map(function (f, i) { return i; }).filter(function (i) { return p.pn || !FORMS[i].field; }) : [worked[p.fips]];
-    (function attempt(n) {
-      return ask(p, FORMS[order[n]], box, ctl.signal).then(function (res) { worked[p.fips] = order[n]; return res; }, function (err) {
-        if (err && err.soft && n + 1 < order.length) return attempt(n + 1);
-        throw err;
-      });
-    })(0).then(function (res) {
+    var budget = { left: 6 };
+    learnFields(p, ctl.signal, budget).then(function (known) {
+      var plan = planFor(p, known);
+      var order = firstTime ? FORMS.map(function (f, i) { return i; }).filter(function (i) { return usable(plan, FORMS[i]); }) : [worked[p.fips]];
+      return (function attempt(n) {
+        return ask(p, plan, FORMS[order[n]], box, ctl.signal, budget).then(function (res) { worked[p.fips] = order[n]; return res; }, function (err) {
+          if (err && err.soft && !err.final && n + 1 < order.length) return attempt(n + 1);
+          throw err;
+        });
+      })(0);
+    }).then(function (res) {
       clearTimeout(timer);
       if (ctl !== pending) return;
       pending = null; misses[p.fips] = 0;
       parcels = res.features;
       lastFetch = { fips: p.fips, box: box, cut: res.cut, host: host };
-      map.getSource('parcels').setData({ type: 'FeatureCollection', features: parcels });
+      // The map gets the outlines only. The facts stay in this page's own list for the click box.
+      map.getSource('parcels').setData({ type: 'FeatureCollection', features: parcels.map(function (ft) { return { type: 'Feature', properties: {}, geometry: ft.geometry }; }) });
       map.getSource('parcel-pick').setData(EMPTY);
       parcelInfo.hidden = true;
       var n = parcels.length;
@@ -483,12 +563,12 @@
       clearTimeout(timer);
       if (ctl !== pending) return;   // a newer map move took over
       clearParcels();
-      if (err && err.soft) {
+      if (err && err.soft && !err.spent) {
         // Every form was refused. Stop asking this server for the rest of the visit.
         if (firstTime) worked[p.fips] = -1;
         setStatus('error', GONE + ' (' + host + ')');
       } else {
-        // No answer at all: blocked, down, or too slow. Give up on it after two in a row.
+        // No usable answer: blocked, down, too slow, or erroring. Give up on it after two in a row.
         misses[p.fips] = (misses[p.fips] || 0) + 1;
         if (misses[p.fips] >= 2) worked[p.fips] = -1;
         setStatus('error', host + ' did not answer just now.');
@@ -498,7 +578,32 @@
   function scheduleParcels() { clearTimeout(moveTimer); moveTimer = setTimeout(updateParcels, 350); }
   map.on('moveend', scheduleParcels);
 
-  // Click a drawn outline to see its parcel number.
+  // Turn the raw values a county sends into readable rows. Empty and zero values are left out.
+  function money(v) { var n = Number(String(v).replace(/[$,]/g, '')); return isFinite(n) && n > 0 ? '$' + Math.round(n).toLocaleString('en-US') : ''; }
+  function plain(v) { var s = String(v).trim(); return s.length > 60 ? s.slice(0, 60) + '…' : s; }
+  function day(v) {
+    if (typeof v === 'number' && Math.abs(v) > 1e10) { var d = new Date(v); return isNaN(d) ? '' : d.toISOString().slice(0, 10); }
+    var s = String(v).trim(), m = /^(\d{4})-?(\d{2})-?(\d{2})/.exec(s);
+    return m ? m[1] + '-' + m[2] + '-' + m[3] : plain(s);
+  }
+  function factRows(f) {
+    var rows = [], n;
+    var use = [f.lud, f.lu].filter(function (v) { return v !== undefined; }).map(plain).filter(Boolean);
+    if (use.length === 2 && use[0].toLowerCase() !== use[1].toLowerCase()) rows.push(['Land use', use[0] + ' (' + use[1] + ')']);
+    else if (use.length) rows.push([/^[0-9A-Z .-]{1,6}$/.test(use[0]) ? 'Land use code' : 'Land use', use[0]]);
+    if (f.av !== undefined && money(f.av)) rows.push(['Assessed value', money(f.av)]);
+    if (f.lv !== undefined && money(f.lv)) rows.push(['Land value', money(f.lv)]);
+    if (f.iv !== undefined && money(f.iv)) rows.push(['Building value', money(f.iv)]);
+    n = Number(f.ac); if (f.ac !== undefined && isFinite(n) && n > 0) rows.push(['Size', (n >= 100 ? Math.round(n).toLocaleString('en-US') : String(Number(n.toFixed(2)))) + ' acres']);
+    n = Number(f.yb); if (f.yb !== undefined && n >= 1600 && n <= 2100) rows.push(['Year built', String(Math.round(n))]);
+    n = Number(f.sf); if (f.sf !== undefined && isFinite(n) && n > 0) rows.push(['Building size', Math.round(n).toLocaleString('en-US') + ' sq ft']);
+    if (f.zn !== undefined && plain(f.zn)) rows.push(['Zoning', plain(f.zn)]);
+    var sale = [f.sd !== undefined ? day(f.sd) : '', f.sp !== undefined ? money(f.sp) : ''].filter(Boolean).join(' · ');
+    if (sale) rows.push(['Last sale', sale]);
+    return rows;
+  }
+
+  // Click a drawn outline to see what the county's server says about that parcel.
   map.on('click', function (e) {
     if (!parcels.length) return;
     var x = e.lngLat.lng, y = e.lngLat.lat, found = null, best = Infinity;
@@ -514,8 +619,9 @@
     map.getSource('parcel-pick').setData(found ? { type: 'FeatureCollection', features: [found] } : EMPTY);
     if (!found) { parcelInfo.hidden = true; return; }
     parcelInfo.innerHTML = '<div class="eyebrow">Parcel</div><dl><dt>Parcel number</dt><dd>' + esc(found.properties.pn || 'not sent by the server') + '</dd>' +
-      '<dt>Outline from</dt><dd>' + esc(lastFetch ? lastFetch.host : '') + '</dd></dl>' +
-      '<p class="note">Drawn live from the county\'s own server, not from the store. This page does not ask for owner names or addresses.</p>';
+      factRows(found.properties.facts || {}).map(function (r) { return '<dt>' + r[0] + '</dt><dd>' + esc(r[1]) + '</dd>'; }).join('') +
+      '<dt>Sent by</dt><dd>' + esc(lastFetch ? lastFetch.host : '') + '</dd></dl>' +
+      '<p class="note">Sent live by the county\'s own server, as the county records it. Not from the store. This page does not ask for owner names or addresses.</p>';
     parcelInfo.hidden = false;
   });
 

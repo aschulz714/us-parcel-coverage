@@ -14,9 +14,11 @@ The county coverage map is at <https://aschulz714.github.io/us-parcel-coverage/>
 `docs/index.html` from a copy of this repository). It shows, county by county, whether the
 record could be collected, where it came from, and how often each field is filled.
 
-Zoom in on a county and the map draws its parcel outlines. Those outlines come live from the
-county's own public server, at the address recorded in the catalog, not from the store. The
-page asks only for the outline and the parcel number, never for an owner name or an address.
+Zoom in on a county and the map draws its parcel outlines. Click one for its parcel number
+and, where the county's server has them, its land use, value, size, year built, zoning and
+last sale. All of that comes live from the county's own public server, at the address
+recorded in the catalog, not from the store. The page never asks for an owner name or an
+address.
 A county draws only while its server still answers at that address and allows other websites
 to read it.
 

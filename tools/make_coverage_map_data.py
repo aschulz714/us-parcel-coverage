@@ -5,7 +5,9 @@ The map page reads one small file. This script makes that file from two inputs:
   1. the county status file that src/build_map_data.py writes
      (output/counties_status.geojson): county totals and fill rates
   2. the source manifest (data/parcels/manifest.json): each county's public
-     map-service address and the name of its parcel-number field
+     map-service address, the name of its parcel-number field, and the names
+     of its fields for a few facts about the land (land use, value, size,
+     year built, zoning, last sale)
 
 The output holds county-level totals and public source addresses only. It holds
 no parcel records, no owner names and no addresses of properties.
@@ -26,6 +28,17 @@ LAYER_QUERY = re.compile(r'^https://[^?#\s]+/(FeatureServer|MapServer)/[0-9]+/qu
 SIMPLE_FIELD = re.compile(r'^[A-Za-z_][A-Za-z0-9_.]*$')
 # A parcel-number field whose name could be a person or address field is not passed to the map.
 DOUBTFUL_FIELD = re.compile('own|name|addr|mail|situs|street|taxpayer', re.I)
+# Facts about the land the map may ask a county's server for, besides the parcel number.
+# Short key in the data file -> column name in the manifest's field map.
+EXTRA_FIELDS = [
+    ('lu', 'land_use'), ('lud', 'land_use_desc'), ('av', 'assessed_value'), ('lv', 'land_value'),
+    ('iv', 'improvement_value'), ('ac', 'acreage'), ('yb', 'year_built'), ('sf', 'building_sqft'),
+    ('zn', 'zoning'), ('sd', 'sale_date'), ('sp', 'sale_price'),
+]
+# A source field whose name suggests a person or an address is never passed to the map,
+# whatever column the manifest files it under.
+PERSON_FIELD = re.compile('owner|ownr|ownnam|own_|^own|mail|taxpayer|addr|situs|street|grantee|grantor|'
+                          'buyer|seller|resident|occupant|contact|phone|email|person', re.I)
 
 
 def clean_date(value):
@@ -65,6 +78,17 @@ def live_source(entry):
             field = field if ok else ''
             return url, field
     return '', ''
+
+
+def extra_fields(entry):
+    """Return 'key=field;key=field' for the land facts this county's source carries, or ''."""
+    field_map = entry.get('field_map') or {}
+    out = []
+    for key, column in EXTRA_FIELDS:
+        field = field_map.get(column)
+        if isinstance(field, str) and SIMPLE_FIELD.match(field) and not PERSON_FIELD.search(field):
+            out.append(key + '=' + field)
+    return ';'.join(out)
 
 
 def main(src, manifest_path, dest):
@@ -115,6 +139,9 @@ def main(src, manifest_path, dest):
                 row['q'] = url
                 if field:
                     row['pn'] = field
+                extras = extra_fields(manifest.get(props['fips']) or {})
+                if extras:
+                    row['x'] = extras
         out.append({'type': 'Feature', 'properties': row, 'geometry': feat['geometry']})
 
     body = json.dumps({'type': 'FeatureCollection', 'features': out},
