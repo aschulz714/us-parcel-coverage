@@ -1,0 +1,11663 @@
+{
+ "counties": {
+  "01001": {
+   "apn_nn": 33195,
+   "dup_pct": 3.693,
+   "state": "AL"
+  },
+  "01003": {
+   "apn_nn": 160667,
+   "dup_pct": 0.018,
+   "state": "AL"
+  },
+  "01009": {
+   "apn_nn": 44177,
+   "dup_pct": 3.923,
+   "state": "AL"
+  },
+  "01015": {
+   "apn_nn": 75273,
+   "dup_pct": 1.168,
+   "state": "AL"
+  },
+  "01019": {
+   "apn_nn": 35542,
+   "dup_pct": 0.155,
+   "state": "AL"
+  },
+  "01033": {
+   "apn_nn": 43161,
+   "dup_pct": 1.483,
+   "state": "AL"
+  },
+  "01043": {
+   "apn_nn": 70000,
+   "dup_pct": 15.56,
+   "state": "AL"
+  },
+  "01047": {
+   "apn_nn": 29996,
+   "dup_pct": 0.0,
+   "state": "AL"
+  },
+  "01049": {
+   "apn_nn": 52861,
+   "dup_pct": 1.704,
+   "state": "AL"
+  },
+  "01051": {
+   "apn_nn": 52298,
+   "dup_pct": 5.811,
+   "state": "AL"
+  },
+  "01055": {
+   "apn_nn": 77991,
+   "dup_pct": 3.176,
+   "state": "AL"
+  },
+  "01059": {
+   "apn_nn": 23518,
+   "dup_pct": 0.306,
+   "state": "AL"
+  },
+  "01063": {
+   "apn_nn": 11053,
+   "dup_pct": 0.0,
+   "state": "AL"
+  },
+  "01065": {
+   "apn_nn": 16344,
+   "dup_pct": 0.122,
+   "state": "AL"
+  },
+  "01067": {
+   "apn_nn": 21817,
+   "dup_pct": 8.438,
+   "state": "AL"
+  },
+  "01069": {
+   "apn_nn": 63733,
+   "dup_pct": 3.466,
+   "state": "AL"
+  },
+  "01071": {
+   "apn_nn": 43692,
+   "dup_pct": 0.199,
+   "state": "AL"
+  },
+  "01073": {
+   "apn_nn": 410143,
+   "dup_pct": 21.836,
+   "state": "AL"
+  },
+  "01079": {
+   "apn_nn": 24917,
+   "dup_pct": 0.173,
+   "state": "AL"
+  },
+  "01083": {
+   "apn_nn": 62543,
+   "dup_pct": 3.518,
+   "state": "AL"
+  },
+  "01089": {
+   "apn_nn": 198044,
+   "dup_pct": 2.969,
+   "state": "AL"
+  },
+  "01095": {
+   "apn_nn": 61893,
+   "dup_pct": 0.181,
+   "state": "AL"
+  },
+  "01097": {
+   "apn_nn": 213739,
+   "dup_pct": 0.0,
+   "state": "AL"
+  },
+  "01101": {
+   "apn_nn": 105497,
+   "dup_pct": 0.031,
+   "state": "AL"
+  },
+  "01103": {
+   "apn_nn": 76795,
+   "dup_pct": 16.515,
+   "state": "AL"
+  },
+  "01113": {
+   "apn_nn": 36345,
+   "dup_pct": 5.008,
+   "state": "AL"
+  },
+  "01115": {
+   "apn_nn": 60754,
+   "dup_pct": 3.284,
+   "state": "AL"
+  },
+  "01121": {
+   "apn_nn": 57769,
+   "dup_pct": 0.107,
+   "state": "AL"
+  },
+  "01133": {
+   "apn_nn": 31568,
+   "dup_pct": 15.202,
+   "state": "AL"
+  },
+  "02016": {
+   "apn_nn": 870,
+   "dup_pct": 1.149,
+   "state": "AK"
+  },
+  "02020": {
+   "apn_nn": 98673,
+   "dup_pct": 0.159,
+   "state": "AK"
+  },
+  "02060": {
+   "apn_nn": 2825,
+   "dup_pct": 0.0,
+   "state": "AK"
+  },
+  "02068": {
+   "apn_nn": 3127,
+   "dup_pct": 0.0,
+   "state": "AK"
+  },
+  "02070": {
+   "apn_nn": 1540,
+   "dup_pct": 0.0,
+   "state": "AK"
+  },
+  "02090": {
+   "apn_nn": 63848,
+   "dup_pct": 16.369,
+   "state": "AK"
+  },
+  "02100": {
+   "apn_nn": 4589,
+   "dup_pct": 33.341,
+   "state": "AK"
+  },
+  "02110": {
+   "apn_nn": 15727,
+   "dup_pct": 11.477,
+   "state": "AK"
+  },
+  "02122": {
+   "apn_nn": 66263,
+   "dup_pct": 0.0,
+   "state": "AK"
+  },
+  "02130": {
+   "apn_nn": 7502,
+   "dup_pct": 0.133,
+   "state": "AK"
+  },
+  "02150": {
+   "apn_nn": 8733,
+   "dup_pct": 21.161,
+   "state": "AK"
+  },
+  "02164": {
+   "apn_nn": 3795,
+   "dup_pct": 6.113,
+   "state": "AK"
+  },
+  "02170": {
+   "apn_nn": 111200,
+   "dup_pct": 0.21,
+   "state": "AK"
+  },
+  "02180": {
+   "apn_nn": 3346,
+   "dup_pct": 19.396,
+   "state": "AK"
+  },
+  "02185": {
+   "apn_nn": 5951,
+   "dup_pct": 1.932,
+   "state": "AK"
+  },
+  "02195": {
+   "apn_nn": 4766,
+   "dup_pct": 0.336,
+   "state": "AK"
+  },
+  "02220": {
+   "apn_nn": 3704,
+   "dup_pct": 1.863,
+   "state": "AK"
+  },
+  "02230": {
+   "apn_nn": 1343,
+   "dup_pct": 31.794,
+   "state": "AK"
+  },
+  "02261": {
+   "apn_nn": 4086,
+   "dup_pct": 31.62,
+   "state": "AK"
+  },
+  "02275": {
+   "apn_nn": 2422,
+   "dup_pct": 3.138,
+   "state": "AK"
+  },
+  "02282": {
+   "apn_nn": 1393,
+   "dup_pct": 2.513,
+   "state": "AK"
+  },
+  "04001": {
+   "apn_nn": 57679,
+   "dup_pct": 0.586,
+   "state": "AZ"
+  },
+  "04003": {
+   "apn_nn": 122969,
+   "dup_pct": 0.006,
+   "state": "AZ"
+  },
+  "04007": {
+   "apn_nn": 39656,
+   "dup_pct": 9.961,
+   "state": "AZ"
+  },
+  "04009": {
+   "apn_nn": 18821,
+   "dup_pct": 0.005,
+   "state": "AZ"
+  },
+  "04011": {
+   "apn_nn": 4683,
+   "dup_pct": 3.63,
+   "state": "AZ"
+  },
+  "04012": {
+   "apn_nn": 19336,
+   "dup_pct": 16.487,
+   "state": "AZ"
+  },
+  "04013": {
+   "apn_nn": 1758443,
+   "dup_pct": 0.0,
+   "state": "AZ"
+  },
+  "04015": {
+   "apn_nn": 266708,
+   "dup_pct": 99.627,
+   "state": "AZ"
+  },
+  "04017": {
+   "apn_nn": 86815,
+   "dup_pct": 0.0,
+   "state": "AZ"
+  },
+  "04019": {
+   "apn_nn": 448211,
+   "dup_pct": 0.0,
+   "state": "AZ"
+  },
+  "04021": {
+   "apn_nn": 274524,
+   "dup_pct": 3.07,
+   "state": "AZ"
+  },
+  "04023": {
+   "apn_nn": 43227,
+   "dup_pct": 0.0,
+   "state": "AZ"
+  },
+  "04025": {
+   "apn_nn": 187707,
+   "dup_pct": 3.741,
+   "state": "AZ"
+  },
+  "04027": {
+   "apn_nn": 70082,
+   "dup_pct": 0.368,
+   "state": "AZ"
+  },
+  "05001": {
+   "apn_nn": 16065,
+   "dup_pct": 0.417,
+   "state": "AR"
+  },
+  "05003": {
+   "apn_nn": 19325,
+   "dup_pct": 1.133,
+   "state": "AR"
+  },
+  "05005": {
+   "apn_nn": 38064,
+   "dup_pct": 0.412,
+   "state": "AR"
+  },
+  "05007": {
+   "apn_nn": 174098,
+   "dup_pct": 0.065,
+   "state": "AR"
+  },
+  "05009": {
+   "apn_nn": 29401,
+   "dup_pct": 0.646,
+   "state": "AR"
+  },
+  "05011": {
+   "apn_nn": 12543,
+   "dup_pct": 0.694,
+   "state": "AR"
+  },
+  "05013": {
+   "apn_nn": 9849,
+   "dup_pct": 0.396,
+   "state": "AR"
+  },
+  "05015": {
+   "apn_nn": 25701,
+   "dup_pct": 0.455,
+   "state": "AR"
+  },
+  "05017": {
+   "apn_nn": 10944,
+   "dup_pct": 0.411,
+   "state": "AR"
+  },
+  "05019": {
+   "apn_nn": 20323,
+   "dup_pct": 0.182,
+   "state": "AR"
+  },
+  "05021": {
+   "apn_nn": 16300,
+   "dup_pct": 0.399,
+   "state": "AR"
+  },
+  "05023": {
+   "apn_nn": 31006,
+   "dup_pct": 0.052,
+   "state": "AR"
+  },
+  "05025": {
+   "apn_nn": 8098,
+   "dup_pct": 1.037,
+   "state": "AR"
+  },
+  "05027": {
+   "apn_nn": 19720,
+   "dup_pct": 1.577,
+   "state": "AR"
+  },
+  "05029": {
+   "apn_nn": 19478,
+   "dup_pct": 0.149,
+   "state": "AR"
+  },
+  "05031": {
+   "apn_nn": 54525,
+   "dup_pct": 0.293,
+   "state": "AR"
+  },
+  "05033": {
+   "apn_nn": 37611,
+   "dup_pct": 1.21,
+   "state": "AR"
+  },
+  "05035": {
+   "apn_nn": 27620,
+   "dup_pct": 1.676,
+   "state": "AR"
+  },
+  "05037": {
+   "apn_nn": 12218,
+   "dup_pct": 0.057,
+   "state": "AR"
+  },
+  "05039": {
+   "apn_nn": 10862,
+   "dup_pct": 0.93,
+   "state": "AR"
+  },
+  "05041": {
+   "apn_nn": 9646,
+   "dup_pct": 1.617,
+   "state": "AR"
+  },
+  "05043": {
+   "apn_nn": 13218,
+   "dup_pct": 3.533,
+   "state": "AR"
+  },
+  "05045": {
+   "apn_nn": 65862,
+   "dup_pct": 0.091,
+   "state": "AR"
+  },
+  "05047": {
+   "apn_nn": 15473,
+   "dup_pct": 0.2,
+   "state": "AR"
+  },
+  "05049": {
+   "apn_nn": 11019,
+   "dup_pct": 0.027,
+   "state": "AR"
+  },
+  "05051": {
+   "apn_nn": 76651,
+   "dup_pct": 0.07,
+   "state": "AR"
+  },
+  "05053": {
+   "apn_nn": 15982,
+   "dup_pct": 1.208,
+   "state": "AR"
+  },
+  "05055": {
+   "apn_nn": 27743,
+   "dup_pct": 0.36,
+   "state": "AR"
+  },
+  "05057": {
+   "apn_nn": 18578,
+   "dup_pct": 0.086,
+   "state": "AR"
+  },
+  "05059": {
+   "apn_nn": 23600,
+   "dup_pct": 0.331,
+   "state": "AR"
+  },
+  "05061": {
+   "apn_nn": 10232,
+   "dup_pct": 0.166,
+   "state": "AR"
+  },
+  "05063": {
+   "apn_nn": 29534,
+   "dup_pct": 0.244,
+   "state": "AR"
+  },
+  "05065": {
+   "apn_nn": 30207,
+   "dup_pct": 0.179,
+   "state": "AR"
+  },
+  "05067": {
+   "apn_nn": 13981,
+   "dup_pct": 0.379,
+   "state": "AR"
+  },
+  "05069": {
+   "apn_nn": 54559,
+   "dup_pct": 0.72,
+   "state": "AR"
+  },
+  "05071": {
+   "apn_nn": 18057,
+   "dup_pct": 1.025,
+   "state": "AR"
+  },
+  "05073": {
+   "apn_nn": 11272,
+   "dup_pct": 0.497,
+   "state": "AR"
+  },
+  "05075": {
+   "apn_nn": 9557,
+   "dup_pct": 1.224,
+   "state": "AR"
+  },
+  "05077": {
+   "apn_nn": 10180,
+   "dup_pct": 0.845,
+   "state": "AR"
+  },
+  "05079": {
+   "apn_nn": 10139,
+   "dup_pct": 0.7,
+   "state": "AR"
+  },
+  "05081": {
+   "apn_nn": 14536,
+   "dup_pct": 0.062,
+   "state": "AR"
+  },
+  "05083": {
+   "apn_nn": 20187,
+   "dup_pct": 1.11,
+   "state": "AR"
+  },
+  "05085": {
+   "apn_nn": 38238,
+   "dup_pct": 3.157,
+   "state": "AR"
+  },
+  "05087": {
+   "apn_nn": 20702,
+   "dup_pct": 1.686,
+   "state": "AR"
+  },
+  "05089": {
+   "apn_nn": 13309,
+   "dup_pct": 4.997,
+   "state": "AR"
+  },
+  "05091": {
+   "apn_nn": 27075,
+   "dup_pct": 0.362,
+   "state": "AR"
+  },
+  "05093": {
+   "apn_nn": 30972,
+   "dup_pct": 0.284,
+   "state": "AR"
+  },
+  "05095": {
+   "apn_nn": 8807,
+   "dup_pct": 0.136,
+   "state": "AR"
+  },
+  "05097": {
+   "apn_nn": 11195,
+   "dup_pct": 0.268,
+   "state": "AR"
+  },
+  "05099": {
+   "apn_nn": 12106,
+   "dup_pct": 0.182,
+   "state": "AR"
+  },
+  "05101": {
+   "apn_nn": 6024,
+   "dup_pct": 7.553,
+   "state": "AR"
+  },
+  "05103": {
+   "apn_nn": 16708,
+   "dup_pct": 0.102,
+   "state": "AR"
+  },
+  "05105": {
+   "apn_nn": 10232,
+   "dup_pct": 0.137,
+   "state": "AR"
+  },
+  "05107": {
+   "apn_nn": 19341,
+   "dup_pct": 1.07,
+   "state": "AR"
+  },
+  "05109": {
+   "apn_nn": 11420,
+   "dup_pct": 1.769,
+   "state": "AR"
+  },
+  "05111": {
+   "apn_nn": 17945,
+   "dup_pct": 0.418,
+   "state": "AR"
+  },
+  "05113": {
+   "apn_nn": 19195,
+   "dup_pct": 0.031,
+   "state": "AR"
+  },
+  "05115": {
+   "apn_nn": 32468,
+   "dup_pct": 1.525,
+   "state": "AR"
+  },
+  "05117": {
+   "apn_nn": 10082,
+   "dup_pct": 0.04,
+   "state": "AR"
+  },
+  "05119": {
+   "apn_nn": 180264,
+   "dup_pct": 0.026,
+   "state": "AR"
+  },
+  "05121": {
+   "apn_nn": 18097,
+   "dup_pct": 0.271,
+   "state": "AR"
+  },
+  "05123": {
+   "apn_nn": 17886,
+   "dup_pct": 1.141,
+   "state": "AR"
+  },
+  "05125": {
+   "apn_nn": 79955,
+   "dup_pct": 0.059,
+   "state": "AR"
+  },
+  "05127": {
+   "apn_nn": 10822,
+   "dup_pct": 0.286,
+   "state": "AR"
+  },
+  "05129": {
+   "apn_nn": 11774,
+   "dup_pct": 0.0,
+   "state": "AR"
+  },
+  "05131": {
+   "apn_nn": 60094,
+   "dup_pct": 0.105,
+   "state": "AR"
+  },
+  "05133": {
+   "apn_nn": 11714,
+   "dup_pct": 0.077,
+   "state": "AR"
+  },
+  "05135": {
+   "apn_nn": 46299,
+   "dup_pct": 0.972,
+   "state": "AR"
+  },
+  "05137": {
+   "apn_nn": 15465,
+   "dup_pct": 0.42,
+   "state": "AR"
+  },
+  "05139": {
+   "apn_nn": 31324,
+   "dup_pct": 0.313,
+   "state": "AR"
+  },
+  "05141": {
+   "apn_nn": 32174,
+   "dup_pct": 0.438,
+   "state": "AR"
+  },
+  "05143": {
+   "apn_nn": 113655,
+   "dup_pct": 0.0,
+   "state": "AR"
+  },
+  "05145": {
+   "apn_nn": 49606,
+   "dup_pct": 0.657,
+   "state": "AR"
+  },
+  "05147": {
+   "apn_nn": 9219,
+   "dup_pct": 0.662,
+   "state": "AR"
+  },
+  "05149": {
+   "apn_nn": 19649,
+   "dup_pct": 2.626,
+   "state": "AR"
+  },
+  "06001": {
+   "apn_nn": 489766,
+   "dup_pct": 3.928,
+   "state": "CA"
+  },
+  "06003": {
+   "apn_nn": 2305,
+   "dup_pct": 0.347,
+   "state": "CA"
+  },
+  "06005": {
+   "apn_nn": 717,
+   "dup_pct": 5.3,
+   "state": "CA"
+  },
+  "06007": {
+   "apn_nn": 7518,
+   "dup_pct": 0.013,
+   "state": "CA"
+  },
+  "06009": {
+   "apn_nn": 42509,
+   "dup_pct": 1.256,
+   "state": "CA"
+  },
+  "06011": {
+   "apn_nn": 17410,
+   "dup_pct": 14.831,
+   "state": "CA"
+  },
+  "06013": {
+   "apn_nn": 387836,
+   "dup_pct": 0.088,
+   "state": "CA"
+  },
+  "06015": {
+   "apn_nn": 16181,
+   "dup_pct": 0.748,
+   "state": "CA"
+  },
+  "06017": {
+   "apn_nn": 1925,
+   "dup_pct": 1.143,
+   "state": "CA"
+  },
+  "06019": {
+   "apn_nn": 309353,
+   "dup_pct": 0.266,
+   "state": "CA"
+  },
+  "06021": {
+   "apn_nn": 3761,
+   "dup_pct": 0.798,
+   "state": "CA"
+  },
+  "06023": {
+   "apn_nn": 72668,
+   "dup_pct": 0.5,
+   "state": "CA"
+  },
+  "06025": {
+   "apn_nn": 9622,
+   "dup_pct": 0.01,
+   "state": "CA"
+  },
+  "06027": {
+   "apn_nn": 17484,
+   "dup_pct": 9.06,
+   "state": "CA"
+  },
+  "06029": {
+   "apn_nn": 421684,
+   "dup_pct": 0.0,
+   "state": "CA"
+  },
+  "06031": {
+   "apn_nn": 8257,
+   "dup_pct": 0.012,
+   "state": "CA"
+  },
+  "06033": {
+   "apn_nn": 63857,
+   "dup_pct": 0.0,
+   "state": "CA"
+  },
+  "06035": {
+   "apn_nn": 792,
+   "dup_pct": 35.48,
+   "state": "CA"
+  },
+  "06037": {
+   "apn_nn": 2432200,
+   "dup_pct": 0.003,
+   "state": "CA"
+  },
+  "06039": {
+   "apn_nn": 5610,
+   "dup_pct": 0.036,
+   "state": "CA"
+  },
+  "06041": {
+   "apn_nn": 7233,
+   "dup_pct": 0.0,
+   "state": "CA"
+  },
+  "06043": {
+   "apn_nn": 14320,
+   "dup_pct": 0.021,
+   "state": "CA"
+  },
+  "06045": {
+   "apn_nn": 61930,
+   "dup_pct": 1.004,
+   "state": "CA"
+  },
+  "06047": {
+   "apn_nn": 14419,
+   "dup_pct": 0.0,
+   "state": "CA"
+  },
+  "06051": {
+   "apn_nn": 20480,
+   "dup_pct": 0.0,
+   "state": "CA"
+  },
+  "06053": {
+   "apn_nn": 8854,
+   "dup_pct": 0.497,
+   "state": "CA"
+  },
+  "06055": {
+   "apn_nn": 7262,
+   "dup_pct": 0.0,
+   "state": "CA"
+  },
+  "06057": {
+   "apn_nn": 1989,
+   "dup_pct": 1.709,
+   "state": "CA"
+  },
+  "06059": {
+   "apn_nn": 702115,
+   "dup_pct": 2.007,
+   "state": "CA"
+  },
+  "06061": {
+   "apn_nn": 20703,
+   "dup_pct": 1.164,
+   "state": "CA"
+  },
+  "06063": {
+   "apn_nn": 25952,
+   "dup_pct": 1.923,
+   "state": "CA"
+  },
+  "06065": {
+   "apn_nn": 846251,
+   "dup_pct": 0.0,
+   "state": "CA"
+  },
+  "06067": {
+   "apn_nn": 501208,
+   "dup_pct": 0.0,
+   "state": "CA"
+  },
+  "06069": {
+   "apn_nn": 1235,
+   "dup_pct": 0.567,
+   "state": "CA"
+  },
+  "06071": {
+   "apn_nn": 839694,
+   "dup_pct": 0.004,
+   "state": "CA"
+  },
+  "06073": {
+   "apn_nn": 1088671,
+   "dup_pct": 0.0,
+   "state": "CA"
+  },
+  "06075": {
+   "apn_nn": 226877,
+   "dup_pct": 0.0,
+   "state": "CA"
+  },
+  "06077": {
+   "apn_nn": 51577,
+   "dup_pct": 0.035,
+   "state": "CA"
+  },
+  "06079": {
+   "apn_nn": 132459,
+   "dup_pct": 0.0,
+   "state": "CA"
+  },
+  "06081": {
+   "apn_nn": 235338,
+   "dup_pct": 4.512,
+   "state": "CA"
+  },
+  "06083": {
+   "apn_nn": 22833,
+   "dup_pct": 0.0,
+   "state": "CA"
+  },
+  "06085": {
+   "apn_nn": 495231,
+   "dup_pct": 0.009,
+   "state": "CA"
+  },
+  "06087": {
+   "apn_nn": 17839,
+   "dup_pct": 0.0,
+   "state": "CA"
+  },
+  "06089": {
+   "apn_nn": 9455,
+   "dup_pct": 2.803,
+   "state": "CA"
+  },
+  "06091": {
+   "apn_nn": 354,
+   "dup_pct": 0.0,
+   "state": "CA"
+  },
+  "06093": {
+   "apn_nn": 53720,
+   "dup_pct": 0.659,
+   "state": "CA"
+  },
+  "06095": {
+   "apn_nn": 13180,
+   "dup_pct": 0.0,
+   "state": "CA"
+  },
+  "06097": {
+   "apn_nn": 188969,
+   "dup_pct": 0.003,
+   "state": "CA"
+  },
+  "06099": {
+   "apn_nn": 27119,
+   "dup_pct": 0.435,
+   "state": "CA"
+  },
+  "06101": {
+   "apn_nn": 1895,
+   "dup_pct": 0.58,
+   "state": "CA"
+  },
+  "06103": {
+   "apn_nn": 5580,
+   "dup_pct": 0.556,
+   "state": "CA"
+  },
+  "06105": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "CA"
+  },
+  "06107": {
+   "apn_nn": 25013,
+   "dup_pct": 0.388,
+   "state": "CA"
+  },
+  "06109": {
+   "apn_nn": 48314,
+   "dup_pct": 10.672,
+   "note": "2026-07-18 accepted: source-inherent multi-polygon assessments (up to 195 fragments per APN, single owner, timber holdings)",
+   "state": "CA"
+  },
+  "06111": {
+   "apn_nn": 267868,
+   "dup_pct": 2.685,
+   "state": "CA"
+  },
+  "06113": {
+   "apn_nn": 10870,
+   "dup_pct": 2.806,
+   "state": "CA"
+  },
+  "06115": {
+   "apn_nn": 7977,
+   "dup_pct": 1.642,
+   "state": "CA"
+  },
+  "08001": {
+   "apn_nn": 188475,
+   "dup_pct": 0.0,
+   "state": "CO"
+  },
+  "08005": {
+   "apn_nn": 231438,
+   "dup_pct": 0.213,
+   "state": "CO"
+  },
+  "08007": {
+   "apn_nn": 17890,
+   "dup_pct": 5.372,
+   "state": "CO"
+  },
+  "08013": {
+   "apn_nn": 144551,
+   "dup_pct": 9.952,
+   "state": "CO"
+  },
+  "08014": {
+   "apn_nn": 27476,
+   "dup_pct": 0.0,
+   "state": "CO"
+  },
+  "08015": {
+   "apn_nn": 16932,
+   "dup_pct": 0.106,
+   "state": "CO"
+  },
+  "08019": {
+   "apn_nn": 26844,
+   "dup_pct": 44.826,
+   "state": "CO"
+  },
+  "08023": {
+   "apn_nn": 64634,
+   "dup_pct": 30.779,
+   "state": "CO"
+  },
+  "08027": {
+   "apn_nn": 9489,
+   "dup_pct": 6.165,
+   "state": "CO"
+  },
+  "08029": {
+   "apn_nn": 19121,
+   "dup_pct": 0.052,
+   "state": "CO"
+  },
+  "08031": {
+   "apn_nn": 240257,
+   "dup_pct": 0.0,
+   "state": "CO"
+  },
+  "08033": {
+   "apn_nn": 4513,
+   "dup_pct": 15.954,
+   "state": "CO"
+  },
+  "08035": {
+   "apn_nn": 164818,
+   "dup_pct": 4.076,
+   "state": "CO"
+  },
+  "08037": {
+   "apn_nn": 25062,
+   "dup_pct": 2.091,
+   "state": "CO"
+  },
+  "08039": {
+   "apn_nn": 17710,
+   "dup_pct": 1.084,
+   "state": "CO"
+  },
+  "08041": {
+   "apn_nn": 279641,
+   "dup_pct": 0.942,
+   "state": "CO"
+  },
+  "08043": {
+   "apn_nn": 28599,
+   "dup_pct": 0.014,
+   "state": "CO"
+  },
+  "08045": {
+   "apn_nn": 28676,
+   "dup_pct": 2.441,
+   "state": "CO"
+  },
+  "08047": {
+   "apn_nn": 7715,
+   "dup_pct": 13.662,
+   "state": "CO"
+  },
+  "08049": {
+   "apn_nn": 28748,
+   "dup_pct": 4.606,
+   "state": "CO"
+  },
+  "08051": {
+   "apn_nn": 21291,
+   "dup_pct": 5.105,
+   "state": "CO"
+  },
+  "08053": {
+   "apn_nn": 2715,
+   "dup_pct": 7.219,
+   "state": "CO"
+  },
+  "08055": {
+   "apn_nn": 18042,
+   "dup_pct": 27.669,
+   "state": "CO"
+  },
+  "08059": {
+   "apn_nn": 258817,
+   "dup_pct": 11.451,
+   "state": "CO"
+  },
+  "08065": {
+   "apn_nn": 9904,
+   "dup_pct": 6.361,
+   "state": "CO"
+  },
+  "08067": {
+   "apn_nn": 35635,
+   "dup_pct": 1.238,
+   "state": "CO"
+  },
+  "08069": {
+   "apn_nn": 180961,
+   "dup_pct": 4.033,
+   "state": "CO"
+  },
+  "08071": {
+   "apn_nn": 17721,
+   "dup_pct": 9.757,
+   "state": "CO"
+  },
+  "08075": {
+   "apn_nn": 12139,
+   "dup_pct": 0.124,
+   "state": "CO"
+  },
+  "08077": {
+   "apn_nn": 78952,
+   "dup_pct": 0.0,
+   "state": "CO"
+  },
+  "08079": {
+   "apn_nn": 2634,
+   "dup_pct": 18.375,
+   "state": "CO"
+  },
+  "08081": {
+   "apn_nn": 10541,
+   "dup_pct": 4.611,
+   "state": "CO"
+  },
+  "08083": {
+   "apn_nn": 15466,
+   "dup_pct": 1.319,
+   "state": "CO"
+  },
+  "08085": {
+   "apn_nn": 24775,
+   "dup_pct": 99.875,
+   "state": "CO"
+  },
+  "08087": {
+   "apn_nn": 15956,
+   "dup_pct": 0.946,
+   "state": "CO"
+  },
+  "08089": {
+   "apn_nn": 3821,
+   "dup_pct": 4.004,
+   "state": "CO"
+  },
+  "08091": {
+   "apn_nn": 7708,
+   "dup_pct": 26.544,
+   "state": "CO"
+  },
+  "08093": {
+   "apn_nn": 43150,
+   "dup_pct": 1.657,
+   "state": "CO"
+  },
+  "08095": {
+   "apn_nn": 5504,
+   "dup_pct": 21.203,
+   "state": "CO"
+  },
+  "08097": {
+   "apn_nn": 19146,
+   "dup_pct": 13.731,
+   "state": "CO"
+  },
+  "08101": {
+   "apn_nn": 101146,
+   "dup_pct": 0.056,
+   "state": "CO"
+  },
+  "08103": {
+   "apn_nn": 5103,
+   "dup_pct": 9.347,
+   "state": "CO"
+  },
+  "08105": {
+   "apn_nn": 13171,
+   "dup_pct": 2.103,
+   "state": "CO"
+  },
+  "08107": {
+   "apn_nn": 25406,
+   "dup_pct": 0.071,
+   "state": "CO"
+  },
+  "08109": {
+   "apn_nn": 14388,
+   "dup_pct": 3.197,
+   "state": "CO"
+  },
+  "08111": {
+   "apn_nn": 2781,
+   "dup_pct": 0.036,
+   "state": "CO"
+  },
+  "08113": {
+   "apn_nn": 10732,
+   "dup_pct": 7.054,
+   "state": "CO"
+  },
+  "08115": {
+   "apn_nn": 3160,
+   "dup_pct": 3.418,
+   "state": "CO"
+  },
+  "08117": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "CO"
+  },
+  "08119": {
+   "apn_nn": 27232,
+   "dup_pct": 7.12,
+   "state": "CO"
+  },
+  "08123": {
+   "apn_nn": 163491,
+   "dup_pct": 0.0,
+   "state": "CO"
+  },
+  "08125": {
+   "apn_nn": 11862,
+   "dup_pct": 3.01,
+   "state": "CO"
+  },
+  "09001": {
+   "apn_nn": 206172,
+   "dup_pct": 3.723,
+   "state": "CT"
+  },
+  "09003": {
+   "apn_nn": 260515,
+   "dup_pct": 15.414,
+   "state": "CT"
+  },
+  "09005": {
+   "apn_nn": 93351,
+   "dup_pct": 19.603,
+   "state": "CT"
+  },
+  "09007": {
+   "apn_nn": 73030,
+   "dup_pct": 6.647,
+   "state": "CT"
+  },
+  "09009": {
+   "apn_nn": 250256,
+   "dup_pct": 31.737,
+   "state": "CT"
+  },
+  "09011": {
+   "apn_nn": 107404,
+   "dup_pct": 12.784,
+   "state": "CT"
+  },
+  "09013": {
+   "apn_nn": 57703,
+   "dup_pct": 1.619,
+   "state": "CT"
+  },
+  "09015": {
+   "apn_nn": 51032,
+   "dup_pct": 3.796,
+   "state": "CT"
+  },
+  "10001": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "DE"
+  },
+  "10003": {
+   "apn_nn": 151792,
+   "dup_pct": 0.008,
+   "state": "DE"
+  },
+  "10005": {
+   "apn_nn": 163442,
+   "dup_pct": 0.22,
+   "state": "DE"
+  },
+  "11001": {
+   "apn_nn": 137398,
+   "dup_pct": 0.007,
+   "state": "DC"
+  },
+  "12001": {
+   "apn_nn": 117522,
+   "dup_pct": 8.176,
+   "state": "FL"
+  },
+  "12003": {
+   "apn_nn": 12943,
+   "dup_pct": 2.194,
+   "state": "FL"
+  },
+  "12005": {
+   "apn_nn": 131582,
+   "dup_pct": 2.661,
+   "state": "FL"
+  },
+  "12007": {
+   "apn_nn": 15635,
+   "dup_pct": 0.205,
+   "state": "FL"
+  },
+  "12009": {
+   "apn_nn": 347497,
+   "dup_pct": 0.0,
+   "state": "FL"
+  },
+  "12011": {
+   "apn_nn": 765030,
+   "dup_pct": 1.624,
+   "state": "FL"
+  },
+  "12013": {
+   "apn_nn": 11514,
+   "dup_pct": 0.078,
+   "state": "FL"
+  },
+  "12015": {
+   "apn_nn": 230413,
+   "dup_pct": 4.051,
+   "state": "FL"
+  },
+  "12017": {
+   "apn_nn": 147240,
+   "dup_pct": 0.0,
+   "state": "FL"
+  },
+  "12019": {
+   "apn_nn": 101939,
+   "dup_pct": 0.0,
+   "state": "FL"
+  },
+  "12021": {
+   "apn_nn": 364827,
+   "dup_pct": 20.244,
+   "state": "FL"
+  },
+  "12023": {
+   "apn_nn": 37275,
+   "dup_pct": 0.005,
+   "state": "FL"
+  },
+  "12027": {
+   "apn_nn": 20419,
+   "dup_pct": 1.979,
+   "state": "FL"
+  },
+  "12029": {
+   "apn_nn": 16324,
+   "dup_pct": 0.031,
+   "state": "FL"
+  },
+  "12031": {
+   "apn_nn": 398063,
+   "dup_pct": 0.029,
+   "state": "FL"
+  },
+  "12033": {
+   "apn_nn": 161954,
+   "dup_pct": 0.0,
+   "state": "FL"
+  },
+  "12035": {
+   "apn_nn": 85959,
+   "dup_pct": 0.047,
+   "state": "FL"
+  },
+  "12037": {
+   "apn_nn": 18459,
+   "dup_pct": 2.46,
+   "state": "FL"
+  },
+  "12039": {
+   "apn_nn": 27310,
+   "dup_pct": 0.018,
+   "state": "FL"
+  },
+  "12041": {
+   "apn_nn": 14648,
+   "dup_pct": 5.011,
+   "state": "FL"
+  },
+  "12043": {
+   "apn_nn": 11351,
+   "dup_pct": 0.141,
+   "state": "FL"
+  },
+  "12045": {
+   "apn_nn": 18700,
+   "dup_pct": 0.0,
+   "state": "FL"
+  },
+  "12047": {
+   "apn_nn": 13997,
+   "dup_pct": 8.652,
+   "state": "FL"
+  },
+  "12049": {
+   "apn_nn": 14626,
+   "dup_pct": 0.055,
+   "state": "FL"
+  },
+  "12051": {
+   "apn_nn": 35717,
+   "dup_pct": 0.02,
+   "state": "FL"
+  },
+  "12053": {
+   "apn_nn": 118388,
+   "dup_pct": 0.003,
+   "state": "FL"
+  },
+  "12055": {
+   "apn_nn": 112593,
+   "dup_pct": 0.003,
+   "state": "FL"
+  },
+  "12057": {
+   "apn_nn": 533207,
+   "dup_pct": 1.711,
+   "state": "FL"
+  },
+  "12059": {
+   "apn_nn": 14807,
+   "dup_pct": 2.533,
+   "state": "FL"
+  },
+  "12061": {
+   "apn_nn": 94076,
+   "dup_pct": 0.0,
+   "state": "FL"
+  },
+  "12063": {
+   "apn_nn": 42757,
+   "dup_pct": 7.051,
+   "state": "FL"
+  },
+  "12065": {
+   "apn_nn": 12357,
+   "dup_pct": 3.917,
+   "state": "FL"
+  },
+  "12067": {
+   "apn_nn": 7360,
+   "dup_pct": 2.812,
+   "state": "FL"
+  },
+  "12069": {
+   "apn_nn": 210935,
+   "dup_pct": 0.466,
+   "state": "FL"
+  },
+  "12071": {
+   "apn_nn": 556100,
+   "dup_pct": 0.003,
+   "state": "FL"
+  },
+  "12073": {
+   "apn_nn": 110611,
+   "dup_pct": 0.0,
+   "state": "FL"
+  },
+  "12075": {
+   "apn_nn": 48183,
+   "dup_pct": 1.835,
+   "state": "FL"
+  },
+  "12077": {
+   "apn_nn": 6293,
+   "dup_pct": 7.85,
+   "state": "FL"
+  },
+  "12079": {
+   "apn_nn": 16282,
+   "dup_pct": 0.301,
+   "state": "FL"
+  },
+  "12081": {
+   "apn_nn": 223773,
+   "dup_pct": 0.0,
+   "state": "FL"
+  },
+  "12083": {
+   "apn_nn": 283399,
+   "dup_pct": 0.096,
+   "state": "FL"
+  },
+  "12085": {
+   "apn_nn": 96182,
+   "dup_pct": 0.012,
+   "state": "FL"
+  },
+  "12086": {
+   "apn_nn": 585220,
+   "dup_pct": 0.893,
+   "state": "FL"
+  },
+  "12087": {
+   "apn_nn": 88562,
+   "dup_pct": 0.002,
+   "state": "FL"
+  },
+  "12089": {
+   "apn_nn": 57676,
+   "dup_pct": 0.872,
+   "state": "FL"
+  },
+  "12091": {
+   "apn_nn": 111427,
+   "dup_pct": 0.0,
+   "state": "FL"
+  },
+  "12093": {
+   "apn_nn": 31139,
+   "dup_pct": 0.09,
+   "state": "FL"
+  },
+  "12095": {
+   "apn_nn": 488959,
+   "dup_pct": 0.155,
+   "state": "FL"
+  },
+  "12097": {
+   "apn_nn": 206831,
+   "dup_pct": 0.0,
+   "state": "FL"
+  },
+  "12099": {
+   "apn_nn": 682984,
+   "dup_pct": 4.441,
+   "state": "FL"
+  },
+  "12101": {
+   "apn_nn": 310542,
+   "dup_pct": 0.082,
+   "state": "FL"
+  },
+  "12103": {
+   "apn_nn": 432360,
+   "dup_pct": 0.063,
+   "state": "FL"
+  },
+  "12105": {
+   "apn_nn": 424289,
+   "dup_pct": 0.0,
+   "state": "FL"
+  },
+  "12107": {
+   "apn_nn": 97305,
+   "dup_pct": 0.001,
+   "state": "FL"
+  },
+  "12109": {
+   "apn_nn": 205773,
+   "dup_pct": 26.676,
+   "state": "FL"
+  },
+  "12111": {
+   "apn_nn": 187059,
+   "dup_pct": 0.048,
+   "state": "FL"
+  },
+  "12113": {
+   "apn_nn": 111072,
+   "dup_pct": 2.291,
+   "state": "FL"
+  },
+  "12115": {
+   "apn_nn": 303900,
+   "dup_pct": 0.0,
+   "state": "FL"
+  },
+  "12117": {
+   "apn_nn": 179107,
+   "dup_pct": 0.0,
+   "state": "FL"
+  },
+  "12119": {
+   "apn_nn": 99240,
+   "dup_pct": 0.018,
+   "state": "FL"
+  },
+  "12121": {
+   "apn_nn": 31913,
+   "dup_pct": 0.526,
+   "state": "FL"
+  },
+  "12123": {
+   "apn_nn": 18736,
+   "dup_pct": 0.213,
+   "state": "FL"
+  },
+  "12125": {
+   "apn_nn": 7244,
+   "dup_pct": 4.914,
+   "state": "FL"
+  },
+  "12127": {
+   "apn_nn": 306889,
+   "dup_pct": 0.06,
+   "state": "FL"
+  },
+  "12129": {
+   "apn_nn": 26319,
+   "dup_pct": 0.262,
+   "state": "FL"
+  },
+  "12131": {
+   "apn_nn": 93413,
+   "dup_pct": 5.283,
+   "state": "FL"
+  },
+  "12133": {
+   "apn_nn": 43675,
+   "dup_pct": 0.069,
+   "state": "FL"
+  },
+  "13013": {
+   "apn_nn": 38061,
+   "dup_pct": 1.266,
+   "state": "GA"
+  },
+  "13015": {
+   "apn_nn": 63283,
+   "dup_pct": 19.075,
+   "state": "GA"
+  },
+  "13017": {
+   "apn_nn": 11541,
+   "dup_pct": 7.98,
+   "state": "GA"
+  },
+  "13019": {
+   "apn_nn": 10679,
+   "dup_pct": 0.918,
+   "state": "GA"
+  },
+  "13021": {
+   "apn_nn": 68898,
+   "dup_pct": 0.057,
+   "state": "GA"
+  },
+  "13025": {
+   "apn_nn": 13301,
+   "dup_pct": 0.0,
+   "state": "GA"
+  },
+  "13029": {
+   "apn_nn": 22865,
+   "dup_pct": 0.879,
+   "state": "GA"
+  },
+  "13031": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "GA"
+  },
+  "13035": {
+   "apn_nn": 13446,
+   "dup_pct": 0.275,
+   "state": "GA"
+  },
+  "13039": {
+   "apn_nn": 33056,
+   "dup_pct": 0.178,
+   "state": "GA"
+  },
+  "13051": {
+   "apn_nn": 125326,
+   "dup_pct": 0.017,
+   "state": "GA"
+  },
+  "13053": {
+   "apn_nn": 1785,
+   "dup_pct": 0.0,
+   "state": "GA"
+  },
+  "13059": {
+   "apn_nn": 42312,
+   "dup_pct": 0.475,
+   "state": "GA"
+  },
+  "13061": {
+   "apn_nn": 3063,
+   "dup_pct": 0.0,
+   "state": "GA"
+  },
+  "13063": {
+   "apn_nn": 91890,
+   "dup_pct": 0.001,
+   "state": "GA"
+  },
+  "13067": {
+   "apn_nn": 279043,
+   "dup_pct": 3.966,
+   "state": "GA"
+  },
+  "13073": {
+   "apn_nn": 68757,
+   "dup_pct": 1.297,
+   "state": "GA"
+  },
+  "13077": {
+   "apn_nn": 65399,
+   "dup_pct": 1.02,
+   "state": "GA"
+  },
+  "13081": {
+   "apn_nn": 12350,
+   "dup_pct": 0.0,
+   "state": "GA"
+  },
+  "13089": {
+   "apn_nn": 245505,
+   "dup_pct": 0.129,
+   "state": "GA"
+  },
+  "13093": {
+   "apn_nn": 7277,
+   "dup_pct": 0.014,
+   "state": "GA"
+  },
+  "13095": {
+   "apn_nn": 38006,
+   "dup_pct": 1.237,
+   "state": "GA"
+  },
+  "13097": {
+   "apn_nn": 57408,
+   "dup_pct": 0.2,
+   "state": "GA"
+  },
+  "13101": {
+   "apn_nn": 2166,
+   "dup_pct": 0.185,
+   "state": "GA"
+  },
+  "13103": {
+   "apn_nn": 28937,
+   "dup_pct": 27.107,
+   "state": "GA"
+  },
+  "13115": {
+   "apn_nn": 50275,
+   "dup_pct": 0.0,
+   "state": "GA"
+  },
+  "13117": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "GA"
+  },
+  "13119": {
+   "apn_nn": 16933,
+   "dup_pct": 84.976,
+   "state": "GA"
+  },
+  "13121": {
+   "apn_nn": 373004,
+   "dup_pct": 0.0,
+   "state": "GA"
+  },
+  "13133": {
+   "apn_nn": 17735,
+   "dup_pct": 0.0,
+   "state": "GA"
+  },
+  "13135": {
+   "apn_nn": 308700,
+   "dup_pct": 1.091,
+   "state": "GA"
+  },
+  "13137": {
+   "apn_nn": 23676,
+   "dup_pct": 1.673,
+   "state": "GA"
+  },
+  "13139": {
+   "apn_nn": 88194,
+   "dup_pct": 0.299,
+   "state": "GA"
+  },
+  "13145": {
+   "apn_nn": 20954,
+   "dup_pct": 0.0,
+   "state": "GA"
+  },
+  "13153": {
+   "apn_nn": 68166,
+   "dup_pct": 0.775,
+   "state": "GA"
+  },
+  "13157": {
+   "apn_nn": 44197,
+   "dup_pct": 85.096,
+   "state": "GA"
+  },
+  "13161": {
+   "apn_nn": 8299,
+   "dup_pct": 0.374,
+   "state": "GA"
+  },
+  "13163": {
+   "apn_nn": 11971,
+   "dup_pct": 0.0,
+   "state": "GA"
+  },
+  "13179": {
+   "apn_nn": 28054,
+   "dup_pct": 0.282,
+   "state": "GA"
+  },
+  "13185": {
+   "apn_nn": 52033,
+   "dup_pct": 2.379,
+   "state": "GA"
+  },
+  "13189": {
+   "apn_nn": 12578,
+   "dup_pct": 0.167,
+   "state": "GA"
+  },
+  "13193": {
+   "apn_nn": 8789,
+   "dup_pct": 8.306,
+   "state": "GA"
+  },
+  "13199": {
+   "apn_nn": 16511,
+   "dup_pct": 0.006,
+   "state": "GA"
+  },
+  "13211": {
+   "apn_nn": 12981,
+   "dup_pct": 0.0,
+   "state": "GA"
+  },
+  "13245": {
+   "apn_nn": 84525,
+   "dup_pct": 0.058,
+   "state": "GA"
+  },
+  "13259": {
+   "apn_nn": 4068,
+   "dup_pct": 0.0,
+   "state": "GA"
+  },
+  "13261": {
+   "apn_nn": 16372,
+   "dup_pct": 0.788,
+   "state": "GA"
+  },
+  "13263": {
+   "apn_nn": 6415,
+   "dup_pct": 0.0,
+   "state": "GA"
+  },
+  "13269": {
+   "apn_nn": 6279,
+   "dup_pct": 0.0,
+   "state": "GA"
+  },
+  "13271": {
+   "apn_nn": 8859,
+   "dup_pct": 0.045,
+   "state": "GA"
+  },
+  "13275": {
+   "apn_nn": 24727,
+   "dup_pct": 0.247,
+   "state": "GA"
+  },
+  "13289": {
+   "apn_nn": 7068,
+   "dup_pct": 0.028,
+   "state": "GA"
+  },
+  "13313": {
+   "apn_nn": 46585,
+   "dup_pct": 9.265,
+   "state": "GA"
+  },
+  "13317": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "GA"
+  },
+  "15001": {
+   "apn_nn": 135718,
+   "dup_pct": 0.056,
+   "state": "HI"
+  },
+  "15003": {
+   "apn_nn": 324325,
+   "dup_pct": 0.0,
+   "state": "HI"
+  },
+  "15005": {
+   "apn_nn": 10,
+   "dup_pct": 40.0,
+   "state": "HI"
+  },
+  "15007": {
+   "apn_nn": 25119,
+   "dup_pct": 0.008,
+   "state": "HI"
+  },
+  "15009": {
+   "apn_nn": 141228,
+   "dup_pct": 63.613,
+   "state": "HI"
+  },
+  "16001": {
+   "apn_nn": 214748,
+   "dup_pct": 0.223,
+   "state": "ID"
+  },
+  "16003": {
+   "apn_nn": 7788,
+   "dup_pct": 1.4,
+   "state": "ID"
+  },
+  "16005": {
+   "apn_nn": 45680,
+   "dup_pct": 3.378,
+   "state": "ID"
+  },
+  "16007": {
+   "apn_nn": 11501,
+   "dup_pct": 3.295,
+   "state": "ID"
+  },
+  "16009": {
+   "apn_nn": 11331,
+   "dup_pct": 0.962,
+   "state": "ID"
+  },
+  "16011": {
+   "apn_nn": 35472,
+   "dup_pct": 21.377,
+   "state": "ID"
+  },
+  "16013": {
+   "apn_nn": 24111,
+   "dup_pct": 0.0,
+   "state": "ID"
+  },
+  "16015": {
+   "apn_nn": 11960,
+   "dup_pct": 10.184,
+   "state": "ID"
+  },
+  "16017": {
+   "apn_nn": 45047,
+   "dup_pct": 0.027,
+   "state": "ID"
+  },
+  "16019": {
+   "apn_nn": 63976,
+   "dup_pct": 0.37,
+   "state": "ID"
+  },
+  "16021": {
+   "apn_nn": 10702,
+   "dup_pct": 0.009,
+   "state": "ID"
+  },
+  "16023": {
+   "apn_nn": 5464,
+   "dup_pct": 3.313,
+   "state": "ID"
+  },
+  "16025": {
+   "apn_nn": 4617,
+   "dup_pct": 3.422,
+   "state": "ID"
+  },
+  "16027": {
+   "apn_nn": 97512,
+   "dup_pct": 0.868,
+   "state": "ID"
+  },
+  "16029": {
+   "apn_nn": 7457,
+   "dup_pct": 0.188,
+   "state": "ID"
+  },
+  "16031": {
+   "apn_nn": 18268,
+   "dup_pct": 4.697,
+   "state": "ID"
+  },
+  "16033": {
+   "apn_nn": 3647,
+   "dup_pct": 0.0,
+   "state": "ID"
+  },
+  "16035": {
+   "apn_nn": 11514,
+   "dup_pct": 0.869,
+   "state": "ID"
+  },
+  "16037": {
+   "apn_nn": 6628,
+   "dup_pct": 0.0,
+   "state": "ID"
+  },
+  "16039": {
+   "apn_nn": 21199,
+   "dup_pct": 0.25,
+   "state": "ID"
+  },
+  "16041": {
+   "apn_nn": 10499,
+   "dup_pct": 5.124,
+   "state": "ID"
+  },
+  "16043": {
+   "apn_nn": 22612,
+   "dup_pct": 0.0,
+   "state": "ID"
+  },
+  "16045": {
+   "apn_nn": 11232,
+   "dup_pct": 1.166,
+   "state": "ID"
+  },
+  "16047": {
+   "apn_nn": 10071,
+   "dup_pct": 0.189,
+   "state": "ID"
+  },
+  "16049": {
+   "apn_nn": 19187,
+   "dup_pct": 0.031,
+   "state": "ID"
+  },
+  "16051": {
+   "apn_nn": 17907,
+   "dup_pct": 0.329,
+   "state": "ID"
+  },
+  "16053": {
+   "apn_nn": 17283,
+   "dup_pct": 20.83,
+   "state": "ID"
+  },
+  "16055": {
+   "apn_nn": 93212,
+   "dup_pct": 0.001,
+   "state": "ID"
+  },
+  "16057": {
+   "apn_nn": 20555,
+   "dup_pct": 0.525,
+   "state": "ID"
+  },
+  "16059": {
+   "apn_nn": 15858,
+   "dup_pct": 2.466,
+   "state": "ID"
+  },
+  "16061": {
+   "apn_nn": 5188,
+   "dup_pct": 6.766,
+   "state": "ID"
+  },
+  "16063": {
+   "apn_nn": 4915,
+   "dup_pct": 14.914,
+   "state": "ID"
+  },
+  "16065": {
+   "apn_nn": 17175,
+   "dup_pct": 0.617,
+   "state": "ID"
+  },
+  "16067": {
+   "apn_nn": 13192,
+   "dup_pct": 0.902,
+   "state": "ID"
+  },
+  "16069": {
+   "apn_nn": 25589,
+   "dup_pct": 0.692,
+   "state": "ID"
+  },
+  "16071": {
+   "apn_nn": 10531,
+   "dup_pct": 45.181,
+   "state": "ID"
+  },
+  "16073": {
+   "apn_nn": 9485,
+   "dup_pct": 2.435,
+   "state": "ID"
+  },
+  "16075": {
+   "apn_nn": 13646,
+   "dup_pct": 2.704,
+   "state": "ID"
+  },
+  "16077": {
+   "apn_nn": 7543,
+   "dup_pct": 2.877,
+   "state": "ID"
+  },
+  "16079": {
+   "apn_nn": 16043,
+   "dup_pct": 0.081,
+   "state": "ID"
+  },
+  "16081": {
+   "apn_nn": 15540,
+   "dup_pct": 4.427,
+   "state": "ID"
+  },
+  "16083": {
+   "apn_nn": 45419,
+   "dup_pct": 0.727,
+   "state": "ID"
+  },
+  "16085": {
+   "apn_nn": 25715,
+   "dup_pct": 0.109,
+   "state": "ID"
+  },
+  "16087": {
+   "apn_nn": 10962,
+   "dup_pct": 5.619,
+   "state": "ID"
+  },
+  "17001": {
+   "apn_nn": 38785,
+   "dup_pct": 1.145,
+   "state": "IL"
+  },
+  "17005": {
+   "apn_nn": 14433,
+   "dup_pct": 0.215,
+   "state": "IL"
+  },
+  "17007": {
+   "apn_nn": 24378,
+   "dup_pct": 0.271,
+   "state": "IL"
+  },
+  "17011": {
+   "apn_nn": 27910,
+   "dup_pct": 3.096,
+   "state": "IL"
+  },
+  "17021": {
+   "apn_nn": 24347,
+   "dup_pct": 0.131,
+   "state": "IL"
+  },
+  "17025": {
+   "apn_nn": 15604,
+   "dup_pct": 2.217,
+   "state": "IL"
+  },
+  "17031": {
+   "apn_nn": 1857818,
+   "dup_pct": 0.0,
+   "state": "IL"
+  },
+  "17037": {
+   "apn_nn": 45399,
+   "dup_pct": 5.042,
+   "state": "IL"
+  },
+  "17039": {
+   "apn_nn": 11141,
+   "dup_pct": 2.639,
+   "state": "IL"
+  },
+  "17041": {
+   "apn_nn": 15487,
+   "dup_pct": 1.401,
+   "state": "IL"
+  },
+  "17043": {
+   "apn_nn": 337155,
+   "dup_pct": 0.042,
+   "state": "IL"
+  },
+  "17045": {
+   "apn_nn": 18077,
+   "dup_pct": 0.382,
+   "state": "IL"
+  },
+  "17047": {
+   "apn_nn": 7568,
+   "dup_pct": 0.013,
+   "state": "IL"
+  },
+  "17049": {
+   "apn_nn": 23676,
+   "dup_pct": 0.144,
+   "state": "IL"
+  },
+  "17053": {
+   "apn_nn": 10675,
+   "dup_pct": 1.761,
+   "state": "IL"
+  },
+  "17057": {
+   "apn_nn": 27610,
+   "dup_pct": 0.482,
+   "state": "IL"
+  },
+  "17061": {
+   "apn_nn": 11667,
+   "dup_pct": 1.106,
+   "state": "IL"
+  },
+  "17063": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "IL"
+  },
+  "17067": {
+   "apn_nn": 20489,
+   "dup_pct": 0.122,
+   "state": "IL"
+  },
+  "17071": {
+   "apn_nn": 8081,
+   "dup_pct": 0.074,
+   "state": "IL"
+  },
+  "17073": {
+   "apn_nn": 31895,
+   "dup_pct": 2.217,
+   "state": "IL"
+  },
+  "17075": {
+   "apn_nn": 28243,
+   "dup_pct": 0.234,
+   "state": "IL"
+  },
+  "17077": {
+   "apn_nn": 34235,
+   "dup_pct": 0.28,
+   "state": "IL"
+  },
+  "17079": {
+   "apn_nn": 15913,
+   "dup_pct": 0.025,
+   "state": "IL"
+  },
+  "17081": {
+   "apn_nn": 30868,
+   "dup_pct": 2.226,
+   "state": "IL"
+  },
+  "17087": {
+   "apn_nn": 12932,
+   "dup_pct": 2.498,
+   "state": "IL"
+  },
+  "17089": {
+   "apn_nn": 185393,
+   "dup_pct": 0.0,
+   "state": "IL"
+  },
+  "17091": {
+   "apn_nn": 54929,
+   "dup_pct": 0.269,
+   "state": "IL"
+  },
+  "17097": {
+   "apn_nn": 278880,
+   "dup_pct": 0.0,
+   "state": "IL"
+  },
+  "17099": {
+   "apn_nn": 70396,
+   "dup_pct": 1.807,
+   "state": "IL"
+  },
+  "17101": {
+   "apn_nn": 14943,
+   "dup_pct": 1.004,
+   "state": "IL"
+  },
+  "17103": {
+   "apn_nn": 28762,
+   "dup_pct": 0.595,
+   "state": "IL"
+  },
+  "17107": {
+   "apn_nn": 18459,
+   "dup_pct": 0.13,
+   "state": "IL"
+  },
+  "17109": {
+   "apn_nn": 18331,
+   "dup_pct": 0.224,
+   "state": "IL"
+  },
+  "17111": {
+   "apn_nn": 150134,
+   "dup_pct": 0.0,
+   "state": "IL"
+  },
+  "17115": {
+   "apn_nn": 56675,
+   "dup_pct": 0.0,
+   "state": "IL"
+  },
+  "17117": {
+   "apn_nn": 37213,
+   "dup_pct": 0.199,
+   "state": "IL"
+  },
+  "17119": {
+   "apn_nn": 136700,
+   "dup_pct": 0.001,
+   "state": "IL"
+  },
+  "17123": {
+   "apn_nn": 13222,
+   "dup_pct": 0.325,
+   "state": "IL"
+  },
+  "17127": {
+   "apn_nn": 10604,
+   "dup_pct": 0.047,
+   "state": "IL"
+  },
+  "17129": {
+   "apn_nn": 11963,
+   "dup_pct": 0.142,
+   "state": "IL"
+  },
+  "17133": {
+   "apn_nn": 19623,
+   "dup_pct": 0.061,
+   "state": "IL"
+  },
+  "17137": {
+   "apn_nn": 22452,
+   "dup_pct": 0.049,
+   "state": "IL"
+  },
+  "17143": {
+   "apn_nn": 90340,
+   "dup_pct": 1.832,
+   "state": "IL"
+  },
+  "17147": {
+   "apn_nn": 4501,
+   "dup_pct": 3.555,
+   "state": "IL"
+  },
+  "17155": {
+   "apn_nn": 7444,
+   "dup_pct": 1.451,
+   "state": "IL"
+  },
+  "17157": {
+   "apn_nn": 25497,
+   "dup_pct": 1.412,
+   "state": "IL"
+  },
+  "17161": {
+   "apn_nn": 65958,
+   "dup_pct": 0.215,
+   "state": "IL"
+  },
+  "17163": {
+   "apn_nn": 147643,
+   "dup_pct": 0.001,
+   "state": "IL"
+  },
+  "17167": {
+   "apn_nn": 105124,
+   "dup_pct": 0.112,
+   "state": "IL"
+  },
+  "17173": {
+   "apn_nn": 2832,
+   "dup_pct": 0.0,
+   "state": "IL"
+  },
+  "17175": {
+   "apn_nn": 6088,
+   "dup_pct": 0.936,
+   "state": "IL"
+  },
+  "17179": {
+   "apn_nn": 68077,
+   "dup_pct": 0.112,
+   "state": "IL"
+  },
+  "17183": {
+   "apn_nn": 54503,
+   "dup_pct": 0.429,
+   "state": "IL"
+  },
+  "17187": {
+   "apn_nn": 14193,
+   "dup_pct": 1.536,
+   "state": "IL"
+  },
+  "17193": {
+   "apn_nn": 20943,
+   "dup_pct": 1.48,
+   "state": "IL"
+  },
+  "17195": {
+   "apn_nn": 36524,
+   "dup_pct": 1.103,
+   "state": "IL"
+  },
+  "17203": {
+   "apn_nn": 25902,
+   "dup_pct": 0.981,
+   "state": "IL"
+  },
+  "18001": {
+   "apn_nn": 20234,
+   "dup_pct": 2.417,
+   "state": "IN"
+  },
+  "18003": {
+   "apn_nn": 164689,
+   "dup_pct": 0.17,
+   "state": "IN"
+  },
+  "18005": {
+   "apn_nn": 27715,
+   "dup_pct": 0.011,
+   "state": "IN"
+  },
+  "18011": {
+   "apn_nn": 43769,
+   "dup_pct": 9.251,
+   "state": "IN"
+  },
+  "18031": {
+   "apn_nn": 18238,
+   "dup_pct": 1.376,
+   "state": "IN"
+  },
+  "18035": {
+   "apn_nn": 59868,
+   "dup_pct": 0.645,
+   "state": "IN"
+  },
+  "18037": {
+   "apn_nn": 34327,
+   "dup_pct": 99.933,
+   "state": "IN"
+  },
+  "18039": {
+   "apn_nn": 87871,
+   "dup_pct": 0.091,
+   "state": "IN"
+  },
+  "18043": {
+   "apn_nn": 46501,
+   "dup_pct": 9.464,
+   "state": "IN"
+  },
+  "18057": {
+   "apn_nn": 152151,
+   "dup_pct": 0.007,
+   "state": "IN"
+  },
+  "18059": {
+   "apn_nn": 52265,
+   "dup_pct": 12.006,
+   "state": "IN"
+  },
+  "18063": {
+   "apn_nn": 91821,
+   "dup_pct": 10.424,
+   "state": "IN"
+  },
+  "18081": {
+   "apn_nn": 73132,
+   "dup_pct": 0.045,
+   "state": "IN"
+  },
+  "18087": {
+   "apn_nn": 27925,
+   "dup_pct": 0.544,
+   "state": "IN"
+  },
+  "18089": {
+   "apn_nn": 245118,
+   "dup_pct": 0.403,
+   "state": "IN"
+  },
+  "18095": {
+   "apn_nn": 86376,
+   "dup_pct": 0.497,
+   "state": "IN"
+  },
+  "18097": {
+   "apn_nn": 347051,
+   "dup_pct": 0.154,
+   "state": "IN"
+  },
+  "18103": {
+   "apn_nn": 23214,
+   "dup_pct": 1.34,
+   "state": "IN"
+  },
+  "18105": {
+   "apn_nn": 67195,
+   "dup_pct": 13.342,
+   "state": "IN"
+  },
+  "18109": {
+   "apn_nn": 43712,
+   "dup_pct": 0.538,
+   "state": "IN"
+  },
+  "18113": {
+   "apn_nn": 37424,
+   "dup_pct": 0.056,
+   "state": "IN"
+  },
+  "18127": {
+   "apn_nn": 82956,
+   "dup_pct": 1.086,
+   "state": "IN"
+  },
+  "18139": {
+   "apn_nn": 13271,
+   "dup_pct": 8.605,
+   "state": "IN"
+  },
+  "18141": {
+   "apn_nn": 119794,
+   "dup_pct": 1.007,
+   "state": "IN"
+  },
+  "18151": {
+   "apn_nn": 39891,
+   "dup_pct": 0.14,
+   "state": "IN"
+  },
+  "18159": {
+   "apn_nn": 12522,
+   "dup_pct": 2.5,
+   "state": "IN"
+  },
+  "18163": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "IN"
+  },
+  "18169": {
+   "apn_nn": 19674,
+   "dup_pct": 0.264,
+   "state": "IN"
+  },
+  "18177": {
+   "apn_nn": 35335,
+   "dup_pct": 0.441,
+   "state": "IN"
+  },
+  "18179": {
+   "apn_nn": 18300,
+   "dup_pct": 8.404,
+   "state": "IN"
+  },
+  "18181": {
+   "apn_nn": 23031,
+   "dup_pct": 5.358,
+   "state": "IN"
+  },
+  "18183": {
+   "apn_nn": 20591,
+   "dup_pct": 0.005,
+   "state": "IN"
+  },
+  "19001": {
+   "apn_nn": 15078,
+   "dup_pct": 4.132,
+   "state": "IA"
+  },
+  "19003": {
+   "apn_nn": 10119,
+   "dup_pct": 2.115,
+   "state": "IA"
+  },
+  "19005": {
+   "apn_nn": 13348,
+   "dup_pct": 0.082,
+   "state": "IA"
+  },
+  "19007": {
+   "apn_nn": 21653,
+   "dup_pct": 0.032,
+   "state": "IA"
+  },
+  "19009": {
+   "apn_nn": 11303,
+   "dup_pct": 0.053,
+   "state": "IA"
+  },
+  "19011": {
+   "apn_nn": 18190,
+   "dup_pct": 0.275,
+   "state": "IA"
+  },
+  "19013": {
+   "apn_nn": 76228,
+   "dup_pct": 1.211,
+   "state": "IA"
+  },
+  "19015": {
+   "apn_nn": 24430,
+   "dup_pct": 0.0,
+   "state": "IA"
+  },
+  "19017": {
+   "apn_nn": 20016,
+   "dup_pct": 0.305,
+   "state": "IA"
+  },
+  "19019": {
+   "apn_nn": 21589,
+   "dup_pct": 1.561,
+   "state": "IA"
+  },
+  "19021": {
+   "apn_nn": 19759,
+   "dup_pct": 3.725,
+   "state": "IA"
+  },
+  "19023": {
+   "apn_nn": 13487,
+   "dup_pct": 0.148,
+   "state": "IA"
+  },
+  "19025": {
+   "apn_nn": 17659,
+   "dup_pct": 1.812,
+   "state": "IA"
+  },
+  "19027": {
+   "apn_nn": 21966,
+   "dup_pct": 1.352,
+   "state": "IA"
+  },
+  "19029": {
+   "apn_nn": 16648,
+   "dup_pct": 0.15,
+   "state": "IA"
+  },
+  "19031": {
+   "apn_nn": 19474,
+   "dup_pct": 0.046,
+   "state": "IA"
+  },
+  "19033": {
+   "apn_nn": 32855,
+   "dup_pct": 0.0,
+   "state": "IA"
+  },
+  "19035": {
+   "apn_nn": 16689,
+   "dup_pct": 1.456,
+   "state": "IA"
+  },
+  "19037": {
+   "apn_nn": 9852,
+   "dup_pct": 0.325,
+   "state": "IA"
+  },
+  "19039": {
+   "apn_nn": 12050,
+   "dup_pct": 0.033,
+   "state": "IA"
+  },
+  "19041": {
+   "apn_nn": 18395,
+   "dup_pct": 0.451,
+   "state": "IA"
+  },
+  "19043": {
+   "apn_nn": 32188,
+   "dup_pct": 6.891,
+   "state": "IA"
+  },
+  "19045": {
+   "apn_nn": 34342,
+   "dup_pct": 0.559,
+   "state": "IA"
+  },
+  "19047": {
+   "apn_nn": 22785,
+   "dup_pct": 4.415,
+   "state": "IA"
+  },
+  "19049": {
+   "apn_nn": 44227,
+   "dup_pct": 2.313,
+   "state": "IA"
+  },
+  "19051": {
+   "apn_nn": 11788,
+   "dup_pct": 0.509,
+   "state": "IA"
+  },
+  "19053": {
+   "apn_nn": 16094,
+   "dup_pct": 4.076,
+   "state": "IA"
+  },
+  "19055": {
+   "apn_nn": 16002,
+   "dup_pct": 2.95,
+   "state": "IA"
+  },
+  "19057": {
+   "apn_nn": 28672,
+   "dup_pct": 0.003,
+   "state": "IA"
+  },
+  "19059": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "IA"
+  },
+  "19061": {
+   "apn_nn": 52945,
+   "dup_pct": 0.0,
+   "state": "IA"
+  },
+  "19063": {
+   "apn_nn": 13393,
+   "dup_pct": 0.007,
+   "state": "IA"
+  },
+  "19065": {
+   "apn_nn": 16631,
+   "dup_pct": 0.042,
+   "state": "IA"
+  },
+  "19067": {
+   "apn_nn": 11498,
+   "dup_pct": 0.052,
+   "state": "IA"
+  },
+  "19069": {
+   "apn_nn": 17535,
+   "dup_pct": 1.677,
+   "state": "IA"
+  },
+  "19071": {
+   "apn_nn": 14959,
+   "dup_pct": 1.297,
+   "state": "IA"
+  },
+  "19073": {
+   "apn_nn": 15367,
+   "dup_pct": 0.553,
+   "state": "IA"
+  },
+  "19075": {
+   "apn_nn": 9936,
+   "dup_pct": 0.01,
+   "state": "IA"
+  },
+  "19077": {
+   "apn_nn": 19327,
+   "dup_pct": 2.24,
+   "state": "IA"
+  },
+  "19079": {
+   "apn_nn": 18782,
+   "dup_pct": 0.005,
+   "state": "IA"
+  },
+  "19081": {
+   "apn_nn": 15861,
+   "dup_pct": 0.397,
+   "state": "IA"
+  },
+  "19083": {
+   "apn_nn": 21667,
+   "dup_pct": 3.665,
+   "state": "IA"
+  },
+  "19085": {
+   "apn_nn": 24562,
+   "dup_pct": 0.028,
+   "state": "IA"
+  },
+  "19087": {
+   "apn_nn": 16283,
+   "dup_pct": 0.092,
+   "state": "IA"
+  },
+  "19089": {
+   "apn_nn": 13555,
+   "dup_pct": 2.39,
+   "state": "IA"
+  },
+  "19091": {
+   "apn_nn": 17441,
+   "dup_pct": 1.37,
+   "state": "IA"
+  },
+  "19093": {
+   "apn_nn": 11626,
+   "dup_pct": 1.634,
+   "state": "IA"
+  },
+  "19095": {
+   "apn_nn": 18980,
+   "dup_pct": 0.068,
+   "state": "IA"
+  },
+  "19097": {
+   "apn_nn": 21994,
+   "dup_pct": 0.173,
+   "state": "IA"
+  },
+  "19099": {
+   "apn_nn": 29900,
+   "dup_pct": 0.02,
+   "state": "IA"
+  },
+  "19101": {
+   "apn_nn": 18230,
+   "dup_pct": 4.026,
+   "state": "IA"
+  },
+  "19103": {
+   "apn_nn": 66681,
+   "dup_pct": 0.738,
+   "state": "IA"
+  },
+  "19105": {
+   "apn_nn": 21767,
+   "dup_pct": 0.041,
+   "state": "IA"
+  },
+  "19107": {
+   "apn_nn": 17234,
+   "dup_pct": 0.006,
+   "state": "IA"
+  },
+  "19109": {
+   "apn_nn": 26334,
+   "dup_pct": 1.025,
+   "state": "IA"
+  },
+  "19111": {
+   "apn_nn": 28993,
+   "dup_pct": 3.849,
+   "state": "IA"
+  },
+  "19113": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "IA"
+  },
+  "19115": {
+   "apn_nn": 13296,
+   "dup_pct": 0.083,
+   "state": "IA"
+  },
+  "19117": {
+   "apn_nn": 12511,
+   "dup_pct": 0.703,
+   "state": "IA"
+  },
+  "19119": {
+   "apn_nn": 10923,
+   "dup_pct": 0.101,
+   "state": "IA"
+  },
+  "19121": {
+   "apn_nn": 17529,
+   "dup_pct": 0.006,
+   "state": "IA"
+  },
+  "19123": {
+   "apn_nn": 22082,
+   "dup_pct": 0.063,
+   "state": "IA"
+  },
+  "19125": {
+   "apn_nn": 25320,
+   "dup_pct": 0.008,
+   "state": "IA"
+  },
+  "19127": {
+   "apn_nn": 24857,
+   "dup_pct": 0.209,
+   "state": "IA"
+  },
+  "19129": {
+   "apn_nn": 17491,
+   "dup_pct": 0.0,
+   "state": "IA"
+  },
+  "19131": {
+   "apn_nn": 12168,
+   "dup_pct": 3.6,
+   "state": "IA"
+  },
+  "19133": {
+   "apn_nn": 20961,
+   "dup_pct": 3.039,
+   "state": "IA"
+  },
+  "19135": {
+   "apn_nn": 16162,
+   "dup_pct": 10.395,
+   "state": "IA"
+  },
+  "19137": {
+   "apn_nn": 14279,
+   "dup_pct": 0.056,
+   "state": "IA"
+  },
+  "19139": {
+   "apn_nn": 24930,
+   "dup_pct": 0.088,
+   "state": "IA"
+  },
+  "19143": {
+   "apn_nn": 11991,
+   "dup_pct": 3.703,
+   "state": "IA"
+  },
+  "19145": {
+   "apn_nn": 18180,
+   "dup_pct": 2.937,
+   "state": "IA"
+  },
+  "19147": {
+   "apn_nn": 16218,
+   "dup_pct": 0.401,
+   "state": "IA"
+  },
+  "19149": {
+   "apn_nn": 29915,
+   "dup_pct": 7.321,
+   "state": "IA"
+  },
+  "19151": {
+   "apn_nn": 18888,
+   "dup_pct": 0.032,
+   "state": "IA"
+  },
+  "19153": {
+   "apn_nn": 191309,
+   "dup_pct": 0.856,
+   "state": "IA"
+  },
+  "19155": {
+   "apn_nn": 53852,
+   "dup_pct": 0.0,
+   "state": "IA"
+  },
+  "19157": {
+   "apn_nn": 20589,
+   "dup_pct": 0.024,
+   "state": "IA"
+  },
+  "19159": {
+   "apn_nn": 13709,
+   "dup_pct": 0.015,
+   "state": "IA"
+  },
+  "19161": {
+   "apn_nn": 18371,
+   "dup_pct": 0.142,
+   "state": "IA"
+  },
+  "19163": {
+   "apn_nn": 75505,
+   "dup_pct": 0.066,
+   "state": "IA"
+  },
+  "19165": {
+   "apn_nn": 17274,
+   "dup_pct": 0.023,
+   "state": "IA"
+  },
+  "19167": {
+   "apn_nn": 30745,
+   "dup_pct": 0.14,
+   "state": "IA"
+  },
+  "19169": {
+   "apn_nn": 42144,
+   "dup_pct": 0.009,
+   "state": "IA"
+  },
+  "19171": {
+   "apn_nn": 22834,
+   "dup_pct": 3.07,
+   "state": "IA"
+  },
+  "19173": {
+   "apn_nn": 16474,
+   "dup_pct": 0.261,
+   "state": "IA"
+  },
+  "19175": {
+   "apn_nn": 14507,
+   "dup_pct": 0.407,
+   "state": "IA"
+  },
+  "19177": {
+   "apn_nn": 14884,
+   "dup_pct": 5.18,
+   "state": "IA"
+  },
+  "19179": {
+   "apn_nn": 30011,
+   "dup_pct": 0.04,
+   "state": "IA"
+  },
+  "19181": {
+   "apn_nn": 35488,
+   "dup_pct": 0.087,
+   "state": "IA"
+  },
+  "19183": {
+   "apn_nn": 21597,
+   "dup_pct": 2.949,
+   "state": "IA"
+  },
+  "19185": {
+   "apn_nn": 14002,
+   "dup_pct": 0.05,
+   "state": "IA"
+  },
+  "19187": {
+   "apn_nn": 32686,
+   "dup_pct": 2.386,
+   "state": "IA"
+  },
+  "19189": {
+   "apn_nn": 12320,
+   "dup_pct": 0.041,
+   "state": "IA"
+  },
+  "19191": {
+   "apn_nn": 21004,
+   "dup_pct": 0.333,
+   "state": "IA"
+  },
+  "19193": {
+   "apn_nn": 55596,
+   "dup_pct": 0.009,
+   "state": "IA"
+  },
+  "19195": {
+   "apn_nn": 11811,
+   "dup_pct": 1.151,
+   "state": "IA"
+  },
+  "19197": {
+   "apn_nn": 18534,
+   "dup_pct": 0.2,
+   "state": "IA"
+  },
+  "20003": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "KS"
+  },
+  "20005": {
+   "apn_nn": 4688,
+   "dup_pct": 0.107,
+   "state": "KS"
+  },
+  "20007": {
+   "apn_nn": 6929,
+   "dup_pct": 0.014,
+   "state": "KS"
+  },
+  "20015": {
+   "apn_nn": 34536,
+   "dup_pct": 97.889,
+   "state": "KS"
+  },
+  "20025": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "KS"
+  },
+  "20029": {
+   "apn_nn": 9379,
+   "dup_pct": 0.256,
+   "state": "KS"
+  },
+  "20035": {
+   "apn_nn": 21117,
+   "dup_pct": 0.009,
+   "state": "KS"
+  },
+  "20037": {
+   "apn_nn": 9132,
+   "dup_pct": 0.0,
+   "state": "KS"
+  },
+  "20041": {
+   "apn_nn": 14492,
+   "dup_pct": 2.553,
+   "state": "KS"
+  },
+  "20043": {
+   "apn_nn": 7855,
+   "dup_pct": 97.772,
+   "state": "KS"
+  },
+  "20045": {
+   "apn_nn": 41762,
+   "dup_pct": 96.933,
+   "state": "KS"
+  },
+  "20051": {
+   "apn_nn": 16058,
+   "dup_pct": 1.133,
+   "state": "KS"
+  },
+  "20053": {
+   "apn_nn": 6628,
+   "dup_pct": 7.393,
+   "state": "KS"
+  },
+  "20055": {
+   "apn_nn": 15909,
+   "dup_pct": 0.0,
+   "state": "KS"
+  },
+  "20057": {
+   "apn_nn": 16317,
+   "dup_pct": 0.018,
+   "state": "KS"
+  },
+  "20061": {
+   "apn_nn": 13851,
+   "dup_pct": 0.022,
+   "state": "KS"
+  },
+  "20079": {
+   "apn_nn": 19220,
+   "dup_pct": 0.068,
+   "state": "KS"
+  },
+  "20087": {
+   "apn_nn": 15508,
+   "dup_pct": 95.892,
+   "state": "KS"
+  },
+  "20099": {
+   "apn_nn": 15408,
+   "dup_pct": 0.045,
+   "state": "KS"
+  },
+  "20103": {
+   "apn_nn": 33454,
+   "dup_pct": 92.748,
+   "state": "KS"
+  },
+  "20135": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "KS"
+  },
+  "20137": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "KS"
+  },
+  "20145": {
+   "apn_nn": 6391,
+   "dup_pct": 0.0,
+   "state": "KS"
+  },
+  "20155": {
+   "apn_nn": 35384,
+   "dup_pct": 0.023,
+   "state": "KS"
+  },
+  "20161": {
+   "apn_nn": 24746,
+   "dup_pct": 95.923,
+   "state": "KS"
+  },
+  "20167": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "KS"
+  },
+  "20169": {
+   "apn_nn": 27011,
+   "dup_pct": 0.281,
+   "state": "KS"
+  },
+  "20173": {
+   "apn_nn": 226956,
+   "dup_pct": 0.0,
+   "state": "KS"
+  },
+  "20177": {
+   "apn_nn": 76979,
+   "dup_pct": 0.008,
+   "state": "KS"
+  },
+  "20185": {
+   "apn_nn": 6141,
+   "dup_pct": 2.068,
+   "state": "KS"
+  },
+  "20209": {
+   "apn_nn": 68772,
+   "dup_pct": 0.0,
+   "state": "KS"
+  },
+  "21015": {
+   "apn_nn": 54873,
+   "dup_pct": 0.0,
+   "state": "KY"
+  },
+  "21025": {
+   "apn_nn": 9842,
+   "dup_pct": 11.624,
+   "state": "KY"
+  },
+  "21029": {
+   "apn_nn": 37126,
+   "dup_pct": 1.126,
+   "state": "KY"
+  },
+  "21037": {
+   "apn_nn": 37868,
+   "dup_pct": 0.053,
+   "state": "KY"
+  },
+  "21059": {
+   "apn_nn": 48131,
+   "dup_pct": 3.075,
+   "state": "KY"
+  },
+  "21073": {
+   "apn_nn": 23363,
+   "dup_pct": 1.772,
+   "state": "KY"
+  },
+  "21103": {
+   "apn_nn": 9444,
+   "dup_pct": 4.786,
+   "state": "KY"
+  },
+  "21117": {
+   "apn_nn": 64498,
+   "dup_pct": 0.0,
+   "state": "KY"
+  },
+  "21145": {
+   "apn_nn": 35316,
+   "dup_pct": 2.257,
+   "state": "KY"
+  },
+  "21163": {
+   "apn_nn": 16045,
+   "dup_pct": 4.693,
+   "state": "KY"
+  },
+  "21173": {
+   "apn_nn": 12720,
+   "dup_pct": 1.824,
+   "state": "KY"
+  },
+  "21179": {
+   "apn_nn": 26679,
+   "dup_pct": 2.594,
+   "state": "KY"
+  },
+  "21191": {
+   "apn_nn": 9046,
+   "dup_pct": 9.407,
+   "state": "KY"
+  },
+  "21213": {
+   "apn_nn": 11971,
+   "dup_pct": 26.13,
+   "state": "KY"
+  },
+  "21227": {
+   "apn_nn": 60514,
+   "dup_pct": 12.077,
+   "state": "KY"
+  },
+  "21233": {
+   "apn_nn": 13248,
+   "dup_pct": 15.489,
+   "state": "KY"
+  },
+  "21239": {
+   "apn_nn": 12561,
+   "dup_pct": 3.949,
+   "state": "KY"
+  },
+  "22001": {
+   "apn_nn": 46532,
+   "dup_pct": 17.949,
+   "state": "LA"
+  },
+  "22005": {
+   "apn_nn": 48115,
+   "dup_pct": 0.333,
+   "state": "LA"
+  },
+  "22007": {
+   "apn_nn": 14091,
+   "dup_pct": 12.653,
+   "state": "LA"
+  },
+  "22013": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "LA"
+  },
+  "22015": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "LA"
+  },
+  "22019": {
+   "apn_nn": 145432,
+   "dup_pct": 0.573,
+   "state": "LA"
+  },
+  "22023": {
+   "apn_nn": 11916,
+   "dup_pct": 0.059,
+   "state": "LA"
+  },
+  "22033": {
+   "apn_nn": 205667,
+   "dup_pct": 2.676,
+   "state": "LA"
+  },
+  "22037": {
+   "apn_nn": 15661,
+   "dup_pct": 28.293,
+   "state": "LA"
+  },
+  "22047": {
+   "apn_nn": 16953,
+   "dup_pct": 20.822,
+   "state": "LA"
+  },
+  "22051": {
+   "apn_nn": 181049,
+   "dup_pct": 19.924,
+   "state": "LA"
+  },
+  "22055": {
+   "apn_nn": 117084,
+   "dup_pct": 2.619,
+   "state": "LA"
+  },
+  "22057": {
+   "apn_nn": 50848,
+   "dup_pct": 19.615,
+   "state": "LA"
+  },
+  "22061": {
+   "apn_nn": 26879,
+   "dup_pct": 3.159,
+   "state": "LA"
+  },
+  "22083": {
+   "apn_nn": 17713,
+   "dup_pct": 23.514,
+   "state": "LA"
+  },
+  "22087": {
+   "apn_nn": 21775,
+   "dup_pct": 0.005,
+   "state": "LA"
+  },
+  "22089": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "LA"
+  },
+  "22093": {
+   "apn_nn": 10475,
+   "dup_pct": 0.095,
+   "state": "LA"
+  },
+  "22105": {
+   "apn_nn": 75248,
+   "dup_pct": 9.554,
+   "state": "LA"
+  },
+  "22109": {
+   "apn_nn": 54531,
+   "dup_pct": 9.211,
+   "state": "LA"
+  },
+  "22119": {
+   "apn_nn": 55621,
+   "dup_pct": 6.255,
+   "state": "LA"
+  },
+  "22121": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "LA"
+  },
+  "23001": {
+   "apn_nn": 41133,
+   "dup_pct": 9.056,
+   "state": "ME"
+  },
+  "23003": {
+   "apn_nn": 30337,
+   "dup_pct": 1.655,
+   "state": "ME"
+  },
+  "23005": {
+   "apn_nn": 146034,
+   "dup_pct": 3.086,
+   "state": "ME"
+  },
+  "23007": {
+   "apn_nn": 23174,
+   "dup_pct": 2.719,
+   "state": "ME"
+  },
+  "23009": {
+   "apn_nn": 49134,
+   "dup_pct": 4.687,
+   "state": "ME"
+  },
+  "23011": {
+   "apn_nn": 54582,
+   "dup_pct": 2.662,
+   "state": "ME"
+  },
+  "23013": {
+   "apn_nn": 29267,
+   "dup_pct": 3.109,
+   "state": "ME"
+  },
+  "23015": {
+   "apn_nn": 29597,
+   "dup_pct": 4.176,
+   "state": "ME"
+  },
+  "23017": {
+   "apn_nn": 40424,
+   "dup_pct": 2.907,
+   "state": "ME"
+  },
+  "23019": {
+   "apn_nn": 51547,
+   "dup_pct": 8.433,
+   "state": "ME"
+  },
+  "23021": {
+   "apn_nn": 7663,
+   "dup_pct": 14.237,
+   "state": "ME"
+  },
+  "23023": {
+   "apn_nn": 20688,
+   "dup_pct": 5.114,
+   "state": "ME"
+  },
+  "23025": {
+   "apn_nn": 19126,
+   "dup_pct": 5.051,
+   "state": "ME"
+  },
+  "23027": {
+   "apn_nn": 19839,
+   "dup_pct": 8.786,
+   "state": "ME"
+  },
+  "23029": {
+   "apn_nn": 34873,
+   "dup_pct": 7.536,
+   "state": "ME"
+  },
+  "23031": {
+   "apn_nn": 104628,
+   "dup_pct": 8.675,
+   "state": "ME"
+  },
+  "24003": {
+   "apn_nn": 267326,
+   "dup_pct": 21.656,
+   "state": "MD"
+  },
+  "24005": {
+   "apn_nn": 374514,
+   "dup_pct": 6.079,
+   "state": "MD"
+  },
+  "24011": {
+   "apn_nn": 16773,
+   "dup_pct": 0.87,
+   "state": "MD"
+  },
+  "24015": {
+   "apn_nn": 48148,
+   "dup_pct": 1.522,
+   "state": "MD"
+  },
+  "24017": {
+   "apn_nn": 72175,
+   "dup_pct": 1.358,
+   "state": "MD"
+  },
+  "24019": {
+   "apn_nn": 23196,
+   "dup_pct": 0.0,
+   "state": "MD"
+  },
+  "24025": {
+   "apn_nn": 103250,
+   "dup_pct": 97.301,
+   "state": "MD"
+  },
+  "24029": {
+   "apn_nn": 13756,
+   "dup_pct": 2.682,
+   "state": "MD"
+  },
+  "24031": {
+   "apn_nn": 281840,
+   "dup_pct": 0.033,
+   "state": "MD"
+  },
+  "24033": {
+   "apn_nn": 344397,
+   "dup_pct": 11.254,
+   "state": "MD"
+  },
+  "24035": {
+   "apn_nn": 27780,
+   "dup_pct": 0.817,
+   "state": "MD"
+  },
+  "24039": {
+   "apn_nn": 16744,
+   "dup_pct": 0.131,
+   "state": "MD"
+  },
+  "24043": {
+   "apn_nn": 60950,
+   "dup_pct": 95.524,
+   "state": "MD"
+  },
+  "24045": {
+   "apn_nn": 48648,
+   "dup_pct": 3.048,
+   "state": "MD"
+  },
+  "24510": {
+   "apn_nn": 222883,
+   "dup_pct": 0.0,
+   "state": "MD"
+  },
+  "25001": {
+   "apn_nn": 182378,
+   "dup_pct": 14.668,
+   "state": "MA"
+  },
+  "25003": {
+   "apn_nn": 76228,
+   "dup_pct": 1.745,
+   "state": "MA"
+  },
+  "25005": {
+   "apn_nn": 207617,
+   "dup_pct": 3.879,
+   "state": "MA"
+  },
+  "25007": {
+   "apn_nn": 21800,
+   "dup_pct": 11.014,
+   "state": "MA"
+  },
+  "25009": {
+   "apn_nn": 256393,
+   "dup_pct": 13.499,
+   "state": "MA"
+  },
+  "25011": {
+   "apn_nn": 42059,
+   "dup_pct": 3.062,
+   "state": "MA"
+  },
+  "25013": {
+   "apn_nn": 159238,
+   "dup_pct": 1.905,
+   "state": "MA"
+  },
+  "25015": {
+   "apn_nn": 66538,
+   "dup_pct": 4.171,
+   "state": "MA"
+  },
+  "25017": {
+   "apn_nn": 516858,
+   "dup_pct": 6.79,
+   "state": "MA"
+  },
+  "25019": {
+   "apn_nn": 14357,
+   "dup_pct": 0.042,
+   "state": "MA"
+  },
+  "25021": {
+   "apn_nn": 224057,
+   "dup_pct": 4.26,
+   "state": "MA"
+  },
+  "25023": {
+   "apn_nn": 207675,
+   "dup_pct": 8.223,
+   "state": "MA"
+  },
+  "25025": {
+   "apn_nn": 237103,
+   "dup_pct": 0.0,
+   "state": "MA"
+  },
+  "25027": {
+   "apn_nn": 324029,
+   "dup_pct": 12.937,
+   "state": "MA"
+  },
+  "26005": {
+   "apn_nn": 69227,
+   "dup_pct": 0.805,
+   "state": "MI"
+  },
+  "26009": {
+   "apn_nn": 37541,
+   "dup_pct": 0.362,
+   "state": "MI"
+  },
+  "26011": {
+   "apn_nn": 18357,
+   "dup_pct": 0.272,
+   "state": "MI"
+  },
+  "26015": {
+   "apn_nn": 34043,
+   "dup_pct": 0.849,
+   "state": "MI"
+  },
+  "26017": {
+   "apn_nn": 52412,
+   "dup_pct": 0.927,
+   "state": "MI"
+  },
+  "26019": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "MI"
+  },
+  "26021": {
+   "apn_nn": 86327,
+   "dup_pct": 0.015,
+   "state": "MI"
+  },
+  "26023": {
+   "apn_nn": 26843,
+   "dup_pct": 0.25,
+   "state": "MI"
+  },
+  "26027": {
+   "apn_nn": 35983,
+   "dup_pct": 0.036,
+   "state": "MI"
+  },
+  "26031": {
+   "apn_nn": 30542,
+   "dup_pct": 0.832,
+   "state": "MI"
+  },
+  "26045": {
+   "apn_nn": 46447,
+   "dup_pct": 0.0,
+   "state": "MI"
+  },
+  "26047": {
+   "apn_nn": 32368,
+   "dup_pct": 1.755,
+   "state": "MI"
+  },
+  "26055": {
+   "apn_nn": 56797,
+   "dup_pct": 3.049,
+   "state": "MI"
+  },
+  "26067": {
+   "apn_nn": 31572,
+   "dup_pct": 0.339,
+   "state": "MI"
+  },
+  "26075": {
+   "apn_nn": 77824,
+   "dup_pct": 0.03,
+   "state": "MI"
+  },
+  "26077": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "MI"
+  },
+  "26079": {
+   "apn_nn": 20298,
+   "dup_pct": 0.877,
+   "state": "MI"
+  },
+  "26081": {
+   "apn_nn": 268734,
+   "dup_pct": 15.581,
+   "state": "MI"
+  },
+  "26085": {
+   "apn_nn": 27191,
+   "dup_pct": 0.04,
+   "state": "MI"
+  },
+  "26087": {
+   "apn_nn": 43536,
+   "dup_pct": 0.037,
+   "state": "MI"
+  },
+  "26089": {
+   "apn_nn": 25223,
+   "dup_pct": 0.099,
+   "state": "MI"
+  },
+  "26091": {
+   "apn_nn": 55208,
+   "dup_pct": 0.029,
+   "state": "MI"
+  },
+  "26095": {
+   "apn_nn": 3947,
+   "dup_pct": 0.253,
+   "state": "MI"
+  },
+  "26099": {
+   "apn_nn": 332357,
+   "dup_pct": 0.003,
+   "state": "MI"
+  },
+  "26101": {
+   "apn_nn": 25795,
+   "dup_pct": 2.939,
+   "state": "MI"
+  },
+  "26105": {
+   "apn_nn": 24450,
+   "dup_pct": 2.168,
+   "state": "MI"
+  },
+  "26111": {
+   "apn_nn": 16917,
+   "dup_pct": 0.78,
+   "state": "MI"
+  },
+  "26115": {
+   "apn_nn": 70398,
+   "dup_pct": 0.425,
+   "state": "MI"
+  },
+  "26117": {
+   "apn_nn": 44024,
+   "dup_pct": 4.0,
+   "state": "MI"
+  },
+  "26121": {
+   "apn_nn": 85735,
+   "dup_pct": 3.896,
+   "state": "MI"
+  },
+  "26123": {
+   "apn_nn": 40006,
+   "dup_pct": 0.765,
+   "state": "MI"
+  },
+  "26133": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "MI"
+  },
+  "26139": {
+   "apn_nn": 117895,
+   "dup_pct": 0.063,
+   "state": "MI"
+  },
+  "26143": {
+   "apn_nn": 34398,
+   "dup_pct": 0.081,
+   "state": "MI"
+  },
+  "26155": {
+   "apn_nn": 34703,
+   "dup_pct": 1.343,
+   "state": "MI"
+  },
+  "26157": {
+   "apn_nn": 36274,
+   "dup_pct": 1.458,
+   "state": "MI"
+  },
+  "26159": {
+   "apn_nn": 50996,
+   "dup_pct": 1.669,
+   "state": "MI"
+  },
+  "26163": {
+   "apn_nn": 377940,
+   "dup_pct": 0.0,
+   "state": "MI"
+  },
+  "27001": {
+   "apn_nn": 43009,
+   "dup_pct": 0.151,
+   "state": "MN"
+  },
+  "27003": {
+   "apn_nn": 139930,
+   "dup_pct": 0.573,
+   "state": "MN"
+  },
+  "27005": {
+   "apn_nn": 34199,
+   "dup_pct": 4.465,
+   "state": "MN"
+  },
+  "27007": {
+   "apn_nn": 41605,
+   "dup_pct": 12.176,
+   "state": "MN"
+  },
+  "27009": {
+   "apn_nn": 19988,
+   "dup_pct": 0.005,
+   "state": "MN"
+  },
+  "27011": {
+   "apn_nn": 7901,
+   "dup_pct": 11.859,
+   "state": "MN"
+  },
+  "27013": {
+   "apn_nn": 33588,
+   "dup_pct": 0.003,
+   "state": "MN"
+  },
+  "27015": {
+   "apn_nn": 18468,
+   "dup_pct": 0.027,
+   "state": "MN"
+  },
+  "27017": {
+   "apn_nn": 33972,
+   "dup_pct": 3.232,
+   "state": "MN"
+  },
+  "27019": {
+   "apn_nn": 47706,
+   "dup_pct": 0.52,
+   "state": "MN"
+  },
+  "27021": {
+   "apn_nn": 49417,
+   "dup_pct": 0.069,
+   "state": "MN"
+  },
+  "27023": {
+   "apn_nn": 11959,
+   "dup_pct": 7.492,
+   "state": "MN"
+  },
+  "27025": {
+   "apn_nn": 29930,
+   "dup_pct": 0.591,
+   "state": "MN"
+  },
+  "27027": {
+   "apn_nn": 31353,
+   "dup_pct": 2.526,
+   "state": "MN"
+  },
+  "27029": {
+   "apn_nn": 9544,
+   "dup_pct": 4.746,
+   "state": "MN"
+  },
+  "27031": {
+   "apn_nn": 12695,
+   "dup_pct": 1.268,
+   "state": "MN"
+  },
+  "27033": {
+   "apn_nn": 10997,
+   "dup_pct": 0.227,
+   "state": "MN"
+  },
+  "27035": {
+   "apn_nn": 77579,
+   "dup_pct": 0.0,
+   "state": "MN"
+  },
+  "27037": {
+   "apn_nn": 148389,
+   "dup_pct": 0.053,
+   "state": "MN"
+  },
+  "27039": {
+   "apn_nn": 12403,
+   "dup_pct": 2.765,
+   "state": "MN"
+  },
+  "27041": {
+   "apn_nn": 33530,
+   "dup_pct": 8.885,
+   "state": "MN"
+  },
+  "27043": {
+   "apn_nn": 15200,
+   "dup_pct": 1.441,
+   "state": "MN"
+  },
+  "27045": {
+   "apn_nn": 20741,
+   "dup_pct": 3.602,
+   "state": "MN"
+  },
+  "27047": {
+   "apn_nn": 22267,
+   "dup_pct": 1.001,
+   "state": "MN"
+  },
+  "27049": {
+   "apn_nn": 29228,
+   "dup_pct": 0.0,
+   "state": "MN"
+  },
+  "27051": {
+   "apn_nn": 7712,
+   "dup_pct": 7.637,
+   "state": "MN"
+  },
+  "27053": {
+   "apn_nn": 447024,
+   "dup_pct": 0.0,
+   "state": "MN"
+  },
+  "27055": {
+   "apn_nn": 16528,
+   "dup_pct": 1.742,
+   "state": "MN"
+  },
+  "27057": {
+   "apn_nn": 29221,
+   "dup_pct": 3.422,
+   "state": "MN"
+  },
+  "27059": {
+   "apn_nn": 23888,
+   "dup_pct": 0.067,
+   "state": "MN"
+  },
+  "27061": {
+   "apn_nn": 77832,
+   "dup_pct": 15.089,
+   "state": "MN"
+  },
+  "27063": {
+   "apn_nn": 10844,
+   "dup_pct": 1.632,
+   "state": "MN"
+  },
+  "27065": {
+   "apn_nn": 12121,
+   "dup_pct": 0.066,
+   "state": "MN"
+  },
+  "27067": {
+   "apn_nn": 29764,
+   "dup_pct": 2.355,
+   "state": "MN"
+  },
+  "27071": {
+   "apn_nn": 55155,
+   "dup_pct": 0.809,
+   "state": "MN"
+  },
+  "27073": {
+   "apn_nn": 8839,
+   "dup_pct": 4.05,
+   "state": "MN"
+  },
+  "27075": {
+   "apn_nn": 47112,
+   "dup_pct": 0.342,
+   "state": "MN"
+  },
+  "27077": {
+   "apn_nn": 9334,
+   "dup_pct": 6.15,
+   "state": "MN"
+  },
+  "27079": {
+   "apn_nn": 19584,
+   "dup_pct": 0.0,
+   "state": "MN"
+  },
+  "27083": {
+   "apn_nn": 16409,
+   "dup_pct": 0.0,
+   "state": "MN"
+  },
+  "27087": {
+   "apn_nn": 6193,
+   "dup_pct": 7.622,
+   "state": "MN"
+  },
+  "27089": {
+   "apn_nn": 15469,
+   "dup_pct": 4.913,
+   "state": "MN"
+  },
+  "27091": {
+   "apn_nn": 15557,
+   "dup_pct": 0.405,
+   "state": "MN"
+  },
+  "27093": {
+   "apn_nn": 18379,
+   "dup_pct": 4.266,
+   "state": "MN"
+  },
+  "27095": {
+   "apn_nn": 20927,
+   "dup_pct": 4.024,
+   "state": "MN"
+  },
+  "27097": {
+   "apn_nn": 30107,
+   "dup_pct": 0.917,
+   "state": "MN"
+  },
+  "27099": {
+   "apn_nn": 22932,
+   "dup_pct": 0.0,
+   "state": "MN"
+  },
+  "27101": {
+   "apn_nn": 10202,
+   "dup_pct": 0.804,
+   "state": "MN"
+  },
+  "27103": {
+   "apn_nn": 18123,
+   "dup_pct": 4.177,
+   "state": "MN"
+  },
+  "27105": {
+   "apn_nn": 14945,
+   "dup_pct": 1.485,
+   "state": "MN"
+  },
+  "27107": {
+   "apn_nn": 9150,
+   "dup_pct": 0.033,
+   "state": "MN"
+  },
+  "27109": {
+   "apn_nn": 75237,
+   "dup_pct": 0.359,
+   "state": "MN"
+  },
+  "27111": {
+   "apn_nn": 67033,
+   "dup_pct": 3.318,
+   "state": "MN"
+  },
+  "27113": {
+   "apn_nn": 10475,
+   "dup_pct": 7.446,
+   "state": "MN"
+  },
+  "27117": {
+   "apn_nn": 8360,
+   "dup_pct": 0.706,
+   "state": "MN"
+  },
+  "27119": {
+   "apn_nn": 28857,
+   "dup_pct": 1.067,
+   "state": "MN"
+  },
+  "27121": {
+   "apn_nn": 14005,
+   "dup_pct": 7.911,
+   "state": "MN"
+  },
+  "27123": {
+   "apn_nn": 172014,
+   "dup_pct": 2.523,
+   "state": "MN"
+  },
+  "27125": {
+   "apn_nn": 3877,
+   "dup_pct": 0.052,
+   "state": "MN"
+  },
+  "27129": {
+   "apn_nn": 16153,
+   "dup_pct": 5.553,
+   "state": "MN"
+  },
+  "27131": {
+   "apn_nn": 30021,
+   "dup_pct": 0.0,
+   "state": "MN"
+  },
+  "27135": {
+   "apn_nn": 14138,
+   "dup_pct": 0.368,
+   "state": "MN"
+  },
+  "27137": {
+   "apn_nn": 186455,
+   "dup_pct": 1.025,
+   "state": "MN"
+  },
+  "27139": {
+   "apn_nn": 61900,
+   "dup_pct": 0.247,
+   "state": "MN"
+  },
+  "27141": {
+   "apn_nn": 44573,
+   "dup_pct": 4.263,
+   "state": "MN"
+  },
+  "27143": {
+   "apn_nn": 12729,
+   "dup_pct": 0.024,
+   "state": "MN"
+  },
+  "27145": {
+   "apn_nn": 70535,
+   "dup_pct": 0.024,
+   "state": "MN"
+  },
+  "27147": {
+   "apn_nn": 20207,
+   "dup_pct": 0.831,
+   "state": "MN"
+  },
+  "27149": {
+   "apn_nn": 8146,
+   "dup_pct": 2.038,
+   "state": "MN"
+  },
+  "27151": {
+   "apn_nn": 9902,
+   "dup_pct": 2.868,
+   "state": "MN"
+  },
+  "27153": {
+   "apn_nn": 24848,
+   "dup_pct": 0.0,
+   "state": "MN"
+  },
+  "27155": {
+   "apn_nn": 6241,
+   "dup_pct": 3.781,
+   "state": "MN"
+  },
+  "27157": {
+   "apn_nn": 16824,
+   "dup_pct": 0.357,
+   "state": "MN"
+  },
+  "27159": {
+   "apn_nn": 11768,
+   "dup_pct": 4.742,
+   "state": "MN"
+  },
+  "27161": {
+   "apn_nn": 12236,
+   "dup_pct": 2.19,
+   "state": "MN"
+  },
+  "27163": {
+   "apn_nn": 118924,
+   "dup_pct": 0.018,
+   "state": "MN"
+  },
+  "27167": {
+   "apn_nn": 8570,
+   "dup_pct": 4.212,
+   "state": "MN"
+  },
+  "27169": {
+   "apn_nn": 24822,
+   "dup_pct": 0.383,
+   "state": "MN"
+  },
+  "27171": {
+   "apn_nn": 73165,
+   "dup_pct": 0.001,
+   "state": "MN"
+  },
+  "27173": {
+   "apn_nn": 10783,
+   "dup_pct": 4.08,
+   "state": "MN"
+  },
+  "28001": {
+   "apn_nn": 18558,
+   "dup_pct": 0.108,
+   "state": "MS"
+  },
+  "28003": {
+   "apn_nn": 22474,
+   "dup_pct": 0.018,
+   "state": "MS"
+  },
+  "28005": {
+   "apn_nn": 16819,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28007": {
+   "apn_nn": 16987,
+   "dup_pct": 0.124,
+   "state": "MS"
+  },
+  "28009": {
+   "apn_nn": 9596,
+   "dup_pct": 0.021,
+   "state": "MS"
+  },
+  "28011": {
+   "apn_nn": 24347,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28013": {
+   "apn_nn": 14111,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28015": {
+   "apn_nn": 10836,
+   "dup_pct": 0.009,
+   "state": "MS"
+  },
+  "28017": {
+   "apn_nn": 13742,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28019": {
+   "apn_nn": 9414,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28021": {
+   "apn_nn": 8604,
+   "dup_pct": 0.012,
+   "state": "MS"
+  },
+  "28023": {
+   "apn_nn": 16484,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28025": {
+   "apn_nn": 13255,
+   "dup_pct": 0.008,
+   "state": "MS"
+  },
+  "28027": {
+   "apn_nn": 15973,
+   "dup_pct": 0.006,
+   "state": "MS"
+  },
+  "28029": {
+   "apn_nn": 22543,
+   "dup_pct": 0.04,
+   "state": "MS"
+  },
+  "28031": {
+   "apn_nn": 17218,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28033": {
+   "apn_nn": 82365,
+   "dup_pct": 0.557,
+   "state": "MS"
+  },
+  "28035": {
+   "apn_nn": 42431,
+   "dup_pct": 0.002,
+   "state": "MS"
+  },
+  "28037": {
+   "apn_nn": 9700,
+   "dup_pct": 0.031,
+   "state": "MS"
+  },
+  "28039": {
+   "apn_nn": 20447,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28041": {
+   "apn_nn": 13603,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28043": {
+   "apn_nn": 16198,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28045": {
+   "apn_nn": 52338,
+   "dup_pct": 0.325,
+   "state": "MS"
+  },
+  "28047": {
+   "apn_nn": 108078,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28049": {
+   "apn_nn": 114935,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28051": {
+   "apn_nn": 16002,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28053": {
+   "apn_nn": 8316,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28055": {
+   "apn_nn": 2846,
+   "dup_pct": 0.07,
+   "state": "MS"
+  },
+  "28057": {
+   "apn_nn": 16881,
+   "dup_pct": 1.57,
+   "state": "MS"
+  },
+  "28059": {
+   "apn_nn": 85568,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28061": {
+   "apn_nn": 19288,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28063": {
+   "apn_nn": 8438,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28065": {
+   "apn_nn": 14809,
+   "dup_pct": 0.189,
+   "state": "MS"
+  },
+  "28067": {
+   "apn_nn": 41606,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28069": {
+   "apn_nn": 11722,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28071": {
+   "apn_nn": 32940,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28073": {
+   "apn_nn": 34394,
+   "dup_pct": 0.032,
+   "state": "MS"
+  },
+  "28075": {
+   "apn_nn": 46865,
+   "dup_pct": 0.009,
+   "state": "MS"
+  },
+  "28077": {
+   "apn_nn": 13059,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28079": {
+   "apn_nn": 17015,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28081": {
+   "apn_nn": 43470,
+   "dup_pct": 0.005,
+   "state": "MS"
+  },
+  "28083": {
+   "apn_nn": 17030,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28085": {
+   "apn_nn": 26319,
+   "dup_pct": 0.099,
+   "state": "MS"
+  },
+  "28087": {
+   "apn_nn": 32036,
+   "dup_pct": 0.041,
+   "state": "MS"
+  },
+  "28089": {
+   "apn_nn": 58837,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28091": {
+   "apn_nn": 20618,
+   "dup_pct": 0.01,
+   "state": "MS"
+  },
+  "28093": {
+   "apn_nn": 26585,
+   "dup_pct": 0.011,
+   "state": "MS"
+  },
+  "28095": {
+   "apn_nn": 28374,
+   "dup_pct": 0.011,
+   "state": "MS"
+  },
+  "28097": {
+   "apn_nn": 10801,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28099": {
+   "apn_nn": 20230,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28101": {
+   "apn_nn": 17830,
+   "dup_pct": 0.006,
+   "state": "MS"
+  },
+  "28103": {
+   "apn_nn": 10279,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28105": {
+   "apn_nn": 24925,
+   "dup_pct": 0.06,
+   "state": "MS"
+  },
+  "28107": {
+   "apn_nn": 24721,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28109": {
+   "apn_nn": 44652,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28111": {
+   "apn_nn": 11645,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28113": {
+   "apn_nn": 28421,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28115": {
+   "apn_nn": 20431,
+   "dup_pct": 0.024,
+   "state": "MS"
+  },
+  "28117": {
+   "apn_nn": 18379,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28119": {
+   "apn_nn": 8285,
+   "dup_pct": 0.181,
+   "state": "MS"
+  },
+  "28121": {
+   "apn_nn": 81928,
+   "dup_pct": 0.181,
+   "state": "MS"
+  },
+  "28123": {
+   "apn_nn": 21560,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28125": {
+   "apn_nn": 4757,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28127": {
+   "apn_nn": 21484,
+   "dup_pct": 0.009,
+   "state": "MS"
+  },
+  "28129": {
+   "apn_nn": 17166,
+   "dup_pct": 0.274,
+   "state": "MS"
+  },
+  "28131": {
+   "apn_nn": 13986,
+   "dup_pct": 0.079,
+   "state": "MS"
+  },
+  "28133": {
+   "apn_nn": 16575,
+   "dup_pct": 0.018,
+   "state": "MS"
+  },
+  "28135": {
+   "apn_nn": 11539,
+   "dup_pct": 0.009,
+   "state": "MS"
+  },
+  "28137": {
+   "apn_nn": 17337,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28139": {
+   "apn_nn": 17580,
+   "dup_pct": 0.114,
+   "state": "MS"
+  },
+  "28141": {
+   "apn_nn": 17145,
+   "dup_pct": 0.07,
+   "state": "MS"
+  },
+  "28143": {
+   "apn_nn": 6454,
+   "dup_pct": 0.062,
+   "state": "MS"
+  },
+  "28145": {
+   "apn_nn": 20321,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28147": {
+   "apn_nn": 15008,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28149": {
+   "apn_nn": 27280,
+   "dup_pct": 0.128,
+   "state": "MS"
+  },
+  "28151": {
+   "apn_nn": 32683,
+   "dup_pct": 0.009,
+   "state": "MS"
+  },
+  "28153": {
+   "apn_nn": 17564,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28155": {
+   "apn_nn": 9854,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28157": {
+   "apn_nn": 10758,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28159": {
+   "apn_nn": 16581,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "28161": {
+   "apn_nn": 13534,
+   "dup_pct": 0.066,
+   "state": "MS"
+  },
+  "28163": {
+   "apn_nn": 20280,
+   "dup_pct": 0.0,
+   "state": "MS"
+  },
+  "29001": {
+   "apn_nn": 14859,
+   "dup_pct": 0.101,
+   "state": "MO"
+  },
+  "29003": {
+   "apn_nn": 11469,
+   "dup_pct": 0.384,
+   "state": "MO"
+  },
+  "29005": {
+   "apn_nn": 6175,
+   "dup_pct": 0.13,
+   "state": "MO"
+  },
+  "29007": {
+   "apn_nn": 15350,
+   "dup_pct": 0.007,
+   "state": "MO"
+  },
+  "29009": {
+   "apn_nn": 27076,
+   "dup_pct": 0.044,
+   "state": "MO"
+  },
+  "29013": {
+   "apn_nn": 13597,
+   "dup_pct": 1.155,
+   "state": "MO"
+  },
+  "29015": {
+   "apn_nn": 32334,
+   "dup_pct": 0.049,
+   "state": "MO"
+  },
+  "29019": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "MO"
+  },
+  "29027": {
+   "apn_nn": 25942,
+   "dup_pct": 89.877,
+   "state": "MO"
+  },
+  "29031": {
+   "apn_nn": 37234,
+   "dup_pct": 3.153,
+   "state": "MO"
+  },
+  "29041": {
+   "apn_nn": 11888,
+   "dup_pct": 0.336,
+   "state": "MO"
+  },
+  "29043": {
+   "apn_nn": 43141,
+   "dup_pct": 0.032,
+   "state": "MO"
+  },
+  "29051": {
+   "apn_nn": 35731,
+   "dup_pct": 96.86,
+   "state": "MO"
+  },
+  "29053": {
+   "apn_nn": 12392,
+   "dup_pct": 0.097,
+   "state": "MO"
+  },
+  "29057": {
+   "apn_nn": 7607,
+   "dup_pct": 0.302,
+   "state": "MO"
+  },
+  "29059": {
+   "apn_nn": 13402,
+   "dup_pct": 0.052,
+   "state": "MO"
+  },
+  "29073": {
+   "apn_nn": 71923,
+   "dup_pct": 99.176,
+   "state": "MO"
+  },
+  "29077": {
+   "apn_nn": 123863,
+   "dup_pct": 0.0,
+   "state": "MO"
+  },
+  "29087": {
+   "apn_nn": 7436,
+   "dup_pct": 0.511,
+   "state": "MO"
+  },
+  "29093": {
+   "apn_nn": 11616,
+   "dup_pct": 0.224,
+   "state": "MO"
+  },
+  "29095": {
+   "apn_nn": 310939,
+   "dup_pct": 3.389,
+   "state": "MO"
+  },
+  "29097": {
+   "apn_nn": 62313,
+   "dup_pct": 0.074,
+   "state": "MO"
+  },
+  "29099": {
+   "apn_nn": 106453,
+   "dup_pct": 0.058,
+   "state": "MO"
+  },
+  "29109": {
+   "apn_nn": 21824,
+   "dup_pct": 0.092,
+   "state": "MO"
+  },
+  "29117": {
+   "apn_nn": 10867,
+   "dup_pct": 95.758,
+   "state": "MO"
+  },
+  "29119": {
+   "apn_nn": 16944,
+   "dup_pct": 5.908,
+   "state": "MO"
+  },
+  "29121": {
+   "apn_nn": 13821,
+   "dup_pct": 0.275,
+   "state": "MO"
+  },
+  "29123": {
+   "apn_nn": 11181,
+   "dup_pct": 8.774,
+   "state": "MO"
+  },
+  "29125": {
+   "apn_nn": 8368,
+   "dup_pct": 0.275,
+   "state": "MO"
+  },
+  "29127": {
+   "apn_nn": 18366,
+   "dup_pct": 12.556,
+   "state": "MO"
+  },
+  "29131": {
+   "apn_nn": 21705,
+   "dup_pct": 0.198,
+   "state": "MO"
+  },
+  "29145": {
+   "apn_nn": 32357,
+   "dup_pct": 0.139,
+   "state": "MO"
+  },
+  "29151": {
+   "apn_nn": 11572,
+   "dup_pct": 0.648,
+   "state": "MO"
+  },
+  "29157": {
+   "apn_nn": 14198,
+   "dup_pct": 0.014,
+   "state": "MO"
+  },
+  "29159": {
+   "apn_nn": 25178,
+   "dup_pct": 0.175,
+   "state": "MO"
+  },
+  "29161": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "MO"
+  },
+  "29165": {
+   "apn_nn": 44843,
+   "dup_pct": 0.0,
+   "state": "MO"
+  },
+  "29167": {
+   "apn_nn": 19744,
+   "dup_pct": 0.081,
+   "state": "MO"
+  },
+  "29169": {
+   "apn_nn": 20109,
+   "dup_pct": 0.96,
+   "state": "MO"
+  },
+  "29171": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "MO"
+  },
+  "29173": {
+   "apn_nn": 9481,
+   "dup_pct": 0.295,
+   "state": "MO"
+  },
+  "29187": {
+   "apn_nn": 38032,
+   "dup_pct": 0.084,
+   "state": "MO"
+  },
+  "29189": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "MO"
+  },
+  "29195": {
+   "apn_nn": 16083,
+   "dup_pct": 0.211,
+   "state": "MO"
+  },
+  "29201": {
+   "apn_nn": 23263,
+   "dup_pct": 0.189,
+   "state": "MO"
+  },
+  "29209": {
+   "apn_nn": 34310,
+   "dup_pct": 0.303,
+   "state": "MO"
+  },
+  "29213": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "MO"
+  },
+  "29219": {
+   "apn_nn": 27196,
+   "dup_pct": 0.048,
+   "state": "MO"
+  },
+  "29221": {
+   "apn_nn": 26738,
+   "dup_pct": 4.069,
+   "state": "MO"
+  },
+  "29223": {
+   "apn_nn": 14644,
+   "dup_pct": 0.533,
+   "state": "MO"
+  },
+  "29225": {
+   "apn_nn": 23001,
+   "dup_pct": 3.048,
+   "state": "MO"
+  },
+  "29227": {
+   "apn_nn": 3387,
+   "dup_pct": 0.148,
+   "state": "MO"
+  },
+  "29229": {
+   "apn_nn": 14706,
+   "dup_pct": 8.452,
+   "state": "MO"
+  },
+  "29510": {
+   "apn_nn": 135018,
+   "dup_pct": 0.276,
+   "state": "MO"
+  },
+  "30001": {
+   "apn_nn": 15979,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30003": {
+   "apn_nn": 14743,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30005": {
+   "apn_nn": 12886,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30007": {
+   "apn_nn": 7571,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30009": {
+   "apn_nn": 14615,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30011": {
+   "apn_nn": 8004,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30013": {
+   "apn_nn": 43799,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30015": {
+   "apn_nn": 14140,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30017": {
+   "apn_nn": 11863,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30019": {
+   "apn_nn": 5745,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30021": {
+   "apn_nn": 8952,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30023": {
+   "apn_nn": 7622,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30025": {
+   "apn_nn": 4714,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30027": {
+   "apn_nn": 20670,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30029": {
+   "apn_nn": 68849,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30031": {
+   "apn_nn": 53020,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30033": {
+   "apn_nn": 9230,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30035": {
+   "apn_nn": 13005,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30037": {
+   "apn_nn": 2560,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30039": {
+   "apn_nn": 7575,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30041": {
+   "apn_nn": 14136,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30043": {
+   "apn_nn": 13061,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30045": {
+   "apn_nn": 7209,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30047": {
+   "apn_nn": 23015,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30049": {
+   "apn_nn": 39903,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30051": {
+   "apn_nn": 4713,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30053": {
+   "apn_nn": 22927,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30055": {
+   "apn_nn": 6698,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30057": {
+   "apn_nn": 19044,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30059": {
+   "apn_nn": 6091,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30061": {
+   "apn_nn": 5663,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30063": {
+   "apn_nn": 53808,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30065": {
+   "apn_nn": 7898,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30067": {
+   "apn_nn": 15618,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30069": {
+   "apn_nn": 4495,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30071": {
+   "apn_nn": 14476,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30073": {
+   "apn_nn": 8169,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30075": {
+   "apn_nn": 7171,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30077": {
+   "apn_nn": 8212,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30079": {
+   "apn_nn": 3723,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30081": {
+   "apn_nn": 30755,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30083": {
+   "apn_nn": 10891,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30085": {
+   "apn_nn": 12036,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30087": {
+   "apn_nn": 11002,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30089": {
+   "apn_nn": 15321,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30091": {
+   "apn_nn": 8127,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30093": {
+   "apn_nn": 21926,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30095": {
+   "apn_nn": 10380,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30097": {
+   "apn_nn": 5358,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30099": {
+   "apn_nn": 10403,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30101": {
+   "apn_nn": 9168,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30103": {
+   "apn_nn": 2114,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30105": {
+   "apn_nn": 17799,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30107": {
+   "apn_nn": 4054,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30109": {
+   "apn_nn": 2216,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "30111": {
+   "apn_nn": 83718,
+   "dup_pct": 0.0,
+   "state": "MT"
+  },
+  "31001": {
+   "apn_nn": 17796,
+   "dup_pct": 0.59,
+   "state": "NE"
+  },
+  "31025": {
+   "apn_nn": 20457,
+   "dup_pct": 0.0,
+   "state": "NE"
+  },
+  "31051": {
+   "apn_nn": 6411,
+   "dup_pct": 3.12,
+   "state": "NE"
+  },
+  "31055": {
+   "apn_nn": 216656,
+   "dup_pct": 0.016,
+   "state": "NE"
+  },
+  "31079": {
+   "apn_nn": 28508,
+   "dup_pct": 0.509,
+   "state": "NE"
+  },
+  "31109": {
+   "apn_nn": 122456,
+   "dup_pct": 0.005,
+   "state": "NE"
+  },
+  "31153": {
+   "apn_nn": 76866,
+   "dup_pct": 0.009,
+   "state": "NE"
+  },
+  "31157": {
+   "apn_nn": 21525,
+   "dup_pct": 0.093,
+   "state": "NE"
+  },
+  "31169": {
+   "apn_nn": 7147,
+   "dup_pct": 5.919,
+   "state": "NE"
+  },
+  "32003": {
+   "apn_nn": 949419,
+   "dup_pct": 0.001,
+   "state": "NV"
+  },
+  "32005": {
+   "apn_nn": 30963,
+   "dup_pct": 0.0,
+   "state": "NV"
+  },
+  "32007": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "NV"
+  },
+  "32011": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "NV"
+  },
+  "32013": {
+   "apn_nn": 17146,
+   "dup_pct": 0.344,
+   "state": "NV"
+  },
+  "32015": {
+   "apn_nn": 7777,
+   "dup_pct": 0.437,
+   "state": "NV"
+  },
+  "32019": {
+   "apn_nn": 35338,
+   "dup_pct": 0.15,
+   "state": "NV"
+  },
+  "32023": {
+   "apn_nn": 60377,
+   "dup_pct": 0.19,
+   "state": "NV"
+  },
+  "32027": {
+   "apn_nn": 12138,
+   "dup_pct": 99.992,
+   "state": "NV"
+  },
+  "32031": {
+   "apn_nn": 193654,
+   "dup_pct": 0.157,
+   "state": "NV"
+  },
+  "32033": {
+   "apn_nn": 7760,
+   "dup_pct": 0.58,
+   "state": "NV"
+  },
+  "32510": {
+   "apn_nn": 21655,
+   "dup_pct": 0.0,
+   "state": "NV"
+  },
+  "33001": {
+   "apn_nn": 38150,
+   "dup_pct": 5.148,
+   "state": "NH"
+  },
+  "33003": {
+   "apn_nn": 51601,
+   "dup_pct": 6.581,
+   "state": "NH"
+  },
+  "33005": {
+   "apn_nn": 38992,
+   "dup_pct": 10.643,
+   "state": "NH"
+  },
+  "33007": {
+   "apn_nn": 24897,
+   "dup_pct": 9.15,
+   "state": "NH"
+  },
+  "33009": {
+   "apn_nn": 58451,
+   "dup_pct": 8.985,
+   "state": "NH"
+  },
+  "33011": {
+   "apn_nn": 133223,
+   "dup_pct": 6.0,
+   "state": "NH"
+  },
+  "33013": {
+   "apn_nn": 63542,
+   "dup_pct": 3.215,
+   "state": "NH"
+  },
+  "33015": {
+   "apn_nn": 119673,
+   "dup_pct": 11.546,
+   "state": "NH"
+  },
+  "33017": {
+   "apn_nn": 45318,
+   "dup_pct": 6.507,
+   "state": "NH"
+  },
+  "33019": {
+   "apn_nn": 26901,
+   "dup_pct": 8.498,
+   "state": "NH"
+  },
+  "34001": {
+   "apn_nn": 145767,
+   "dup_pct": 0.0,
+   "state": "NJ"
+  },
+  "34003": {
+   "apn_nn": 282959,
+   "dup_pct": 0.0,
+   "state": "NJ"
+  },
+  "34005": {
+   "apn_nn": 178778,
+   "dup_pct": 0.0,
+   "state": "NJ"
+  },
+  "34007": {
+   "apn_nn": 192065,
+   "dup_pct": 0.0,
+   "state": "NJ"
+  },
+  "34009": {
+   "apn_nn": 104798,
+   "dup_pct": 0.0,
+   "state": "NJ"
+  },
+  "34011": {
+   "apn_nn": 64875,
+   "dup_pct": 0.002,
+   "state": "NJ"
+  },
+  "34013": {
+   "apn_nn": 185705,
+   "dup_pct": 0.0,
+   "state": "NJ"
+  },
+  "34015": {
+   "apn_nn": 104787,
+   "dup_pct": 0.0,
+   "state": "NJ"
+  },
+  "34017": {
+   "apn_nn": 153559,
+   "dup_pct": 0.0,
+   "state": "NJ"
+  },
+  "34019": {
+   "apn_nn": 54292,
+   "dup_pct": 0.157,
+   "state": "NJ"
+  },
+  "34021": {
+   "apn_nn": 130246,
+   "dup_pct": 0.0,
+   "state": "NJ"
+  },
+  "34023": {
+   "apn_nn": 275590,
+   "dup_pct": 0.0,
+   "state": "NJ"
+  },
+  "34025": {
+   "apn_nn": 255174,
+   "dup_pct": 0.046,
+   "state": "NJ"
+  },
+  "34027": {
+   "apn_nn": 179911,
+   "dup_pct": 0.007,
+   "state": "NJ"
+  },
+  "34029": {
+   "apn_nn": 299925,
+   "dup_pct": 0.0,
+   "state": "NJ"
+  },
+  "34031": {
+   "apn_nn": 132592,
+   "dup_pct": 0.22,
+   "state": "NJ"
+  },
+  "34033": {
+   "apn_nn": 33197,
+   "dup_pct": 0.0,
+   "state": "NJ"
+  },
+  "34035": {
+   "apn_nn": 119109,
+   "dup_pct": 0.0,
+   "state": "NJ"
+  },
+  "34037": {
+   "apn_nn": 76772,
+   "dup_pct": 0.001,
+   "state": "NJ"
+  },
+  "34039": {
+   "apn_nn": 148337,
+   "dup_pct": 0.0,
+   "state": "NJ"
+  },
+  "34041": {
+   "apn_nn": 48420,
+   "dup_pct": 0.004,
+   "state": "NJ"
+  },
+  "35001": {
+   "apn_nn": 255181,
+   "dup_pct": 0.0,
+   "state": "NM"
+  },
+  "35003": {
+   "apn_nn": 11776,
+   "dup_pct": 0.0,
+   "state": "NM"
+  },
+  "35005": {
+   "apn_nn": 35719,
+   "dup_pct": 1.428,
+   "state": "NM"
+  },
+  "35006": {
+   "apn_nn": 22745,
+   "dup_pct": 6.845,
+   "state": "NM"
+  },
+  "35007": {
+   "apn_nn": 35822,
+   "dup_pct": 66.842,
+   "state": "NM"
+  },
+  "35009": {
+   "apn_nn": 26067,
+   "dup_pct": 2.014,
+   "state": "NM"
+  },
+  "35011": {
+   "apn_nn": 1638,
+   "dup_pct": 0.0,
+   "state": "NM"
+  },
+  "35013": {
+   "apn_nn": 92151,
+   "dup_pct": 0.079,
+   "state": "NM"
+  },
+  "35015": {
+   "apn_nn": 48525,
+   "dup_pct": 0.231,
+   "state": "NM"
+  },
+  "35017": {
+   "apn_nn": 37197,
+   "dup_pct": 30.08,
+   "state": "NM"
+  },
+  "35019": {
+   "apn_nn": 3800,
+   "dup_pct": 0.0,
+   "state": "NM"
+  },
+  "35021": {
+   "apn_nn": 1053,
+   "dup_pct": 0.095,
+   "state": "NM"
+  },
+  "35023": {
+   "apn_nn": 3348,
+   "dup_pct": 0.03,
+   "state": "NM"
+  },
+  "35025": {
+   "apn_nn": 32013,
+   "dup_pct": 0.022,
+   "state": "NM"
+  },
+  "35027": {
+   "apn_nn": 38607,
+   "dup_pct": 0.0,
+   "state": "NM"
+  },
+  "35028": {
+   "apn_nn": 8532,
+   "dup_pct": 0.223,
+   "state": "NM"
+  },
+  "35029": {
+   "apn_nn": 115161,
+   "dup_pct": 0.001,
+   "state": "NM"
+  },
+  "35031": {
+   "apn_nn": 12820,
+   "dup_pct": 0.757,
+   "state": "NM"
+  },
+  "35033": {
+   "apn_nn": 7471,
+   "dup_pct": 0.0,
+   "state": "NM"
+  },
+  "35035": {
+   "apn_nn": 49298,
+   "dup_pct": 0.882,
+   "state": "NM"
+  },
+  "35037": {
+   "apn_nn": 14518,
+   "dup_pct": 0.0,
+   "state": "NM"
+  },
+  "35039": {
+   "apn_nn": 37926,
+   "dup_pct": 12.11,
+   "state": "NM"
+  },
+  "35041": {
+   "apn_nn": 14425,
+   "dup_pct": 0.042,
+   "state": "NM"
+  },
+  "35043": {
+   "apn_nn": 149773,
+   "dup_pct": 3.267,
+   "state": "NM"
+  },
+  "35045": {
+   "apn_nn": 44599,
+   "dup_pct": 2.457,
+   "state": "NM"
+  },
+  "35047": {
+   "apn_nn": 29511,
+   "dup_pct": 12.27,
+   "state": "NM"
+  },
+  "35049": {
+   "apn_nn": 87231,
+   "dup_pct": 0.029,
+   "state": "NM"
+  },
+  "35051": {
+   "apn_nn": 10840,
+   "dup_pct": 0.0,
+   "state": "NM"
+  },
+  "35053": {
+   "apn_nn": 35027,
+   "dup_pct": 17.601,
+   "state": "NM"
+  },
+  "35055": {
+   "apn_nn": 61148,
+   "dup_pct": 0.0,
+   "state": "NM"
+  },
+  "35057": {
+   "apn_nn": 29033,
+   "dup_pct": 1.822,
+   "state": "NM"
+  },
+  "35059": {
+   "apn_nn": 2962,
+   "dup_pct": 0.0,
+   "state": "NM"
+  },
+  "35061": {
+   "apn_nn": 197521,
+   "dup_pct": 0.002,
+   "state": "NM"
+  },
+  "36001": {
+   "apn_nn": 112800,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36005": {
+   "apn_nn": 89229,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36007": {
+   "apn_nn": 85051,
+   "dup_pct": 0.004,
+   "state": "NY"
+  },
+  "36009": {
+   "apn_nn": 50268,
+   "dup_pct": 0.058,
+   "state": "NY"
+  },
+  "36011": {
+   "apn_nn": 39127,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36013": {
+   "apn_nn": 88396,
+   "dup_pct": 0.01,
+   "state": "NY"
+  },
+  "36015": {
+   "apn_nn": 39411,
+   "dup_pct": 5.415,
+   "state": "NY"
+  },
+  "36019": {
+   "apn_nn": 38163,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36023": {
+   "apn_nn": 22575,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36029": {
+   "apn_nn": 370414,
+   "dup_pct": 0.002,
+   "state": "NY"
+  },
+  "36031": {
+   "apn_nn": 35943,
+   "dup_pct": 0.003,
+   "state": "NY"
+  },
+  "36037": {
+   "apn_nn": 28266,
+   "dup_pct": 0.007,
+   "state": "NY"
+  },
+  "36039": {
+   "apn_nn": 38780,
+   "dup_pct": 77.548,
+   "state": "NY"
+  },
+  "36041": {
+   "apn_nn": 12945,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36045": {
+   "apn_nn": 58598,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36047": {
+   "apn_nn": 275680,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36049": {
+   "apn_nn": 24686,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36051": {
+   "apn_nn": 28779,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36055": {
+   "apn_nn": 267157,
+   "dup_pct": 0.022,
+   "state": "NY"
+  },
+  "36057": {
+   "apn_nn": 25260,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36059": {
+   "apn_nn": 423345,
+   "dup_pct": 0.005,
+   "state": "NY"
+  },
+  "36061": {
+   "apn_nn": 42061,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36063": {
+   "apn_nn": 93408,
+   "dup_pct": 75.239,
+   "state": "NY"
+  },
+  "36065": {
+   "apn_nn": 103274,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36067": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36069": {
+   "apn_nn": 51316,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36071": {
+   "apn_nn": 144232,
+   "dup_pct": 0.008,
+   "state": "NY"
+  },
+  "36075": {
+   "apn_nn": 59567,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36077": {
+   "apn_nn": 39706,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36079": {
+   "apn_nn": 42291,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36081": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36083": {
+   "apn_nn": 64326,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36085": {
+   "apn_nn": 125536,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36087": {
+   "apn_nn": 92594,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36089": {
+   "apn_nn": 67384,
+   "dup_pct": 0.007,
+   "state": "NY"
+  },
+  "36091": {
+   "apn_nn": 102415,
+   "dup_pct": 1.457,
+   "state": "NY"
+  },
+  "36093": {
+   "apn_nn": 59235,
+   "dup_pct": 2.239,
+   "state": "NY"
+  },
+  "36095": {
+   "apn_nn": 23115,
+   "dup_pct": 0.017,
+   "state": "NY"
+  },
+  "36097": {
+   "apn_nn": 13265,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36101": {
+   "apn_nn": 55239,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36103": {
+   "apn_nn": 580665,
+   "dup_pct": 0.001,
+   "state": "NY"
+  },
+  "36105": {
+   "apn_nn": 67338,
+   "dup_pct": 0.001,
+   "state": "NY"
+  },
+  "36107": {
+   "apn_nn": 26133,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36109": {
+   "apn_nn": 35368,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36111": {
+   "apn_nn": 88260,
+   "dup_pct": 0.002,
+   "state": "NY"
+  },
+  "36113": {
+   "apn_nn": 45869,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36115": {
+   "apn_nn": 35235,
+   "dup_pct": 0.017,
+   "state": "NY"
+  },
+  "36117": {
+   "apn_nn": 43892,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36119": {
+   "apn_nn": 257874,
+   "dup_pct": 0.025,
+   "state": "NY"
+  },
+  "36121": {
+   "apn_nn": 23530,
+   "dup_pct": 0.0,
+   "state": "NY"
+  },
+  "36123": {
+   "apn_nn": 15825,
+   "dup_pct": 1.637,
+   "state": "NY"
+  },
+  "37001": {
+   "apn_nn": 79495,
+   "dup_pct": 0.136,
+   "state": "NC"
+  },
+  "37003": {
+   "apn_nn": 25264,
+   "dup_pct": 0.095,
+   "state": "NC"
+  },
+  "37005": {
+   "apn_nn": 14741,
+   "dup_pct": 0.156,
+   "state": "NC"
+  },
+  "37007": {
+   "apn_nn": 19125,
+   "dup_pct": 0.0,
+   "state": "NC"
+  },
+  "37009": {
+   "apn_nn": 38834,
+   "dup_pct": 0.579,
+   "state": "NC"
+  },
+  "37011": {
+   "apn_nn": 24258,
+   "dup_pct": 0.923,
+   "state": "NC"
+  },
+  "37013": {
+   "apn_nn": 46010,
+   "dup_pct": 2.604,
+   "state": "NC"
+  },
+  "37015": {
+   "apn_nn": 18783,
+   "dup_pct": 0.538,
+   "state": "NC"
+  },
+  "37017": {
+   "apn_nn": 33070,
+   "dup_pct": 4.847,
+   "state": "NC"
+  },
+  "37019": {
+   "apn_nn": 151754,
+   "dup_pct": 0.021,
+   "state": "NC"
+  },
+  "37021": {
+   "apn_nn": 134741,
+   "dup_pct": 0.009,
+   "state": "NC"
+  },
+  "37023": {
+   "apn_nn": 59350,
+   "dup_pct": 0.854,
+   "state": "NC"
+  },
+  "37025": {
+   "apn_nn": 109814,
+   "dup_pct": 3.162,
+   "state": "NC"
+  },
+  "37027": {
+   "apn_nn": 52774,
+   "dup_pct": 0.116,
+   "state": "NC"
+  },
+  "37029": {
+   "apn_nn": 7955,
+   "dup_pct": 0.591,
+   "state": "NC"
+  },
+  "37031": {
+   "apn_nn": 64149,
+   "dup_pct": 1.007,
+   "state": "NC"
+  },
+  "37033": {
+   "apn_nn": 17147,
+   "dup_pct": 1.814,
+   "state": "NC"
+  },
+  "37035": {
+   "apn_nn": 93505,
+   "dup_pct": 0.002,
+   "state": "NC"
+  },
+  "37037": {
+   "apn_nn": 48850,
+   "dup_pct": 0.252,
+   "state": "NC"
+  },
+  "37039": {
+   "apn_nn": 35669,
+   "dup_pct": 1.483,
+   "state": "NC"
+  },
+  "37041": {
+   "apn_nn": 25538,
+   "dup_pct": 50.47,
+   "state": "NC"
+  },
+  "37043": {
+   "apn_nn": 17018,
+   "dup_pct": 7.604,
+   "state": "NC"
+  },
+  "37045": {
+   "apn_nn": 59963,
+   "dup_pct": 0.067,
+   "state": "NC"
+  },
+  "37047": {
+   "apn_nn": 51708,
+   "dup_pct": 0.002,
+   "state": "NC"
+  },
+  "37049": {
+   "apn_nn": 59840,
+   "dup_pct": 0.0,
+   "state": "NC"
+  },
+  "37051": {
+   "apn_nn": 133627,
+   "dup_pct": 0.902,
+   "state": "NC"
+  },
+  "37053": {
+   "apn_nn": 27881,
+   "dup_pct": 3.615,
+   "state": "NC"
+  },
+  "37055": {
+   "apn_nn": 40481,
+   "dup_pct": 0.002,
+   "state": "NC"
+  },
+  "37057": {
+   "apn_nn": 98631,
+   "dup_pct": 0.139,
+   "state": "NC"
+  },
+  "37059": {
+   "apn_nn": 26424,
+   "dup_pct": 0.5,
+   "state": "NC"
+  },
+  "37061": {
+   "apn_nn": 43592,
+   "dup_pct": 5.274,
+   "state": "NC"
+  },
+  "37063": {
+   "apn_nn": 133075,
+   "dup_pct": 3.265,
+   "state": "NC"
+  },
+  "37065": {
+   "apn_nn": 31521,
+   "dup_pct": 1.377,
+   "state": "NC"
+  },
+  "37067": {
+   "apn_nn": 166755,
+   "dup_pct": 0.0,
+   "state": "NC"
+  },
+  "37069": {
+   "apn_nn": 47980,
+   "dup_pct": 1.125,
+   "state": "NC"
+  },
+  "37071": {
+   "apn_nn": 117252,
+   "dup_pct": 0.016,
+   "state": "NC"
+  },
+  "37073": {
+   "apn_nn": 7949,
+   "dup_pct": 0.189,
+   "state": "NC"
+  },
+  "37075": {
+   "apn_nn": 9331,
+   "dup_pct": 0.429,
+   "state": "NC"
+  },
+  "37077": {
+   "apn_nn": 34601,
+   "dup_pct": 0.104,
+   "state": "NC"
+  },
+  "37079": {
+   "apn_nn": 12707,
+   "dup_pct": 2.534,
+   "state": "NC"
+  },
+  "37081": {
+   "apn_nn": 222439,
+   "dup_pct": 0.001,
+   "state": "NC"
+  },
+  "37083": {
+   "apn_nn": 39393,
+   "dup_pct": 0.188,
+   "state": "NC"
+  },
+  "37085": {
+   "apn_nn": 84508,
+   "dup_pct": 0.0,
+   "state": "NC"
+  },
+  "37087": {
+   "apn_nn": 53177,
+   "dup_pct": 5.002,
+   "state": "NC"
+  },
+  "37089": {
+   "apn_nn": 75373,
+   "dup_pct": 9.365,
+   "state": "NC"
+  },
+  "37091": {
+   "apn_nn": 15984,
+   "dup_pct": 0.056,
+   "state": "NC"
+  },
+  "37093": {
+   "apn_nn": 30523,
+   "dup_pct": 3.401,
+   "state": "NC"
+  },
+  "37095": {
+   "apn_nn": 7698,
+   "dup_pct": 7.443,
+   "state": "NC"
+  },
+  "37097": {
+   "apn_nn": 109254,
+   "dup_pct": 0.0,
+   "state": "NC"
+  },
+  "37099": {
+   "apn_nn": 41375,
+   "dup_pct": 0.203,
+   "state": "NC"
+  },
+  "37101": {
+   "apn_nn": 125112,
+   "dup_pct": 0.058,
+   "state": "NC"
+  },
+  "37103": {
+   "apn_nn": 9351,
+   "dup_pct": 0.064,
+   "state": "NC"
+  },
+  "37105": {
+   "apn_nn": 34624,
+   "dup_pct": 0.02,
+   "state": "NC"
+  },
+  "37107": {
+   "apn_nn": 36137,
+   "dup_pct": 0.44,
+   "state": "NC"
+  },
+  "37109": {
+   "apn_nn": 56862,
+   "dup_pct": 5.23,
+   "state": "NC"
+  },
+  "37111": {
+   "apn_nn": 33440,
+   "dup_pct": 3.391,
+   "state": "NC"
+  },
+  "37113": {
+   "apn_nn": 44545,
+   "dup_pct": 0.123,
+   "state": "NC"
+  },
+  "37115": {
+   "apn_nn": 21102,
+   "dup_pct": 6.601,
+   "state": "NC"
+  },
+  "37117": {
+   "apn_nn": 17302,
+   "dup_pct": 0.133,
+   "state": "NC"
+  },
+  "37119": {
+   "apn_nn": 442287,
+   "dup_pct": 4.316,
+   "state": "NC"
+  },
+  "37121": {
+   "apn_nn": 17509,
+   "dup_pct": 3.678,
+   "state": "NC"
+  },
+  "37123": {
+   "apn_nn": 30174,
+   "dup_pct": 1.087,
+   "state": "NC"
+  },
+  "37125": {
+   "apn_nn": 76657,
+   "dup_pct": 2.348,
+   "state": "NC"
+  },
+  "37127": {
+   "apn_nn": 55606,
+   "dup_pct": 0.0,
+   "state": "NC"
+  },
+  "37129": {
+   "apn_nn": 103484,
+   "dup_pct": 0.072,
+   "state": "NC"
+  },
+  "37131": {
+   "apn_nn": 20286,
+   "dup_pct": 0.345,
+   "state": "NC"
+  },
+  "37133": {
+   "apn_nn": 95282,
+   "dup_pct": 0.087,
+   "state": "NC"
+  },
+  "37135": {
+   "apn_nn": 59365,
+   "dup_pct": 0.0,
+   "state": "NC"
+  },
+  "37137": {
+   "apn_nn": 17101,
+   "dup_pct": 0.076,
+   "state": "NC"
+  },
+  "37139": {
+   "apn_nn": 22787,
+   "dup_pct": 0.399,
+   "state": "NC"
+  },
+  "37141": {
+   "apn_nn": 54770,
+   "dup_pct": 0.467,
+   "state": "NC"
+  },
+  "37143": {
+   "apn_nn": 14953,
+   "dup_pct": 0.595,
+   "state": "NC"
+  },
+  "37145": {
+   "apn_nn": 28272,
+   "dup_pct": 0.336,
+   "state": "NC"
+  },
+  "37147": {
+   "apn_nn": 80993,
+   "dup_pct": 0.472,
+   "state": "NC"
+  },
+  "37149": {
+   "apn_nn": 18161,
+   "dup_pct": 5.005,
+   "state": "NC"
+  },
+  "37151": {
+   "apn_nn": 80940,
+   "dup_pct": 0.001,
+   "state": "NC"
+  },
+  "37153": {
+   "apn_nn": 32603,
+   "dup_pct": 2.291,
+   "state": "NC"
+  },
+  "37155": {
+   "apn_nn": 80281,
+   "dup_pct": 1.186,
+   "state": "NC"
+  },
+  "37157": {
+   "apn_nn": 56295,
+   "dup_pct": 2.48,
+   "state": "NC"
+  },
+  "37159": {
+   "apn_nn": 83280,
+   "dup_pct": 0.107,
+   "state": "NC"
+  },
+  "37161": {
+   "apn_nn": 57587,
+   "dup_pct": 0.01,
+   "state": "NC"
+  },
+  "37163": {
+   "apn_nn": 50414,
+   "dup_pct": 0.845,
+   "state": "NC"
+  },
+  "37165": {
+   "apn_nn": 21990,
+   "dup_pct": 0.05,
+   "state": "NC"
+  },
+  "37167": {
+   "apn_nn": 43865,
+   "dup_pct": 3.212,
+   "state": "NC"
+  },
+  "37169": {
+   "apn_nn": 31944,
+   "dup_pct": 0.094,
+   "state": "NC"
+  },
+  "37171": {
+   "apn_nn": 44416,
+   "dup_pct": 0.185,
+   "state": "NC"
+  },
+  "37173": {
+   "apn_nn": 12668,
+   "dup_pct": 0.0,
+   "state": "NC"
+  },
+  "37175": {
+   "apn_nn": 31746,
+   "dup_pct": 8.08,
+   "state": "NC"
+  },
+  "37177": {
+   "apn_nn": 4344,
+   "dup_pct": 0.368,
+   "state": "NC"
+  },
+  "37179": {
+   "apn_nn": 116330,
+   "dup_pct": 0.192,
+   "state": "NC"
+  },
+  "37181": {
+   "apn_nn": 26437,
+   "dup_pct": 0.45,
+   "state": "NC"
+  },
+  "37183": {
+   "apn_nn": 435381,
+   "dup_pct": 0.0,
+   "state": "NC"
+  },
+  "37185": {
+   "apn_nn": 23427,
+   "dup_pct": 2.292,
+   "state": "NC"
+  },
+  "37187": {
+   "apn_nn": 10302,
+   "dup_pct": 1.398,
+   "state": "NC"
+  },
+  "37189": {
+   "apn_nn": 46870,
+   "dup_pct": 1.319,
+   "state": "NC"
+  },
+  "37191": {
+   "apn_nn": 70711,
+   "dup_pct": 2.456,
+   "state": "NC"
+  },
+  "37193": {
+   "apn_nn": 52582,
+   "dup_pct": 3.783,
+   "state": "NC"
+  },
+  "37195": {
+   "apn_nn": 43270,
+   "dup_pct": 4.516,
+   "state": "NC"
+  },
+  "37197": {
+   "apn_nn": 28320,
+   "dup_pct": 0.607,
+   "state": "NC"
+  },
+  "37199": {
+   "apn_nn": 17368,
+   "dup_pct": 0.967,
+   "state": "NC"
+  },
+  "38001": {
+   "apn_nn": 5174,
+   "dup_pct": 0.097,
+   "state": "ND"
+  },
+  "38003": {
+   "apn_nn": 9039,
+   "dup_pct": 0.288,
+   "state": "ND"
+  },
+  "38005": {
+   "apn_nn": 8785,
+   "dup_pct": 0.398,
+   "state": "ND"
+  },
+  "38007": {
+   "apn_nn": 2256,
+   "dup_pct": 0.0,
+   "state": "ND"
+  },
+  "38009": {
+   "apn_nn": 18040,
+   "dup_pct": 7.19,
+   "state": "ND"
+  },
+  "38011": {
+   "apn_nn": 6282,
+   "dup_pct": 0.0,
+   "state": "ND"
+  },
+  "38013": {
+   "apn_nn": 8262,
+   "dup_pct": 8.497,
+   "state": "ND"
+  },
+  "38015": {
+   "apn_nn": 48683,
+   "dup_pct": 0.012,
+   "state": "ND"
+  },
+  "38017": {
+   "apn_nn": 75038,
+   "dup_pct": 0.011,
+   "state": "ND"
+  },
+  "38019": {
+   "apn_nn": 13359,
+   "dup_pct": 4.222,
+   "state": "ND"
+  },
+  "38021": {
+   "apn_nn": 6711,
+   "dup_pct": 1.773,
+   "state": "ND"
+  },
+  "38023": {
+   "apn_nn": 8530,
+   "dup_pct": 6.295,
+   "state": "ND"
+  },
+  "38025": {
+   "apn_nn": 9837,
+   "dup_pct": 3.111,
+   "state": "ND"
+  },
+  "38027": {
+   "apn_nn": 5565,
+   "dup_pct": 3.54,
+   "state": "ND"
+  },
+  "38029": {
+   "apn_nn": 9867,
+   "dup_pct": 0.78,
+   "state": "ND"
+  },
+  "38031": {
+   "apn_nn": 3488,
+   "dup_pct": 4.472,
+   "state": "ND"
+  },
+  "38033": {
+   "apn_nn": 3732,
+   "dup_pct": 6.994,
+   "state": "ND"
+  },
+  "38035": {
+   "apn_nn": 32167,
+   "dup_pct": 0.485,
+   "state": "ND"
+  },
+  "38037": {
+   "apn_nn": 7826,
+   "dup_pct": 1.265,
+   "state": "ND"
+  },
+  "38039": {
+   "apn_nn": 3551,
+   "dup_pct": 0.676,
+   "state": "ND"
+  },
+  "38041": {
+   "apn_nn": 5240,
+   "dup_pct": 0.134,
+   "state": "ND"
+  },
+  "38043": {
+   "apn_nn": 6716,
+   "dup_pct": 2.71,
+   "state": "ND"
+  },
+  "38045": {
+   "apn_nn": 9321,
+   "dup_pct": 1.169,
+   "state": "ND"
+  },
+  "38047": {
+   "apn_nn": 5322,
+   "dup_pct": 1.672,
+   "state": "ND"
+  },
+  "38049": {
+   "apn_nn": 15419,
+   "dup_pct": 7.056,
+   "state": "ND"
+  },
+  "38051": {
+   "apn_nn": 6671,
+   "dup_pct": 0.765,
+   "state": "ND"
+  },
+  "38053": {
+   "apn_nn": 18398,
+   "dup_pct": 5.626,
+   "state": "ND"
+  },
+  "38055": {
+   "apn_nn": 19412,
+   "dup_pct": 6.547,
+   "state": "ND"
+  },
+  "38057": {
+   "apn_nn": 6519,
+   "dup_pct": 0.0,
+   "state": "ND"
+  },
+  "38059": {
+   "apn_nn": 23645,
+   "dup_pct": 0.004,
+   "state": "ND"
+  },
+  "38061": {
+   "apn_nn": 17122,
+   "dup_pct": 5.905,
+   "state": "ND"
+  },
+  "38063": {
+   "apn_nn": 5431,
+   "dup_pct": 0.0,
+   "state": "ND"
+  },
+  "38065": {
+   "apn_nn": 7068,
+   "dup_pct": 42.516,
+   "state": "ND"
+  },
+  "38067": {
+   "apn_nn": 12928,
+   "dup_pct": 0.534,
+   "state": "ND"
+  },
+  "38069": {
+   "apn_nn": 6615,
+   "dup_pct": 1.406,
+   "state": "ND"
+  },
+  "38071": {
+   "apn_nn": 14693,
+   "dup_pct": 0.0,
+   "state": "ND"
+  },
+  "38073": {
+   "apn_nn": 8600,
+   "dup_pct": 13.64,
+   "state": "ND"
+  },
+  "38075": {
+   "apn_nn": 7951,
+   "dup_pct": 14.942,
+   "state": "ND"
+  },
+  "38077": {
+   "apn_nn": 17680,
+   "dup_pct": 12.545,
+   "state": "ND"
+  },
+  "38079": {
+   "apn_nn": 5534,
+   "dup_pct": 1.915,
+   "state": "ND"
+  },
+  "38081": {
+   "apn_nn": 7691,
+   "dup_pct": 2.431,
+   "state": "ND"
+  },
+  "38083": {
+   "apn_nn": 5792,
+   "dup_pct": 0.0,
+   "state": "ND"
+  },
+  "38085": {
+   "apn_nn": 3244,
+   "dup_pct": 0.586,
+   "state": "ND"
+  },
+  "38087": {
+   "apn_nn": 3090,
+   "dup_pct": 0.0,
+   "state": "ND"
+  },
+  "38089": {
+   "apn_nn": 25170,
+   "dup_pct": 13.905,
+   "state": "ND"
+  },
+  "38091": {
+   "apn_nn": 5904,
+   "dup_pct": 0.136,
+   "state": "ND"
+  },
+  "38093": {
+   "apn_nn": 15995,
+   "dup_pct": 0.031,
+   "state": "ND"
+  },
+  "38095": {
+   "apn_nn": 5309,
+   "dup_pct": 5.236,
+   "state": "ND"
+  },
+  "38097": {
+   "apn_nn": 10427,
+   "dup_pct": 4.057,
+   "state": "ND"
+  },
+  "38099": {
+   "apn_nn": 13085,
+   "dup_pct": 0.191,
+   "state": "ND"
+  },
+  "38101": {
+   "apn_nn": 40923,
+   "dup_pct": 2.659,
+   "state": "ND"
+  },
+  "38103": {
+   "apn_nn": 7833,
+   "dup_pct": 2.872,
+   "state": "ND"
+  },
+  "38105": {
+   "apn_nn": 34047,
+   "dup_pct": 0.015,
+   "state": "ND"
+  },
+  "39001": {
+   "apn_nn": 21539,
+   "dup_pct": 0.065,
+   "state": "OH"
+  },
+  "39003": {
+   "apn_nn": 52684,
+   "dup_pct": 0.0,
+   "state": "OH"
+  },
+  "39005": {
+   "apn_nn": 35283,
+   "dup_pct": 8.579,
+   "state": "OH"
+  },
+  "39007": {
+   "apn_nn": 74711,
+   "dup_pct": 0.977,
+   "state": "OH"
+  },
+  "39009": {
+   "apn_nn": 42349,
+   "dup_pct": 3.828,
+   "state": "OH"
+  },
+  "39011": {
+   "apn_nn": 28715,
+   "dup_pct": 0.003,
+   "state": "OH"
+  },
+  "39013": {
+   "apn_nn": 64261,
+   "dup_pct": 8.378,
+   "state": "OH"
+  },
+  "39015": {
+   "apn_nn": 37677,
+   "dup_pct": 9.029,
+   "state": "OH"
+  },
+  "39017": {
+   "apn_nn": 166354,
+   "dup_pct": 0.297,
+   "state": "OH"
+  },
+  "39019": {
+   "apn_nn": 28493,
+   "dup_pct": 1.607,
+   "state": "OH"
+  },
+  "39021": {
+   "apn_nn": 26565,
+   "dup_pct": 2.356,
+   "state": "OH"
+  },
+  "39023": {
+   "apn_nn": 66200,
+   "dup_pct": 0.006,
+   "state": "OH"
+  },
+  "39025": {
+   "apn_nn": 98507,
+   "dup_pct": 2.101,
+   "state": "OH"
+  },
+  "39027": {
+   "apn_nn": 26957,
+   "dup_pct": 3.276,
+   "state": "OH"
+  },
+  "39029": {
+   "apn_nn": 73674,
+   "dup_pct": 0.141,
+   "state": "OH"
+  },
+  "39031": {
+   "apn_nn": 27577,
+   "dup_pct": 1.527,
+   "state": "OH"
+  },
+  "39033": {
+   "apn_nn": 33643,
+   "dup_pct": 0.009,
+   "state": "OH"
+  },
+  "39035": {
+   "apn_nn": 483784,
+   "dup_pct": 0.0,
+   "state": "OH"
+  },
+  "39037": {
+   "apn_nn": 31362,
+   "dup_pct": 0.823,
+   "state": "OH"
+  },
+  "39039": {
+   "apn_nn": 26669,
+   "dup_pct": 1.897,
+   "state": "OH"
+  },
+  "39041": {
+   "apn_nn": 95456,
+   "dup_pct": 1.159,
+   "state": "OH"
+  },
+  "39043": {
+   "apn_nn": 45863,
+   "dup_pct": 0.017,
+   "state": "OH"
+  },
+  "39045": {
+   "apn_nn": 74935,
+   "dup_pct": 0.001,
+   "state": "OH"
+  },
+  "39047": {
+   "apn_nn": 17600,
+   "dup_pct": 2.068,
+   "state": "OH"
+  },
+  "39049": {
+   "apn_nn": 463956,
+   "dup_pct": 0.217,
+   "state": "OH"
+  },
+  "39051": {
+   "apn_nn": 23485,
+   "dup_pct": 0.524,
+   "state": "OH"
+  },
+  "39053": {
+   "apn_nn": 22782,
+   "dup_pct": 1.444,
+   "state": "OH"
+  },
+  "39055": {
+   "apn_nn": 50768,
+   "dup_pct": 0.0,
+   "state": "OH"
+  },
+  "39057": {
+   "apn_nn": 76211,
+   "dup_pct": 0.005,
+   "state": "OH"
+  },
+  "39059": {
+   "apn_nn": 40668,
+   "dup_pct": 1.667,
+   "state": "OH"
+  },
+  "39061": {
+   "apn_nn": 352812,
+   "dup_pct": 0.08,
+   "state": "OH"
+  },
+  "39063": {
+   "apn_nn": 38618,
+   "dup_pct": 1.8,
+   "state": "OH"
+  },
+  "39065": {
+   "apn_nn": 25981,
+   "dup_pct": 0.008,
+   "state": "OH"
+  },
+  "39067": {
+   "apn_nn": 17821,
+   "dup_pct": 0.87,
+   "state": "OH"
+  },
+  "39069": {
+   "apn_nn": 19612,
+   "dup_pct": 0.082,
+   "state": "OH"
+  },
+  "39071": {
+   "apn_nn": 32021,
+   "dup_pct": 0.125,
+   "state": "OH"
+  },
+  "39073": {
+   "apn_nn": 22731,
+   "dup_pct": 8.715,
+   "state": "OH"
+  },
+  "39075": {
+   "apn_nn": 28265,
+   "dup_pct": 0.081,
+   "state": "OH"
+  },
+  "39077": {
+   "apn_nn": 40261,
+   "dup_pct": 1.937,
+   "state": "OH"
+  },
+  "39079": {
+   "apn_nn": 30617,
+   "dup_pct": 8.982,
+   "state": "OH"
+  },
+  "39081": {
+   "apn_nn": 58394,
+   "dup_pct": 4.649,
+   "state": "OH"
+  },
+  "39083": {
+   "apn_nn": 41756,
+   "dup_pct": 0.0,
+   "state": "OH"
+  },
+  "39085": {
+   "apn_nn": 114369,
+   "dup_pct": 1.563,
+   "state": "OH"
+  },
+  "39087": {
+   "apn_nn": 54015,
+   "dup_pct": 3.075,
+   "state": "OH"
+  },
+  "39089": {
+   "apn_nn": 95308,
+   "dup_pct": 15.509,
+   "state": "OH"
+  },
+  "39091": {
+   "apn_nn": 36911,
+   "dup_pct": 1.019,
+   "state": "OH"
+  },
+  "39093": {
+   "apn_nn": 169011,
+   "dup_pct": 0.062,
+   "state": "OH"
+  },
+  "39095": {
+   "apn_nn": 204714,
+   "dup_pct": 0.876,
+   "state": "OH"
+  },
+  "39097": {
+   "apn_nn": 24718,
+   "dup_pct": 11.534,
+   "state": "OH"
+  },
+  "39099": {
+   "apn_nn": 160965,
+   "dup_pct": 1.082,
+   "state": "OH"
+  },
+  "39101": {
+   "apn_nn": 37768,
+   "dup_pct": 8.216,
+   "state": "OH"
+  },
+  "39103": {
+   "apn_nn": 132617,
+   "dup_pct": 35.952,
+   "state": "OH"
+  },
+  "39105": {
+   "apn_nn": 30234,
+   "dup_pct": 0.337,
+   "state": "OH"
+  },
+  "39107": {
+   "apn_nn": 25556,
+   "dup_pct": 0.673,
+   "state": "OH"
+  },
+  "39109": {
+   "apn_nn": 53076,
+   "dup_pct": 0.309,
+   "state": "OH"
+  },
+  "39111": {
+   "apn_nn": 17369,
+   "dup_pct": 1.744,
+   "state": "OH"
+  },
+  "39113": {
+   "apn_nn": 273036,
+   "dup_pct": 0.147,
+   "state": "OH"
+  },
+  "39115": {
+   "apn_nn": 19080,
+   "dup_pct": 0.535,
+   "state": "OH"
+  },
+  "39117": {
+   "apn_nn": 28199,
+   "dup_pct": 4.734,
+   "state": "OH"
+  },
+  "39119": {
+   "apn_nn": 57474,
+   "dup_pct": 0.491,
+   "state": "OH"
+  },
+  "39121": {
+   "apn_nn": 16449,
+   "dup_pct": 0.815,
+   "state": "OH"
+  },
+  "39123": {
+   "apn_nn": 48779,
+   "dup_pct": 23.598,
+   "state": "OH"
+  },
+  "39125": {
+   "apn_nn": 17821,
+   "dup_pct": 0.64,
+   "state": "OH"
+  },
+  "39127": {
+   "apn_nn": 30128,
+   "dup_pct": 13.685,
+   "state": "OH"
+  },
+  "39129": {
+   "apn_nn": 30631,
+   "dup_pct": 4.355,
+   "state": "OH"
+  },
+  "39131": {
+   "apn_nn": 24019,
+   "dup_pct": 1.195,
+   "state": "OH"
+  },
+  "39133": {
+   "apn_nn": 101827,
+   "dup_pct": 25.91,
+   "state": "OH"
+  },
+  "39135": {
+   "apn_nn": 38094,
+   "dup_pct": 36.224,
+   "state": "OH"
+  },
+  "39137": {
+   "apn_nn": 30160,
+   "dup_pct": 0.0,
+   "state": "OH"
+  },
+  "39139": {
+   "apn_nn": 73367,
+   "dup_pct": 0.677,
+   "state": "OH"
+  },
+  "39141": {
+   "apn_nn": 44709,
+   "dup_pct": 3.724,
+   "state": "OH"
+  },
+  "39143": {
+   "apn_nn": 33370,
+   "dup_pct": 1.055,
+   "state": "OH"
+  },
+  "39145": {
+   "apn_nn": 58396,
+   "dup_pct": 3.534,
+   "state": "OH"
+  },
+  "39147": {
+   "apn_nn": 45885,
+   "dup_pct": 24.79,
+   "state": "OH"
+  },
+  "39149": {
+   "apn_nn": 31513,
+   "dup_pct": 0.333,
+   "state": "OH"
+  },
+  "39151": {
+   "apn_nn": 201244,
+   "dup_pct": 0.072,
+   "state": "OH"
+  },
+  "39153": {
+   "apn_nn": 260290,
+   "dup_pct": 0.006,
+   "state": "OH"
+  },
+  "39155": {
+   "apn_nn": 134337,
+   "dup_pct": 0.539,
+   "state": "OH"
+  },
+  "39157": {
+   "apn_nn": 60413,
+   "dup_pct": 0.776,
+   "state": "OH"
+  },
+  "39159": {
+   "apn_nn": 33549,
+   "dup_pct": 1.282,
+   "state": "OH"
+  },
+  "39161": {
+   "apn_nn": 19685,
+   "dup_pct": 0.147,
+   "state": "OH"
+  },
+  "39163": {
+   "apn_nn": 12708,
+   "dup_pct": 2.125,
+   "state": "OH"
+  },
+  "39165": {
+   "apn_nn": 106196,
+   "dup_pct": 0.075,
+   "state": "OH"
+  },
+  "39167": {
+   "apn_nn": 62007,
+   "dup_pct": 5.419,
+   "state": "OH"
+  },
+  "39169": {
+   "apn_nn": 57191,
+   "dup_pct": 0.675,
+   "state": "OH"
+  },
+  "39171": {
+   "apn_nn": 26089,
+   "dup_pct": 1.767,
+   "state": "OH"
+  },
+  "39173": {
+   "apn_nn": 71890,
+   "dup_pct": 1.205,
+   "state": "OH"
+  },
+  "39175": {
+   "apn_nn": 20259,
+   "dup_pct": 0.928,
+   "state": "OH"
+  },
+  "40001": {
+   "apn_nn": 17154,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40003": {
+   "apn_nn": 7835,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40005": {
+   "apn_nn": 13646,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40007": {
+   "apn_nn": 9147,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40009": {
+   "apn_nn": 16171,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40011": {
+   "apn_nn": 11674,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40013": {
+   "apn_nn": 33561,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40015": {
+   "apn_nn": 23218,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40017": {
+   "apn_nn": 82001,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40019": {
+   "apn_nn": 30774,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40021": {
+   "apn_nn": 35266,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40023": {
+   "apn_nn": 14044,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40025": {
+   "apn_nn": 7081,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40027": {
+   "apn_nn": 116801,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40029": {
+   "apn_nn": 8252,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40031": {
+   "apn_nn": 56808,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40033": {
+   "apn_nn": 7705,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40035": {
+   "apn_nn": 11419,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40037": {
+   "apn_nn": 45975,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40039": {
+   "apn_nn": 18966,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40041": {
+   "apn_nn": 50460,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40043": {
+   "apn_nn": 7599,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40045": {
+   "apn_nn": 7951,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40047": {
+   "apn_nn": 35048,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40049": {
+   "apn_nn": 20461,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40051": {
+   "apn_nn": 35872,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40053": {
+   "apn_nn": 8547,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40055": {
+   "apn_nn": 6775,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40057": {
+   "apn_nn": 4465,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40059": {
+   "apn_nn": 6791,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40061": {
+   "apn_nn": 12515,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40063": {
+   "apn_nn": 12599,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40065": {
+   "apn_nn": 19505,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40067": {
+   "apn_nn": 7812,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40069": {
+   "apn_nn": 11356,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40071": {
+   "apn_nn": 30289,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40073": {
+   "apn_nn": 13398,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40075": {
+   "apn_nn": 12819,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40077": {
+   "apn_nn": 12103,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40079": {
+   "apn_nn": 41563,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40081": {
+   "apn_nn": 26991,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40083": {
+   "apn_nn": 34952,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40085": {
+   "apn_nn": 12359,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40087": {
+   "apn_nn": 27558,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40089": {
+   "apn_nn": 35693,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40091": {
+   "apn_nn": 27450,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40093": {
+   "apn_nn": 8535,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40095": {
+   "apn_nn": 17385,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40097": {
+   "apn_nn": 28694,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40099": {
+   "apn_nn": 14113,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40101": {
+   "apn_nn": 15056,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40103": {
+   "apn_nn": 10596,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40105": {
+   "apn_nn": 9692,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40107": {
+   "apn_nn": 11086,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40109": {
+   "apn_nn": 326678,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40111": {
+   "apn_nn": 27557,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40113": {
+   "apn_nn": 41849,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40115": {
+   "apn_nn": 22101,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40117": {
+   "apn_nn": 14903,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40119": {
+   "apn_nn": 35269,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40121": {
+   "apn_nn": 44653,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40123": {
+   "apn_nn": 25503,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40125": {
+   "apn_nn": 41361,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40127": {
+   "apn_nn": 16593,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40129": {
+   "apn_nn": 6839,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40131": {
+   "apn_nn": 48998,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40133": {
+   "apn_nn": 20555,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40135": {
+   "apn_nn": 31322,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40137": {
+   "apn_nn": 28749,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40139": {
+   "apn_nn": 16186,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40141": {
+   "apn_nn": 10546,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40143": {
+   "apn_nn": 275016,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40145": {
+   "apn_nn": 44550,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40147": {
+   "apn_nn": 28897,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40149": {
+   "apn_nn": 12182,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40151": {
+   "apn_nn": 11521,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "40153": {
+   "apn_nn": 16965,
+   "dup_pct": 0.0,
+   "state": "OK"
+  },
+  "41001": {
+   "apn_nn": 16660,
+   "dup_pct": 95.534,
+   "state": "OR"
+  },
+  "41003": {
+   "apn_nn": 107954,
+   "dup_pct": 67.241,
+   "state": "OR"
+  },
+  "41005": {
+   "apn_nn": 163550,
+   "dup_pct": 0.004,
+   "state": "OR"
+  },
+  "41007": {
+   "apn_nn": 35456,
+   "dup_pct": 7.485,
+   "state": "OR"
+  },
+  "41009": {
+   "apn_nn": 28807,
+   "dup_pct": 6.019,
+   "state": "OR"
+  },
+  "41011": {
+   "apn_nn": 42054,
+   "dup_pct": 95.824,
+   "state": "OR"
+  },
+  "41013": {
+   "apn_nn": 17555,
+   "dup_pct": 0.017,
+   "state": "OR"
+  },
+  "41015": {
+   "apn_nn": 21923,
+   "dup_pct": 17.913,
+   "state": "OR"
+  },
+  "41017": {
+   "apn_nn": 109449,
+   "dup_pct": 0.037,
+   "state": "OR"
+  },
+  "41019": {
+   "apn_nn": 68894,
+   "dup_pct": 0.038,
+   "state": "OR"
+  },
+  "41021": {
+   "apn_nn": 3190,
+   "dup_pct": 85.235,
+   "state": "OR"
+  },
+  "41025": {
+   "apn_nn": 10931,
+   "dup_pct": 95.709,
+   "state": "OR"
+  },
+  "41027": {
+   "apn_nn": 11860,
+   "dup_pct": 0.0,
+   "state": "OR"
+  },
+  "41029": {
+   "apn_nn": 104748,
+   "dup_pct": 95.149,
+   "state": "OR"
+  },
+  "41031": {
+   "apn_nn": 4667,
+   "dup_pct": 82.687,
+   "state": "OR"
+  },
+  "41033": {
+   "apn_nn": 41978,
+   "dup_pct": 94.438,
+   "state": "OR"
+  },
+  "41035": {
+   "apn_nn": 61223,
+   "dup_pct": 0.962,
+   "state": "OR"
+  },
+  "41037": {
+   "apn_nn": 18038,
+   "dup_pct": 95.099,
+   "state": "OR"
+  },
+  "41039": {
+   "apn_nn": 159112,
+   "dup_pct": 0.256,
+   "state": "OR"
+  },
+  "41041": {
+   "apn_nn": 44925,
+   "dup_pct": 48.654,
+   "state": "OR"
+  },
+  "41043": {
+   "apn_nn": 54595,
+   "dup_pct": 0.0,
+   "state": "OR"
+  },
+  "41045": {
+   "apn_nn": 20570,
+   "dup_pct": 10.073,
+   "note": "2026-09-28 accepted: source-inherent multi-part taxlots after the repoint to County_GIS_Portal_WFL1/FeatureServer/16 (apn = MapTaxlot; 3,386 rows in 1,314 APN groups, 0 identical apn+geometry twins, every group single-owner; prior 1-row stub was the 0.0%)",
+   "state": "OR"
+  },
+  "41047": {
+   "apn_nn": 115946,
+   "dup_pct": 0.0,
+   "state": "OR"
+  },
+  "41049": {
+   "apn_nn": 8423,
+   "dup_pct": 4.749,
+   "state": "OR"
+  },
+  "41051": {
+   "apn_nn": 284293,
+   "dup_pct": 0.007,
+   "state": "OR"
+  },
+  "41053": {
+   "apn_nn": 35271,
+   "dup_pct": 0.754,
+   "state": "OR"
+  },
+  "41057": {
+   "apn_nn": 29881,
+   "dup_pct": 0.097,
+   "state": "OR"
+  },
+  "41059": {
+   "apn_nn": 44752,
+   "dup_pct": 95.705,
+   "state": "OR"
+  },
+  "41061": {
+   "apn_nn": 14992,
+   "dup_pct": 2.928,
+   "state": "OR"
+  },
+  "41065": {
+   "apn_nn": 15511,
+   "dup_pct": 0.258,
+   "state": "OR"
+  },
+  "41067": {
+   "apn_nn": 201106,
+   "dup_pct": 0.493,
+   "state": "OR"
+  },
+  "41069": {
+   "apn_nn": 2679,
+   "dup_pct": 83.539,
+   "state": "OR"
+  },
+  "41071": {
+   "apn_nn": 51476,
+   "dup_pct": 5.34,
+   "state": "OR"
+  },
+  "42001": {
+   "apn_nn": 46646,
+   "dup_pct": 3.484,
+   "state": "PA"
+  },
+  "42003": {
+   "apn_nn": 584269,
+   "dup_pct": 0.0,
+   "state": "PA"
+  },
+  "42007": {
+   "apn_nn": 94078,
+   "dup_pct": 4.322,
+   "state": "PA"
+  },
+  "42009": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "PA"
+  },
+  "42011": {
+   "apn_nn": 156739,
+   "dup_pct": 0.197,
+   "state": "PA"
+  },
+  "42015": {
+   "apn_nn": 34973,
+   "dup_pct": 0.375,
+   "state": "PA"
+  },
+  "42017": {
+   "apn_nn": 237545,
+   "dup_pct": 0.002,
+   "state": "PA"
+  },
+  "42019": {
+   "apn_nn": 99005,
+   "dup_pct": 0.086,
+   "state": "PA"
+  },
+  "42021": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "PA"
+  },
+  "42023": {
+   "apn_nn": 5418,
+   "dup_pct": 6.792,
+   "state": "PA"
+  },
+  "42025": {
+   "apn_nn": 46534,
+   "dup_pct": 7.24,
+   "state": "PA"
+  },
+  "42029": {
+   "apn_nn": 192868,
+   "dup_pct": 0.276,
+   "state": "PA"
+  },
+  "42031": {
+   "apn_nn": 25978,
+   "dup_pct": 0.385,
+   "state": "PA"
+  },
+  "42033": {
+   "apn_nn": 70037,
+   "dup_pct": 12.999,
+   "state": "PA"
+  },
+  "42035": {
+   "apn_nn": 33342,
+   "dup_pct": 11.361,
+   "state": "PA"
+  },
+  "42037": {
+   "apn_nn": 34249,
+   "dup_pct": 4.672,
+   "state": "PA"
+  },
+  "42039": {
+   "apn_nn": 59705,
+   "dup_pct": 0.456,
+   "state": "PA"
+  },
+  "42041": {
+   "apn_nn": 104034,
+   "dup_pct": 9.928,
+   "state": "PA"
+  },
+  "42043": {
+   "apn_nn": 114557,
+   "dup_pct": 1.109,
+   "state": "PA"
+  },
+  "42045": {
+   "apn_nn": 204531,
+   "dup_pct": 6.22,
+   "state": "PA"
+  },
+  "42049": {
+   "apn_nn": 113168,
+   "dup_pct": 0.122,
+   "state": "PA"
+  },
+  "42051": {
+   "apn_nn": 77803,
+   "dup_pct": 0.004,
+   "state": "PA"
+  },
+  "42053": {
+   "apn_nn": 11312,
+   "dup_pct": 0.071,
+   "state": "PA"
+  },
+  "42055": {
+   "apn_nn": 20375,
+   "dup_pct": 63.072,
+   "state": "PA"
+  },
+  "42059": {
+   "apn_nn": 31042,
+   "dup_pct": 7.731,
+   "state": "PA"
+  },
+  "42061": {
+   "apn_nn": 30092,
+   "dup_pct": 0.209,
+   "state": "PA"
+  },
+  "42065": {
+   "apn_nn": 33295,
+   "dup_pct": 4.295,
+   "state": "PA"
+  },
+  "42069": {
+   "apn_nn": 101844,
+   "dup_pct": 0.567,
+   "state": "PA"
+  },
+  "42071": {
+   "apn_nn": 188813,
+   "dup_pct": 0.085,
+   "state": "PA"
+  },
+  "42073": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "PA"
+  },
+  "42075": {
+   "apn_nn": 54295,
+   "dup_pct": 0.015,
+   "state": "PA"
+  },
+  "42077": {
+   "apn_nn": 135846,
+   "dup_pct": 6.458,
+   "state": "PA"
+  },
+  "42079": {
+   "apn_nn": 176350,
+   "dup_pct": 6.724,
+   "state": "PA"
+  },
+  "42081": {
+   "apn_nn": 51444,
+   "dup_pct": 0.01,
+   "state": "PA"
+  },
+  "42083": {
+   "apn_nn": 27503,
+   "dup_pct": 1.905,
+   "state": "PA"
+  },
+  "42085": {
+   "apn_nn": 58006,
+   "dup_pct": 0.009,
+   "state": "PA"
+  },
+  "42087": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "PA"
+  },
+  "42089": {
+   "apn_nn": 98083,
+   "dup_pct": 0.022,
+   "state": "PA"
+  },
+  "42091": {
+   "apn_nn": 302704,
+   "dup_pct": 0.397,
+   "state": "PA"
+  },
+  "42095": {
+   "apn_nn": 122378,
+   "dup_pct": 0.875,
+   "state": "PA"
+  },
+  "42097": {
+   "apn_nn": 51989,
+   "dup_pct": 6.599,
+   "state": "PA"
+  },
+  "42101": {
+   "apn_nn": 583624,
+   "dup_pct": 0.0,
+   "state": "PA"
+  },
+  "42103": {
+   "apn_nn": 62815,
+   "dup_pct": 0.013,
+   "state": "PA"
+  },
+  "42105": {
+   "apn_nn": 17283,
+   "dup_pct": 4.316,
+   "state": "PA"
+  },
+  "42107": {
+   "apn_nn": 89900,
+   "dup_pct": 0.01,
+   "state": "PA"
+  },
+  "42109": {
+   "apn_nn": 24175,
+   "dup_pct": 7.793,
+   "state": "PA"
+  },
+  "42111": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "PA"
+  },
+  "42115": {
+   "apn_nn": 28440,
+   "dup_pct": 0.949,
+   "state": "PA"
+  },
+  "42117": {
+   "apn_nn": 27253,
+   "dup_pct": 3.501,
+   "state": "PA"
+  },
+  "42119": {
+   "apn_nn": 20246,
+   "dup_pct": 17.51,
+   "state": "PA"
+  },
+  "42127": {
+   "apn_nn": 57603,
+   "dup_pct": 0.002,
+   "state": "PA"
+  },
+  "42129": {
+   "apn_nn": 191680,
+   "dup_pct": 2.471,
+   "state": "PA"
+  },
+  "42131": {
+   "apn_nn": 16602,
+   "dup_pct": 1.259,
+   "state": "PA"
+  },
+  "42133": {
+   "apn_nn": 175896,
+   "dup_pct": 96.189,
+   "state": "PA"
+  },
+  "44005": {
+   "apn_nn": 9029,
+   "dup_pct": 1.252,
+   "state": "RI"
+  },
+  "44007": {
+   "apn_nn": 44126,
+   "dup_pct": 8.684,
+   "state": "RI"
+  },
+  "45001": {
+   "apn_nn": 17490,
+   "dup_pct": 0.595,
+   "state": "SC"
+  },
+  "45003": {
+   "apn_nn": 102655,
+   "dup_pct": 0.0,
+   "state": "SC"
+  },
+  "45015": {
+   "apn_nn": 121948,
+   "dup_pct": 0.0,
+   "state": "SC"
+  },
+  "45017": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "SC"
+  },
+  "45019": {
+   "apn_nn": 197269,
+   "dup_pct": 0.068,
+   "state": "SC"
+  },
+  "45027": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "SC"
+  },
+  "45029": {
+   "apn_nn": 34361,
+   "dup_pct": 3.353,
+   "state": "SC"
+  },
+  "45031": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "SC"
+  },
+  "45035": {
+   "apn_nn": 74170,
+   "dup_pct": 0.302,
+   "state": "SC"
+  },
+  "45041": {
+   "apn_nn": 73607,
+   "dup_pct": 0.075,
+   "state": "SC"
+  },
+  "45043": {
+   "apn_nn": 47874,
+   "dup_pct": 4.888,
+   "state": "SC"
+  },
+  "45045": {
+   "apn_nn": 241097,
+   "dup_pct": 0.0,
+   "state": "SC"
+  },
+  "45049": {
+   "apn_nn": 14870,
+   "dup_pct": 0.034,
+   "state": "SC"
+  },
+  "45051": {
+   "apn_nn": 299954,
+   "dup_pct": 0.005,
+   "state": "SC"
+  },
+  "45053": {
+   "apn_nn": 20404,
+   "dup_pct": 3.686,
+   "state": "SC"
+  },
+  "45055": {
+   "apn_nn": 42968,
+   "dup_pct": 0.007,
+   "state": "SC"
+  },
+  "45057": {
+   "apn_nn": 56025,
+   "dup_pct": 0.448,
+   "state": "SC"
+  },
+  "45059": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "SC"
+  },
+  "45061": {
+   "apn_nn": 13618,
+   "dup_pct": 1.806,
+   "state": "SC"
+  },
+  "45063": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "SC"
+  },
+  "45073": {
+   "apn_nn": 13107,
+   "dup_pct": 99.977,
+   "state": "SC"
+  },
+  "45075": {
+   "apn_nn": 61599,
+   "dup_pct": 0.0,
+   "state": "SC"
+  },
+  "45077": {
+   "apn_nn": 66416,
+   "dup_pct": 0.0,
+   "state": "SC"
+  },
+  "45079": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "SC"
+  },
+  "45081": {
+   "apn_nn": 15555,
+   "dup_pct": 1.556,
+   "state": "SC"
+  },
+  "45083": {
+   "apn_nn": 180465,
+   "dup_pct": 0.022,
+   "state": "SC"
+  },
+  "45091": {
+   "apn_nn": 134244,
+   "dup_pct": 0.001,
+   "state": "SC"
+  },
+  "46003": {
+   "apn_nn": 5605,
+   "dup_pct": 6.566,
+   "state": "SD"
+  },
+  "46005": {
+   "apn_nn": 16889,
+   "dup_pct": 9.776,
+   "state": "SD"
+  },
+  "46007": {
+   "apn_nn": 4637,
+   "dup_pct": 31.766,
+   "state": "SD"
+  },
+  "46009": {
+   "apn_nn": 8498,
+   "dup_pct": 4.683,
+   "state": "SD"
+  },
+  "46015": {
+   "apn_nn": 7887,
+   "dup_pct": 13.212,
+   "state": "SD"
+  },
+  "46017": {
+   "apn_nn": 2626,
+   "dup_pct": 33.854,
+   "state": "SD"
+  },
+  "46019": {
+   "apn_nn": 12156,
+   "dup_pct": 12.093,
+   "state": "SD"
+  },
+  "46021": {
+   "apn_nn": 5695,
+   "dup_pct": 12.643,
+   "state": "SD"
+  },
+  "46023": {
+   "apn_nn": 14571,
+   "dup_pct": 16.128,
+   "state": "SD"
+  },
+  "46025": {
+   "apn_nn": 7623,
+   "dup_pct": 5.877,
+   "state": "SD"
+  },
+  "46029": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "SD"
+  },
+  "46035": {
+   "apn_nn": 11834,
+   "dup_pct": 1.741,
+   "state": "SD"
+  },
+  "46037": {
+   "apn_nn": 11382,
+   "dup_pct": 3.163,
+   "state": "SD"
+  },
+  "46039": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "SD"
+  },
+  "46041": {
+   "apn_nn": 12570,
+   "dup_pct": 53.524,
+   "state": "SD"
+  },
+  "46043": {
+   "apn_nn": 4529,
+   "dup_pct": 4.791,
+   "state": "SD"
+  },
+  "46045": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "SD"
+  },
+  "46049": {
+   "apn_nn": 8885,
+   "dup_pct": 28.948,
+   "state": "SD"
+  },
+  "46051": {
+   "apn_nn": 8912,
+   "dup_pct": 4.275,
+   "state": "SD"
+  },
+  "46053": {
+   "apn_nn": 7790,
+   "dup_pct": 3.543,
+   "state": "SD"
+  },
+  "46055": {
+   "apn_nn": 10247,
+   "dup_pct": 2.43,
+   "state": "SD"
+  },
+  "46057": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "SD"
+  },
+  "46059": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "SD"
+  },
+  "46061": {
+   "apn_nn": 3757,
+   "dup_pct": 4.631,
+   "state": "SD"
+  },
+  "46065": {
+   "apn_nn": 12467,
+   "dup_pct": 15.224,
+   "state": "SD"
+  },
+  "46067": {
+   "apn_nn": 12426,
+   "dup_pct": 0.354,
+   "state": "SD"
+  },
+  "46071": {
+   "apn_nn": 10110,
+   "dup_pct": 56.063,
+   "state": "SD"
+  },
+  "46073": {
+   "apn_nn": 4092,
+   "dup_pct": 4.35,
+   "state": "SD"
+  },
+  "46075": {
+   "apn_nn": 3812,
+   "dup_pct": 19.36,
+   "state": "SD"
+  },
+  "46077": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "SD"
+  },
+  "46081": {
+   "apn_nn": 21893,
+   "dup_pct": 4.668,
+   "state": "SD"
+  },
+  "46085": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "SD"
+  },
+  "46089": {
+   "apn_nn": 8846,
+   "dup_pct": 4.409,
+   "state": "SD"
+  },
+  "46091": {
+   "apn_nn": 10382,
+   "dup_pct": 13.543,
+   "state": "SD"
+  },
+  "46093": {
+   "apn_nn": 20758,
+   "dup_pct": 3.416,
+   "state": "SD"
+  },
+  "46095": {
+   "apn_nn": 7550,
+   "dup_pct": 31.47,
+   "state": "SD"
+  },
+  "46097": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "SD"
+  },
+  "46099": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "SD"
+  },
+  "46101": {
+   "apn_nn": 6270,
+   "dup_pct": 12.313,
+   "state": "SD"
+  },
+  "46103": {
+   "apn_nn": 54395,
+   "dup_pct": 0.0,
+   "state": "SD"
+  },
+  "46107": {
+   "apn_nn": 7029,
+   "dup_pct": 14.412,
+   "state": "SD"
+  },
+  "46109": {
+   "apn_nn": 14571,
+   "dup_pct": 11.88,
+   "state": "SD"
+  },
+  "46111": {
+   "apn_nn": 5087,
+   "dup_pct": 10.34,
+   "state": "SD"
+  },
+  "46117": {
+   "apn_nn": 9915,
+   "dup_pct": 14.544,
+   "state": "SD"
+  },
+  "46119": {
+   "apn_nn": 6707,
+   "dup_pct": 9.468,
+   "state": "SD"
+  },
+  "46121": {
+   "apn_nn": 4668,
+   "dup_pct": 0.043,
+   "state": "SD"
+  },
+  "46123": {
+   "apn_nn": 9181,
+   "dup_pct": 0.011,
+   "state": "SD"
+  },
+  "46125": {
+   "apn_nn": 9745,
+   "dup_pct": 2.709,
+   "state": "SD"
+  },
+  "46135": {
+   "apn_nn": 15947,
+   "dup_pct": 4.879,
+   "state": "SD"
+  },
+  "46137": {
+   "apn_nn": 9309,
+   "dup_pct": 44.086,
+   "state": "SD"
+  },
+  "47001": {
+   "apn_nn": 36449,
+   "dup_pct": 0.063,
+   "state": "TN"
+  },
+  "47003": {
+   "apn_nn": 23992,
+   "dup_pct": 0.046,
+   "state": "TN"
+  },
+  "47005": {
+   "apn_nn": 16470,
+   "dup_pct": 0.012,
+   "state": "TN"
+  },
+  "47007": {
+   "apn_nn": 11326,
+   "dup_pct": 0.062,
+   "state": "TN"
+  },
+  "47009": {
+   "apn_nn": 66504,
+   "dup_pct": 0.117,
+   "state": "TN"
+  },
+  "47011": {
+   "apn_nn": 50881,
+   "dup_pct": 0.039,
+   "state": "TN"
+  },
+  "47013": {
+   "apn_nn": 27585,
+   "dup_pct": 0.377,
+   "state": "TN"
+  },
+  "47015": {
+   "apn_nn": 8477,
+   "dup_pct": 0.012,
+   "state": "TN"
+  },
+  "47017": {
+   "apn_nn": 19933,
+   "dup_pct": 0.181,
+   "state": "TN"
+  },
+  "47019": {
+   "apn_nn": 31959,
+   "dup_pct": 0.028,
+   "state": "TN"
+  },
+  "47021": {
+   "apn_nn": 21788,
+   "dup_pct": 0.069,
+   "state": "TN"
+  },
+  "47025": {
+   "apn_nn": 22501,
+   "dup_pct": 0.0,
+   "state": "TN"
+  },
+  "47027": {
+   "apn_nn": 7101,
+   "dup_pct": 0.113,
+   "state": "TN"
+  },
+  "47029": {
+   "apn_nn": 25217,
+   "dup_pct": 0.119,
+   "state": "TN"
+  },
+  "47031": {
+   "apn_nn": 32685,
+   "dup_pct": 0.006,
+   "state": "TN"
+  },
+  "47033": {
+   "apn_nn": 10130,
+   "dup_pct": 0.069,
+   "state": "TN"
+  },
+  "47035": {
+   "apn_nn": 65763,
+   "dup_pct": 0.027,
+   "state": "TN"
+  },
+  "47037": {
+   "apn_nn": 286513,
+   "dup_pct": 0.001,
+   "state": "TN"
+  },
+  "47039": {
+   "apn_nn": 14101,
+   "dup_pct": 0.0,
+   "state": "TN"
+  },
+  "47041": {
+   "apn_nn": 18287,
+   "dup_pct": 0.17,
+   "state": "TN"
+  },
+  "47043": {
+   "apn_nn": 28233,
+   "dup_pct": 0.004,
+   "state": "TN"
+  },
+  "47045": {
+   "apn_nn": 21593,
+   "dup_pct": 0.0,
+   "state": "TN"
+  },
+  "47047": {
+   "apn_nn": 26338,
+   "dup_pct": 0.042,
+   "state": "TN"
+  },
+  "47049": {
+   "apn_nn": 16398,
+   "dup_pct": 0.067,
+   "state": "TN"
+  },
+  "47051": {
+   "apn_nn": 26772,
+   "dup_pct": 0.063,
+   "state": "TN"
+  },
+  "47053": {
+   "apn_nn": 30812,
+   "dup_pct": 0.104,
+   "state": "TN"
+  },
+  "47055": {
+   "apn_nn": 18814,
+   "dup_pct": 0.021,
+   "state": "TN"
+  },
+  "47057": {
+   "apn_nn": 15592,
+   "dup_pct": 0.032,
+   "state": "TN"
+  },
+  "47059": {
+   "apn_nn": 43023,
+   "dup_pct": 0.065,
+   "state": "TN"
+  },
+  "47061": {
+   "apn_nn": 11952,
+   "dup_pct": 0.092,
+   "state": "TN"
+  },
+  "47063": {
+   "apn_nn": 30852,
+   "dup_pct": 0.104,
+   "state": "TN"
+  },
+  "47065": {
+   "apn_nn": 168307,
+   "dup_pct": 3.844,
+   "state": "TN"
+  },
+  "47067": {
+   "apn_nn": 6136,
+   "dup_pct": 0.114,
+   "state": "TN"
+  },
+  "47069": {
+   "apn_nn": 20290,
+   "dup_pct": 0.005,
+   "state": "TN"
+  },
+  "47071": {
+   "apn_nn": 28483,
+   "dup_pct": 0.014,
+   "state": "TN"
+  },
+  "47073": {
+   "apn_nn": 36512,
+   "dup_pct": 0.071,
+   "state": "TN"
+  },
+  "47075": {
+   "apn_nn": 11373,
+   "dup_pct": 0.0,
+   "state": "TN"
+  },
+  "47077": {
+   "apn_nn": 18039,
+   "dup_pct": 0.055,
+   "state": "TN"
+  },
+  "47079": {
+   "apn_nn": 25981,
+   "dup_pct": 0.058,
+   "state": "TN"
+  },
+  "47083": {
+   "apn_nn": 6593,
+   "dup_pct": 0.046,
+   "state": "TN"
+  },
+  "47085": {
+   "apn_nn": 13739,
+   "dup_pct": 0.953,
+   "state": "TN"
+  },
+  "47087": {
+   "apn_nn": 9005,
+   "dup_pct": 0.022,
+   "state": "TN"
+  },
+  "47089": {
+   "apn_nn": 34821,
+   "dup_pct": 0.046,
+   "state": "TN"
+  },
+  "47091": {
+   "apn_nn": 14147,
+   "dup_pct": 0.042,
+   "state": "TN"
+  },
+  "47095": {
+   "apn_nn": 3907,
+   "dup_pct": 0.102,
+   "state": "TN"
+  },
+  "47097": {
+   "apn_nn": 13785,
+   "dup_pct": 0.044,
+   "state": "TN"
+  },
+  "47099": {
+   "apn_nn": 25747,
+   "dup_pct": 0.148,
+   "state": "TN"
+  },
+  "47101": {
+   "apn_nn": 8623,
+   "dup_pct": 0.348,
+   "state": "TN"
+  },
+  "47103": {
+   "apn_nn": 19885,
+   "dup_pct": 0.07,
+   "state": "TN"
+  },
+  "47105": {
+   "apn_nn": 36336,
+   "dup_pct": 0.008,
+   "state": "TN"
+  },
+  "47107": {
+   "apn_nn": 31355,
+   "dup_pct": 0.0,
+   "state": "TN"
+  },
+  "47109": {
+   "apn_nn": 19156,
+   "dup_pct": 0.042,
+   "state": "TN"
+  },
+  "47111": {
+   "apn_nn": 14409,
+   "dup_pct": 0.104,
+   "state": "TN"
+  },
+  "47113": {
+   "apn_nn": 49494,
+   "dup_pct": 0.004,
+   "state": "TN"
+  },
+  "47115": {
+   "apn_nn": 22216,
+   "dup_pct": 0.086,
+   "state": "TN"
+  },
+  "47117": {
+   "apn_nn": 19409,
+   "dup_pct": 0.139,
+   "state": "TN"
+  },
+  "47119": {
+   "apn_nn": 52492,
+   "dup_pct": 0.015,
+   "state": "TN"
+  },
+  "47121": {
+   "apn_nn": 9460,
+   "dup_pct": 0.243,
+   "state": "TN"
+  },
+  "47123": {
+   "apn_nn": 30062,
+   "dup_pct": 0.057,
+   "state": "TN"
+  },
+  "47125": {
+   "apn_nn": 92448,
+   "dup_pct": 0.0,
+   "state": "TN"
+  },
+  "47127": {
+   "apn_nn": 4256,
+   "dup_pct": 0.0,
+   "state": "TN"
+  },
+  "47129": {
+   "apn_nn": 14359,
+   "dup_pct": 0.738,
+   "state": "TN"
+  },
+  "47131": {
+   "apn_nn": 20028,
+   "dup_pct": 0.305,
+   "state": "TN"
+  },
+  "47133": {
+   "apn_nn": 15496,
+   "dup_pct": 0.058,
+   "state": "TN"
+  },
+  "47135": {
+   "apn_nn": 9967,
+   "dup_pct": 2.308,
+   "state": "TN"
+  },
+  "47137": {
+   "apn_nn": 5922,
+   "dup_pct": 0.0,
+   "state": "TN"
+  },
+  "47139": {
+   "apn_nn": 13105,
+   "dup_pct": 0.565,
+   "state": "TN"
+  },
+  "47141": {
+   "apn_nn": 38293,
+   "dup_pct": 0.0,
+   "state": "TN"
+  },
+  "47143": {
+   "apn_nn": 21482,
+   "dup_pct": 0.172,
+   "state": "TN"
+  },
+  "47145": {
+   "apn_nn": 35803,
+   "dup_pct": 0.067,
+   "state": "TN"
+  },
+  "47147": {
+   "apn_nn": 37509,
+   "dup_pct": 0.032,
+   "state": "TN"
+  },
+  "47149": {
+   "apn_nn": 122317,
+   "dup_pct": 0.517,
+   "state": "TN"
+  },
+  "47151": {
+   "apn_nn": 15296,
+   "dup_pct": 0.052,
+   "state": "TN"
+  },
+  "47153": {
+   "apn_nn": 12637,
+   "dup_pct": 0.182,
+   "state": "TN"
+  },
+  "47155": {
+   "apn_nn": 70629,
+   "dup_pct": 0.023,
+   "state": "TN"
+  },
+  "47157": {
+   "apn_nn": 353334,
+   "dup_pct": 0.002,
+   "state": "TN"
+  },
+  "47159": {
+   "apn_nn": 12046,
+   "dup_pct": 0.008,
+   "state": "TN"
+  },
+  "47161": {
+   "apn_nn": 12460,
+   "dup_pct": 0.032,
+   "state": "TN"
+  },
+  "47163": {
+   "apn_nn": 78774,
+   "dup_pct": 0.018,
+   "state": "TN"
+  },
+  "47165": {
+   "apn_nn": 86277,
+   "dup_pct": 0.003,
+   "state": "TN"
+  },
+  "47167": {
+   "apn_nn": 30121,
+   "dup_pct": 0.003,
+   "state": "TN"
+  },
+  "47169": {
+   "apn_nn": 5449,
+   "dup_pct": 0.11,
+   "state": "TN"
+  },
+  "47171": {
+   "apn_nn": 10299,
+   "dup_pct": 0.087,
+   "state": "TN"
+  },
+  "47173": {
+   "apn_nn": 14714,
+   "dup_pct": 0.014,
+   "state": "TN"
+  },
+  "47175": {
+   "apn_nn": 7320,
+   "dup_pct": 0.041,
+   "state": "TN"
+  },
+  "47177": {
+   "apn_nn": 23765,
+   "dup_pct": 0.093,
+   "state": "TN"
+  },
+  "47179": {
+   "apn_nn": 60895,
+   "dup_pct": 0.0,
+   "state": "TN"
+  },
+  "47181": {
+   "apn_nn": 12979,
+   "dup_pct": 0.039,
+   "state": "TN"
+  },
+  "47183": {
+   "apn_nn": 20152,
+   "dup_pct": 0.015,
+   "state": "TN"
+  },
+  "47185": {
+   "apn_nn": 17804,
+   "dup_pct": 0.225,
+   "state": "TN"
+  },
+  "47187": {
+   "apn_nn": 100150,
+   "dup_pct": 1.203,
+   "state": "TN"
+  },
+  "47189": {
+   "apn_nn": 66827,
+   "dup_pct": 0.0,
+   "state": "TN"
+  },
+  "48001": {
+   "apn_nn": 43892,
+   "dup_pct": 27.893,
+   "state": "TX"
+  },
+  "48003": {
+   "apn_nn": 10452,
+   "dup_pct": 0.182,
+   "state": "TX"
+  },
+  "48005": {
+   "apn_nn": 59450,
+   "dup_pct": 9.645,
+   "state": "TX"
+  },
+  "48007": {
+   "apn_nn": 25593,
+   "dup_pct": 2.923,
+   "state": "TX"
+  },
+  "48009": {
+   "apn_nn": 9653,
+   "dup_pct": 8.992,
+   "state": "TX"
+  },
+  "48011": {
+   "apn_nn": 3961,
+   "dup_pct": 11.285,
+   "state": "TX"
+  },
+  "48013": {
+   "apn_nn": 35641,
+   "dup_pct": 5.819,
+   "state": "TX"
+  },
+  "48015": {
+   "apn_nn": 22329,
+   "dup_pct": 3.502,
+   "state": "TX"
+  },
+  "48017": {
+   "apn_nn": 5887,
+   "dup_pct": 2.497,
+   "state": "TX"
+  },
+  "48019": {
+   "apn_nn": 31906,
+   "dup_pct": 0.768,
+   "state": "TX"
+  },
+  "48021": {
+   "apn_nn": 54550,
+   "dup_pct": 17.426,
+   "state": "TX"
+  },
+  "48023": {
+   "apn_nn": 5644,
+   "dup_pct": 1.223,
+   "state": "TX"
+  },
+  "48025": {
+   "apn_nn": 22278,
+   "dup_pct": 28.261,
+   "state": "TX"
+  },
+  "48027": {
+   "apn_nn": 161237,
+   "dup_pct": 0.06,
+   "state": "TX"
+  },
+  "48029": {
+   "apn_nn": 697884,
+   "dup_pct": 0.114,
+   "state": "TX"
+  },
+  "48031": {
+   "apn_nn": 13429,
+   "dup_pct": 4.773,
+   "state": "TX"
+  },
+  "48033": {
+   "apn_nn": 2847,
+   "dup_pct": 15.736,
+   "state": "TX"
+  },
+  "48035": {
+   "apn_nn": 15700,
+   "dup_pct": 0.981,
+   "state": "TX"
+  },
+  "48037": {
+   "apn_nn": 53155,
+   "dup_pct": 0.075,
+   "state": "TX"
+  },
+  "48039": {
+   "apn_nn": 246730,
+   "dup_pct": 31.716,
+   "state": "TX"
+  },
+  "48041": {
+   "apn_nn": 74160,
+   "dup_pct": 0.004,
+   "state": "TX"
+  },
+  "48043": {
+   "apn_nn": 17657,
+   "dup_pct": 1.376,
+   "state": "TX"
+  },
+  "48045": {
+   "apn_nn": 3593,
+   "dup_pct": 4.147,
+   "state": "TX"
+  },
+  "48047": {
+   "apn_nn": 5146,
+   "dup_pct": 2.06,
+   "state": "TX"
+  },
+  "48049": {
+   "apn_nn": 31242,
+   "dup_pct": 1.143,
+   "state": "TX"
+  },
+  "48051": {
+   "apn_nn": 26521,
+   "dup_pct": 23.611,
+   "state": "TX"
+  },
+  "48053": {
+   "apn_nn": 49039,
+   "dup_pct": 0.414,
+   "state": "TX"
+  },
+  "48055": {
+   "apn_nn": 25627,
+   "dup_pct": 3.282,
+   "state": "TX"
+  },
+  "48057": {
+   "apn_nn": 22579,
+   "dup_pct": 1.032,
+   "state": "TX"
+  },
+  "48059": {
+   "apn_nn": 10688,
+   "dup_pct": 0.777,
+   "state": "TX"
+  },
+  "48061": {
+   "apn_nn": 183695,
+   "dup_pct": 4.554,
+   "state": "TX"
+  },
+  "48063": {
+   "apn_nn": 11392,
+   "dup_pct": 3.143,
+   "state": "TX"
+  },
+  "48065": {
+   "apn_nn": 6262,
+   "dup_pct": 4.152,
+   "state": "TX"
+  },
+  "48067": {
+   "apn_nn": 31453,
+   "dup_pct": 2.006,
+   "state": "TX"
+  },
+  "48069": {
+   "apn_nn": 6158,
+   "dup_pct": 1.932,
+   "state": "TX"
+  },
+  "48071": {
+   "apn_nn": 37551,
+   "dup_pct": 4.168,
+   "state": "TX"
+  },
+  "48073": {
+   "apn_nn": 44524,
+   "dup_pct": 1.143,
+   "state": "TX"
+  },
+  "48075": {
+   "apn_nn": 5920,
+   "dup_pct": 4.459,
+   "state": "TX"
+  },
+  "48077": {
+   "apn_nn": 13521,
+   "dup_pct": 2.736,
+   "state": "TX"
+  },
+  "48079": {
+   "apn_nn": 4848,
+   "dup_pct": 1.98,
+   "state": "TX"
+  },
+  "48081": {
+   "apn_nn": 7394,
+   "dup_pct": 14.174,
+   "state": "TX"
+  },
+  "48083": {
+   "apn_nn": 11196,
+   "dup_pct": 5.627,
+   "state": "TX"
+  },
+  "48085": {
+   "apn_nn": 387726,
+   "dup_pct": 0.014,
+   "state": "TX"
+  },
+  "48087": {
+   "apn_nn": 5735,
+   "dup_pct": 23.278,
+   "state": "TX"
+  },
+  "48089": {
+   "apn_nn": 21084,
+   "dup_pct": 0.877,
+   "state": "TX"
+  },
+  "48091": {
+   "apn_nn": 102230,
+   "dup_pct": 0.183,
+   "state": "TX"
+  },
+  "48093": {
+   "apn_nn": 16786,
+   "dup_pct": 17.914,
+   "state": "TX"
+  },
+  "48095": {
+   "apn_nn": 7874,
+   "dup_pct": 4.966,
+   "state": "TX"
+  },
+  "48097": {
+   "apn_nn": 33170,
+   "dup_pct": 16.786,
+   "state": "TX"
+  },
+  "48099": {
+   "apn_nn": 31468,
+   "dup_pct": 0.318,
+   "state": "TX"
+  },
+  "48101": {
+   "apn_nn": 4374,
+   "dup_pct": 14.609,
+   "state": "TX"
+  },
+  "48103": {
+   "apn_nn": 6913,
+   "dup_pct": 19.456,
+   "state": "TX"
+  },
+  "48105": {
+   "apn_nn": 9123,
+   "dup_pct": 1.578,
+   "state": "TX"
+  },
+  "48107": {
+   "apn_nn": 6670,
+   "dup_pct": 5.982,
+   "state": "TX"
+  },
+  "48109": {
+   "apn_nn": 13333,
+   "dup_pct": 9.81,
+   "state": "TX"
+  },
+  "48111": {
+   "apn_nn": 6017,
+   "dup_pct": 2.343,
+   "state": "TX"
+  },
+  "48113": {
+   "apn_nn": 694160,
+   "dup_pct": 0.087,
+   "state": "TX"
+  },
+  "48115": {
+   "apn_nn": 9345,
+   "dup_pct": 5.532,
+   "state": "TX"
+  },
+  "48117": {
+   "apn_nn": 10635,
+   "dup_pct": 3.949,
+   "state": "TX"
+  },
+  "48119": {
+   "apn_nn": 6044,
+   "dup_pct": 1.175,
+   "state": "TX"
+  },
+  "48121": {
+   "apn_nn": 352128,
+   "dup_pct": 0.842,
+   "state": "TX"
+  },
+  "48123": {
+   "apn_nn": 20802,
+   "dup_pct": 0.25,
+   "state": "TX"
+  },
+  "48125": {
+   "apn_nn": 4747,
+   "dup_pct": 6.425,
+   "state": "TX"
+  },
+  "48127": {
+   "apn_nn": 8341,
+   "dup_pct": 3.717,
+   "state": "TX"
+  },
+  "48129": {
+   "apn_nn": 7215,
+   "dup_pct": 0.0,
+   "state": "TX"
+  },
+  "48131": {
+   "apn_nn": 12705,
+   "dup_pct": 2.566,
+   "state": "TX"
+  },
+  "48133": {
+   "apn_nn": 21339,
+   "dup_pct": 7.006,
+   "state": "TX"
+  },
+  "48135": {
+   "apn_nn": 75496,
+   "dup_pct": 0.042,
+   "state": "TX"
+  },
+  "48137": {
+   "apn_nn": 9625,
+   "dup_pct": 11.657,
+   "state": "TX"
+  },
+  "48139": {
+   "apn_nn": 98803,
+   "dup_pct": 0.765,
+   "state": "TX"
+  },
+  "48141": {
+   "apn_nn": 396686,
+   "dup_pct": 1.307,
+   "state": "TX"
+  },
+  "48143": {
+   "apn_nn": 23977,
+   "dup_pct": 0.05,
+   "state": "TX"
+  },
+  "48145": {
+   "apn_nn": 16710,
+   "dup_pct": 0.754,
+   "state": "TX"
+  },
+  "48147": {
+   "apn_nn": 27328,
+   "dup_pct": 2.243,
+   "state": "TX"
+  },
+  "48149": {
+   "apn_nn": 23445,
+   "dup_pct": 16.984,
+   "state": "TX"
+  },
+  "48151": {
+   "apn_nn": 6820,
+   "dup_pct": 6.437,
+   "state": "TX"
+  },
+  "48153": {
+   "apn_nn": 7140,
+   "dup_pct": 6.261,
+   "state": "TX"
+  },
+  "48155": {
+   "apn_nn": 5396,
+   "dup_pct": 16.123,
+   "state": "TX"
+  },
+  "48157": {
+   "apn_nn": 373860,
+   "dup_pct": 2.16,
+   "state": "TX"
+  },
+  "48159": {
+   "apn_nn": 16339,
+   "dup_pct": 1.102,
+   "state": "TX"
+  },
+  "48161": {
+   "apn_nn": 23979,
+   "dup_pct": 1.138,
+   "state": "TX"
+  },
+  "48163": {
+   "apn_nn": 13214,
+   "dup_pct": 5.487,
+   "state": "TX"
+  },
+  "48165": {
+   "apn_nn": 16421,
+   "dup_pct": 0.956,
+   "state": "TX"
+  },
+  "48167": {
+   "apn_nn": 188696,
+   "dup_pct": 3.067,
+   "state": "TX"
+  },
+  "48169": {
+   "apn_nn": 5899,
+   "dup_pct": 14.409,
+   "state": "TX"
+  },
+  "48171": {
+   "apn_nn": 30503,
+   "dup_pct": 65.81,
+   "state": "TX"
+  },
+  "48173": {
+   "apn_nn": 2482,
+   "dup_pct": 3.022,
+   "state": "TX"
+  },
+  "48175": {
+   "apn_nn": 9253,
+   "dup_pct": 4.831,
+   "state": "TX"
+  },
+  "48177": {
+   "apn_nn": 20420,
+   "dup_pct": 3.222,
+   "state": "TX"
+  },
+  "48179": {
+   "apn_nn": 15076,
+   "dup_pct": 0.756,
+   "state": "TX"
+  },
+  "48181": {
+   "apn_nn": 87443,
+   "dup_pct": 1.878,
+   "state": "TX"
+  },
+  "48183": {
+   "apn_nn": 77103,
+   "dup_pct": 25.697,
+   "state": "TX"
+  },
+  "48185": {
+   "apn_nn": 27466,
+   "dup_pct": 2.556,
+   "state": "TX"
+  },
+  "48187": {
+   "apn_nn": 94088,
+   "dup_pct": 1.535,
+   "state": "TX"
+  },
+  "48189": {
+   "apn_nn": 18804,
+   "dup_pct": 30.377,
+   "state": "TX"
+  },
+  "48191": {
+   "apn_nn": 6353,
+   "dup_pct": 11.758,
+   "state": "TX"
+  },
+  "48193": {
+   "apn_nn": 12109,
+   "dup_pct": 16.426,
+   "state": "TX"
+  },
+  "48195": {
+   "apn_nn": 5873,
+   "dup_pct": 7.168,
+   "state": "TX"
+  },
+  "48197": {
+   "apn_nn": 6960,
+   "dup_pct": 8.578,
+   "state": "TX"
+  },
+  "48199": {
+   "apn_nn": 38385,
+   "dup_pct": 6.529,
+   "state": "TX"
+  },
+  "48201": {
+   "apn_nn": 1523664,
+   "dup_pct": 0.0,
+   "state": "TX"
+  },
+  "48203": {
+   "apn_nn": 50035,
+   "dup_pct": 6.921,
+   "state": "TX"
+  },
+  "48205": {
+   "apn_nn": 5502,
+   "dup_pct": 1.563,
+   "state": "TX"
+  },
+  "48207": {
+   "apn_nn": 9397,
+   "dup_pct": 14.026,
+   "state": "TX"
+  },
+  "48209": {
+   "apn_nn": 116115,
+   "dup_pct": 0.501,
+   "state": "TX"
+  },
+  "48211": {
+   "apn_nn": 4685,
+   "dup_pct": 15.496,
+   "state": "TX"
+  },
+  "48213": {
+   "apn_nn": 98710,
+   "dup_pct": 13.813,
+   "state": "TX"
+  },
+  "48215": {
+   "apn_nn": 326188,
+   "dup_pct": 0.396,
+   "state": "TX"
+  },
+  "48217": {
+   "apn_nn": 39157,
+   "dup_pct": 1.527,
+   "state": "TX"
+  },
+  "48219": {
+   "apn_nn": 15215,
+   "dup_pct": 7.039,
+   "state": "TX"
+  },
+  "48221": {
+   "apn_nn": 50788,
+   "dup_pct": 0.211,
+   "state": "TX"
+  },
+  "48223": {
+   "apn_nn": 25046,
+   "dup_pct": 2.939,
+   "state": "TX"
+  },
+  "48225": {
+   "apn_nn": 26611,
+   "dup_pct": 6.298,
+   "state": "TX"
+  },
+  "48227": {
+   "apn_nn": 19801,
+   "dup_pct": 0.813,
+   "state": "TX"
+  },
+  "48229": {
+   "apn_nn": 20307,
+   "dup_pct": 1.236,
+   "state": "TX"
+  },
+  "48231": {
+   "apn_nn": 69386,
+   "dup_pct": 0.261,
+   "state": "TX"
+  },
+  "48233": {
+   "apn_nn": 18939,
+   "dup_pct": 7.693,
+   "state": "TX"
+  },
+  "48235": {
+   "apn_nn": 3625,
+   "dup_pct": 18.51,
+   "state": "TX"
+  },
+  "48237": {
+   "apn_nn": 11870,
+   "dup_pct": 10.059,
+   "state": "TX"
+  },
+  "48239": {
+   "apn_nn": 18171,
+   "dup_pct": 9.35,
+   "state": "TX"
+  },
+  "48241": {
+   "apn_nn": 30083,
+   "dup_pct": 2.201,
+   "state": "TX"
+  },
+  "48243": {
+   "apn_nn": 7176,
+   "dup_pct": 12.249,
+   "state": "TX"
+  },
+  "48245": {
+   "apn_nn": 121949,
+   "dup_pct": 0.188,
+   "state": "TX"
+  },
+  "48247": {
+   "apn_nn": 4442,
+   "dup_pct": 16.637,
+   "state": "TX"
+  },
+  "48249": {
+   "apn_nn": 27944,
+   "dup_pct": 0.315,
+   "state": "TX"
+  },
+  "48251": {
+   "apn_nn": 100664,
+   "dup_pct": 0.061,
+   "state": "TX"
+  },
+  "48253": {
+   "apn_nn": 22810,
+   "dup_pct": 37.387,
+   "state": "TX"
+  },
+  "48255": {
+   "apn_nn": 14453,
+   "dup_pct": 14.219,
+   "state": "TX"
+  },
+  "48257": {
+   "apn_nn": 92474,
+   "dup_pct": 0.961,
+   "state": "TX"
+  },
+  "48259": {
+   "apn_nn": 28809,
+   "dup_pct": 2.388,
+   "state": "TX"
+  },
+  "48261": {
+   "apn_nn": 512,
+   "dup_pct": 3.32,
+   "state": "TX"
+  },
+  "48263": {
+   "apn_nn": 3598,
+   "dup_pct": 9.422,
+   "state": "TX"
+  },
+  "48265": {
+   "apn_nn": 35604,
+   "dup_pct": 5.907,
+   "state": "TX"
+  },
+  "48267": {
+   "apn_nn": 9057,
+   "dup_pct": 2.219,
+   "state": "TX"
+  },
+  "48269": {
+   "apn_nn": 2326,
+   "dup_pct": 23.904,
+   "state": "TX"
+  },
+  "48271": {
+   "apn_nn": 10285,
+   "dup_pct": 8.498,
+   "state": "TX"
+  },
+  "48273": {
+   "apn_nn": 14844,
+   "dup_pct": 0.33,
+   "state": "TX"
+  },
+  "48275": {
+   "apn_nn": 5096,
+   "dup_pct": 1.531,
+   "state": "TX"
+  },
+  "48277": {
+   "apn_nn": 31151,
+   "dup_pct": 10.696,
+   "state": "TX"
+  },
+  "48279": {
+   "apn_nn": 12639,
+   "dup_pct": 2.081,
+   "state": "TX"
+  },
+  "48281": {
+   "apn_nn": 15136,
+   "dup_pct": 1.929,
+   "state": "TX"
+  },
+  "48283": {
+   "apn_nn": 8259,
+   "dup_pct": 6.284,
+   "state": "TX"
+  },
+  "48285": {
+   "apn_nn": 18670,
+   "dup_pct": 4.494,
+   "state": "TX"
+  },
+  "48287": {
+   "apn_nn": 16066,
+   "dup_pct": 8.073,
+   "state": "TX"
+  },
+  "48289": {
+   "apn_nn": 26388,
+   "dup_pct": 3.782,
+   "state": "TX"
+  },
+  "48291": {
+   "apn_nn": 156089,
+   "dup_pct": 28.365,
+   "state": "TX"
+  },
+  "48293": {
+   "apn_nn": 21727,
+   "dup_pct": 7.093,
+   "state": "TX"
+  },
+  "48295": {
+   "apn_nn": 6877,
+   "dup_pct": 52.567,
+   "state": "TX"
+  },
+  "48297": {
+   "apn_nn": 14824,
+   "dup_pct": 3.967,
+   "state": "TX"
+  },
+  "48299": {
+   "apn_nn": 37911,
+   "dup_pct": 10.103,
+   "state": "TX"
+  },
+  "48301": {
+   "apn_nn": 1893,
+   "dup_pct": 8.135,
+   "state": "TX"
+  },
+  "48303": {
+   "apn_nn": 135112,
+   "dup_pct": 0.0,
+   "state": "TX"
+  },
+  "48305": {
+   "apn_nn": 7334,
+   "dup_pct": 5.4,
+   "state": "TX"
+  },
+  "48307": {
+   "apn_nn": 10782,
+   "dup_pct": 11.436,
+   "state": "TX"
+  },
+  "48309": {
+   "apn_nn": 113801,
+   "dup_pct": 0.388,
+   "state": "TX"
+  },
+  "48311": {
+   "apn_nn": 3533,
+   "dup_pct": 13.869,
+   "state": "TX"
+  },
+  "48313": {
+   "apn_nn": 10138,
+   "dup_pct": 3.028,
+   "state": "TX"
+  },
+  "48315": {
+   "apn_nn": 17895,
+   "dup_pct": 5.666,
+   "state": "TX"
+  },
+  "48317": {
+   "apn_nn": 7256,
+   "dup_pct": 9.261,
+   "state": "TX"
+  },
+  "48319": {
+   "apn_nn": 5008,
+   "dup_pct": 7.508,
+   "state": "TX"
+  },
+  "48321": {
+   "apn_nn": 36023,
+   "dup_pct": 1.505,
+   "state": "TX"
+  },
+  "48323": {
+   "apn_nn": 26047,
+   "dup_pct": 4.331,
+   "state": "TX"
+  },
+  "48325": {
+   "apn_nn": 43138,
+   "dup_pct": 7.988,
+   "state": "TX"
+  },
+  "48327": {
+   "apn_nn": 5708,
+   "dup_pct": 3.294,
+   "state": "TX"
+  },
+  "48329": {
+   "apn_nn": 72950,
+   "dup_pct": 1.13,
+   "state": "TX"
+  },
+  "48331": {
+   "apn_nn": 20877,
+   "dup_pct": 2.266,
+   "state": "TX"
+  },
+  "48333": {
+   "apn_nn": 8633,
+   "dup_pct": 3.081,
+   "state": "TX"
+  },
+  "48335": {
+   "apn_nn": 8690,
+   "dup_pct": 13.188,
+   "state": "TX"
+  },
+  "48337": {
+   "apn_nn": 24872,
+   "dup_pct": 9.69,
+   "state": "TX"
+  },
+  "48339": {
+   "apn_nn": 311407,
+   "dup_pct": 1.485,
+   "state": "TX"
+  },
+  "48341": {
+   "apn_nn": 11763,
+   "dup_pct": 2.975,
+   "state": "TX"
+  },
+  "48343": {
+   "apn_nn": 11897,
+   "dup_pct": 9.649,
+   "state": "TX"
+  },
+  "48345": {
+   "apn_nn": 4424,
+   "dup_pct": 0.452,
+   "state": "TX"
+  },
+  "48347": {
+   "apn_nn": 46255,
+   "dup_pct": 21.79,
+   "state": "TX"
+  },
+  "48349": {
+   "apn_nn": 45821,
+   "dup_pct": 2.178,
+   "state": "TX"
+  },
+  "48351": {
+   "apn_nn": 19102,
+   "dup_pct": 26.191,
+   "state": "TX"
+  },
+  "48353": {
+   "apn_nn": 13241,
+   "dup_pct": 5.513,
+   "state": "TX"
+  },
+  "48355": {
+   "apn_nn": 143318,
+   "dup_pct": 6.863,
+   "state": "TX"
+  },
+  "48357": {
+   "apn_nn": 6487,
+   "dup_pct": 0.308,
+   "state": "TX"
+  },
+  "48359": {
+   "apn_nn": 3843,
+   "dup_pct": 1.353,
+   "state": "TX"
+  },
+  "48361": {
+   "apn_nn": 49788,
+   "dup_pct": 8.386,
+   "state": "TX"
+  },
+  "48363": {
+   "apn_nn": 35689,
+   "dup_pct": 9.35,
+   "state": "TX"
+  },
+  "48365": {
+   "apn_nn": 18814,
+   "dup_pct": 15.861,
+   "state": "TX"
+  },
+  "48367": {
+   "apn_nn": 93517,
+   "dup_pct": 1.441,
+   "state": "TX"
+  },
+  "48369": {
+   "apn_nn": 5697,
+   "dup_pct": 8.408,
+   "state": "TX"
+  },
+  "48371": {
+   "apn_nn": 14720,
+   "dup_pct": 17.921,
+   "state": "TX"
+  },
+  "48373": {
+   "apn_nn": 58359,
+   "dup_pct": 2.084,
+   "state": "TX"
+  },
+  "48375": {
+   "apn_nn": 53490,
+   "dup_pct": 0.015,
+   "state": "TX"
+  },
+  "48377": {
+   "apn_nn": 17166,
+   "dup_pct": 10.037,
+   "state": "TX"
+  },
+  "48379": {
+   "apn_nn": 11769,
+   "dup_pct": 1.912,
+   "state": "TX"
+  },
+  "48381": {
+   "apn_nn": 64824,
+   "dup_pct": 0.008,
+   "state": "TX"
+  },
+  "48383": {
+   "apn_nn": 4607,
+   "dup_pct": 29.108,
+   "state": "TX"
+  },
+  "48385": {
+   "apn_nn": 7853,
+   "dup_pct": 1.77,
+   "state": "TX"
+  },
+  "48387": {
+   "apn_nn": 11531,
+   "dup_pct": 3.096,
+   "state": "TX"
+  },
+  "48389": {
+   "apn_nn": 14954,
+   "dup_pct": 7.276,
+   "state": "TX"
+  },
+  "48391": {
+   "apn_nn": 12483,
+   "dup_pct": 42.225,
+   "state": "TX"
+  },
+  "48393": {
+   "apn_nn": 2222,
+   "dup_pct": 0.18,
+   "state": "TX"
+  },
+  "48395": {
+   "apn_nn": 16260,
+   "dup_pct": 5.166,
+   "state": "TX"
+  },
+  "48397": {
+   "apn_nn": 52737,
+   "dup_pct": 0.63,
+   "state": "TX"
+  },
+  "48399": {
+   "apn_nn": 14748,
+   "dup_pct": 13.785,
+   "state": "TX"
+  },
+  "48401": {
+   "apn_nn": 38106,
+   "dup_pct": 10.899,
+   "state": "TX"
+  },
+  "48403": {
+   "apn_nn": 22356,
+   "dup_pct": 29.017,
+   "state": "TX"
+  },
+  "48405": {
+   "apn_nn": 12724,
+   "dup_pct": 16.284,
+   "state": "TX"
+  },
+  "48407": {
+   "apn_nn": 35490,
+   "dup_pct": 2.463,
+   "state": "TX"
+  },
+  "48409": {
+   "apn_nn": 50223,
+   "dup_pct": 25.419,
+   "state": "TX"
+  },
+  "48411": {
+   "apn_nn": 11363,
+   "dup_pct": 10.103,
+   "state": "TX"
+  },
+  "48413": {
+   "apn_nn": 6535,
+   "dup_pct": 27.391,
+   "state": "TX"
+  },
+  "48415": {
+   "apn_nn": 12514,
+   "dup_pct": 2.549,
+   "state": "TX"
+  },
+  "48417": {
+   "apn_nn": 4766,
+   "dup_pct": 3.882,
+   "state": "TX"
+  },
+  "48419": {
+   "apn_nn": 21314,
+   "dup_pct": 10.205,
+   "state": "TX"
+  },
+  "48421": {
+   "apn_nn": 3531,
+   "dup_pct": 1.841,
+   "state": "TX"
+  },
+  "48423": {
+   "apn_nn": 140245,
+   "dup_pct": 10.584,
+   "state": "TX"
+  },
+  "48425": {
+   "apn_nn": 6654,
+   "dup_pct": 1.578,
+   "state": "TX"
+  },
+  "48427": {
+   "apn_nn": 34376,
+   "dup_pct": 1.443,
+   "state": "TX"
+  },
+  "48429": {
+   "apn_nn": 10879,
+   "dup_pct": 7.822,
+   "state": "TX"
+  },
+  "48431": {
+   "apn_nn": 2365,
+   "dup_pct": 5.666,
+   "state": "TX"
+  },
+  "48433": {
+   "apn_nn": 5247,
+   "dup_pct": 10.196,
+   "state": "TX"
+  },
+  "48435": {
+   "apn_nn": 5633,
+   "dup_pct": 5.095,
+   "state": "TX"
+  },
+  "48437": {
+   "apn_nn": 6518,
+   "dup_pct": 4.188,
+   "state": "TX"
+  },
+  "48439": {
+   "apn_nn": 757156,
+   "dup_pct": 8.891,
+   "state": "TX"
+  },
+  "48441": {
+   "apn_nn": 68001,
+   "dup_pct": 1.547,
+   "state": "TX"
+  },
+  "48443": {
+   "apn_nn": 5562,
+   "dup_pct": 7.695,
+   "state": "TX"
+  },
+  "48445": {
+   "apn_nn": 9018,
+   "dup_pct": 1.852,
+   "state": "TX"
+  },
+  "48447": {
+   "apn_nn": 4669,
+   "dup_pct": 5.354,
+   "state": "TX"
+  },
+  "48449": {
+   "apn_nn": 20601,
+   "dup_pct": 3.01,
+   "state": "TX"
+  },
+  "48451": {
+   "apn_nn": 58034,
+   "dup_pct": 0.002,
+   "state": "TX"
+  },
+  "48453": {
+   "apn_nn": 834936,
+   "dup_pct": 54.383,
+   "state": "TX"
+  },
+  "48455": {
+   "apn_nn": 24549,
+   "dup_pct": 1.915,
+   "state": "TX"
+  },
+  "48457": {
+   "apn_nn": 32599,
+   "dup_pct": 29.163,
+   "state": "TX"
+  },
+  "48459": {
+   "apn_nn": 30047,
+   "dup_pct": 5.468,
+   "state": "TX"
+  },
+  "48461": {
+   "apn_nn": 7882,
+   "dup_pct": 40.472,
+   "state": "TX"
+  },
+  "48463": {
+   "apn_nn": 20712,
+   "dup_pct": 2.699,
+   "state": "TX"
+  },
+  "48465": {
+   "apn_nn": 31635,
+   "dup_pct": 1.486,
+   "state": "TX"
+  },
+  "48467": {
+   "apn_nn": 41105,
+   "dup_pct": 1.708,
+   "state": "TX"
+  },
+  "48469": {
+   "apn_nn": 44880,
+   "dup_pct": 2.527,
+   "state": "TX"
+  },
+  "48471": {
+   "apn_nn": 33473,
+   "dup_pct": 0.729,
+   "state": "TX"
+  },
+  "48473": {
+   "apn_nn": 48058,
+   "dup_pct": 13.411,
+   "state": "TX"
+  },
+  "48475": {
+   "apn_nn": 15181,
+   "dup_pct": 3.346,
+   "state": "TX"
+  },
+  "48477": {
+   "apn_nn": 22993,
+   "dup_pct": 3.997,
+   "state": "TX"
+  },
+  "48479": {
+   "apn_nn": 98291,
+   "dup_pct": 0.072,
+   "state": "TX"
+  },
+  "48481": {
+   "apn_nn": 30944,
+   "dup_pct": 5.617,
+   "state": "TX"
+  },
+  "48483": {
+   "apn_nn": 7692,
+   "dup_pct": 13.04,
+   "state": "TX"
+  },
+  "48485": {
+   "apn_nn": 58097,
+   "dup_pct": 2.029,
+   "state": "TX"
+  },
+  "48487": {
+   "apn_nn": 10796,
+   "dup_pct": 6.956,
+   "state": "TX"
+  },
+  "48489": {
+   "apn_nn": 12138,
+   "dup_pct": 0.667,
+   "state": "TX"
+  },
+  "48491": {
+   "apn_nn": 282858,
+   "dup_pct": 0.102,
+   "state": "TX"
+  },
+  "48493": {
+   "apn_nn": 27850,
+   "dup_pct": 0.923,
+   "state": "TX"
+  },
+  "48495": {
+   "apn_nn": 6884,
+   "dup_pct": 0.988,
+   "state": "TX"
+  },
+  "48497": {
+   "apn_nn": 46410,
+   "dup_pct": 0.58,
+   "state": "TX"
+  },
+  "48499": {
+   "apn_nn": 43072,
+   "dup_pct": 2.709,
+   "state": "TX"
+  },
+  "48501": {
+   "apn_nn": 4358,
+   "dup_pct": 0.436,
+   "state": "TX"
+  },
+  "48503": {
+   "apn_nn": 15630,
+   "dup_pct": 6.609,
+   "state": "TX"
+  },
+  "48505": {
+   "apn_nn": 11263,
+   "dup_pct": 4.359,
+   "state": "TX"
+  },
+  "48507": {
+   "apn_nn": 9076,
+   "dup_pct": 3.195,
+   "state": "TX"
+  },
+  "49001": {
+   "apn_nn": 11309,
+   "dup_pct": 22.964,
+   "state": "UT"
+  },
+  "49003": {
+   "apn_nn": 46730,
+   "dup_pct": 0.118,
+   "state": "UT"
+  },
+  "49005": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "UT"
+  },
+  "49007": {
+   "apn_nn": 26653,
+   "dup_pct": 39.954,
+   "state": "UT"
+  },
+  "49009": {
+   "apn_nn": 3233,
+   "dup_pct": 0.959,
+   "state": "UT"
+  },
+  "49011": {
+   "apn_nn": 152563,
+   "dup_pct": 19.97,
+   "state": "UT"
+  },
+  "49013": {
+   "apn_nn": 32302,
+   "dup_pct": 0.341,
+   "state": "UT"
+  },
+  "49015": {
+   "apn_nn": 18691,
+   "dup_pct": 42.791,
+   "state": "UT"
+  },
+  "49017": {
+   "apn_nn": 16936,
+   "dup_pct": 39.047,
+   "state": "UT"
+  },
+  "49019": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "UT"
+  },
+  "49021": {
+   "apn_nn": 67448,
+   "dup_pct": 26.468,
+   "state": "UT"
+  },
+  "49023": {
+   "apn_nn": 12543,
+   "dup_pct": 6.187,
+   "state": "UT"
+  },
+  "49025": {
+   "apn_nn": 29057,
+   "dup_pct": 41.842,
+   "state": "UT"
+  },
+  "49027": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "UT"
+  },
+  "49029": {
+   "apn_nn": 6020,
+   "dup_pct": 1.429,
+   "state": "UT"
+  },
+  "49031": {
+   "apn_nn": 2885,
+   "dup_pct": 0.589,
+   "state": "UT"
+  },
+  "49033": {
+   "apn_nn": 16044,
+   "dup_pct": 36.618,
+   "state": "UT"
+  },
+  "49035": {
+   "apn_nn": 394610,
+   "dup_pct": 0.276,
+   "state": "UT"
+  },
+  "49037": {
+   "apn_nn": 8840,
+   "dup_pct": 8.009,
+   "state": "UT"
+  },
+  "49039": {
+   "apn_nn": 12906,
+   "dup_pct": 11.406,
+   "state": "UT"
+  },
+  "49041": {
+   "apn_nn": 19627,
+   "dup_pct": 0.52,
+   "state": "UT"
+  },
+  "49043": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "UT"
+  },
+  "49045": {
+   "apn_nn": 36489,
+   "dup_pct": 5.106,
+   "state": "UT"
+  },
+  "49047": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "UT"
+  },
+  "49049": {
+   "apn_nn": 327655,
+   "dup_pct": 19.506,
+   "state": "UT"
+  },
+  "49051": {
+   "apn_nn": 33153,
+   "dup_pct": 0.95,
+   "state": "UT"
+  },
+  "49053": {
+   "apn_nn": 119217,
+   "dup_pct": 5.893,
+   "state": "UT"
+  },
+  "49055": {
+   "apn_nn": 3532,
+   "dup_pct": 3.029,
+   "state": "UT"
+  },
+  "49057": {
+   "apn_nn": 115071,
+   "dup_pct": 4.778,
+   "state": "UT"
+  },
+  "50001": {
+   "apn_nn": 17558,
+   "dup_pct": 4.334,
+   "state": "VT"
+  },
+  "50003": {
+   "apn_nn": 20807,
+   "dup_pct": 6.94,
+   "state": "VT"
+  },
+  "50005": {
+   "apn_nn": 17690,
+   "dup_pct": 4.635,
+   "state": "VT"
+  },
+  "50007": {
+   "apn_nn": 58939,
+   "dup_pct": 20.231,
+   "state": "VT"
+  },
+  "50009": {
+   "apn_nn": 6054,
+   "dup_pct": 1.123,
+   "state": "VT"
+  },
+  "50011": {
+   "apn_nn": 22705,
+   "dup_pct": 2.506,
+   "state": "VT"
+  },
+  "50013": {
+   "apn_nn": 6251,
+   "dup_pct": 13.918,
+   "state": "VT"
+  },
+  "50015": {
+   "apn_nn": 14756,
+   "dup_pct": 12.652,
+   "state": "VT"
+  },
+  "50017": {
+   "apn_nn": 16890,
+   "dup_pct": 1.942,
+   "state": "VT"
+  },
+  "50019": {
+   "apn_nn": 18332,
+   "dup_pct": 4.615,
+   "state": "VT"
+  },
+  "50021": {
+   "apn_nn": 33156,
+   "dup_pct": 7.082,
+   "state": "VT"
+  },
+  "50023": {
+   "apn_nn": 30040,
+   "dup_pct": 8.492,
+   "state": "VT"
+  },
+  "50025": {
+   "apn_nn": 31396,
+   "dup_pct": 11.845,
+   "state": "VT"
+  },
+  "50027": {
+   "apn_nn": 35252,
+   "dup_pct": 7.114,
+   "state": "VT"
+  },
+  "51001": {
+   "apn_nn": 48474,
+   "dup_pct": 14.639,
+   "state": "VA"
+  },
+  "51003": {
+   "apn_nn": 50870,
+   "dup_pct": 0.002,
+   "state": "VA"
+  },
+  "51005": {
+   "apn_nn": 19107,
+   "dup_pct": 14.848,
+   "state": "VA"
+  },
+  "51007": {
+   "apn_nn": 10445,
+   "dup_pct": 0.881,
+   "state": "VA"
+  },
+  "51009": {
+   "apn_nn": 26217,
+   "dup_pct": 23.855,
+   "state": "VA"
+  },
+  "51011": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51013": {
+   "apn_nn": 66970,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51015": {
+   "apn_nn": 43229,
+   "dup_pct": 2.936,
+   "state": "VA"
+  },
+  "51017": {
+   "apn_nn": 6507,
+   "dup_pct": 9.375,
+   "state": "VA"
+  },
+  "51023": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51025": {
+   "apn_nn": 20832,
+   "dup_pct": 17.771,
+   "state": "VA"
+  },
+  "51027": {
+   "apn_nn": 20318,
+   "dup_pct": 6.969,
+   "state": "VA"
+  },
+  "51029": {
+   "apn_nn": 12905,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51031": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51036": {
+   "apn_nn": 6511,
+   "dup_pct": 6.282,
+   "state": "VA"
+  },
+  "51041": {
+   "apn_nn": 146703,
+   "dup_pct": 0.165,
+   "state": "VA"
+  },
+  "51043": {
+   "apn_nn": 9379,
+   "dup_pct": 3.668,
+   "state": "VA"
+  },
+  "51053": {
+   "apn_nn": 20043,
+   "dup_pct": 0.364,
+   "state": "VA"
+  },
+  "51057": {
+   "apn_nn": 10148,
+   "dup_pct": 1.488,
+   "state": "VA"
+  },
+  "51059": {
+   "apn_nn": 369069,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51061": {
+   "apn_nn": 35856,
+   "dup_pct": 0.187,
+   "state": "VA"
+  },
+  "51067": {
+   "apn_nn": 43295,
+   "dup_pct": 0.254,
+   "state": "VA"
+  },
+  "51069": {
+   "apn_nn": 51084,
+   "dup_pct": 0.147,
+   "state": "VA"
+  },
+  "51073": {
+   "apn_nn": 25149,
+   "dup_pct": 2.696,
+   "state": "VA"
+  },
+  "51077": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51085": {
+   "apn_nn": 52553,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51091": {
+   "apn_nn": 4274,
+   "dup_pct": 1.825,
+   "state": "VA"
+  },
+  "51093": {
+   "apn_nn": 22196,
+   "dup_pct": 1.316,
+   "state": "VA"
+  },
+  "51095": {
+   "apn_nn": 36260,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51097": {
+   "apn_nn": 7901,
+   "dup_pct": 1.481,
+   "state": "VA"
+  },
+  "51099": {
+   "apn_nn": 14966,
+   "dup_pct": 2.646,
+   "state": "VA"
+  },
+  "51101": {
+   "apn_nn": 13871,
+   "dup_pct": 1.233,
+   "state": "VA"
+  },
+  "51109": {
+   "apn_nn": 36087,
+   "dup_pct": 15.759,
+   "state": "VA"
+  },
+  "51111": {
+   "apn_nn": 16362,
+   "dup_pct": 2.567,
+   "state": "VA"
+  },
+  "51113": {
+   "apn_nn": 9835,
+   "dup_pct": 2.074,
+   "state": "VA"
+  },
+  "51115": {
+   "apn_nn": 12161,
+   "dup_pct": 5.509,
+   "state": "VA"
+  },
+  "51117": {
+   "apn_nn": 34801,
+   "dup_pct": 0.057,
+   "state": "VA"
+  },
+  "51119": {
+   "apn_nn": 13822,
+   "dup_pct": 1.816,
+   "state": "VA"
+  },
+  "51121": {
+   "apn_nn": 45523,
+   "dup_pct": 10.592,
+   "state": "VA"
+  },
+  "51131": {
+   "apn_nn": 16238,
+   "dup_pct": 0.043,
+   "state": "VA"
+  },
+  "51137": {
+   "apn_nn": 22082,
+   "dup_pct": 1.793,
+   "state": "VA"
+  },
+  "51139": {
+   "apn_nn": 25013,
+   "dup_pct": 0.1,
+   "state": "VA"
+  },
+  "51143": {
+   "apn_nn": 50101,
+   "dup_pct": 38.746,
+   "state": "VA"
+  },
+  "51145": {
+   "apn_nn": 15954,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51147": {
+   "apn_nn": 12043,
+   "dup_pct": 4.168,
+   "state": "VA"
+  },
+  "51149": {
+   "apn_nn": 14322,
+   "dup_pct": 0.007,
+   "state": "VA"
+  },
+  "51153": {
+   "apn_nn": 158482,
+   "dup_pct": 1.711,
+   "state": "VA"
+  },
+  "51155": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51157": {
+   "apn_nn": 5324,
+   "dup_pct": 4.076,
+   "state": "VA"
+  },
+  "51161": {
+   "apn_nn": 47345,
+   "dup_pct": 2.157,
+   "state": "VA"
+  },
+  "51177": {
+   "apn_nn": 69193,
+   "dup_pct": 0.01,
+   "state": "VA"
+  },
+  "51179": {
+   "apn_nn": 61143,
+   "dup_pct": 3.052,
+   "state": "VA"
+  },
+  "51183": {
+   "apn_nn": 10609,
+   "dup_pct": 0.207,
+   "state": "VA"
+  },
+  "51187": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51195": {
+   "apn_nn": 38278,
+   "dup_pct": 30.997,
+   "state": "VA"
+  },
+  "51197": {
+   "apn_nn": 28478,
+   "dup_pct": 31.849,
+   "state": "VA"
+  },
+  "51199": {
+   "apn_nn": 28424,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51510": {
+   "apn_nn": 47384,
+   "dup_pct": 0.008,
+   "state": "VA"
+  },
+  "51515": {
+   "apn_nn": 55916,
+   "dup_pct": 1.098,
+   "state": "VA"
+  },
+  "51520": {
+   "apn_nn": 13597,
+   "dup_pct": 0.382,
+   "state": "VA"
+  },
+  "51540": {
+   "apn_nn": 15823,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51550": {
+   "apn_nn": 92320,
+   "dup_pct": 97.016,
+   "state": "VA"
+  },
+  "51570": {
+   "apn_nn": 7649,
+   "dup_pct": 0.431,
+   "state": "VA"
+  },
+  "51580": {
+   "apn_nn": 5814,
+   "dup_pct": 0.189,
+   "state": "VA"
+  },
+  "51590": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51595": {
+   "apn_nn": 5381,
+   "dup_pct": 0.873,
+   "state": "VA"
+  },
+  "51620": {
+   "apn_nn": 5051,
+   "dup_pct": 26.767,
+   "state": "VA"
+  },
+  "51630": {
+   "apn_nn": 9279,
+   "dup_pct": 3.168,
+   "state": "VA"
+  },
+  "51640": {
+   "apn_nn": 3830,
+   "dup_pct": 0.235,
+   "state": "VA"
+  },
+  "51660": {
+   "apn_nn": 13488,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51670": {
+   "apn_nn": 0,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51678": {
+   "apn_nn": 3134,
+   "dup_pct": 0.447,
+   "state": "VA"
+  },
+  "51680": {
+   "apn_nn": 32616,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51683": {
+   "apn_nn": 13504,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51685": {
+   "apn_nn": 4756,
+   "dup_pct": 0.042,
+   "state": "VA"
+  },
+  "51690": {
+   "apn_nn": 11071,
+   "dup_pct": 18.634,
+   "state": "VA"
+  },
+  "51700": {
+   "apn_nn": 54440,
+   "dup_pct": 0.163,
+   "state": "VA"
+  },
+  "51710": {
+   "apn_nn": 67349,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51730": {
+   "apn_nn": 14616,
+   "dup_pct": 1.088,
+   "state": "VA"
+  },
+  "51735": {
+   "apn_nn": 5922,
+   "dup_pct": 4.34,
+   "state": "VA"
+  },
+  "51740": {
+   "apn_nn": 36608,
+   "dup_pct": 0.036,
+   "state": "VA"
+  },
+  "51750": {
+   "apn_nn": 5262,
+   "dup_pct": 0.551,
+   "state": "VA"
+  },
+  "51760": {
+   "apn_nn": 76879,
+   "dup_pct": 0.001,
+   "state": "VA"
+  },
+  "51770": {
+   "apn_nn": 44492,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51775": {
+   "apn_nn": 10684,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51790": {
+   "apn_nn": 11889,
+   "dup_pct": 0.025,
+   "state": "VA"
+  },
+  "51800": {
+   "apn_nn": 45300,
+   "dup_pct": 0.015,
+   "state": "VA"
+  },
+  "51810": {
+   "apn_nn": 156741,
+   "dup_pct": 0.0,
+   "state": "VA"
+  },
+  "51830": {
+   "apn_nn": 4727,
+   "dup_pct": 0.19,
+   "state": "VA"
+  },
+  "51840": {
+   "apn_nn": 10347,
+   "dup_pct": 1.459,
+   "state": "VA"
+  },
+  "53001": {
+   "apn_nn": 13709,
+   "dup_pct": 2.808,
+   "state": "WA"
+  },
+  "53003": {
+   "apn_nn": 13628,
+   "dup_pct": 0.125,
+   "state": "WA"
+  },
+  "53005": {
+   "apn_nn": 80171,
+   "dup_pct": 0.075,
+   "state": "WA"
+  },
+  "53007": {
+   "apn_nn": 48796,
+   "dup_pct": 0.137,
+   "state": "WA"
+  },
+  "53009": {
+   "apn_nn": 54542,
+   "dup_pct": 0.0,
+   "state": "WA"
+  },
+  "53011": {
+   "apn_nn": 195638,
+   "dup_pct": 0.0,
+   "state": "WA"
+  },
+  "53013": {
+   "apn_nn": 5478,
+   "dup_pct": 3.468,
+   "state": "WA"
+  },
+  "53015": {
+   "apn_nn": 57663,
+   "dup_pct": 0.251,
+   "state": "WA"
+  },
+  "53017": {
+   "apn_nn": 29742,
+   "dup_pct": 0.205,
+   "state": "WA"
+  },
+  "53019": {
+   "apn_nn": 9219,
+   "dup_pct": 0.293,
+   "state": "WA"
+  },
+  "53021": {
+   "apn_nn": 34679,
+   "dup_pct": 0.003,
+   "state": "WA"
+  },
+  "53023": {
+   "apn_nn": 4159,
+   "dup_pct": 0.0,
+   "state": "WA"
+  },
+  "53025": {
+   "apn_nn": 57160,
+   "dup_pct": 0.0,
+   "state": "WA"
+  },
+  "53027": {
+   "apn_nn": 61534,
+   "dup_pct": 0.14,
+   "state": "WA"
+  },
+  "53029": {
+   "apn_nn": 51340,
+   "dup_pct": 0.471,
+   "state": "WA"
+  },
+  "53031": {
+   "apn_nn": 31990,
+   "dup_pct": 0.0,
+   "state": "WA"
+  },
+  "53033": {
+   "apn_nn": 638577,
+   "dup_pct": 0.403,
+   "state": "WA"
+  },
+  "53035": {
+   "apn_nn": 112118,
+   "dup_pct": 0.0,
+   "state": "WA"
+  },
+  "53037": {
+   "apn_nn": 40089,
+   "dup_pct": 1.891,
+   "state": "WA"
+  },
+  "53039": {
+   "apn_nn": 21356,
+   "dup_pct": 0.117,
+   "state": "WA"
+  },
+  "53041": {
+   "apn_nn": 57968,
+   "dup_pct": 3.543,
+   "state": "WA"
+  },
+  "53043": {
+   "apn_nn": 33805,
+   "dup_pct": 49.587,
+   "state": "WA"
+  },
+  "53045": {
+   "apn_nn": 60519,
+   "dup_pct": 8.959,
+   "state": "WA"
+  },
+  "53047": {
+   "apn_nn": 57617,
+   "dup_pct": 14.239,
+   "state": "WA"
+  },
+  "53049": {
+   "apn_nn": 56682,
+   "dup_pct": 41.777,
+   "state": "WA"
+  },
+  "53051": {
+   "apn_nn": 16841,
+   "dup_pct": 7.096,
+   "state": "WA"
+  },
+  "53053": {
+   "apn_nn": 328730,
+   "dup_pct": 0.0,
+   "state": "WA"
+  },
+  "53055": {
+   "apn_nn": 17401,
+   "dup_pct": 0.011,
+   "state": "WA"
+  },
+  "53057": {
+   "apn_nn": 77683,
+   "dup_pct": 6.004,
+   "state": "WA"
+  },
+  "53059": {
+   "apn_nn": 8355,
+   "dup_pct": 0.239,
+   "state": "WA"
+  },
+  "53061": {
+   "apn_nn": 314493,
+   "dup_pct": 0.0,
+   "state": "WA"
+  },
+  "53063": {
+   "apn_nn": 214335,
+   "dup_pct": 0.001,
+   "state": "WA"
+  },
+  "53065": {
+   "apn_nn": 43005,
+   "dup_pct": 0.047,
+   "state": "WA"
+  },
+  "53067": {
+   "apn_nn": 131218,
+   "dup_pct": 5.179,
+   "state": "WA"
+  },
+  "53069": {
+   "apn_nn": 4464,
+   "dup_pct": 0.426,
+   "state": "WA"
+  },
+  "53071": {
+   "apn_nn": 31045,
+   "dup_pct": 5.067,
+   "state": "WA"
+  },
+  "53073": {
+   "apn_nn": 110787,
+   "dup_pct": 0.005,
+   "state": "WA"
+  },
+  "53075": {
+   "apn_nn": 33361,
+   "dup_pct": 0.833,
+   "state": "WA"
+  },
+  "53077": {
+   "apn_nn": 98964,
+   "dup_pct": 0.0,
+   "state": "WA"
+  },
+  "54001": {
+   "apn_nn": 15428,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54003": {
+   "apn_nn": 61511,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54005": {
+   "apn_nn": 16370,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54007": {
+   "apn_nn": 14233,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54009": {
+   "apn_nn": 15208,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54011": {
+   "apn_nn": 51374,
+   "dup_pct": 0.012,
+   "state": "WV"
+  },
+  "54013": {
+   "apn_nn": 7878,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54015": {
+   "apn_nn": 9025,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54017": {
+   "apn_nn": 7919,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54019": {
+   "apn_nn": 39515,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54021": {
+   "apn_nn": 7662,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54023": {
+   "apn_nn": 12341,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54025": {
+   "apn_nn": 30452,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54027": {
+   "apn_nn": 21766,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54029": {
+   "apn_nn": 20805,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54031": {
+   "apn_nn": 14773,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54033": {
+   "apn_nn": 55021,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54035": {
+   "apn_nn": 20093,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54037": {
+   "apn_nn": 32016,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54039": {
+   "apn_nn": 114920,
+   "dup_pct": 0.001,
+   "state": "WV"
+  },
+  "54041": {
+   "apn_nn": 15832,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54043": {
+   "apn_nn": 15819,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54045": {
+   "apn_nn": 26003,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54047": {
+   "apn_nn": 31091,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54049": {
+   "apn_nn": 39456,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54051": {
+   "apn_nn": 24021,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54053": {
+   "apn_nn": 20990,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54055": {
+   "apn_nn": 45664,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54057": {
+   "apn_nn": 19390,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54059": {
+   "apn_nn": 25528,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54061": {
+   "apn_nn": 55116,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54063": {
+   "apn_nn": 13625,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54065": {
+   "apn_nn": 15410,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54067": {
+   "apn_nn": 24466,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54069": {
+   "apn_nn": 26271,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54071": {
+   "apn_nn": 11016,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54073": {
+   "apn_nn": 6635,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54075": {
+   "apn_nn": 14559,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54077": {
+   "apn_nn": 33518,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54079": {
+   "apn_nn": 35513,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54081": {
+   "apn_nn": 60690,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54083": {
+   "apn_nn": 23915,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54085": {
+   "apn_nn": 13254,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54087": {
+   "apn_nn": 14404,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54089": {
+   "apn_nn": 14085,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54091": {
+   "apn_nn": 13431,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54093": {
+   "apn_nn": 10348,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54095": {
+   "apn_nn": 8949,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54097": {
+   "apn_nn": 19277,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54099": {
+   "apn_nn": 29362,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54101": {
+   "apn_nn": 10790,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54103": {
+   "apn_nn": 15690,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54105": {
+   "apn_nn": 7086,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54107": {
+   "apn_nn": 58183,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "54109": {
+   "apn_nn": 22158,
+   "dup_pct": 0.0,
+   "state": "WV"
+  },
+  "55001": {
+   "apn_nn": 38481,
+   "dup_pct": 0.008,
+   "state": "WI"
+  },
+  "55003": {
+   "apn_nn": 21298,
+   "dup_pct": 0.052,
+   "state": "WI"
+  },
+  "55005": {
+   "apn_nn": 44888,
+   "dup_pct": 5.745,
+   "state": "WI"
+  },
+  "55007": {
+   "apn_nn": 35807,
+   "dup_pct": 2.324,
+   "state": "WI"
+  },
+  "55009": {
+   "apn_nn": 105187,
+   "dup_pct": 0.345,
+   "state": "WI"
+  },
+  "55011": {
+   "apn_nn": 24304,
+   "dup_pct": 0.44,
+   "state": "WI"
+  },
+  "55013": {
+   "apn_nn": 33900,
+   "dup_pct": 3.094,
+   "state": "WI"
+  },
+  "55015": {
+   "apn_nn": 24342,
+   "dup_pct": 2.929,
+   "state": "WI"
+  },
+  "55017": {
+   "apn_nn": 52724,
+   "dup_pct": 4.226,
+   "state": "WI"
+  },
+  "55019": {
+   "apn_nn": 35535,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55021": {
+   "apn_nn": 43560,
+   "dup_pct": 0.714,
+   "state": "WI"
+  },
+  "55023": {
+   "apn_nn": 23015,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55025": {
+   "apn_nn": 218093,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55027": {
+   "apn_nn": 47987,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55029": {
+   "apn_nn": 43421,
+   "dup_pct": 4.069,
+   "state": "WI"
+  },
+  "55031": {
+   "apn_nn": 47666,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55033": {
+   "apn_nn": 35884,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55035": {
+   "apn_nn": 51588,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55037": {
+   "apn_nn": 12179,
+   "dup_pct": 2.242,
+   "state": "WI"
+  },
+  "55039": {
+   "apn_nn": 60204,
+   "dup_pct": 2.433,
+   "state": "WI"
+  },
+  "55041": {
+   "apn_nn": 20928,
+   "dup_pct": 0.01,
+   "state": "WI"
+  },
+  "55043": {
+   "apn_nn": 48673,
+   "dup_pct": 0.043,
+   "state": "WI"
+  },
+  "55045": {
+   "apn_nn": 28058,
+   "dup_pct": 1.397,
+   "state": "WI"
+  },
+  "55047": {
+   "apn_nn": 19454,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55049": {
+   "apn_nn": 31563,
+   "dup_pct": 1.625,
+   "state": "WI"
+  },
+  "55051": {
+   "apn_nn": 17837,
+   "dup_pct": 4.423,
+   "state": "WI"
+  },
+  "55053": {
+   "apn_nn": 27606,
+   "dup_pct": 2.547,
+   "state": "WI"
+  },
+  "55055": {
+   "apn_nn": 44881,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55057": {
+   "apn_nn": 31938,
+   "dup_pct": 1.985,
+   "state": "WI"
+  },
+  "55059": {
+   "apn_nn": 68366,
+   "dup_pct": 1.27,
+   "state": "WI"
+  },
+  "55061": {
+   "apn_nn": 16559,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55063": {
+   "apn_nn": 53971,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55065": {
+   "apn_nn": 21547,
+   "dup_pct": 0.664,
+   "state": "WI"
+  },
+  "55067": {
+   "apn_nn": 29416,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55069": {
+   "apn_nn": 30556,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55071": {
+   "apn_nn": 49710,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55073": {
+   "apn_nn": 83405,
+   "dup_pct": 0.619,
+   "state": "WI"
+  },
+  "55075": {
+   "apn_nn": 57960,
+   "dup_pct": 0.003,
+   "state": "WI"
+  },
+  "55077": {
+   "apn_nn": 22060,
+   "dup_pct": 3.033,
+   "state": "WI"
+  },
+  "55078": {
+   "apn_nn": 4520,
+   "dup_pct": 50.575,
+   "state": "WI"
+  },
+  "55079": {
+   "apn_nn": 280734,
+   "dup_pct": 0.124,
+   "state": "WI"
+  },
+  "55081": {
+   "apn_nn": 39238,
+   "dup_pct": 0.943,
+   "state": "WI"
+  },
+  "55083": {
+   "apn_nn": 42074,
+   "dup_pct": 0.209,
+   "state": "WI"
+  },
+  "55085": {
+   "apn_nn": 58246,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55087": {
+   "apn_nn": 98649,
+   "dup_pct": 8.29,
+   "state": "WI"
+  },
+  "55089": {
+   "apn_nn": 40717,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55091": {
+   "apn_nn": 9696,
+   "dup_pct": 0.165,
+   "state": "WI"
+  },
+  "55093": {
+   "apn_nn": 28246,
+   "dup_pct": 4.199,
+   "state": "WI"
+  },
+  "55095": {
+   "apn_nn": 48867,
+   "dup_pct": 6.121,
+   "state": "WI"
+  },
+  "55097": {
+   "apn_nn": 47308,
+   "dup_pct": 5.189,
+   "state": "WI"
+  },
+  "55099": {
+   "apn_nn": 26921,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55101": {
+   "apn_nn": 84282,
+   "dup_pct": 3.355,
+   "state": "WI"
+  },
+  "55103": {
+   "apn_nn": 20863,
+   "dup_pct": 0.422,
+   "state": "WI"
+  },
+  "55105": {
+   "apn_nn": 72770,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55107": {
+   "apn_nn": 28726,
+   "dup_pct": 1.17,
+   "state": "WI"
+  },
+  "55109": {
+   "apn_nn": 54476,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55111": {
+   "apn_nn": 50672,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55113": {
+   "apn_nn": 42021,
+   "dup_pct": 2.932,
+   "state": "WI"
+  },
+  "55115": {
+   "apn_nn": 40000,
+   "dup_pct": 0.583,
+   "state": "WI"
+  },
+  "55117": {
+   "apn_nn": 61889,
+   "dup_pct": 4.091,
+   "state": "WI"
+  },
+  "55119": {
+   "apn_nn": 25578,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55121": {
+   "apn_nn": 33122,
+   "dup_pct": 3.84,
+   "state": "WI"
+  },
+  "55123": {
+   "apn_nn": 35365,
+   "dup_pct": 2.737,
+   "state": "WI"
+  },
+  "55125": {
+   "apn_nn": 49824,
+   "dup_pct": 4.604,
+   "state": "WI"
+  },
+  "55127": {
+   "apn_nn": 69062,
+   "dup_pct": 5.066,
+   "state": "WI"
+  },
+  "55129": {
+   "apn_nn": 34863,
+   "dup_pct": 8.72,
+   "state": "WI"
+  },
+  "55131": {
+   "apn_nn": 63457,
+   "dup_pct": 0.848,
+   "state": "WI"
+  },
+  "55133": {
+   "apn_nn": 163493,
+   "dup_pct": 1.174,
+   "state": "WI"
+  },
+  "55135": {
+   "apn_nn": 43101,
+   "dup_pct": 3.487,
+   "state": "WI"
+  },
+  "55137": {
+   "apn_nn": 31322,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "55139": {
+   "apn_nn": 81806,
+   "dup_pct": 2.288,
+   "state": "WI"
+  },
+  "55141": {
+   "apn_nn": 46439,
+   "dup_pct": 0.0,
+   "state": "WI"
+  },
+  "56001": {
+   "apn_nn": 17121,
+   "dup_pct": 0.0,
+   "state": "WY"
+  },
+  "56003": {
+   "apn_nn": 7775,
+   "dup_pct": 0.0,
+   "state": "WY"
+  },
+  "56005": {
+   "apn_nn": 18280,
+   "dup_pct": 0.005,
+   "state": "WY"
+  },
+  "56007": {
+   "apn_nn": 11571,
+   "dup_pct": 0.0,
+   "state": "WY"
+  },
+  "56009": {
+   "apn_nn": 11905,
+   "dup_pct": 26.737,
+   "state": "WY"
+  },
+  "56011": {
+   "apn_nn": 6333,
+   "dup_pct": 0.174,
+   "state": "WY"
+  },
+  "56013": {
+   "apn_nn": 21343,
+   "dup_pct": 6.039,
+   "state": "WY"
+  },
+  "56015": {
+   "apn_nn": 7845,
+   "dup_pct": 0.038,
+   "state": "WY"
+  },
+  "56017": {
+   "apn_nn": 6164,
+   "dup_pct": 45.896,
+   "state": "WY"
+  },
+  "56019": {
+   "apn_nn": 6123,
+   "dup_pct": 0.0,
+   "state": "WY"
+  },
+  "56021": {
+   "apn_nn": 44406,
+   "dup_pct": 0.0,
+   "state": "WY"
+  },
+  "56023": {
+   "apn_nn": 23972,
+   "dup_pct": 26.051,
+   "state": "WY"
+  },
+  "56025": {
+   "apn_nn": 40878,
+   "dup_pct": 0.037,
+   "state": "WY"
+  },
+  "56027": {
+   "apn_nn": 2952,
+   "dup_pct": 13.618,
+   "state": "WY"
+  },
+  "56029": {
+   "apn_nn": 17545,
+   "dup_pct": 0.0,
+   "state": "WY"
+  },
+  "56031": {
+   "apn_nn": 6592,
+   "dup_pct": 0.0,
+   "state": "WY"
+  },
+  "56033": {
+   "apn_nn": 17080,
+   "dup_pct": 0.463,
+   "state": "WY"
+  },
+  "56035": {
+   "apn_nn": 9039,
+   "dup_pct": 10.908,
+   "state": "WY"
+  },
+  "56037": {
+   "apn_nn": 18041,
+   "dup_pct": 0.0,
+   "state": "WY"
+  },
+  "56039": {
+   "apn_nn": 14327,
+   "dup_pct": 4.286,
+   "state": "WY"
+  },
+  "56041": {
+   "apn_nn": 12886,
+   "dup_pct": 17.942,
+   "state": "WY"
+  },
+  "56043": {
+   "apn_nn": 4904,
+   "dup_pct": 0.347,
+   "state": "WY"
+  },
+  "56045": {
+   "apn_nn": 5363,
+   "dup_pct": 0.075,
+   "state": "WY"
+  }
+ },
+ "snapshot_utc": "2026-07-12T20:45:36Z",
+ "source": "data/parcels/normalized (count(apn) - count(DISTINCT apn) per county)"
+}

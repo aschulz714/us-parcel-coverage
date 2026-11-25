@@ -1,0 +1,84 @@
+code,label,category
+11,"Household, single family units",residential
+12,"Household, 2-4 units",residential
+13,"Household, multiunits (5 or more)",residential
+14,Residential condominiums,residential
+15,Mobile home parks or courts,residential
+16,Hotels/motels,residential
+17,Institutional lodging,residential
+18,All other residential not elsewhere coded,residential
+19,Vacation and cabin,residential
+21,Food and kindred products,industrial
+22,Textile mill products,industrial
+23,"Apparel and other finished products made from fabrics, leather, and similar materials",industrial
+24,Lumber and wood products (except furniture),industrial
+25,Furniture and fixtures,industrial
+26,Paper and allied products,industrial
+27,Printing and publishing,industrial
+28,Chemicals,industrial
+29,Petroleum refining and related industries,industrial
+30,Rubber and miscellaneous plastic products,industrial
+31,Leather and leather products,industrial
+32,"Stone, clay and glass products",industrial
+33,Primary metal industries,industrial
+34,Fabricated metal products,industrial
+35,"Professional scientific, and controlling instruments; photographic and optical goods; watch",industrial
+36,Not presently assigned,industrial
+37,Not presently assigned,industrial
+38,Not presently assigned,industrial
+39,Miscellaneous manufacturing,industrial
+41,Railroad/transit transportation,transport/utilities
+42,Motor vehicle transportation,transport/utilities
+43,Aircraft transportation,transport/utilities
+44,Marine craft transportation,transport/utilities
+45,Highway and street right of way,transport/utilities
+46,Automobile parking,transport/utilities
+47,Communication,transport/utilities
+48,Utilities,transport/utilities
+49,"Other transportation, communication, and utilities not classified elsewhere",transport/utilities
+50,Condominiums - Other than residential condominiums,commercial-trade
+51,Wholesale trade,commercial-trade
+52,"Retail trade - Building materials, hardware, and farm equipment",commercial-trade
+53,Retail trade - General merchandise,commercial-trade
+54,Retail trade - Food,commercial-trade
+55,"Retail trade - Automotive, marine craft, aircraft, and accessories",commercial-trade
+56,Retail trade - Apparel and accessories,commercial-trade
+57,"Retail trade - Furniture, home furnishings and equipment",commercial-trade
+58,Retail trade - Eating and drinking,commercial-trade
+59,Other retail trade,commercial-trade
+61,"Finance, insurance, and real estate services",commercial-services
+62,Personal services,commercial-services
+63,Business services,commercial-services
+64,Repair services,commercial-services
+65,Professional services,commercial-services
+66,Contract construction services,commercial-services
+67,Governmental services,commercial-services
+68,Educational services,commercial-services
+69,Miscellaneous services,commercial-services
+71,Cultural activities and nature exhibitions,recreation/cultural
+72,Public assembly,recreation/cultural
+73,Amusements,recreation/cultural
+74,Recreational activities,recreation/cultural
+75,Resorts and group camps,recreation/cultural
+76,Parks,recreation/cultural
+77,Not presently assigned,recreation/cultural
+78,Not presently assigned,recreation/cultural
+79,"Other cultural, entertainment, and recreational",recreation/cultural
+81,Agriculture (not classified under current use law),agriculture/forest
+82,Agriculture related activities,agriculture/forest
+83,Agriculture classified under current use chapter,agriculture/forest
+84,Fishing activities and related services,agriculture/forest
+85,Mining activities and related services,agriculture/forest
+86,Cannabis grow operations,agriculture/forest
+87,Not presently assigned,agriculture/forest
+88,Designated forest land under chapter,agriculture/forest
+89,Other resource production,agriculture/forest
+91,Undeveloped land,undeveloped/open
+92,Noncommercial forest,undeveloped/open
+93,Water areas,undeveloped/open
+94,Open space land classified under chapter,undeveloped/open
+95,Timberland classified under chapter,undeveloped/open
+96,Not presently assigned,undeveloped/open
+97,Not presently assigned,undeveloped/open
+98,Not presently assigned,undeveloped/open
+99,Other undeveloped land,undeveloped/open

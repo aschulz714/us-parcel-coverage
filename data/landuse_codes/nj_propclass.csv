@@ -1,0 +1,19 @@
+code,label,category
+1,Vacant land,undeveloped/open
+2,Residential (four families or fewer),residential
+3A,Farm - regular (farmhouse and regular farm property),agriculture/forest
+3B,Farm - qualified (farmland assessed under FA-1),agriculture/forest
+4A,Commercial,commercial-trade
+4B,Industrial,industrial
+4C,Apartment (five families or more),residential
+5A,Railroad class I (operating property),transport/utilities
+5B,Railroad class II (non-operating property),transport/utilities
+6A,Telephone company property,transport/utilities
+6B,Telegraph and messenger company property,transport/utilities
+6C,Petroleum refinery machinery and equipment,industrial
+15A,Public school property (exempt),commercial-services
+15B,Other school property (exempt),commercial-services
+15C,Public property (exempt),commercial-services
+15D,Church and charitable property (exempt),recreation/cultural
+15E,Cemeteries and graveyards (exempt),commercial-services
+15F,Other exempt property (use unknowable),

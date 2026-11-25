@@ -1,0 +1,224 @@
+code,label,category
+001,(label blank at source),
+002,(label blank at source),
+010,(label blank at source),
+011,(label blank at source),
+013,(label blank at source),
+018,(label blank at source),
+023,(label blank at source),
+063,(label blank at source),
+1,(label blank at source; mapped by 1xx range),residential
+100,Residential Vacant,residential
+101,Residential 1 Family,residential
+102,Residential 2 Family,residential
+103,Residential 3 Family,residential
+104,Residential 4 Family,residential
+105,Mixed Residential/Commercial,residential
+106,Condominium (common element),residential
+107,Condominium (fee simple),residential
+108,Mobile Home,residential
+109,Auxiliary Improvement,residential
+110,Salvage Value Building,residential
+111,(label blank at source; mapped by 1xx range),residential
+112,Active Farm,agriculture/forest
+113,Inactive Farm,agriculture/forest
+114,Conservation easement perpetual,undeveloped/open
+115,Unsound Residential Structure,residential
+117,(label blank at source; mapped by 1xx range),residential
+121,(label blank at source; mapped by 1xx range),residential
+123,Large Vac Tract - Unknown Potential,undeveloped/open
+124,(label blank at source; mapped by 1xx range),residential
+125,(label blank at source; mapped by 1xx range),residential
+128,(label blank at source; mapped by 1xx range),residential
+132,(label blank at source; mapped by 1xx range),residential
+191,(label blank at source; mapped by 1xx range),residential
+193,(label blank at source; mapped by 1xx range),residential
+200,Vacant Apartment Land,residential
+201,Residen. Structure on Apartment land,residential
+202,(label blank at source; mapped by 2xx range),residential
+206,(label blank at source; mapped by 2xx range),residential
+210,(label blank at source; mapped by 2xx range),residential
+211,Apartment-Garden (1-3 stories),residential
+212,Apartment-High Rise,residential
+213,Mobile Home Park,residential
+300,Vacant Commercial Land,commercial-trade
+301,Resid. Structure on Commercial Land,commercial-trade
+310,Unsound Commercial Structure,commercial-trade
+313,(label blank at source; mapped by 3xx range),commercial-trade
+314,Hotel/Motel-High Rise,residential
+315,Hotel/Motel-Low Rise,residential
+316,Nursing Home,residential
+318,Boarding and Rooming Houses,residential
+319,Mixed Commercial/Residential,commercial-trade
+320,(label blank at source; mapped by 3xx range),commercial-trade
+321,Restaurant,commercial-trade
+323,Food Stand,commercial-trade
+325,Franchise Food,commercial-trade
+326,Ice House,commercial-trade
+327,Bar/Lounge,commercial-trade
+328,Night Club/Dinner Theater,commercial-trade
+330,Kwik Lube,commercial-trade
+331,Auto Dealer-Full Service,commercial-trade
+332,Auto Service Garage,commercial-trade
+333,Service Station with Bays,commercial-trade
+334,Service Station without Bays,commercial-trade
+335,Truck Stop,commercial-trade
+336,Car Wash-Manual,commercial-trade
+337,Car Wash-Automatic,commercial-trade
+338,Parking Garage/Deck,transport/utilities
+339,Parking Miscellaneous,transport/utilities
+340,Super Regional Shopping Mall,commercial-trade
+341,Regional Shopping Mall,commercial-trade
+342,Community Shopping Center,commercial-trade
+343,Neighborhood Shopping Center,commercial-trade
+344,Strip Shopping Center,commercial-trade
+345,Discount Department Store,commercial-trade
+346,Department Store/Anchor Store,commercial-trade
+347,Supermarket,commercial-trade
+348,Convenience Food Market,commercial-trade
+349,Medical Office,commercial-services
+351,Bank,commercial-services
+352,Savings Institution,commercial-services
+353,Office Building-Low Rise (1-4 stories),commercial-services
+354,Office Building-High Rise (>4 stories),commercial-services
+355,Office Condominium,commercial-services
+356,Retail Condominium,commercial-trade
+361,Funeral Home,commercial-services
+362,Veterinary Clinic,commercial-services
+363,Legitimate Theater,recreation/cultural
+364,Motion Picture Theater,recreation/cultural
+365,Cinema/Theater,recreation/cultural
+366,Radio/TV/Motion Picture Studio,recreation/cultural
+367,Social/Fraternal Hall,recreation/cultural
+368,Hangar,commercial-trade
+369,Day Care Center,commercial-services
+370,Greenhouse/Florist,commercial-trade
+371,Downtown Row Type,commercial-trade
+373,Retail-Single Occupancy,commercial-trade
+374,Retail-Multiple Occupancy,commercial-trade
+375,Retail-Drive Up,commercial-trade
+381,Bowling Alley,recreation/cultural
+382,Skating Rink,recreation/cultural
+383,Health Spa,recreation/cultural
+384,Swimming Pool-Indoor,commercial-trade
+385,Tennis Club-Indoor,recreation/cultural
+386,Racquet Club-Indoor,recreation/cultural
+387,Country Club without Golf Course,recreation/cultural
+388,Club House,recreation/cultural
+389,Country Club with Golf Course,recreation/cultural
+390,Amusement Park,recreation/cultural
+391,Cold Storage Facility,industrial
+392,Lumber Storage Facility,industrial
+393,Comm Auxiliary Improvement,commercial-trade
+395,Truck Terminal,transport/utilities
+396,Mini Warehouse,industrial
+397,Office/Warehouse,industrial
+398,Warehouse,industrial
+399,Warehouse-Prefabricated,industrial
+400,Vacant Industrial Land,industrial
+401,Manufacturing,industrial
+405,Research & Development,industrial
+410,(label blank at source; mapped by 4xx range),industrial
+411,Aircraft Engine Plant,industrial
+412,Aluminum & Foil Mfg,industrial
+413,Asphalt Plant,industrial
+414,Automobile Parts Mfg,industrial
+415,Bakery,industrial
+416,Bottling Plant,industrial
+418,Candy Mfg,industrial
+419,Cement Mfg,industrial
+420,Concrete Mfg,industrial
+421,Chemical Mfg,industrial
+422,Clay Mfg,industrial
+424,Coal Processing,industrial
+425,Compressor Station (not Pub.Util),industrial
+426,Dairy,industrial
+428,Dental and Medical Lab,industrial
+429,Electronic Components Prods. Mfg,industrial
+430,Electronic Equipment Mfg,industrial
+431,Feed & Flower Mfg,industrial
+432,Foundry Products,industrial
+433,Food Processing,industrial
+434,Glass Mfg,industrial
+435,Glass Mfg-Special Tools,industrial
+436,Grain & Milling Products Mfg,industrial
+437,Ice Plant,industrial
+438,Leather Products Mfg,industrial
+439,Liquified Natural Gas Plant,industrial
+440,"Logging, Cutting of Timber",industrial
+441,Machinery & Equipment Mfg,industrial
+442,Meat Packing & Slaughterhouse,industrial
+443,Metal Working,industrial
+444,"Mining, Deep",industrial
+445,"Mining, Strip",industrial
+446,Natural Gas Extracting Facility,industrial
+447,Nickel Mfg,industrial
+448,Newspaper Plant,industrial
+449,Oil & Gas Pipeline (not Public Utility),transport/utilities
+451,Paint Mfg,industrial
+452,Paper Finishing & Converting,industrial
+453,Petroleum Refinery,industrial
+454,Pipeline Mfg,industrial
+455,Plastics Products Mfg,industrial
+456,Plastics Products Mfg - Special Tools,industrial
+457,Print Shop,industrial
+458,Pulp & Paper,industrial
+459,"Quarries Incl st&gr, ls, ss,sh,cl",industrial
+460,Railroad Car Mfg,industrial
+461,Rubber Mfg-Tire Recapping,industrial
+462,Shoe Mfg,industrial
+463,Steel Mill,industrial
+464,Steam Generating Plant,transport/utilities
+465,Saw Mills-Permanent,industrial
+466,Saw Mills-Temporary,industrial
+467,Textile Mfg,industrial
+468,Tobacco Products Mfg,industrial
+469,Woodworking Shop,industrial
+470,Wire Products Mfg,industrial
+501,(label blank at source),
+510,(label blank at source),
+520,(label blank at source),
+600,Vacant Exempt Land,undeveloped/open
+601,Cemetery,commercial-services
+602,Post Office,commercial-services
+603,Federal/State Building,commercial-services
+604,Other Miscellaneous Exempt,commercial-services
+605,(label blank at source; mapped by 6xx range),commercial-services
+606,(label blank at source; mapped by 6xx range),commercial-services
+608,(label blank at source; mapped by 6xx range),commercial-services
+609,(label blank at source; mapped by 6xx range),commercial-services
+610,Recreational/Health,recreation/cultural
+611,Library,recreation/cultural
+612,School,commercial-services
+613,College & University,commercial-services
+620,Religious,commercial-services
+621,(label blank at source; mapped by 6xx range),commercial-services
+629,(label blank at source; mapped by 6xx range),commercial-services
+630,Auditorium,recreation/cultural
+640,Hospital,commercial-services
+660,Police or Fire Station,commercial-services
+670,Correctional,commercial-services
+680,Cultural,recreation/cultural
+688,(label blank at source; mapped by 6xx range),commercial-services
+690,Rail/Bus/Air Terminal,transport/utilities
+700,Utility Vacant Land,transport/utilities
+701,Water System,transport/utilities
+702,Gas Distribution System,transport/utilities
+703,Electric Company,transport/utilities
+704,Telephone Company,transport/utilities
+705,Railroad,transport/utilities
+706,Pipeline,transport/utilities
+707,Sewage Treatment,transport/utilities
+709,(label blank at source; mapped by 7xx range),transport/utilities
+710,Telephone Equipment Building,transport/utilities
+715,Telephone Service Garage,transport/utilities
+716,(label blank at source; mapped by 7xx range),transport/utilities
+720,Radio/TV Transmitter Building,transport/utilities
+721,Wireless Serv Facility on leased land,transport/utilities
+722,Wireless Serv Facility with land,transport/utilities
+723,Land leased to Wireless Service,transport/utilities
+739,(label blank at source; mapped by 7xx range),transport/utilities
+800,(label blank at source),
+900,(label blank at source),
+953,(label blank at source),
+991,(label blank at source),

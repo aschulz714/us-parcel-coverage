@@ -1,0 +1,22 @@
+{
+ "default": {
+  "exclude_fields": []
+ },
+ "schema_version": 1,
+ "states": {
+  "NJ": {
+   "authority_urls": [
+    "https://www.nj.gov/njgin/edata/parcels/",
+    "https://www.nj.gov/dca/oip/"
+   ],
+   "exclude_fields": [
+    "owner",
+    "owner_norm",
+    "owner_family",
+    "situs_address"
+   ],
+   "reason": "Precautionary publication suppression pending Daniel's Law/privacy review and a protected-address removal workflow.",
+   "review_required": true
+  }
+ }
+}

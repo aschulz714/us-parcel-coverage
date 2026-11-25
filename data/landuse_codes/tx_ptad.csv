@@ -1,0 +1,50 @@
+code,label,category
+A,Real Property: Single-family Residential,residential
+B,Real Property: Multifamily Residential,residential
+C1,Real Property: Vacant Lots and Land Tracts,undeveloped/open
+C2,Real Property: Colonia Lots and Land Tracts,undeveloped/open
+D1,Real Property: Qualified Open-space Land,agriculture/forest
+D2,Real Property: Farm and Ranch Improvements on Qualified Open-Space Land,agriculture/forest
+E,"Real Property: Rural Land, not qualified for open-space land appraisal, and Improvements",residential
+F1,Real Property: Commercial,commercial-trade
+F2,Real Property: Industrial and Manufacturing,industrial
+G1,Real Property: Oil and Gas,agriculture/forest
+G2,Real Property: Minerals,agriculture/forest
+G3,Real Property: Other Sub-surface Interests in Land,agriculture/forest
+H,"Tangible Personal Property: Personal Vehicles, not used for business purposes",
+J,Real and Tangible Personal Property: Utilities,transport/utilities
+J1,Utilities: Water Systems,transport/utilities
+J2,Utilities: Gas Distribution Systems,transport/utilities
+J3,Utilities: Electric Companies and Electric Co-ops,transport/utilities
+J4,Utilities: Telephone Companies and Telephone Co-ops,transport/utilities
+J5,Utilities: Railroads,transport/utilities
+J6,Utilities: Pipelines,transport/utilities
+J7,Utilities: Cable Companies,transport/utilities
+J8,Utilities: Other,transport/utilities
+J9,Utilities: Railroad Rolling Stock (for County Only),transport/utilities
+L1,Personal Property: Commercial,
+L2,Personal Property: Industrial and Manufacturing,
+M1,Mobile Homes,residential
+M2,Other Tangible Personal Property,
+O,Real Property: Residential Inventory,residential
+S,Special Inventory,
+X,Totally Exempt Property,commercial-services
+XA,Exempt: Public property for housing indigent persons (Tax Code 11.111),commercial-services
+XD,Exempt: Improving property for housing with volunteer labor (Tax Code 11.181),commercial-services
+XE,Exempt: Community Housing Development Organizations (Tax Code 11.182),commercial-services
+XF,Exempt: Assisting ambulatory health care centers (Tax Code 11.183),commercial-services
+XG,Exempt: Primarily performing charitable functions (Tax Code 11.184),commercial-services
+XH,Exempt: Developing model colonia subdivisions (Tax Code 11.185),commercial-services
+XI,"Exempt: Youth spiritual, mental and physical development organizations (Tax Code 11.19)",recreation/cultural
+XJ,Exempt: Private schools (Tax Code 11.21),commercial-services
+XL,Exempt: Organizations Providing Economic Development Services to Local Community (Tax Code 11.231),commercial-services
+XM,Exempt: Marine cargo containers (Tax Code 11.25),
+XN,Exempt: Motor vehicles leased for personal use (Tax Code 11.252),
+XO,Exempt: Motor vehicles for income production and personal use (Tax Code 11.254),
+XP,Exempt: Offshore drilling equipment not in use (Tax Code 11.271),industrial
+XQ,Exempt: Intracoastal waterway dredge disposal site (Tax Code 11.29),undeveloped/open
+XR,Exempt: Nonprofit water or wastewater corporation (Tax Code 11.30),transport/utilities
+XS,Exempt: Raw cocoa and green coffee held in Harris County (Tax Code 11.33),
+XT,Exempt: Limitation on taxes in certain municipalities (Tax Code 11.34),commercial-services
+XU,Exempt: Miscellaneous Exemptions (Tax Code 11.23),commercial-services
+XV,"Exempt: Other Exemptions (including public property, religious organizations, charitable organizations and other property not reported elsewhere)",commercial-services

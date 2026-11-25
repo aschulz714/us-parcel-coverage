@@ -1,0 +1,16 @@
+# national-parcel-coverage — dependencies
+# Python 3.8+.
+#
+# RESOLVER (src/resolve.py, src/build_crosswalk.py): pure standard library except pyproj,
+# used by resolve.py's native-SR fallback to reproject a 4326 point into a layer's native
+# spatial reference when a county host ignores inSR=4326.
+pyproj>=3.0
+
+# DATASET PIPELINE (src/ingest.py -> normalize.py -> build_map_data.py -> research.py):
+# bulk county pulls into GeoParquet, schema normalization, FlatGeobuf map export, and
+# DuckDB research queries. Not needed if you only use the live resolver.
+requests>=2.28
+geopandas>=1.0
+pyogrio>=0.8
+pyarrow>=14
+duckdb>=1.0

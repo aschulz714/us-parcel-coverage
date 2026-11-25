@@ -1,0 +1,301 @@
+code,label,category
+RESIDENTIAL,county free-text; 636915 parcels statewide (source groupBy 2026-06-12),residential
+SINGLE FAMILY RESIDENTIAL,county free-text; 466054 parcels statewide (source groupBy 2026-06-12),residential
+R,county free-text; 361167 parcels statewide (source groupBy 2026-06-12),residential
+VACANT,county free-text; 233857 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+1.01-SFD DWELLING,county free-text; 117525 parcels statewide (source groupBy 2026-06-12),residential
+SINGLE FAMILY RES,county free-text; 114249 parcels statewide (source groupBy 2026-06-12),residential
+RES,county free-text; 100012 parcels statewide (source groupBy 2026-06-12),residential
+RESIDENTIAL 1 FAMILY,county free-text; 94504 parcels statewide (source groupBy 2026-06-12),residential
+R101-RES,county free-text; 84663 parcels statewide (source groupBy 2026-06-12),residential
+RES/ 1-FAMILY,county free-text; 78113 parcels statewide (source groupBy 2026-06-12),residential
+RESIDENTIAL IMPROVED,county free-text; 66015 parcels statewide (source groupBy 2026-06-12),residential
+SINGLE FAMILY RESIDENCE,county free-text; 61925 parcels statewide (source groupBy 2026-06-12),residential
+VACANT LAND,county free-text; 60494 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+SINGLE FAMILY,county free-text; 55914 parcels statewide (source groupBy 2026-06-12),residential
+DWELLING,county free-text; 55243 parcels statewide (source groupBy 2026-06-12),residential
+TOWN HOUSE SFR,county free-text; 52982 parcels statewide (source groupBy 2026-06-12),residential
+SFR,county free-text; 50852 parcels statewide (source groupBy 2026-06-12),residential
+COMMERCIAL,county free-text; 45894 parcels statewide (source groupBy 2026-06-12),commercial-trade
+RESIDENTIAL VACANT,county free-text; 44298 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+RES-SINGLE FAMILY,county free-text; 39989 parcels statewide (source groupBy 2026-06-12),residential
+50 - RURAL SINGLE FAMILY RESIDENCE,county free-text; 39285 parcels statewide (source groupBy 2026-06-12),residential
+RESIDENTIAL - ONE FAMILY UNIT,county free-text; 34717 parcels statewide (source groupBy 2026-06-12),residential
+D-DWELLING,county free-text; 34550 parcels statewide (source groupBy 2026-06-12),residential
+CONDOMINIUM,county free-text; 33398 parcels statewide (source groupBy 2026-06-12),residential
+SINGLE FAMILY RESIDENTIAL - SINGE FAMILY RESIDENTIAL,county free-text; 31147 parcels statewide (source groupBy 2026-06-12),residential
+V,county free-text; 30834 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+TOWNHOUSE,county free-text; 27004 parcels statewide (source groupBy 2026-06-12),residential
+SINGLE FAMILY RESIDENTIAL RURAL ACREAGE,county free-text; 26163 parcels statewide (source groupBy 2026-06-12),residential
+VACANT RURAL,county free-text; 23606 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+AGRICULTURE,county free-text; 22858 parcels statewide (source groupBy 2026-06-12),agriculture/forest
+VACANT RESIDENTIAL,county free-text; 21432 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+91.00-VACANT SF RES,county free-text; 21085 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+HOMESITE PRIMARY,county free-text; 20347 parcels statewide (source groupBy 2026-06-12),residential
+MH SUBDIV,county free-text; 19029 parcels statewide (source groupBy 2026-06-12),residential
+RES/TWNH W/ LAND,county free-text; 17483 parcels statewide (source groupBy 2026-06-12),residential
+IMPROVED,county free-text; 17039 parcels statewide (source groupBy 2026-06-12),
+SINGLE FAMILY RESIDENTIAL - ACREAGE,county free-text; 16751 parcels statewide (source groupBy 2026-06-12),residential
+EXEMPT,county free-text; 16682 parcels statewide (source groupBy 2026-06-12),commercial-services
+RES RU ACR,county free-text; 16000 parcels statewide (source groupBy 2026-06-12),residential
+RES BUILDING LOT,county free-text; 15459 parcels statewide (source groupBy 2026-06-12),residential
+I,county free-text; 15351 parcels statewide (source groupBy 2026-06-12),
+CLASS: RESIDENTIAL - IMP,county free-text; 15106 parcels statewide (source groupBy 2026-06-12),residential
+01 - SINGLE FAMILY RESIDENTIAL,county free-text; 14776 parcels statewide (source groupBy 2026-06-12),residential
+INDUSTRIAL,county free-text; 13886 parcels statewide (source groupBy 2026-06-12),industrial
+OCCUPIED RURAL,county free-text; 13404 parcels statewide (source groupBy 2026-06-12),
+RURAL HOME SITE - VACANT,county free-text; 12890 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+MULTI FAMILY,county free-text; 12495 parcels statewide (source groupBy 2026-06-12),residential
+RURAL HOME SITE - SINGE FAMILY RESIDENTIAL,county free-text; 12170 parcels statewide (source groupBy 2026-06-12),residential
+"HOMESITE PRIMARY,HOMESITE RESIDUAL",county free-text; 11591 parcels statewide (source groupBy 2026-06-12),residential
+BASE RESIDENCES,county free-text; 11373 parcels statewide (source groupBy 2026-06-12),residential
+TOWNHOME,county free-text; 9889 parcels statewide (source groupBy 2026-06-12),residential
+SFR BEACH,county free-text; 9765 parcels statewide (source groupBy 2026-06-12),residential
+F100-RURAL,county free-text; 9743 parcels statewide (source groupBy 2026-06-12),
+F101-RURAL,county free-text; 9647 parcels statewide (source groupBy 2026-06-12),
+V-VACANT,county free-text; 9581 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+OTHER,county free-text; 9439 parcels statewide (source groupBy 2026-06-12),
+CONDO,county free-text; 9356 parcels statewide (source groupBy 2026-06-12),residential
+02 - MOBILE HOME,county free-text; 9186 parcels statewide (source groupBy 2026-06-12),residential
+MFG HOME SITE,county free-text; 9120 parcels statewide (source groupBy 2026-06-12),residential
+RURAL IMPROVED,county free-text; 8967 parcels statewide (source groupBy 2026-06-12),
+R100-RES,county free-text; 8692 parcels statewide (source groupBy 2026-06-12),residential
+RESIDENTIAL AND AGRICULTURE,county free-text; 8538 parcels statewide (source groupBy 2026-06-12),agriculture/forest
+VACANT - RESIDENTIAL TRACT,county free-text; 8139 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+AUXILIARY IMPROVEMENTS,county free-text; 8008 parcels statewide (source groupBy 2026-06-12),
+SINGLE FAMILY RESIDENTIAL - VACANT,county free-text; 7878 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+VAC RES/ LOT-SML TRA,county free-text; 7329 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+OFFICE,county free-text; 6871 parcels statewide (source groupBy 2026-06-12),commercial-services
+E,county free-text; 6699 parcels statewide (source groupBy 2026-06-12),
+C,county free-text; 6515 parcels statewide (source groupBy 2026-06-12),
+RA,county free-text; 6488 parcels statewide (source groupBy 2026-06-12),
+SINGLE FAMILY RESIDENTIAL - COMMON,county free-text; 6437 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+R9S 01-SFR-CONST(01-SFR),county free-text; 6396 parcels statewide (source groupBy 2026-06-12),residential
+IND,county free-text; 6379 parcels statewide (source groupBy 2026-06-12),
+RESIDENTAL IMPROVED,county free-text; 6366 parcels statewide (source groupBy 2026-06-12),residential
+1.09-TOWNHOMES,county free-text; 6344 parcels statewide (source groupBy 2026-06-12),residential
+MANUFACTURED HOME (DW) - MANUFACTURED HOMES,county free-text; 6339 parcels statewide (source groupBy 2026-06-12),residential
+SFR GOLF,county free-text; 6270 parcels statewide (source groupBy 2026-06-12),residential
+COMMON AREA,county free-text; 6107 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+FARM DEFERRED,county free-text; 6077 parcels statewide (source groupBy 2026-06-12),agriculture/forest
+CLASS: RESIDENTIAL - VAC,county free-text; 5749 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+SINGLE FAMILY RESIDENTIAL WATER FRONTAGE,county free-text; 5719 parcels statewide (source groupBy 2026-06-12),residential
+511,county free-text; 5309 parcels statewide (source groupBy 2026-06-12),
+SFR WTR FR,county free-text; 5238 parcels statewide (source groupBy 2026-06-12),residential
+VACANT LAND (PRIVATE),county free-text; 5181 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+AUXILIARY IMPROVEMENT,county free-text; 5134 parcels statewide (source groupBy 2026-06-12),
+RES LAND LESS THAN 10 AC,county free-text; 5105 parcels statewide (source groupBy 2026-06-12),residential
+MOBILE HOME SUBDIVISION,county free-text; 5101 parcels statewide (source groupBy 2026-06-12),residential
+1.08-CONDOMINIUMS,county free-text; 5013 parcels statewide (source groupBy 2026-06-12),residential
+MANUFACTURED HOME (DOUBLE WIDE),county free-text; 4996 parcels statewide (source groupBy 2026-06-12),residential
+RURAL VACANT,county free-text; 4889 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+RR 01-SFR-CONST(01-SFR),county free-text; 4881 parcels statewide (source groupBy 2026-06-12),residential
+FARM,county free-text; 4858 parcels statewide (source groupBy 2026-06-12),agriculture/forest
+MULTIPLE RESIDENCES,county free-text; 4805 parcels statewide (source groupBy 2026-06-12),residential
+OCCUPIED RESIDENTIAL,county free-text; 4689 parcels statewide (source groupBy 2026-06-12),residential
+SGL FAM,county free-text; 4562 parcels statewide (source groupBy 2026-06-12),residential
+EXEMPT VALUE,county free-text; 4441 parcels statewide (source groupBy 2026-06-12),commercial-services
+MANUFACTURED HOME (MULTI-SECTIONAL),county free-text; 4437 parcels statewide (source groupBy 2026-06-12),residential
+COMM,county free-text; 4423 parcels statewide (source groupBy 2026-06-12),commercial-trade
+VACANT LAND 0-9 ACRES,county free-text; 4322 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+SINGLE FAMILY RESIDENTIAL WATER ACCESS,county free-text; 4300 parcels statewide (source groupBy 2026-06-12),residential
+RA20 01-SFR-CONST(01-SFR),county free-text; 4156 parcels statewide (source groupBy 2026-06-12),residential
+R6 03-MFR-CONST(04-COND/TWN/DUP-SFR),county free-text; 4100 parcels statewide (source groupBy 2026-06-12),residential
+A-AGRICULTURAL,county free-text; 4088 parcels statewide (source groupBy 2026-06-12),agriculture/forest
+TOWNHOUSE SINGLE FAMILY,county free-text; 4060 parcels statewide (source groupBy 2026-06-12),residential
+MANUFACTURED HOME,county free-text; 3956 parcels statewide (source groupBy 2026-06-12),residential
+MOBILE HOME,county free-text; 3869 parcels statewide (source groupBy 2026-06-12),residential
+RETAIL,county free-text; 3863 parcels statewide (source groupBy 2026-06-12),commercial-trade
+SINGLE FAMILY RESIDENTIAL - WATERFRONT,county free-text; 3820 parcels statewide (source groupBy 2026-06-12),residential
+SINGLE FAMILY RESIDENTIAL - GOLF,county free-text; 3752 parcels statewide (source groupBy 2026-06-12),residential
+SFR CA,county free-text; 3743 parcels statewide (source groupBy 2026-06-12),residential
+FARM VACANT,county free-text; 3717 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+MANU/HOME/DW,county free-text; 3666 parcels statewide (source groupBy 2026-06-12),residential
+PATIO HOME,county free-text; 3584 parcels statewide (source groupBy 2026-06-12),residential
+MOBILE HOME PERSONAL PROPERTY,county free-text; 3572 parcels statewide (source groupBy 2026-06-12),residential
+MULT-SECT MANUFACTURED,county free-text; 3567 parcels statewide (source groupBy 2026-06-12),residential
+RR,county free-text; 3498 parcels statewide (source groupBy 2026-06-12),
+AGRI/HORT,county free-text; 3430 parcels statewide (source groupBy 2026-06-12),agriculture/forest
+COM,county free-text; 3391 parcels statewide (source groupBy 2026-06-12),commercial-trade
+REAL PROP MANF HOME,county free-text; 3368 parcels statewide (source groupBy 2026-06-12),residential
+500,county free-text; 3321 parcels statewide (source groupBy 2026-06-12),
+AG LAND WITH RES,county free-text; 3223 parcels statewide (source groupBy 2026-06-12),agriculture/forest
+R6S 01-SFR-CONST(01-SFR),county free-text; 3168 parcels statewide (source groupBy 2026-06-12),residential
+RES/ CONDOMINIUM,county free-text; 3167 parcels statewide (source groupBy 2026-06-12),residential
+FARM IMPROVED,county free-text; 3137 parcels statewide (source groupBy 2026-06-12),agriculture/forest
+COMMERCIAL IMPROVED,county free-text; 3039 parcels statewide (source groupBy 2026-06-12),commercial-trade
+VAC RES/ HOMEOWNERS,county free-text; 2980 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+R10 01-SFR-CONST(01-SFR),county free-text; 2976 parcels statewide (source groupBy 2026-06-12),residential
+501,county free-text; 2926 parcels statewide (source groupBy 2026-06-12),
+PERSONAL,county free-text; 2912 parcels statewide (source groupBy 2026-06-12),
+HOMEOWNERS ASSOCIATION,county free-text; 2901 parcels statewide (source groupBy 2026-06-12),
+AGRICULTURAL LAND USE-VALUED,county free-text; 2896 parcels statewide (source groupBy 2026-06-12),agriculture/forest
+O-OTHER,county free-text; 2818 parcels statewide (source groupBy 2026-06-12),
+2.02-COM SERVICES,county free-text; 2784 parcels statewide (source groupBy 2026-06-12),commercial-services
+RESIDENTIAL - REAL PROPERTY MANUFACTURED HOME,county free-text; 2762 parcels statewide (source groupBy 2026-06-12),residential
+C100-COMMERC,county free-text; 2743 parcels statewide (source groupBy 2026-06-12),commercial-trade
+RES LAND BY FF,county free-text; 2730 parcels statewide (source groupBy 2026-06-12),residential
+NON ACRES,county free-text; 2719 parcels statewide (source groupBy 2026-06-12),
+RES-CONDO,county free-text; 2712 parcels statewide (source groupBy 2026-06-12),residential
+DOUBLEWIDE MOBILE HOME,county free-text; 2676 parcels statewide (source groupBy 2026-06-12),residential
+UNDEVELOPED FARMLAND,county free-text; 2637 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+OFFICE CONDOMINIUM,county free-text; 2625 parcels statewide (source groupBy 2026-06-12),commercial-services
+P,county free-text; 2610 parcels statewide (source groupBy 2026-06-12),
+R106-RES,county free-text; 2587 parcels statewide (source groupBy 2026-06-12),residential
+1.05-MANUF HOMES,county free-text; 2578 parcels statewide (source groupBy 2026-06-12),residential
+GOVERNMENT,county free-text; 2500 parcels statewide (source groupBy 2026-06-12),commercial-services
+MANU/HOME/SW,county free-text; 2472 parcels statewide (source groupBy 2026-06-12),residential
+C-COMMERCIAL,county free-text; 2468 parcels statewide (source groupBy 2026-06-12),commercial-trade
+TOWN HOUSE COMMON AREA,county free-text; 2457 parcels statewide (source groupBy 2026-06-12),residential
+VACANT COMMERCIAL,county free-text; 2435 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+OR 03-MFR-CONST(04-COND/TWN/DUP-SFR),county free-text; 2404 parcels statewide (source groupBy 2026-06-12),residential
+GENERAL FARM - PRESENT US,county free-text; 2341 parcels statewide (source groupBy 2026-06-12),agriculture/forest
+RA 01-SFR-CONST(01-SFR),county free-text; 2297 parcels statewide (source groupBy 2026-06-12),residential
+SFR MARSH,county free-text; 2264 parcels statewide (source groupBy 2026-06-12),residential
+AG LAND VAC,county free-text; 2247 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+R131-RES,county free-text; 2215 parcels statewide (source groupBy 2026-06-12),residential
+GOV OWNED,county free-text; 2215 parcels statewide (source groupBy 2026-06-12),commercial-services
+2.01-COM RETAIL-WS,county free-text; 2180 parcels statewide (source groupBy 2026-06-12),commercial-trade
+AGRICULTURAL MARKET-VALUED,county free-text; 2178 parcels statewide (source groupBy 2026-06-12),agriculture/forest
+D,county free-text; 2158 parcels statewide (source groupBy 2026-06-12),
+F,county free-text; 2154 parcels statewide (source groupBy 2026-06-12),
+COMMERCIAL VACANT,county free-text; 2144 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+SFR WAT VW,county free-text; 2138 parcels statewide (source groupBy 2026-06-12),residential
+E-EXEMPT,county free-text; 2100 parcels statewide (source groupBy 2026-06-12),commercial-services
+RES/ RURAL RESIDENTI,county free-text; 2097 parcels statewide (source groupBy 2026-06-12),residential
+RES-TOWNHOUSE,county free-text; 2079 parcels statewide (source groupBy 2026-06-12),residential
+DUPLEX/TRIPLEX,county free-text; 2069 parcels statewide (source groupBy 2026-06-12),residential
+510,county free-text; 2018 parcels statewide (source groupBy 2026-06-12),
+CHURCH,county free-text; 2012 parcels statewide (source groupBy 2026-06-12),recreation/cultural
+CLASS: RURAL - VAC,county free-text; 1957 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+R6 01-SFR-CONST(01-SFR),county free-text; 1956 parcels statewide (source groupBy 2026-06-12),residential
+SFR CANAL,county free-text; 1923 parcels statewide (source groupBy 2026-06-12),residential
+NON-DWELLING IMPROVE,county free-text; 1876 parcels statewide (source groupBy 2026-06-12),residential
+RES/ 2-FAMILY,county free-text; 1861 parcels statewide (source groupBy 2026-06-12),residential
+SFR OCEAN,county free-text; 1828 parcels statewide (source groupBy 2026-06-12),residential
+10 - COMMERCIAL,county free-text; 1823 parcels statewide (source groupBy 2026-06-12),commercial-trade
+FULLY EXEMPT,county free-text; 1823 parcels statewide (source groupBy 2026-06-12),commercial-services
+F106-RURAL,county free-text; 1804 parcels statewide (source groupBy 2026-06-12),
+MANUFACTURED HOME DW,county free-text; 1798 parcels statewide (source groupBy 2026-06-12),residential
+SINGLE WIDE MH,county free-text; 1785 parcels statewide (source groupBy 2026-06-12),residential
+RESIDENTIAL - PERSONAL PROPERTY MANUFACTURED HOME,county free-text; 1755 parcels statewide (source groupBy 2026-06-12),residential
+R6A 03-MFR-CONST(04-COND/TWN/DUP-SFR),county free-text; 1750 parcels statewide (source groupBy 2026-06-12),residential
+R15S 01-SFR-CONST(01-SFR),county free-text; 1715 parcels statewide (source groupBy 2026-06-12),residential
+F108-RURAL,county free-text; 1697 parcels statewide (source groupBy 2026-06-12),
+RA20,county free-text; 1673 parcels statewide (source groupBy 2026-06-12),
+93.00-VACANT COM,county free-text; 1656 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+SFR NATURE,county free-text; 1625 parcels statewide (source groupBy 2026-06-12),residential
+SFR 2NDROW,county free-text; 1621 parcels statewide (source groupBy 2026-06-12),residential
+VACANT 10 ACRES & UP,county free-text; 1611 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+R6,county free-text; 1579 parcels statewide (source groupBy 2026-06-12),
+E100-EXEMPT,county free-text; 1575 parcels statewide (source groupBy 2026-06-12),commercial-services
+RA 02-MOBILE-HOME-CONST(54-MANUFHM),county free-text; 1573 parcels statewide (source groupBy 2026-06-12),residential
+PERSONAL PROPERTY MH,county free-text; 1554 parcels statewide (source groupBy 2026-06-12),residential
+CONDOMINIUM WATER FRONTAGE,county free-text; 1540 parcels statewide (source groupBy 2026-06-12),residential
+"WASTELAND, SLIVERS, GULLIES, ROCK OUTCROP",county free-text; 1530 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+RA 01-SFR-CONST(50-RURALHMST),county free-text; 1504 parcels statewide (source groupBy 2026-06-12),residential
+"HOMESITE PRIMARY,OPENLAND,WOODLAND",county free-text; 1498 parcels statewide (source groupBy 2026-06-12),agriculture/forest
+SINGLE FAMILY RESIDENTIAL COMMON AREA,county free-text; 1486 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+AUX IMPROVEMEN,county free-text; 1456 parcels statewide (source groupBy 2026-06-12),
+MOBILE HOME PARK,county free-text; 1432 parcels statewide (source groupBy 2026-06-12),residential
+BUILDERS LOT,county free-text; 1424 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+DEVELOPMT RESTRICTED,county free-text; 1413 parcels statewide (source groupBy 2026-06-12),
+RES-MODULAR,county free-text; 1404 parcels statewide (source groupBy 2026-06-12),residential
+EXEMPT GOVERNMENTAL,county free-text; 1398 parcels statewide (source groupBy 2026-06-12),commercial-services
+R8 01-SFR-CONST(01-SFR),county free-text; 1390 parcels statewide (source groupBy 2026-06-12),residential
+DOUBLE WIDE MH,county free-text; 1373 parcels statewide (source groupBy 2026-06-12),residential
+R108-RES,county free-text; 1354 parcels statewide (source groupBy 2026-06-12),residential
+SFR WATERW,county free-text; 1347 parcels statewide (source groupBy 2026-06-12),residential
+CHURCHES,county free-text; 1335 parcels statewide (source groupBy 2026-06-12),recreation/cultural
+RESIDENTIAL DOUBLE WIDE,county free-text; 1317 parcels statewide (source groupBy 2026-06-12),residential
+RELIGIOUS,county free-text; 1295 parcels statewide (source groupBy 2026-06-12),recreation/cultural
+MODULAR,county free-text; 1289 parcels statewide (source groupBy 2026-06-12),residential
+MANUFACTURED HOME (DW) - VACANT,county free-text; 1250 parcels statewide (source groupBy 2026-06-12),residential
+SFR RIVER,county free-text; 1242 parcels statewide (source groupBy 2026-06-12),residential
+RESIDENTIAL LOT WITH OBY ONLY,county free-text; 1226 parcels statewide (source groupBy 2026-06-12),residential
+CLASS: RURAL - IMP,county free-text; 1221 parcels statewide (source groupBy 2026-06-12),
+NO PERKRES,county free-text; 1211 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+UNK-LEASEHOLD/CONDO,county free-text; 1209 parcels statewide (source groupBy 2026-06-12),
+TOWNHOUSE SINGLE FAMILY - SINGE FAMILY RESIDENTIAL,county free-text; 1194 parcels statewide (source groupBy 2026-06-12),residential
+RR 02-MOBILE-HOME-CONST(54-MANUFHM),county free-text; 1183 parcels statewide (source groupBy 2026-06-12),residential
+APARTMENTS,county free-text; 1180 parcels statewide (source groupBy 2026-06-12),residential
+CHURCH/RELIGIOUS,county free-text; 1178 parcels statewide (source groupBy 2026-06-12),recreation/cultural
+HOUSE ON COMMERCIAL SITE,county free-text; 1177 parcels statewide (source groupBy 2026-06-12),commercial-trade
+R-6,county free-text; 1160 parcels statewide (source groupBy 2026-06-12),residential
+FARM WITH NO HOUSING,county free-text; 1152 parcels statewide (source groupBy 2026-06-12),agriculture/forest
+SUBSTANDARD LOT,county free-text; 1135 parcels statewide (source groupBy 2026-06-12),
+RESTAURANT,county free-text; 1134 parcels statewide (source groupBy 2026-06-12),commercial-trade
+O,county free-text; 1109 parcels statewide (source groupBy 2026-06-12),
+VACANT COMMUNITY SER,county free-text; 1098 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+COMMERCIAL - VACANT,county free-text; 1098 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+INSTITUTIONAL,county free-text; 1090 parcels statewide (source groupBy 2026-06-12),commercial-services
+DUPLEX,county free-text; 1084 parcels statewide (source groupBy 2026-06-12),residential
+OCCUPIED COMMERCIAL,county free-text; 1079 parcels statewide (source groupBy 2026-06-12),commercial-trade
+COMMERCIAL LAND,county free-text; 1074 parcels statewide (source groupBy 2026-06-12),commercial-trade
+A101-APART,county free-text; 1063 parcels statewide (source groupBy 2026-06-12),residential
+SINGLE FAMILY RESIDENTIAL GOLF COURSE FRONTAGE,county free-text; 1062 parcels statewide (source groupBy 2026-06-12),residential
+R-10,county free-text; 1058 parcels statewide (source groupBy 2026-06-12),residential
+R-20,county free-text; 1054 parcels statewide (source groupBy 2026-06-12),residential
+G,county free-text; 1049 parcels statewide (source groupBy 2026-06-12),
+OTHER COUNTY PROPERTY,county free-text; 1039 parcels statewide (source groupBy 2026-06-12),commercial-services
+A,county free-text; 1028 parcels statewide (source groupBy 2026-06-12),
+COMMERCIAL PRIMARY,county free-text; 1025 parcels statewide (source groupBy 2026-06-12),commercial-trade
+PUBLC AREA,county free-text; 1023 parcels statewide (source groupBy 2026-06-12),
+CLASS: COMMERCIAL - IMP,county free-text; 1021 parcels statewide (source groupBy 2026-06-12),commercial-trade
+P/P MANUFACTURED HOME,county free-text; 1012 parcels statewide (source groupBy 2026-06-12),residential
+USE VALUE - USE AS QUALIFIED AGRICULTURE,county free-text; 1008 parcels statewide (source groupBy 2026-06-12),agriculture/forest
+VACANT EXEMPT,county free-text; 994 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+E110-EXEMPT,county free-text; 977 parcels statewide (source groupBy 2026-06-12),commercial-services
+RESIDENTIAL AUXILIARY,county free-text; 958 parcels statewide (source groupBy 2026-06-12),residential
+EXCLUSIONS (COMMONE AREAS),county free-text; 939 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+VACANT INDUSTRIAL,county free-text; 937 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+MOBILE HOME (SINGLE WIDE) - VACANT,county free-text; 924 parcels statewide (source groupBy 2026-06-12),residential
+NO PERK MH,county free-text; 924 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+"AGRICULTURAL - MARKET ACRES, FOREST - NO ROW CROPS",county free-text; 917 parcels statewide (source groupBy 2026-06-12),agriculture/forest
+APARTMENT,county free-text; 910 parcels statewide (source groupBy 2026-06-12),residential
+3.03-RELIG-INST,county free-text; 908 parcels statewide (source groupBy 2026-06-12),recreation/cultural
+VAC RES/ DEVELOPER,county free-text; 907 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+VACANT GOVERNMENT,county free-text; 889 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+RESIDENTIAL 2 FAMILY,county free-text; 881 parcels statewide (source groupBy 2026-06-12),residential
+WATERFRONT IMPROVED,county free-text; 879 parcels statewide (source groupBy 2026-06-12),
+SINGLE-SECT MANUFACTURED,county free-text; 879 parcels statewide (source groupBy 2026-06-12),residential
+B,county free-text; 878 parcels statewide (source groupBy 2026-06-12),
+VAC AG/ 10 ACRES OR,county free-text; 876 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+INDUSTRIAL WAREHOUSE,county free-text; 875 parcels statewide (source groupBy 2026-06-12),industrial
+APART,county free-text; 874 parcels statewide (source groupBy 2026-06-12),residential
+AR 01-SFR-CONST(01-SFR),county free-text; 851 parcels statewide (source groupBy 2026-06-12),residential
+AG/VAC/W/BUILDINGS,county free-text; 848 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+AIRPORT,county free-text; 848 parcels statewide (source groupBy 2026-06-12),transport/utilities
+MULTI FAMILTY AFFORDABLE HOUSING,county free-text; 843 parcels statewide (source groupBy 2026-06-12),residential
+BUSINESS,county free-text; 838 parcels statewide (source groupBy 2026-06-12),commercial-trade
+MOBILE HOME (VACANT),county free-text; 817 parcels statewide (source groupBy 2026-06-12),residential
+NEW PARCEL - VACANT,county free-text; 816 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+VAC RES/ RURAL < 10,county free-text; 814 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+WAREHOUSE CONDOMINIUM,county free-text; 813 parcels statewide (source groupBy 2026-06-12),industrial
+OPEN SPACE,county free-text; 810 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+R15 01-SFR-CONST(01-SFR),county free-text; 803 parcels statewide (source groupBy 2026-06-12),residential
+RES MULTIPLE HOMES,county free-text; 797 parcels statewide (source groupBy 2026-06-12),residential
+COM/ OFFICE CONDO,county free-text; 797 parcels statewide (source groupBy 2026-06-12),commercial-services
+OTHER MUNICIPAL,county free-text; 796 parcels statewide (source groupBy 2026-06-12),commercial-services
+Y,county free-text; 786 parcels statewide (source groupBy 2026-06-12),
+SFR 3RDROW,county free-text; 783 parcels statewide (source groupBy 2026-06-12),residential
+CONDOMINIUM HIGH RISE,county free-text; 783 parcels statewide (source groupBy 2026-06-12),residential
+R5 01-SFR-CONST(01-SFR),county free-text; 782 parcels statewide (source groupBy 2026-06-12),residential
+R12 01-SFR-CONST(01-SFR),county free-text; 781 parcels statewide (source groupBy 2026-06-12),residential
+MINI WAREHOUSE,county free-text; 781 parcels statewide (source groupBy 2026-06-12),industrial
+SECONDARY IMPROVEMENT,county free-text; 766 parcels statewide (source groupBy 2026-06-12),
+WAREHOUSE,county free-text; 765 parcels statewide (source groupBy 2026-06-12),industrial
+SINGLE FAMILY RESORT,county free-text; 762 parcels statewide (source groupBy 2026-06-12),residential
+RURAL HOMESITE,county free-text; 759 parcels statewide (source groupBy 2026-06-12),residential
+95.00-VACANT INDUS,county free-text; 756 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+561,county free-text; 747 parcels statewide (source groupBy 2026-06-12),
+VACRES/LT-SMLTR/SIDE,county free-text; 740 parcels statewide (source groupBy 2026-06-12),
+VACANT LAND 10-19 ACRES,county free-text; 738 parcels statewide (source groupBy 2026-06-12),undeveloped/open
+MULTI-FAMILY<4,county free-text; 737 parcels statewide (source groupBy 2026-06-12),residential
+1.12-OTHER RES,county free-text; 733 parcels statewide (source groupBy 2026-06-12),residential
+RES LD WITH IMPROVEMENT,county free-text; 732 parcels statewide (source groupBy 2026-06-12),residential
+C101-COMMERC,county free-text; 732 parcels statewide (source groupBy 2026-06-12),commercial-trade
+NEW PARCEL,county free-text; 731 parcels statewide (source groupBy 2026-06-12),
+AGRICULTURAL - MARKET ACRES WITH PRINCIPLE ROW CROP USE,county free-text; 723 parcels statewide (source groupBy 2026-06-12),agriculture/forest
+SFR CONCNL,county free-text; 721 parcels statewide (source groupBy 2026-06-12),residential
+WASTELAND,county free-text; 719 parcels statewide (source groupBy 2026-06-12),undeveloped/open

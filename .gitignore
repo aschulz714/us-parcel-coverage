@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Parcel data is never committed: raw pulls, the normalized store, tiles, derived tables
+data/parcels/raw/
+data/parcels/normalized/
+data/parcels/landuse/
+data/parcels/owners/
+data/parcels/ingest_audit/
+output/
+*.parquet
+*.pmtiles
+*.fgb
+
+# Local credentials
+.env
+*.env
+.dev.vars

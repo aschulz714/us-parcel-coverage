@@ -1,0 +1,28 @@
+code,label,category
+Residential,Residential,residential
+Single Family,Single family,residential
+Multi-Family,Multi-family,residential
+Apartments,Apartments,residential
+Commercial - Apartment & Condo,Apartments & condos,residential
+Subsidized Housing,Subsidized housing,residential
+Mixed Use,Mixed use,residential
+PERSONAL PROPERTY MOBILE HOME,Mobile home,residential
+Vacant,Vacant land,undeveloped/open
+Undeveloped,Undeveloped land,undeveloped/open
+Land,Land,undeveloped/open
+Land with Minimal structures,Land with minimal structures,undeveloped/open
+Vacant - Commercial,Vacant commercial,undeveloped/open
+Vacant Commercial,Vacant commercial,undeveloped/open
+Commercial,Commercial,commercial-trade
+Commercial - Retail,Commercial retail,commercial-trade
+Commercial - Office Space,Commercial office,commercial-services
+Commercial - Industrial,Commercial industrial,industrial
+Industrial,Industrial,industrial
+Agricultural,Agricultural,agriculture/forest
+Greenbelt,Greenbelt (ag-assessed),agriculture/forest
+Vacant - Agricultural,Vacant agricultural,agriculture/forest
+Recreational,Recreational,recreation/cultural
+Centrally Assessed,Centrally assessed (utility/transport),transport/utilities
+Tax Exempt - Government,Tax exempt - government,commercial-services
+Tax Exempt - Other,Tax exempt - other,commercial-services
+Tax Exempt - Charitable Organization or Religious,Tax exempt - charitable/religious,commercial-services

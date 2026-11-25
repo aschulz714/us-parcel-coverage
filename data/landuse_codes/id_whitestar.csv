@@ -1,0 +1,11 @@
+code,label,category
+0,Miscellaneous / unspecified / waste-ROW,
+1,"Residential (single family, dwellings, mobile homes, common areas)",residential
+2,"Commercial (general, retail, condo)",commercial-trade
+3,Office / professional,commercial-services
+4,"Recreation (campgrounds, RV parks, recreational sites)",recreation/cultural
+5,Industrial / manufacturing / warehouse-storage,industrial
+6,Airport / bulk storage / distribution,transport/utilities
+7,"Agricultural (grazing, irrigated/dry ag, rural)",agriculture/forest
+8,Vacant land (incl. vacant rural-residential lots),undeveloped/open
+9,Exempt property,commercial-services

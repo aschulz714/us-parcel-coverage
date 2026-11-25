@@ -1,0 +1,23 @@
+code,label,category
+Improved Property,Improved Property (use-ambiguous: residential OR commercial),
+Vacant Land,Vacant Land,undeveloped/open
+Exempt Property,Exempt Property,commercial-services
+Tribal Property,Tribal Property (use unknown),
+Condominium,Condominium,residential
+Townhouse,Townhouse,residential
+Apartment,Apartment,residential
+Mining Claim,Mining Claim,industrial
+Non-Valued Property,Non-Valued Property,
+CN - Centrally Assessed Non-Valued Property,Centrally Assessed Non-Valued (utilities/railroads),transport/utilities
+Industrial Property,Industrial Property,industrial
+Mobile/RV Parks,Mobile/RV Parks,residential
+Non-Valued with Specials,Non-Valued with Specials,
+Partial Exempt Property,Partial Exempt Property (use-ambiguous),
+On Leased Land,Improvements on Leased Land (use-ambiguous),
+Gravel Pit,Gravel Pit,industrial
+Golf Course,Golf Course,recreation/cultural
+Improved - Deed Restricted,Improved - Deed Restricted (use-ambiguous),
+CA - Centrally Assessed,Centrally Assessed (utilities/railroads),transport/utilities
+IR - Industrial Rural,Industrial Rural,industrial
+Oilfield Improvements,Oilfield Improvements,industrial
+Locally Assessed Utility,Locally Assessed Utility,transport/utilities

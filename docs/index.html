@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>National Parcel Coverage: county map</title>
+<meta name="description" content="A county-by-county map of where US land parcel records can be collected from free public sources. July 2026.">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<style>
+  :root {
+    --paper: #f3efe4; --paper-soft: #faf7ee; --paper-deep: #e7e1d0;
+    --ink: #17222e; --ink-soft: #33414f; --ink-muted: #66717c;
+    --rule: #cfc6ad; --rule-soft: #e3dccb;
+    --sage: #4f6f5a; --terracotta: #cc7a52; --tan: #d8cba9; --signal: #b8402c;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--paper); color: var(--ink); }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 1.5; }
+  .wrap { max-width: 1240px; margin: 0 auto; padding: 0 16px; }
+  header { padding: 28px 0 14px; }
+  .eyebrow { font-family: Consolas, Menlo, monospace; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-muted); }
+  h1 { font-family: Garamond, "EB Garamond", "Times New Roman", serif; font-weight: 500; font-size: clamp(30px, 5vw, 46px); line-height: 1.08; margin: 8px 0 10px; }
+  .lede { max-width: 760px; color: var(--ink-soft); font-size: 16px; margin: 0; }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); margin: 18px 0 14px; }
+  .stat { padding: 12px 14px 12px 0; }
+  .stat + .stat { border-left: 1px solid var(--rule-soft); padding-left: 14px; }
+  .stat b { display: block; font-family: Garamond, "EB Garamond", "Times New Roman", serif; font-weight: 500; font-size: clamp(22px, 3.6vw, 32px); line-height: 1.1; }
+  .stat span { color: var(--ink-muted); font-size: 13px; }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; margin-bottom: 10px; }
+  .group { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .group > span, .group > label { font-size: 12px; color: var(--ink-muted); margin-right: 2px; }
+  button.chip { font: inherit; font-size: 13px; padding: 6px 11px; border: 1px solid var(--rule); background: var(--paper-soft); color: var(--ink); border-radius: 3px; cursor: pointer; min-height: 34px; }
+  button.chip[aria-pressed="true"] { background: var(--ink); color: var(--paper-soft); border-color: var(--ink); }
+  button.chip:focus-visible { outline: 2px solid var(--signal); outline-offset: 2px; }
+  .main { display: grid; grid-template-columns: minmax(0, 1fr) 330px; gap: 14px; align-items: stretch; }
+  #map { height: clamp(430px, calc(100vh - 390px), 700px); border: 1px solid var(--rule); background: var(--paper-soft); }
+  .find { font: inherit; font-size: 13px; padding: 6px 10px; border: 1px solid var(--rule); background: var(--paper-soft); color: var(--ink); border-radius: 3px; min-height: 34px; width: 210px; max-width: 100%; }
+  .find:focus-visible { outline: 2px solid var(--signal); outline-offset: 2px; }
+  .rampwrap { white-space: nowrap; }
+  aside { border: 1px solid var(--rule); background: var(--paper-soft); padding: 16px; }
+  aside h2 { font-family: Garamond, "EB Garamond", "Times New Roman", serif; font-weight: 500; font-size: 26px; line-height: 1.1; margin: 4px 0 2px; }
+  .status-line { display: flex; gap: 8px; align-items: baseline; margin: 10px 0 8px; font-weight: 600; }
+  .sw { display: inline-block; width: 12px; height: 12px; border: 1px solid rgba(23,34,46,.25); flex: none; transform: translateY(1px); }
+  dl { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; margin: 10px 0; font-size: 14px; }
+  dt { color: var(--ink-muted); }
+  dd { margin: 0; text-align: right; overflow-wrap: anywhere; }
+  .bars { margin-top: 12px; }
+  .bar { display: grid; grid-template-columns: 108px 1fr 44px; gap: 8px; align-items: center; font-size: 13px; margin: 5px 0; }
+  .bar i { display: block; height: 8px; background: var(--paper-deep); position: relative; }
+  .bar i b { position: absolute; left: 0; top: 0; bottom: 0; background: var(--sage); }
+  .bar em { font-style: normal; text-align: right; color: var(--ink-soft); }
+  .hint { color: var(--ink-muted); font-size: 14px; }
+  .legend { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 12px 0 0; font-size: 13px; color: var(--ink-soft); }
+  .legend span { display: inline-flex; gap: 7px; align-items: baseline; }
+  .ramp { display: inline-block; width: 120px; height: 10px; background: linear-gradient(90deg, #e7e1d0, #4f6f5a); border: 1px solid rgba(23,34,46,.2); transform: translateY(1px); }
+  footer { color: var(--ink-muted); font-size: 13px; padding: 16px 0 34px; max-width: 860px; }
+  footer p { margin: 6px 0; }
+  .note { margin-top: 10px; font-size: 13px; color: var(--ink-muted); }
+  @media (max-width: 860px) {
+    .main { grid-template-columns: 1fr; }
+    #map { height: 62vh; min-height: 380px; }
+    .stat { padding-right: 8px; }
+    .stat + .stat { padding-left: 10px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">National Parcel Coverage · July 2026</div>
+    <h1>Where US land records are free to collect</h1>
+    <p class="lede">Every county keeps a public record of who owns each piece of land. Most publish it online, each in its own format. This map shows, county by county, whether that record could be collected from a free public source and put into one national store.</p>
+  </header>
+
+  <div class="stats" aria-live="polite">
+    <div class="stat"><b id="s-parcels">…</b><span>parcel records in the store</span></div>
+    <div class="stat"><b id="s-counties">…</b><span id="s-counties-label">counties in the store</span></div>
+    <div class="stat"><b id="s-share">…</b><span>of US counties</span></div>
+  </div>
+
+  <div class="controls">
+    <div class="group" role="group" aria-label="Color the map by">
+      <span>Color by</span>
+      <button class="chip" data-metric="status" aria-pressed="true">Status</button>
+      <button class="chip" data-metric="owner" aria-pressed="false">Owner filled</button>
+      <button class="chip" data-metric="value" aria-pressed="false">Value filled</button>
+      <button class="chip" data-metric="landuse" aria-pressed="false">Land use filled</button>
+    </div>
+    <div class="group" role="group" aria-label="Jump to">
+      <span>Jump to</span>
+      <button class="chip" data-view="lower48">Lower 48</button>
+      <button class="chip" data-view="ak">Alaska</button>
+      <button class="chip" data-view="hi">Hawaii</button>
+      <button class="chip" data-view="pr">Puerto Rico</button>
+    </div>
+    <div class="group">
+      <label for="find"><span>Find a county</span></label>
+      <input class="find" id="find" list="county-list" placeholder="e.g. King, WA" autocomplete="off">
+      <datalist id="county-list"></datalist>
+    </div>
+  </div>
+
+  <div class="main">
+    <div id="map" role="application" aria-label="Map of US counties colored by parcel-record coverage"></div>
+    <aside id="panel" aria-live="polite">
+      <div class="eyebrow">County</div>
+      <p class="hint" id="panel-hint">Click or tap a county to see what the store holds for it.</p>
+      <div id="panel-body" hidden></div>
+    </aside>
+  </div>
+
+  <div class="legend" id="legend"></div>
+
+  <footer>
+    <p><strong>What this page shows.</strong> County totals only: how many parcel records are in the store, where they came from, and how often each field is filled. It does not show any parcel, owner name, or address.</p>
+    <p><strong>What "filled" means.</strong> The share of a county's records where the field has a value. It does not measure whether the value is correct.</p>
+    <p><strong>Limits.</strong> Counts are from the July 2026 build. A source date is recorded for about a third of the counties in the store. Puerto Rico's 78 municipios are recorded but are outside the store.</p>
+    <p><strong>Code and method.</strong> <a href="https://github.com/aschulz714/us-parcel-coverage" style="color:inherit">github.com/aschulz714/us-parcel-coverage</a></p>
+  </footer>
+</div>
+
+<script src="counties.js"></script>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script>
+(function () {
+  var DATA = window.COUNTY_STATUS;
+  var COLORS = { store: '#4f6f5a', viewer: '#cc7a52', other: '#d8cba9' };
+  var CAT_LABEL = {
+    store: 'In the store',
+    viewer: 'Public viewer only',
+    none: 'No public source',
+    suppressed: 'Owner names withheld by the county',
+    pending: 'Source found, not yet collected',
+    unprobed: 'Not yet checked',
+    pr: 'Puerto Rico, outside the store'
+  };
+  var CAT_WHY = {
+    viewer: 'The county shows its parcels in a web viewer, but offers no source a program can read.',
+    none: 'No public online source was found for this county.',
+    suppressed: 'The county publishes parcels but withholds owner names.',
+    pending: 'A public source exists. It has not been collected yet.',
+    unprobed: 'This county has not been checked yet.',
+    pr: 'Recorded from a 2018 snapshot. Not part of the store.'
+  };
+  var STATE_NAMES = { AL:'Alabama', AK:'Alaska', AZ:'Arizona', AR:'Arkansas', CA:'California', CO:'Colorado', CT:'Connecticut', DE:'Delaware', DC:'District of Columbia', FL:'Florida', GA:'Georgia', HI:'Hawaii', ID:'Idaho', IL:'Illinois', IN:'Indiana', IA:'Iowa', KS:'Kansas', KY:'Kentucky', LA:'Louisiana', ME:'Maine', MD:'Maryland', MA:'Massachusetts', MI:'Michigan', MN:'Minnesota', MS:'Mississippi', MO:'Missouri', MT:'Montana', NE:'Nebraska', NV:'Nevada', NH:'New Hampshire', NJ:'New Jersey', NM:'New Mexico', NY:'New York', NC:'North Carolina', ND:'North Dakota', OH:'Ohio', OK:'Oklahoma', OR:'Oregon', PA:'Pennsylvania', RI:'Rhode Island', SC:'South Carolina', SD:'South Dakota', TN:'Tennessee', TX:'Texas', UT:'Utah', VT:'Vermont', VA:'Virginia', WA:'Washington', WV:'West Virginia', WI:'Wisconsin', WY:'Wyoming', PR:'Puerto Rico' };
+
+  function fmt(n) { return Number(n).toLocaleString('en-US'); }
+  function pct(x) { return Math.round(x * 100) + '%'; }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+  // Totals are computed from the data on this page, not typed in.
+  var feats = DATA.features, total = 0, inStore = 0, counties = 0, counts = {};
+  feats.forEach(function (f, i) {
+    var p = f.properties;
+    f.id = i;
+    counts[p.cat] = (counts[p.cat] || 0) + 1;
+    if (p.cat !== 'pr') counties += 1;
+    if (p.cat === 'store') { inStore += 1; total += p.parcels; }
+  });
+  document.getElementById('s-parcels').textContent = fmt(total);
+  document.getElementById('s-counties').textContent = fmt(inStore) + ' of ' + fmt(counties);
+  document.getElementById('s-share').textContent = pct(inStore / counties);
+
+  var otherCount = (counts.none || 0) + (counts.suppressed || 0) + (counts.pending || 0) + (counts.unprobed || 0);
+  var LEGENDS = {
+    status:
+      '<span><i class="sw" style="background:' + COLORS.store + '"></i>In the store (' + fmt(counts.store || 0) + ')</span>' +
+      '<span><i class="sw" style="background:' + COLORS.viewer + '"></i>Public viewer only, nothing a program can read (' + fmt(counts.viewer || 0) + ')</span>' +
+      '<span><i class="sw" style="background:' + COLORS.other + '"></i>No public source, owner names withheld, or not yet collected (' + fmt(otherCount) + '), and Puerto Rico (' + fmt(counts.pr || 0) + ')</span>',
+    ramp: '<span class="rampwrap">0% <i class="ramp"></i> 100%</span><span>Share of a county\'s records with the field filled</span><span><i class="sw" style="background:#efe9da"></i>Not in the store</span>'
+  };
+
+  var STATUS_FILL = ['match', ['get', 'cat'], 'store', COLORS.store, 'viewer', COLORS.viewer, COLORS.other];
+  function rampFill(field) {
+    return ['case', ['==', ['get', 'cat'], 'store'],
+      ['interpolate', ['linear'], ['get', field], 0, '#e7e1d0', 0.5, '#9db3a2', 1, '#4f6f5a'],
+      '#efe9da'];
+  }
+
+  var BLANK = { version: 8, sources: {}, layers: [{ id: 'bg', type: 'background', paint: { 'background-color': '#faf7ee' } }] };
+  var map = new maplibregl.Map({
+    container: 'map',
+    style: 'https://tiles.openfreemap.org/styles/positron',
+    bounds: [[-125.5, 24.0], [-66.5, 49.8]],
+    fitBoundsOptions: { padding: 12 },
+    attributionControl: { compact: true }
+  });
+  map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
+
+  var layersAdded = false;
+  function addLayers() {
+    if (layersAdded || map.getSource('counties')) return;
+    layersAdded = true;
+    var firstSymbol;
+    (map.getStyle().layers || []).some(function (l) { if (l.type === 'symbol') { firstSymbol = l.id; return true; } return false; });
+    map.addSource('counties', { type: 'geojson', data: DATA });
+    map.addLayer({ id: 'county-fill', type: 'fill', source: 'counties', paint: { 'fill-color': STATUS_FILL, 'fill-opacity': 0.86 } }, firstSymbol);
+    map.addLayer({ id: 'county-line', type: 'line', source: 'counties', paint: { 'line-color': '#faf7ee', 'line-width': ['interpolate', ['linear'], ['zoom'], 3, 0.15, 6, 0.6, 9, 1.2] } }, firstSymbol);
+    map.addLayer({ id: 'county-pick', type: 'line', source: 'counties', paint: { 'line-color': '#17222e', 'line-width': ['case', ['boolean', ['feature-state', 'picked'], false], 2.4, 0] } });
+    document.getElementById('map').setAttribute('data-ready', '1');
+  }
+  map.on('load', addLayers);
+  // If the background map cannot be reached, fall back to a plain background.
+  var fallback = setTimeout(function () { if (!layersAdded) { map.setStyle(BLANK); map.once('styledata', addLayers); } }, 7000);
+  map.on('load', function () { clearTimeout(fallback); });
+
+  var picked = null;
+  function show(f) {
+    var p = f.properties, body = document.getElementById('panel-body');
+    if (picked !== null) map.setFeatureState({ source: 'counties', id: picked }, { picked: false });
+    picked = f.id;
+    map.setFeatureState({ source: 'counties', id: picked }, { picked: true });
+    var color = p.cat === 'store' ? COLORS.store : (p.cat === 'viewer' ? COLORS.viewer : COLORS.other);
+    var html = '<h2>' + esc(p.name) + '</h2><div style="color:var(--ink-muted)">' + esc(STATE_NAMES[p.st] || p.st) + ' · FIPS ' + esc(p.fips) + '</div>' +
+      '<div class="status-line"><i class="sw" style="background:' + color + '"></i><span>' + CAT_LABEL[p.cat] + '</span></div>';
+    if (p.cat === 'store') {
+      html += '<dl><dt>Parcel records</dt><dd>' + fmt(p.parcels) + '</dd>' +
+        '<dt>Source</dt><dd>' + esc(p.host || 'not recorded') + '</dd>' +
+        '<dt>Source dated</dt><dd>' + esc(p.vintage || 'not recorded') + '</dd>' +
+        '<dt>Collected</dt><dd>' + esc(p.retrieved || 'not recorded') + '</dd></dl>';
+      if (p.shapes_only) html += '<p class="note">Parcel shapes only. The public source carries no owner or value fields.</p>';
+      html += '<div class="bars"><div class="eyebrow">Share of records with the field filled</div>' +
+        [['Owner name', p.owner], ['Assessed value', p.value], ['Site address', p.situs], ['Mailing address', p.mail], ['Land use', p.landuse]].map(function (r) {
+          return '<div class="bar"><span>' + r[0] + '</span><i><b style="width:' + Math.round(r[1] * 100) + '%"></b></i><em>' + pct(r[1]) + '</em></div>';
+        }).join('') + '</div>';
+    } else {
+      html += '<p>' + CAT_WHY[p.cat] + '</p>';
+    }
+    body.innerHTML = html;
+    body.hidden = false;
+    document.getElementById('panel-hint').hidden = true;
+  }
+  map.on('click', 'county-fill', function (e) { if (e.features && e.features[0]) show(e.features[0]); });
+  map.on('mouseenter', 'county-fill', function () { map.getCanvas().style.cursor = 'pointer'; });
+  map.on('mouseleave', 'county-fill', function () { map.getCanvas().style.cursor = ''; });
+
+  var legend = document.getElementById('legend');
+  legend.innerHTML = LEGENDS.status;
+  document.querySelectorAll('button[data-metric]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var m = b.getAttribute('data-metric');
+      document.querySelectorAll('button[data-metric]').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+      if (map.getLayer('county-fill')) map.setPaintProperty('county-fill', 'fill-color', m === 'status' ? STATUS_FILL : rampFill(m));
+      legend.innerHTML = m === 'status' ? LEGENDS.status : LEGENDS.ramp;
+    });
+  });
+  // Find a county by name.
+  // A few names repeat inside a state (a county and a city, say); those get their FIPS code.
+  var byLabel = {}, options = [], seen = {};
+  feats.forEach(function (f) { var k = f.properties.name + ', ' + f.properties.st; seen[k] = (seen[k] || 0) + 1; });
+  feats.forEach(function (f) {
+    var label = f.properties.name + ', ' + f.properties.st;
+    if (seen[label] > 1) label += ' (' + f.properties.fips + ')';
+    byLabel[label] = f; options.push(label);
+  });
+  options.sort();
+  document.getElementById('county-list').innerHTML = options.map(function (o) { return '<option value="' + esc(o) + '">'; }).join('');
+  function bounds(geom) {
+    var w = 180, s = 90, e = -180, n = -90;
+    (function walk(c) {
+      if (typeof c[0] === 'number') { if (c[0] < w) w = c[0]; if (c[0] > e) e = c[0]; if (c[1] < s) s = c[1]; if (c[1] > n) n = c[1]; }
+      else c.forEach(walk);
+    })(geom.coordinates);
+    return [[w, s], [e, n]];
+  }
+  document.getElementById('find').addEventListener('change', function (ev) {
+    var f = byLabel[ev.target.value.trim()];
+    if (!f) return;
+    map.fitBounds(bounds(f.geometry), { padding: 90, maxZoom: 8.5, duration: 700 });
+    if (map.getSource('counties')) show(f);
+  });
+
+  var VIEWS = { lower48: [[-125.5, 24.0], [-66.5, 49.8]], ak: [[-170.5, 52.5], [-129.5, 71.6]], hi: [[-160.6, 18.7], [-154.6, 22.4]], pr: [[-67.5, 17.8], [-65.1, 18.6]] };
+  document.querySelectorAll('button[data-view]').forEach(function (b) {
+    b.addEventListener('click', function () { map.fitBounds(VIEWS[b.getAttribute('data-view')], { padding: 12, duration: 600 }); });
+  });
+})();
+</script>
+</body>
+</html>

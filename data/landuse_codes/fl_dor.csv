@@ -1,0 +1,101 @@
+code,label,category
+000,Vacant Residential - with/without extra features,residential
+001,Single Family,residential
+002,Mobile Homes,residential
+003,Multi-family - 10 units or more,residential
+004,Condominiums,residential
+005,Cooperatives,residential
+006,Retirement Homes not eligible for exemption,residential
+007,"Miscellaneous Residential (migrant camps, boarding homes, etc.)",residential
+008,Multi-family - fewer than 10 units,residential
+009,Residential Common Elements/Areas,residential
+010,Vacant Commercial - with/without extra features,commercial-trade
+011,"Stores, one story",commercial-trade
+012,Mixed use - store and office or store and residential combination,commercial-trade
+013,Department Stores,commercial-trade
+014,Supermarkets,commercial-trade
+015,Regional Shopping Centers,commercial-trade
+016,Community Shopping Centers,commercial-trade
+017,"Office buildings, non-professional service buildings, one story",commercial-services
+018,"Office buildings, non-professional service buildings, multi-story",commercial-services
+019,Professional service buildings,commercial-services
+020,"Airports (private or commercial), bus terminals, marine terminals, piers, marinas",transport/utilities
+021,"Restaurants, cafeterias",commercial-trade
+022,Drive-in Restaurants,commercial-trade
+023,"Financial institutions (banks, saving and loan companies, mortgage companies, credit services)",commercial-services
+024,Insurance company offices,commercial-services
+025,"Repair service shops (excluding automotive), radio and T.V. repair, refrigeration service, electric repair, laundries, Laundromats",commercial-services
+026,Service stations,commercial-trade
+027,"Auto sales, auto repair and storage, auto service shops, body and fender shops, commercial garages, farm and machinery sales and services, auto rental, marine equipment, trailers and related equipment, mobile home sales, motorcycles, construction vehicle sales",commercial-trade
+028,"Parking lots (commercial or patron), mobile home parks",transport/utilities
+029,"Wholesale outlets, produce houses, manufacturing outlets",commercial-trade
+030,"Florists, greenhouses",commercial-trade
+031,"Drive-in theaters, open stadiums",recreation/cultural
+032,"Enclosed theaters, enclosed auditoriums",recreation/cultural
+033,"Nightclubs, cocktail lounges, bars",commercial-trade
+034,"Bowling alleys, skating rinks, pool halls, enclosed arenas",recreation/cultural
+035,"Tourist attractions, permanent exhibits, other entertainment facilities, fairgrounds (privately owned)",recreation/cultural
+036,Camps,recreation/cultural
+037,"Race tracks (horse, auto, or dog)",recreation/cultural
+038,"Golf courses, driving ranges",recreation/cultural
+039,"Hotels, motels",residential
+040,Vacant Industrial - with/without extra features,industrial
+041,"Light manufacturing, small equipment manufacturing plants, small machine shops, instrument manufacturing, printing plants",industrial
+042,"Heavy industrial, heavy equipment manufacturing, large machine shops, foundries, steel fabricating plants, auto or aircraft plants",industrial
+043,"Lumber yards, sawmills, planing mills",industrial
+044,"Packing plants, fruit and vegetable packing plants, meat packing plants",industrial
+045,"Canneries, fruit and vegetable, bottlers and brewers, distilleries, wineries",industrial
+046,"Other food processing, candy factories, bakeries, potato chip factories",industrial
+047,"Mineral processing, phosphate processing, cement plants, refineries, clay plants, rock and gravel plants",industrial
+048,"Warehousing, distribution terminals, trucking terminals, van and storage warehousing",industrial
+049,"Open storage, new and used building supplies, junk yards, auto wrecking, fuel storage, equipment and material storage",industrial
+050,Improved agricultural,agriculture/forest
+051,Cropland soil capability Class I,agriculture/forest
+052,Cropland soil capability Class II,agriculture/forest
+053,Cropland soil capability Class III,agriculture/forest
+054,Timberland - site index 90 and above,agriculture/forest
+055,Timberland - site index 80 to 89,agriculture/forest
+056,Timberland - site index 70 to 79,agriculture/forest
+057,Timberland - site index 60 to 69,agriculture/forest
+058,Timberland - site index 50 to 59,agriculture/forest
+059,Timberland not classified by site index to Pines,agriculture/forest
+060,Grazing land soil capability Class I,agriculture/forest
+061,Grazing land soil capability Class II,agriculture/forest
+062,Grazing land soil capability Class III,agriculture/forest
+063,Grazing land soil capability Class IV,agriculture/forest
+064,Grazing land soil capability Class V,agriculture/forest
+065,Grazing land soil capability Class VI,agriculture/forest
+066,"Orchard Groves, citrus, etc.",agriculture/forest
+067,"Poultry, bees, tropical fish, rabbits, etc.",agriculture/forest
+068,"Dairies, feed lots",agriculture/forest
+069,"Ornamentals, miscellaneous agricultural",agriculture/forest
+070,"Vacant Institutional, with or without extra features",commercial-services
+071,Churches,recreation/cultural
+072,Private schools and colleges,commercial-services
+073,Privately owned hospitals,commercial-services
+074,Homes for the aged,residential
+075,"Orphanages, other non-profit or charitable services",commercial-services
+076,"Mortuaries, cemeteries, crematoriums",commercial-services
+077,"Clubs, lodges, union halls",recreation/cultural
+078,"Sanitariums, convalescent and rest homes",residential
+079,"Cultural organizations, facilities",recreation/cultural
+080,Vacant Governmental - with/without extra features,commercial-services
+081,Military,commercial-services
+082,"Forest, parks, recreational areas",recreation/cultural
+083,Public county schools - including all property of Board of Public Instruction,commercial-services
+084,Colleges (non-private),commercial-services
+085,Hospitals (non-private),commercial-services
+086,"Counties (other than public schools, colleges, hospitals) including non-municipal government",commercial-services
+087,"State, other than military, forests, parks, recreational areas, colleges, hospitals",commercial-services
+088,"Federal, other than military, forests, parks, recreational areas, hospitals, colleges",commercial-services
+089,"Municipal, other than parks, recreational areas, colleges, hospitals",commercial-services
+090,Leasehold interests (government-owned property leased by a non-governmental lessee),commercial-services
+091,"Utility, gas and electricity, telephone and telegraph, locally assessed railroads, water and sewer service, pipelines, canals, radio/television communication",transport/utilities
+092,"Mining lands, petroleum lands, or gas lands",agriculture/forest
+093,Subsurface rights,agriculture/forest
+094,"Right-of-way, streets, roads, irrigation channel, ditch, etc.",transport/utilities
+095,"Rivers and lakes, submerged lands",undeveloped/open
+096,"Sewage disposal, solid waste, borrow pits, drainage reservoirs, waste land, marsh, sand dunes, swamps",undeveloped/open
+097,"Outdoor recreational or parkland, or high-water recharge subject to classified use assessment",recreation/cultural
+098,Centrally assessed,transport/utilities
+099,Acreage not zoned agricultural - with/without extra features,undeveloped/open

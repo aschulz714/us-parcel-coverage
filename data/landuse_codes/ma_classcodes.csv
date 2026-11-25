@@ -1,0 +1,391 @@
+code,label,category
+000,Mixed use (primarily residential),residential
+010,Mixed use (primarily residential),residential
+011,Mixed use (primarily residential),residential
+012,Mixed use (primarily residential),residential
+013,Mixed use (primarily residential),residential
+014,Mixed use (primarily residential),residential
+016,Mixed use (primarily residential),residential
+017,Mixed use (primarily residential),residential
+018,Mixed use (primarily residential),residential
+019,Mixed use (primarily residential),residential
+021,Mixed use (primarily residential),residential
+023,Mixed use (primarily residential),residential
+030,Mixed use (primarily residential),residential
+031,Mixed use (primarily residential),residential
+032,Mixed use (primarily residential),residential
+033,Mixed use (primarily residential),residential
+034,Mixed use (primarily residential),residential
+035,Mixed use (primarily residential),residential
+036,Mixed use (primarily residential),residential
+037,Mixed use (primarily residential),residential
+038,Mixed use (primarily residential),residential
+039,Mixed use (primarily residential),residential
+040,Mixed use (primarily residential),residential
+041,Mixed use (primarily residential),residential
+043,Mixed use (primarily residential),residential
+044,Mixed use (primarily residential),residential
+045,Mixed use (primarily residential),residential
+046,Mixed use (primarily residential),residential
+047,Mixed use (primarily residential),residential
+048,Mixed use (primarily residential),residential
+049,Mixed use (primarily residential),residential
+060,Mixed use (primarily residential),residential
+061,Mixed use (primarily residential),residential
+063,Mixed use (primarily residential),residential
+064,Mixed use (primarily residential),residential
+067,Mixed use (primarily residential),residential
+068,Mixed use (primarily residential),residential
+070,Mixed use (primarily residential),residential
+071,Mixed use (primarily residential),residential
+072,Mixed use (primarily residential),residential
+073,Mixed use (primarily residential),residential
+074,Mixed use (primarily residential),residential
+076,Mixed use (primarily residential),residential
+078,Mixed use (primarily residential),residential
+080,Mixed use (primarily residential),residential
+081,Mixed use (primarily residential),residential
+083,Mixed use (primarily residential),residential
+084,Mixed use (primarily residential),residential
+086,Mixed use (primarily residential),residential
+087,Mixed use (primarily residential),residential
+090,Mixed use (primarily residential),residential
+091,Mixed use (primarily residential),residential
+092,Mixed use (primarily residential),residential
+093,Mixed use (primarily residential),residential
+094,Mixed use (primarily residential),residential
+096,Mixed use (primarily residential),residential
+097,Mixed use (primarily residential),residential
+098,Mixed use (primarily residential),residential
+100,Residential,residential
+101,Single family,residential
+102,Condominium,residential
+103,Mobile home,residential
+104,Two-family,residential
+105,Three-family,residential
+106,Accessory land (residential),residential
+107,Residential,residential
+108,Multi-use residential,residential
+109,Multiple houses on one parcel,residential
+110,Residential,residential
+111,Apartments (4-8 units),residential
+112,Apartments (>8 units),residential
+113,Residential,residential
+114,Residential,residential
+116,Residential,residential
+117,Residential,residential
+118,Residential,residential
+119,Residential,residential
+120,Residential,residential
+121,Residential,residential
+122,Residential,residential
+123,Residential,residential
+124,Residential,residential
+125,Residential,residential
+126,Residential,residential
+127,Residential,residential
+129,Residential,residential
+130,"Vacant residential, developable",undeveloped/open
+131,"Vacant residential, potentially developable",undeveloped/open
+132,"Vacant residential, undevelopable",undeveloped/open
+133,Residential,undeveloped/open
+137,Residential,undeveloped/open
+140,Residential,residential
+142,Residential,residential
+150,Residential,residential
+160,Residential,residential
+170,Residential,residential
+172,Residential,residential
+180,Residential,residential
+181,Residential,residential
+182,Residential,residential
+199,Residential,residential
+201,Open space,undeveloped/open
+202,Open space,undeveloped/open
+210,Open space,undeveloped/open
+220,Open space,undeveloped/open
+221,Open space,undeveloped/open
+261,Open space,undeveloped/open
+272,Open space,undeveloped/open
+273,Open space,undeveloped/open
+274,Open space,undeveloped/open
+276,Open space,undeveloped/open
+277,Open space,undeveloped/open
+278,Open space,undeveloped/open
+281,Open space,undeveloped/open
+285,Open space,undeveloped/open
+290,Open space,undeveloped/open
+292,Open space,undeveloped/open
+300,Hotel,residential
+301,Commercial,residential
+302,Commercial,residential
+303,Commercial,residential
+304,Commercial,residential
+305,Commercial,residential
+306,Commercial,commercial-trade
+307,Commercial,commercial-trade
+308,Commercial,commercial-trade
+309,Commercial,commercial-trade
+310,Commercial,commercial-trade
+311,Commercial,commercial-trade
+312,Commercial,commercial-trade
+313,Commercial,commercial-trade
+314,Commercial,commercial-trade
+315,Commercial,commercial-trade
+316,Commercial,commercial-trade
+317,Commercial,commercial-trade
+318,Commercial,commercial-trade
+319,Commercial,commercial-trade
+320,Commercial,commercial-trade
+321,Commercial,commercial-trade
+322,Commercial,commercial-trade
+323,Commercial,commercial-trade
+324,Commercial,commercial-trade
+325,Retail/store,commercial-trade
+326,Eating establishment,commercial-trade
+327,Commercial,commercial-trade
+328,Commercial,commercial-trade
+329,Commercial,commercial-trade
+330,Commercial,commercial-trade
+331,Commercial,commercial-trade
+332,Auto service,commercial-trade
+333,Commercial,commercial-trade
+334,Commercial,commercial-trade
+335,Commercial,commercial-trade
+336,Commercial,commercial-trade
+337,Service shop,commercial-trade
+338,Commercial,commercial-trade
+339,Commercial,commercial-trade
+340,Office building,commercial-services
+341,Commercial,commercial-services
+342,Commercial,commercial-services
+343,Bank/office,commercial-services
+344,Commercial,commercial-services
+345,Commercial,commercial-services
+346,Commercial,commercial-services
+347,Commercial,commercial-services
+348,Commercial,commercial-services
+349,Commercial,commercial-services
+350,Commercial,commercial-services
+351,Commercial,commercial-services
+352,Commercial,commercial-services
+353,Commercial,commercial-services
+354,Commercial,commercial-services
+355,Commercial,commercial-services
+356,Commercial,commercial-services
+357,Commercial,commercial-services
+358,Commercial,commercial-services
+359,Commercial,commercial-services
+360,Commercial,commercial-services
+361,Commercial,commercial-services
+362,Commercial,commercial-services
+363,Commercial,commercial-services
+364,Commercial,commercial-services
+365,Commercial,commercial-services
+366,Commercial,commercial-services
+367,Commercial,commercial-services
+368,Commercial,commercial-services
+369,Commercial,commercial-services
+370,Commercial,commercial-trade
+371,Commercial,commercial-trade
+372,Commercial,commercial-trade
+373,Commercial,commercial-trade
+374,Commercial,commercial-trade
+375,Commercial,commercial-trade
+376,Commercial,commercial-trade
+377,Commercial,commercial-trade
+378,Commercial,commercial-trade
+379,Commercial,commercial-trade
+380,Commercial,commercial-trade
+381,Commercial,commercial-trade
+382,Commercial,commercial-trade
+383,Commercial,commercial-trade
+384,Commercial,commercial-trade
+385,Commercial,commercial-trade
+386,Commercial,commercial-trade
+387,Commercial,commercial-trade
+388,Commercial,commercial-trade
+389,Commercial,commercial-trade
+390,Commercial vacant/other,commercial-trade
+391,Commercial,commercial-trade
+392,Commercial,commercial-trade
+393,Commercial,commercial-trade
+394,Commercial,commercial-trade
+395,Commercial,commercial-trade
+399,Commercial,commercial-trade
+400,Industrial,industrial
+401,Manufacturing,industrial
+402,Industrial,industrial
+403,Industrial,industrial
+404,Industrial,industrial
+405,Industrial,industrial
+406,Industrial,industrial
+407,Industrial,industrial
+408,Industrial,industrial
+409,Industrial,industrial
+410,Industrial,industrial
+411,Industrial,industrial
+412,Industrial,industrial
+413,Industrial,industrial
+414,Industrial,industrial
+415,Industrial,industrial
+417,Industrial,industrial
+420,Industrial,industrial
+421,Industrial,industrial
+422,Industrial,industrial
+423,Industrial,industrial
+424,Industrial,industrial
+425,Industrial,industrial
+426,Industrial,industrial
+427,Industrial,industrial
+428,Industrial,industrial
+430,Industrial,industrial
+431,Industrial,industrial
+432,Industrial,industrial
+433,Industrial,industrial
+434,Industrial,industrial
+435,Industrial,industrial
+436,Industrial,industrial
+437,Industrial,industrial
+438,Industrial,industrial
+439,Industrial,industrial
+440,Industrial,industrial
+441,Industrial,industrial
+442,Industrial,industrial
+444,Industrial,industrial
+445,Industrial,industrial
+446,Industrial,industrial
+450,Industrial,industrial
+451,Industrial,industrial
+452,Industrial,industrial
+465,Industrial,industrial
+601,Forest land (Ch.61),agriculture/forest
+602,Ch.61 forest,agriculture/forest
+610,Ch.61 forest,agriculture/forest
+700,Ch.61B recreational,recreation/cultural
+709,Ch.61B recreational,recreation/cultural
+710,Ch.61B recreational,recreation/cultural
+711,Ch.61B recreational,recreation/cultural
+712,Ch.61B recreational,recreation/cultural
+713,Ch.61B recreational,recreation/cultural
+714,Ch.61B recreational,recreation/cultural
+715,Ch.61B recreational,recreation/cultural
+716,Ch.61B recreational,recreation/cultural
+717,Ch.61B recreational,recreation/cultural
+718,Ch.61B recreational,recreation/cultural
+719,Ch.61B recreational,recreation/cultural
+720,Ch.61B recreational,recreation/cultural
+722,Ch.61B recreational,recreation/cultural
+800,Ch.61A agricultural,agriculture/forest
+801,Ch.61A agricultural,agriculture/forest
+802,Ch.61A agricultural,agriculture/forest
+803,Ch.61A agricultural,agriculture/forest
+804,Ch.61A agricultural,agriculture/forest
+805,Ch.61A agricultural,agriculture/forest
+806,Ch.61A agricultural,agriculture/forest
+807,Ch.61A agricultural,agriculture/forest
+808,Ch.61A agricultural,agriculture/forest
+809,Ch.61A agricultural,agriculture/forest
+810,Ch.61A agricultural,agriculture/forest
+811,Ch.61A agricultural,agriculture/forest
+812,Ch.61A agricultural,agriculture/forest
+814,Ch.61A agricultural,agriculture/forest
+815,Ch.61A agricultural,agriculture/forest
+900,Exempt,commercial-services
+901,Exempt,commercial-services
+902,Exempt,commercial-services
+903,Charitable/educational exempt,commercial-services
+904,Exempt,commercial-services
+905,Exempt,commercial-services
+906,Exempt,commercial-services
+907,Exempt,commercial-services
+908,Exempt,commercial-services
+909,Exempt,commercial-services
+910,Exempt,commercial-services
+911,Exempt,commercial-services
+912,Exempt,commercial-services
+913,Exempt,commercial-services
+914,Exempt,commercial-services
+915,Exempt,commercial-services
+916,Exempt,commercial-services
+917,Exempt,commercial-services
+918,Exempt,commercial-services
+919,Exempt,commercial-services
+920,Exempt,commercial-services
+921,Exempt,commercial-services
+922,Exempt,commercial-services
+923,Exempt,commercial-services
+924,Exempt,commercial-services
+925,Exempt,commercial-services
+926,Exempt,commercial-services
+927,Exempt,commercial-services
+928,Exempt,commercial-services
+929,Exempt,commercial-services
+930,Vacant municipal land,undeveloped/open
+931,Municipal improved,commercial-services
+932,Municipal building,commercial-services
+933,Exempt,commercial-services
+934,Exempt,commercial-services
+935,Exempt,commercial-services
+936,Municipal other,commercial-services
+937,Exempt,commercial-services
+938,Exempt,commercial-services
+939,Exempt,commercial-services
+940,Exempt,undeveloped/open
+941,Exempt,commercial-services
+942,Exempt,commercial-services
+943,Exempt,commercial-services
+944,Exempt,commercial-services
+945,Exempt,commercial-services
+946,Exempt,commercial-services
+947,Exempt,commercial-services
+948,Exempt,commercial-services
+949,Exempt,commercial-services
+950,State-owned,undeveloped/open
+951,Exempt,commercial-services
+952,Exempt,commercial-services
+953,Exempt,commercial-services
+954,Exempt,commercial-services
+955,Exempt,commercial-services
+956,Exempt,commercial-services
+957,Exempt,commercial-services
+958,Exempt,commercial-services
+959,Exempt,commercial-services
+960,Federal-owned,undeveloped/open
+961,Exempt,commercial-services
+962,Exempt,commercial-services
+963,Exempt,commercial-services
+964,Exempt,commercial-services
+965,Exempt,commercial-services
+966,Exempt,commercial-services
+968,Exempt,commercial-services
+969,Exempt,commercial-services
+970,Exempt,commercial-services
+971,Exempt,commercial-services
+972,Exempt,commercial-services
+973,Exempt,commercial-services
+974,Exempt,commercial-services
+975,Exempt,commercial-services
+976,Exempt,commercial-services
+977,Exempt,commercial-services
+978,Exempt,commercial-services
+979,Exempt,commercial-services
+980,Exempt,commercial-services
+981,Exempt,commercial-services
+982,Exempt,commercial-services
+983,Exempt,commercial-services
+985,Exempt,commercial-services
+986,Exempt,commercial-services
+987,Exempt,commercial-services
+988,Exempt,commercial-services
+989,Exempt,commercial-services
+990,Exempt,commercial-services
+991,Exempt,commercial-services
+992,Exempt,commercial-services
+993,Exempt,commercial-services
+994,Exempt,commercial-services
+995,Exempt (other),commercial-services
+996,Exempt (other),commercial-services
+997,Exempt,commercial-services
+998,Exempt,commercial-services
+999,Exempt,commercial-services

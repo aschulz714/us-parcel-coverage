@@ -1,0 +1,24 @@
+code,label,category
+1,Residential,residential
+2,Commercial,commercial-trade
+3,Manufacturing,industrial
+4,Agricultural,agriculture/forest
+5,Undeveloped,undeveloped/open
+5M,Agricultural forest,agriculture/forest
+6,Productive Forest Land,agriculture/forest
+7,Other (farm buildings and improvements + their site),agriculture/forest
+X1,Exempt - Federal,commercial-services
+X2,Exempt - State,commercial-services
+X3,Exempt - County,commercial-services
+X4,Exempt - Other,commercial-services
+W1,Forest Cropland Before 01/01/1972,agriculture/forest
+W2,Forest Cropland After 12/31/1971,agriculture/forest
+W3,Forest Cropland Special,agriculture/forest
+W4,County Forest Crop Land,agriculture/forest
+W5,MFL Entered After 2004 Open,agriculture/forest
+W6,MFL Entered After 2004 Closed,agriculture/forest
+W7,MFL Entered Before 2005 Open,agriculture/forest
+W8,MFL Entered Before 2005 Closed,agriculture/forest
+W9,MFL Ferrous Mining,agriculture/forest
+AW,Assessed with other parcel (s. 70.23(2)) - marker not a use,
+AWO,Assessed with other parcel (s. 70.23(2)) - marker not a use,

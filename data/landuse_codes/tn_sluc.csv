@@ -1,0 +1,187 @@
+code,label,category
+100,Residential (band),residential
+110,Household Units,residential
+111,One Family Household Unit,residential
+112,Two Family Household Unit (Duplex),residential
+113,Multi-Family (4-9 unit Apartment),residential
+114,Two Family Units (Duplex Owner Occupied),residential
+115,Triplex,residential
+116,Condominium,residential
+117,Apartment: 10 units or more,residential
+118,SLUC 118 (residential band),residential
+120,Group Quarters,residential
+124,SLUC 124 (residential band),residential
+125,SLUC 125 (residential band),residential
+140,Mobile Homes,residential
+141,Mobile Homes (Single Trailer),residential
+142,Mobile Home Park,residential
+143,Mobile Home Park (Privately Owned),residential
+144,SLUC 144 (residential band),residential
+150,Transient Lodging,residential
+200,Manufacturing (band),industrial
+210,Food Manufacturing,industrial
+220,Textile Mill Products Mfg,industrial
+230,Apparel Manufacturing,industrial
+240,Lumber and Wood Products Mfg,industrial
+250,Furniture and Fixtures Mfg,industrial
+260,Paper Products Mfg,industrial
+270,"Printing, Publishing and Allied",industrial
+280,Chemicals and Allied Products Mfg,industrial
+290,Petroleum Refining Mfg,industrial
+291,Petroleum Tank Farms,industrial
+292,Paving and Roofing Materials,industrial
+293,Paving Equipment,industrial
+294,SLUC 294 (industrial band),industrial
+300,Manufacturing (band),industrial
+310,Ancillary to Manufacturing,industrial
+311,Office Bldg Ancillary to Mfg,industrial
+312,Warehouse Bldg Ancillary to Mfg,industrial
+313,Service/Parking Bldg Ancillary to Mfg,industrial
+314,Retail/Wholesale Ancillary to Mfg,industrial
+320,"Stone, Concrete and Glass Products Mfg",industrial
+330,"Iron, Steel and Metal Mfg",industrial
+340,Fabricated Metal Products Mfg,industrial
+350,Instruments/Optical/Watch Mfg,industrial
+390,Miscellaneous Manufacturing,industrial
+391,SLUC 391 (industrial band),industrial
+393,SLUC 393 (industrial band),industrial
+397,Recording and Movie Studios,industrial
+400,Transport/Comm/Utilities (band),transport/utilities
+410,Rail Transportation,transport/utilities
+420,Motor Vehicle Transportation,transport/utilities
+430,Aircraft Transportation,transport/utilities
+431,Airports,transport/utilities
+432,Airport Repair Hangers,transport/utilities
+440,Marine Craft Transportation,transport/utilities
+450,Highway and Street Right of Way,transport/utilities
+460,Automobile Parking,transport/utilities
+461,Private Parking (service or garage),transport/utilities
+462,Parking Ancillary to Mfg,transport/utilities
+468,Commercial Service Parking Lots,transport/utilities
+469,Commercial Parking Garage,transport/utilities
+470,"Communications (Telephone, Radio, TV)",transport/utilities
+480,Utilities,transport/utilities
+481,Electric Utilities,transport/utilities
+482,Gas Utilities,transport/utilities
+483,Water Utilities,transport/utilities
+484,Sewage Utilities,transport/utilities
+485,Solid Waste Disposal Utilities,transport/utilities
+486,Other Transport/Comm/Utilities,transport/utilities
+490,Warehouse,transport/utilities
+492,Warehouse Storage,transport/utilities
+493,Distribution-Warehouse,transport/utilities
+494,Mini Warehouse,transport/utilities
+495,SLUC 495 (transport/utilities band),transport/utilities
+500,Wholesale and Retail Trade (band),commercial-trade
+510,Wholesale Trade,commercial-trade
+520,Retail Trade Equipment,commercial-trade
+521,Lumber and Building Materials,commercial-trade
+522,Heating and Plumbing Equipment,commercial-trade
+523,"Paint, Glass and Wallpaper",commercial-trade
+524,Electrical Supplies,commercial-trade
+525,Hardware and Farm Equipment,commercial-trade
+526,Sporting Goods,commercial-trade
+530,Retail Trade - General,commercial-trade
+531,Department Stores,commercial-trade
+532,SLUC 532 (commercial-trade band),commercial-trade
+533,SLUC 533 (commercial-trade band),commercial-trade
+534,SLUC 534 (commercial-trade band),commercial-trade
+536,Discount Department Stores,commercial-trade
+537,Antiques and Second Hand,commercial-trade
+538,Drugstores,commercial-trade
+540,Retail Trade - Food,commercial-trade
+541,Groceries (supermarkets),commercial-trade
+542,Meats and Fish Markets,commercial-trade
+543,Fruits and Vegetables,commercial-trade
+544,"Candy, Nuts and Confectionery",commercial-trade
+545,Dairy Products,commercial-trade
+546,Bakeries,commercial-trade
+547,Liquor,commercial-trade
+548,Convenience Groceries (drive-in),commercial-trade
+550,Retail - Automotive/Marine/Aircraft,commercial-trade
+551,Motor Vehicle New,commercial-trade
+552,"Tires, Batteries and Auto Accessories",commercial-trade
+553,Service Stations,commercial-trade
+554,Motor Vehicles Used,commercial-trade
+555,Automotive Junkyards,commercial-trade
+556,Marine Craft and Accessories,commercial-trade
+557,Farm Equipment,commercial-trade
+558,Motorcycles,commercial-trade
+560,Retail - Apparel and Accessories,commercial-trade
+570,Retail Furniture and Home Furnishings,commercial-trade
+580,Retail - Eating and Drinking,commercial-trade
+583,Restaurants (full-course),commercial-trade
+584,Diners and Luncheonettes,commercial-trade
+585,Snack Bars/Drive-ins,commercial-trade
+587,Bars and Taverns,commercial-trade
+590,Other Retail Trades,commercial-trade
+591,SLUC 591 (commercial-trade band),commercial-trade
+600,Services (band),commercial-services
+601,SLUC 601 (commercial-services band),commercial-services
+602,SLUC 602 (commercial-services band),commercial-services
+610,"Finance, Insurance and Real Estate",commercial-services
+611,Banking,commercial-services
+612,Credit and Loan (non-bank),commercial-services
+613,Bank Complex with Office Building,commercial-services
+614,Insurance Carriers/Agents/Brokers,commercial-services
+615,Real Estate Brokers,commercial-services
+617,Insurance Corporate Office,commercial-services
+620,Personal Service,commercial-services
+621,SLUC 621 (commercial-services band),commercial-services
+630,Business Services,commercial-services
+640,Repair Services,commercial-services
+650,Professional Services,commercial-services
+652,Legal Services,commercial-services
+653,Medical Clinics/Outpatient,commercial-services
+654,Hospitals and Sanitariums,commercial-services
+655,Engineering and Architectural,commercial-services
+656,Accounting and Bookkeeping,commercial-services
+657,Medical and Dental Labs,commercial-services
+658,Dentists,commercial-services
+659,Veterinarian Clinics,commercial-services
+660,Contract Construction Services,commercial-services
+670,Governmental Functions,commercial-services
+671,Executive/Legislative/Judicial,commercial-services
+672,"Protective Functions (police, fire)",commercial-services
+673,Postal Functions,commercial-services
+674,Correctional Functions,commercial-services
+676,Government Yards,commercial-services
+680,Educational Services,commercial-services
+682,University and Colleges,commercial-services
+683,Vocational Training,commercial-services
+684,Nursery Schools and Day Care,commercial-services
+685,Elementary Schools,commercial-services
+686,Junior High Schools,commercial-services
+687,Senior High Schools,commercial-services
+690,Other Services,commercial-services
+691,"Churches, Synagogues, Temples",commercial-services
+692,Welfare and Charitable Services,commercial-services
+695,Labor Unions and Fraternal Assns,commercial-services
+700,Cultural/Entertainment/Recreation (band),recreation/cultural
+710,Cultural and Nature Exhibitions,recreation/cultural
+720,Public Assembly,recreation/cultural
+730,Amusement,recreation/cultural
+740,Community Lots/Playgrounds/Athletics,recreation/cultural
+741,Marinas and Camping Areas,recreation/cultural
+742,Bowling Alleys,recreation/cultural
+743,Golf Courses,recreation/cultural
+750,Resort and Group Camps,recreation/cultural
+760,Parks,recreation/cultural
+800,Resource Production (band),agriculture/forest
+810,Agricultural,agriculture/forest
+820,Agricultural Related Activities,agriculture/forest
+830,Forestry Activities,agriculture/forest
+850,Mining Activities,industrial
+900,Undeveloped Land and Water (band),undeveloped/open
+910,Undeveloped and Unused Land,undeveloped/open
+911,Vacant Land Suitable for Development,undeveloped/open
+912,Vacant Land Not Suitable for Development,undeveloped/open
+914,Vacant Land Commercial,undeveloped/open
+915,Vacant Land Industrial,undeveloped/open
+916,Vacant Land Commercial (fenced),undeveloped/open
+917,Vacant Land Industrial (fenced),undeveloped/open
+918,Vacant Land Condominiums,undeveloped/open
+920,Forests,undeveloped/open
+930,Water Areas,undeveloped/open
+960,Cemeteries,undeveloped/open
+970,Combined or Deleted,undeveloped/open

@@ -1,0 +1,42 @@
+code,label,category
+RI,Residential - improved,residential
+RV,Residential - vacant lot/tract,residential
+RM,Residential - with mobile/manufactured home,residential
+AI,Agricultural - improved,agriculture/forest
+AV,Agricultural - vacant,agriculture/forest
+AM,Agricultural - with mobile/manufactured home,agriculture/forest
+CI,Commercial - improved,commercial-trade
+CV,Commercial - vacant,commercial-trade
+CM,Commercial - with mobile/manufactured home,commercial-trade
+CR,Commercial - rural,commercial-trade
+CG,Commercial - subtype G,commercial-trade
+CA,Commercial - subtype A,commercial-trade
+CP,Commercial - park (RV/mobile home park),commercial-trade
+CB,Commercial - subtype B,commercial-trade
+II,Industrial - improved,industrial
+IV,Industrial - vacant,industrial
+IA,Industrial - agricultural processing (mills),industrial
+IG,Industrial - subtype G,industrial
+IM,Industrial - with mobile/manufactured home,industrial
+I9,Industrial - Act 9 bond-financed facility,industrial
+EX,Exempt - other,commercial-services
+EI,Exempt - state institutions/highways (verified: AR State Highway Commission; UofA; USFS),commercial-services
+EG,Exempt - government,commercial-services
+ER,Exempt - religious,commercial-services
+ES,Exempt - school,commercial-services
+EC,Exempt - charitable,commercial-services
+EB,Exempt - burial/cemetery,commercial-services
+EH,Exempt - fire/water/improvement district,commercial-services
+EF,Exempt - fire association,commercial-services
+EL,Exempt - library,commercial-services
+PS,Public service / utility,transport/utilities
+VR,Vacant - bank/developer held,undeveloped/open
+MH,Mobile home,residential
+VP,Plat/subdivision reference record (non-parcel),
+RB,Residential subtype B (mixed municipal/individual owners - unverified),
+RC,Residential subtype C (unverified),
+RF,Residential subtype F (municipal owners - unverified),
+IF,Improvement-district/POA common areas (owners are POAs - NOT industrial),
+ML,(unknown - 9 parcels),
+BB,(unknown - 7 parcels),
+AC,(unknown - 1 parcel),

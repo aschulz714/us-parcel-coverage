@@ -1,0 +1,1001 @@
+code,label,category
+000,"Miscellaneous Property, unbuildable size / DEQ / easement or right-of-way",undeveloped/open
+001,"Miscellaneous Property, improvement only",undeveloped/open
+002,"Miscellaneous Property, mineral interest",undeveloped/open
+003,"Miscellaneous Property, centrally assessed",undeveloped/open
+004,"Miscellaneous Property, historic",undeveloped/open
+005,"Miscellaneous Property, open space",undeveloped/open
+006,"Miscellaneous Property, (third digit not assigned)",undeveloped/open
+007,"Miscellaneous Property, timeshare property",undeveloped/open
+008,"Miscellaneous Property, enterprise zone",undeveloped/open
+009,"Miscellaneous Property, manufactured structure",undeveloped/open
+010,"Miscellaneous Residential, unbuildable size / DEQ / easement or right-of-way",residential
+011,"Miscellaneous Residential, improvement only",residential
+012,"Miscellaneous Residential, mineral interest",residential
+013,"Miscellaneous Residential, centrally assessed",residential
+014,"Miscellaneous Residential, historic",residential
+015,"Miscellaneous Residential, open space",residential
+016,"Miscellaneous Residential, (third digit not assigned)",residential
+017,"Miscellaneous Residential, timeshare property",residential
+018,"Miscellaneous Residential, enterprise zone",residential
+019,"Miscellaneous Residential, manufactured structure",residential
+020,"Miscellaneous Commercial, unbuildable size / DEQ / easement or right-of-way",commercial-trade
+021,"Miscellaneous Commercial, improvement only",commercial-trade
+022,"Miscellaneous Commercial, mineral interest",commercial-trade
+023,"Miscellaneous Commercial, centrally assessed",commercial-trade
+024,"Miscellaneous Commercial, historic",commercial-trade
+025,"Miscellaneous Commercial, open space",commercial-trade
+026,"Miscellaneous Commercial, (third digit not assigned)",commercial-trade
+027,"Miscellaneous Commercial, timeshare property",commercial-trade
+028,"Miscellaneous Commercial, enterprise zone",commercial-trade
+029,"Miscellaneous Commercial, manufactured structure",commercial-trade
+030,"Miscellaneous Industrial, unbuildable size / DEQ / easement or right-of-way",industrial
+031,"Miscellaneous Industrial, improvement only",industrial
+032,"Miscellaneous Industrial, mineral interest",industrial
+033,"Miscellaneous Industrial, centrally assessed",industrial
+034,"Miscellaneous Industrial, historic",industrial
+035,"Miscellaneous Industrial, open space",industrial
+036,"Miscellaneous Industrial, (third digit not assigned)",industrial
+037,"Miscellaneous Industrial, timeshare property",industrial
+038,"Miscellaneous Industrial, enterprise zone",industrial
+039,"Miscellaneous Industrial, manufactured structure",industrial
+040,"Miscellaneous Tract, unbuildable size / DEQ / easement or right-of-way",residential
+041,"Miscellaneous Tract, improvement only",residential
+042,"Miscellaneous Tract, mineral interest",residential
+043,"Miscellaneous Tract, centrally assessed",residential
+044,"Miscellaneous Tract, historic",residential
+045,"Miscellaneous Tract, open space",residential
+046,"Miscellaneous Tract, (third digit not assigned)",residential
+047,"Miscellaneous Tract, timeshare property",residential
+048,"Miscellaneous Tract, enterprise zone",residential
+049,"Miscellaneous Tract, manufactured structure",residential
+050,"Miscellaneous Farm, unbuildable size / DEQ / easement or right-of-way",agriculture/forest
+051,"Miscellaneous Farm, improvement only",agriculture/forest
+052,"Miscellaneous Farm, mineral interest",agriculture/forest
+053,"Miscellaneous Farm, centrally assessed",agriculture/forest
+054,"Miscellaneous Farm, historic",agriculture/forest
+055,"Miscellaneous Farm, open space",agriculture/forest
+056,"Miscellaneous Farm, (third digit not assigned)",agriculture/forest
+057,"Miscellaneous Farm, timeshare property",agriculture/forest
+058,"Miscellaneous Farm, enterprise zone",agriculture/forest
+059,"Miscellaneous Farm, manufactured structure",agriculture/forest
+060,"Miscellaneous Forest, unbuildable size / DEQ / easement or right-of-way",agriculture/forest
+061,"Miscellaneous Forest, improvement only",agriculture/forest
+062,"Miscellaneous Forest, mineral interest",agriculture/forest
+063,"Miscellaneous Forest, centrally assessed",agriculture/forest
+064,"Miscellaneous Forest, historic",agriculture/forest
+065,"Miscellaneous Forest, open space",agriculture/forest
+066,"Miscellaneous Forest, (third digit not assigned)",agriculture/forest
+067,"Miscellaneous Forest, timeshare property",agriculture/forest
+068,"Miscellaneous Forest, enterprise zone",agriculture/forest
+069,"Miscellaneous Forest, manufactured structure",agriculture/forest
+070,"Miscellaneous Multi-family, unbuildable size / DEQ / easement or right-of-way",residential
+071,"Miscellaneous Multi-family, improvement only",residential
+072,"Miscellaneous Multi-family, mineral interest",residential
+073,"Miscellaneous Multi-family, centrally assessed",residential
+074,"Miscellaneous Multi-family, historic",residential
+075,"Miscellaneous Multi-family, open space",residential
+076,"Miscellaneous Multi-family, (third digit not assigned)",residential
+077,"Miscellaneous Multi-family, timeshare property",residential
+078,"Miscellaneous Multi-family, enterprise zone",residential
+079,"Miscellaneous Multi-family, manufactured structure",residential
+080,"Miscellaneous Recreational, unbuildable size / DEQ / easement or right-of-way",recreation/cultural
+081,"Miscellaneous Recreational, improvement only",recreation/cultural
+082,"Miscellaneous Recreational, mineral interest",recreation/cultural
+083,"Miscellaneous Recreational, centrally assessed",recreation/cultural
+084,"Miscellaneous Recreational, historic",recreation/cultural
+085,"Miscellaneous Recreational, open space",recreation/cultural
+086,"Miscellaneous Recreational, (third digit not assigned)",recreation/cultural
+087,"Miscellaneous Recreational, timeshare property",recreation/cultural
+088,"Miscellaneous Recreational, enterprise zone",recreation/cultural
+089,"Miscellaneous Recreational, manufactured structure",recreation/cultural
+090,"Miscellaneous Exempt, unbuildable size / DEQ / easement or right-of-way",commercial-services
+091,"Miscellaneous Exempt, improvement only",commercial-services
+092,"Miscellaneous Exempt, mineral interest",commercial-services
+093,"Miscellaneous Exempt, centrally assessed",commercial-services
+094,"Miscellaneous Exempt, historic",commercial-services
+095,"Miscellaneous Exempt, open space",commercial-services
+096,"Miscellaneous Exempt, (third digit not assigned)",commercial-services
+097,"Miscellaneous Exempt, timeshare property",commercial-services
+098,"Miscellaneous Exempt, enterprise zone",commercial-services
+099,"Miscellaneous Exempt, manufactured structure",commercial-services
+100,"Residential, vacant",residential
+101,"Residential, improved",residential
+102,"Residential, condominium",residential
+103,"Residential, state responsibility",residential
+104,"Residential, partially exempt",residential
+105,"Residential, taxable leased",residential
+106,"Residential, waterfront",residential
+107,"Residential, mobile home park",residential
+108,"Residential, (third digit not assigned)",residential
+109,"Residential, manufactured structure",residential
+110,"Residential, residential zone (nonconforming), vacant",residential
+111,"Residential, residential zone (nonconforming), improved",residential
+112,"Residential, residential zone (nonconforming), condominium",residential
+113,"Residential, residential zone (nonconforming), state responsibility",residential
+114,"Residential, residential zone (nonconforming), partially exempt",residential
+115,"Residential, residential zone (nonconforming), taxable leased",residential
+116,"Residential, residential zone (nonconforming), waterfront",residential
+117,"Residential, residential zone (nonconforming), mobile home park",residential
+118,"Residential, residential zone (nonconforming), (third digit not assigned)",residential
+119,"Residential, residential zone (nonconforming), manufactured structure",residential
+120,"Residential, commercial zone (nonconforming), vacant",residential
+121,"Residential, commercial zone (nonconforming), improved",residential
+122,"Residential, commercial zone (nonconforming), condominium",residential
+123,"Residential, commercial zone (nonconforming), state responsibility",residential
+124,"Residential, commercial zone (nonconforming), partially exempt",residential
+125,"Residential, commercial zone (nonconforming), taxable leased",residential
+126,"Residential, commercial zone (nonconforming), waterfront",residential
+127,"Residential, commercial zone (nonconforming), mobile home park",residential
+128,"Residential, commercial zone (nonconforming), (third digit not assigned)",residential
+129,"Residential, commercial zone (nonconforming), manufactured structure",residential
+130,"Residential, industrial zone (nonconforming), vacant",residential
+131,"Residential, industrial zone (nonconforming), improved",residential
+132,"Residential, industrial zone (nonconforming), condominium",residential
+133,"Residential, industrial zone (nonconforming), state responsibility",residential
+134,"Residential, industrial zone (nonconforming), partially exempt",residential
+135,"Residential, industrial zone (nonconforming), taxable leased",residential
+136,"Residential, industrial zone (nonconforming), waterfront",residential
+137,"Residential, industrial zone (nonconforming), mobile home park",residential
+138,"Residential, industrial zone (nonconforming), (third digit not assigned)",residential
+139,"Residential, industrial zone (nonconforming), manufactured structure",residential
+140,"Residential, special assessment by application (unzoned farmland / designated forestland), vacant",residential
+141,"Residential, special assessment by application (unzoned farmland / designated forestland), improved",residential
+142,"Residential, special assessment by application (unzoned farmland / designated forestland), condominium",residential
+143,"Residential, special assessment by application (unzoned farmland / designated forestland), state responsibility",residential
+144,"Residential, special assessment by application (unzoned farmland / designated forestland), partially exempt",residential
+145,"Residential, special assessment by application (unzoned farmland / designated forestland), taxable leased",residential
+146,"Residential, special assessment by application (unzoned farmland / designated forestland), waterfront",residential
+147,"Residential, special assessment by application (unzoned farmland / designated forestland), mobile home park",residential
+148,"Residential, special assessment by application (unzoned farmland / designated forestland), (third digit not assigned)",residential
+149,"Residential, special assessment by application (unzoned farmland / designated forestland), manufactured structure",residential
+150,"Residential, exclusive farm use (EFU) special assessment, vacant",residential
+151,"Residential, exclusive farm use (EFU) special assessment, improved",residential
+152,"Residential, exclusive farm use (EFU) special assessment, condominium",residential
+153,"Residential, exclusive farm use (EFU) special assessment, state responsibility",residential
+154,"Residential, exclusive farm use (EFU) special assessment, partially exempt",residential
+155,"Residential, exclusive farm use (EFU) special assessment, taxable leased",residential
+156,"Residential, exclusive farm use (EFU) special assessment, waterfront",residential
+157,"Residential, exclusive farm use (EFU) special assessment, mobile home park",residential
+158,"Residential, exclusive farm use (EFU) special assessment, (third digit not assigned)",residential
+159,"Residential, exclusive farm use (EFU) special assessment, manufactured structure",residential
+160,"Residential, small tract forestland (STF) special assessment, vacant",residential
+161,"Residential, small tract forestland (STF) special assessment, improved",residential
+162,"Residential, small tract forestland (STF) special assessment, condominium",residential
+163,"Residential, small tract forestland (STF) special assessment, state responsibility",residential
+164,"Residential, small tract forestland (STF) special assessment, partially exempt",residential
+165,"Residential, small tract forestland (STF) special assessment, taxable leased",residential
+166,"Residential, small tract forestland (STF) special assessment, waterfront",residential
+167,"Residential, small tract forestland (STF) special assessment, mobile home park",residential
+168,"Residential, small tract forestland (STF) special assessment, (third digit not assigned)",residential
+169,"Residential, small tract forestland (STF) special assessment, manufactured structure",residential
+170,"Residential, permanently disqualified farm use (ORS 215.236), vacant",residential
+171,"Residential, permanently disqualified farm use (ORS 215.236), improved",residential
+172,"Residential, permanently disqualified farm use (ORS 215.236), condominium",residential
+173,"Residential, permanently disqualified farm use (ORS 215.236), state responsibility",residential
+174,"Residential, permanently disqualified farm use (ORS 215.236), partially exempt",residential
+175,"Residential, permanently disqualified farm use (ORS 215.236), taxable leased",residential
+176,"Residential, permanently disqualified farm use (ORS 215.236), waterfront",residential
+177,"Residential, permanently disqualified farm use (ORS 215.236), mobile home park",residential
+178,"Residential, permanently disqualified farm use (ORS 215.236), (third digit not assigned)",residential
+179,"Residential, permanently disqualified farm use (ORS 215.236), manufactured structure",residential
+180,"Residential, multiple special assessments, vacant",residential
+181,"Residential, multiple special assessments, improved",residential
+182,"Residential, multiple special assessments, condominium",residential
+183,"Residential, multiple special assessments, state responsibility",residential
+184,"Residential, multiple special assessments, partially exempt",residential
+185,"Residential, multiple special assessments, taxable leased",residential
+186,"Residential, multiple special assessments, waterfront",residential
+187,"Residential, multiple special assessments, mobile home park",residential
+188,"Residential, multiple special assessments, (third digit not assigned)",residential
+189,"Residential, multiple special assessments, manufactured structure",residential
+190,"Residential, potential development, vacant",residential
+191,"Residential, potential development, improved",residential
+192,"Residential, potential development, condominium",residential
+193,"Residential, potential development, state responsibility",residential
+194,"Residential, potential development, partially exempt",residential
+195,"Residential, potential development, taxable leased",residential
+196,"Residential, potential development, waterfront",residential
+197,"Residential, potential development, mobile home park",residential
+198,"Residential, potential development, (third digit not assigned)",residential
+199,"Residential, potential development, manufactured structure",residential
+200,"Commercial, vacant",commercial-trade
+201,"Commercial, improved",commercial-trade
+202,"Commercial, condominium",commercial-trade
+203,"Commercial, state responsibility",commercial-trade
+204,"Commercial, partially exempt",commercial-trade
+205,"Commercial, taxable leased",commercial-trade
+206,"Commercial, waterfront",commercial-trade
+207,"Commercial, mobile home park",commercial-trade
+208,"Commercial, (third digit not assigned)",commercial-trade
+209,"Commercial, manufactured structure",commercial-trade
+210,"Commercial, residential zone (nonconforming), vacant",commercial-trade
+211,"Commercial, residential zone (nonconforming), improved",commercial-trade
+212,"Commercial, residential zone (nonconforming), condominium",commercial-trade
+213,"Commercial, residential zone (nonconforming), state responsibility",commercial-trade
+214,"Commercial, residential zone (nonconforming), partially exempt",commercial-trade
+215,"Commercial, residential zone (nonconforming), taxable leased",commercial-trade
+216,"Commercial, residential zone (nonconforming), waterfront",commercial-trade
+217,"Commercial, residential zone (nonconforming), mobile home park",commercial-trade
+218,"Commercial, residential zone (nonconforming), (third digit not assigned)",commercial-trade
+219,"Commercial, residential zone (nonconforming), manufactured structure",commercial-trade
+220,"Commercial, commercial zone (nonconforming), vacant",commercial-trade
+221,"Commercial, commercial zone (nonconforming), improved",commercial-trade
+222,"Commercial, commercial zone (nonconforming), condominium",commercial-trade
+223,"Commercial, commercial zone (nonconforming), state responsibility",commercial-trade
+224,"Commercial, commercial zone (nonconforming), partially exempt",commercial-trade
+225,"Commercial, commercial zone (nonconforming), taxable leased",commercial-trade
+226,"Commercial, commercial zone (nonconforming), waterfront",commercial-trade
+227,"Commercial, commercial zone (nonconforming), mobile home park",commercial-trade
+228,"Commercial, commercial zone (nonconforming), (third digit not assigned)",commercial-trade
+229,"Commercial, commercial zone (nonconforming), manufactured structure",commercial-trade
+230,"Commercial, industrial zone (nonconforming), vacant",commercial-trade
+231,"Commercial, industrial zone (nonconforming), improved",commercial-trade
+232,"Commercial, industrial zone (nonconforming), condominium",commercial-trade
+233,"Commercial, industrial zone (nonconforming), state responsibility",commercial-trade
+234,"Commercial, industrial zone (nonconforming), partially exempt",commercial-trade
+235,"Commercial, industrial zone (nonconforming), taxable leased",commercial-trade
+236,"Commercial, industrial zone (nonconforming), waterfront",commercial-trade
+237,"Commercial, industrial zone (nonconforming), mobile home park",commercial-trade
+238,"Commercial, industrial zone (nonconforming), (third digit not assigned)",commercial-trade
+239,"Commercial, industrial zone (nonconforming), manufactured structure",commercial-trade
+240,"Commercial, special assessment by application (unzoned farmland / designated forestland), vacant",commercial-trade
+241,"Commercial, special assessment by application (unzoned farmland / designated forestland), improved",commercial-trade
+242,"Commercial, special assessment by application (unzoned farmland / designated forestland), condominium",commercial-trade
+243,"Commercial, special assessment by application (unzoned farmland / designated forestland), state responsibility",commercial-trade
+244,"Commercial, special assessment by application (unzoned farmland / designated forestland), partially exempt",commercial-trade
+245,"Commercial, special assessment by application (unzoned farmland / designated forestland), taxable leased",commercial-trade
+246,"Commercial, special assessment by application (unzoned farmland / designated forestland), waterfront",commercial-trade
+247,"Commercial, special assessment by application (unzoned farmland / designated forestland), mobile home park",commercial-trade
+248,"Commercial, special assessment by application (unzoned farmland / designated forestland), (third digit not assigned)",commercial-trade
+249,"Commercial, special assessment by application (unzoned farmland / designated forestland), manufactured structure",commercial-trade
+250,"Commercial, exclusive farm use (EFU) special assessment, vacant",commercial-trade
+251,"Commercial, exclusive farm use (EFU) special assessment, improved",commercial-trade
+252,"Commercial, exclusive farm use (EFU) special assessment, condominium",commercial-trade
+253,"Commercial, exclusive farm use (EFU) special assessment, state responsibility",commercial-trade
+254,"Commercial, exclusive farm use (EFU) special assessment, partially exempt",commercial-trade
+255,"Commercial, exclusive farm use (EFU) special assessment, taxable leased",commercial-trade
+256,"Commercial, exclusive farm use (EFU) special assessment, waterfront",commercial-trade
+257,"Commercial, exclusive farm use (EFU) special assessment, mobile home park",commercial-trade
+258,"Commercial, exclusive farm use (EFU) special assessment, (third digit not assigned)",commercial-trade
+259,"Commercial, exclusive farm use (EFU) special assessment, manufactured structure",commercial-trade
+260,"Commercial, small tract forestland (STF) special assessment, vacant",commercial-trade
+261,"Commercial, small tract forestland (STF) special assessment, improved",commercial-trade
+262,"Commercial, small tract forestland (STF) special assessment, condominium",commercial-trade
+263,"Commercial, small tract forestland (STF) special assessment, state responsibility",commercial-trade
+264,"Commercial, small tract forestland (STF) special assessment, partially exempt",commercial-trade
+265,"Commercial, small tract forestland (STF) special assessment, taxable leased",commercial-trade
+266,"Commercial, small tract forestland (STF) special assessment, waterfront",commercial-trade
+267,"Commercial, small tract forestland (STF) special assessment, mobile home park",commercial-trade
+268,"Commercial, small tract forestland (STF) special assessment, (third digit not assigned)",commercial-trade
+269,"Commercial, small tract forestland (STF) special assessment, manufactured structure",commercial-trade
+270,"Commercial, permanently disqualified farm use (ORS 215.236), vacant",commercial-trade
+271,"Commercial, permanently disqualified farm use (ORS 215.236), improved",commercial-trade
+272,"Commercial, permanently disqualified farm use (ORS 215.236), condominium",commercial-trade
+273,"Commercial, permanently disqualified farm use (ORS 215.236), state responsibility",commercial-trade
+274,"Commercial, permanently disqualified farm use (ORS 215.236), partially exempt",commercial-trade
+275,"Commercial, permanently disqualified farm use (ORS 215.236), taxable leased",commercial-trade
+276,"Commercial, permanently disqualified farm use (ORS 215.236), waterfront",commercial-trade
+277,"Commercial, permanently disqualified farm use (ORS 215.236), mobile home park",commercial-trade
+278,"Commercial, permanently disqualified farm use (ORS 215.236), (third digit not assigned)",commercial-trade
+279,"Commercial, permanently disqualified farm use (ORS 215.236), manufactured structure",commercial-trade
+280,"Commercial, multiple special assessments, vacant",commercial-trade
+281,"Commercial, multiple special assessments, improved",commercial-trade
+282,"Commercial, multiple special assessments, condominium",commercial-trade
+283,"Commercial, multiple special assessments, state responsibility",commercial-trade
+284,"Commercial, multiple special assessments, partially exempt",commercial-trade
+285,"Commercial, multiple special assessments, taxable leased",commercial-trade
+286,"Commercial, multiple special assessments, waterfront",commercial-trade
+287,"Commercial, multiple special assessments, mobile home park",commercial-trade
+288,"Commercial, multiple special assessments, (third digit not assigned)",commercial-trade
+289,"Commercial, multiple special assessments, manufactured structure",commercial-trade
+290,"Commercial, potential development, vacant",commercial-trade
+291,"Commercial, potential development, improved",commercial-trade
+292,"Commercial, potential development, condominium",commercial-trade
+293,"Commercial, potential development, state responsibility",commercial-trade
+294,"Commercial, potential development, partially exempt",commercial-trade
+295,"Commercial, potential development, taxable leased",commercial-trade
+296,"Commercial, potential development, waterfront",commercial-trade
+297,"Commercial, potential development, mobile home park",commercial-trade
+298,"Commercial, potential development, (third digit not assigned)",commercial-trade
+299,"Commercial, potential development, manufactured structure",commercial-trade
+300,"Industrial, vacant",industrial
+301,"Industrial, improved",industrial
+302,"Industrial, condominium",industrial
+303,"Industrial, state responsibility",industrial
+304,"Industrial, partially exempt",industrial
+305,"Industrial, taxable leased",industrial
+306,"Industrial, waterfront",industrial
+307,"Industrial, mobile home park",industrial
+308,"Industrial, (third digit not assigned)",industrial
+309,"Industrial, manufactured structure",industrial
+310,"Industrial, residential zone (nonconforming), vacant",industrial
+311,"Industrial, residential zone (nonconforming), improved",industrial
+312,"Industrial, residential zone (nonconforming), condominium",industrial
+313,"Industrial, residential zone (nonconforming), state responsibility",industrial
+314,"Industrial, residential zone (nonconforming), partially exempt",industrial
+315,"Industrial, residential zone (nonconforming), taxable leased",industrial
+316,"Industrial, residential zone (nonconforming), waterfront",industrial
+317,"Industrial, residential zone (nonconforming), mobile home park",industrial
+318,"Industrial, residential zone (nonconforming), (third digit not assigned)",industrial
+319,"Industrial, residential zone (nonconforming), manufactured structure",industrial
+320,"Industrial, commercial zone (nonconforming), vacant",industrial
+321,"Industrial, commercial zone (nonconforming), improved",industrial
+322,"Industrial, commercial zone (nonconforming), condominium",industrial
+323,"Industrial, commercial zone (nonconforming), state responsibility",industrial
+324,"Industrial, commercial zone (nonconforming), partially exempt",industrial
+325,"Industrial, commercial zone (nonconforming), taxable leased",industrial
+326,"Industrial, commercial zone (nonconforming), waterfront",industrial
+327,"Industrial, commercial zone (nonconforming), mobile home park",industrial
+328,"Industrial, commercial zone (nonconforming), (third digit not assigned)",industrial
+329,"Industrial, commercial zone (nonconforming), manufactured structure",industrial
+330,"Industrial, industrial zone (nonconforming), vacant",industrial
+331,"Industrial, industrial zone (nonconforming), improved",industrial
+332,"Industrial, industrial zone (nonconforming), condominium",industrial
+333,"Industrial, industrial zone (nonconforming), state responsibility",industrial
+334,"Industrial, industrial zone (nonconforming), partially exempt",industrial
+335,"Industrial, industrial zone (nonconforming), taxable leased",industrial
+336,"Industrial, industrial zone (nonconforming), waterfront",industrial
+337,"Industrial, industrial zone (nonconforming), mobile home park",industrial
+338,"Industrial, industrial zone (nonconforming), (third digit not assigned)",industrial
+339,"Industrial, industrial zone (nonconforming), manufactured structure",industrial
+340,"Industrial, special assessment by application (unzoned farmland / designated forestland), vacant",industrial
+341,"Industrial, special assessment by application (unzoned farmland / designated forestland), improved",industrial
+342,"Industrial, special assessment by application (unzoned farmland / designated forestland), condominium",industrial
+343,"Industrial, special assessment by application (unzoned farmland / designated forestland), state responsibility",industrial
+344,"Industrial, special assessment by application (unzoned farmland / designated forestland), partially exempt",industrial
+345,"Industrial, special assessment by application (unzoned farmland / designated forestland), taxable leased",industrial
+346,"Industrial, special assessment by application (unzoned farmland / designated forestland), waterfront",industrial
+347,"Industrial, special assessment by application (unzoned farmland / designated forestland), mobile home park",industrial
+348,"Industrial, special assessment by application (unzoned farmland / designated forestland), (third digit not assigned)",industrial
+349,"Industrial, special assessment by application (unzoned farmland / designated forestland), manufactured structure",industrial
+350,"Industrial, exclusive farm use (EFU) special assessment, vacant",industrial
+351,"Industrial, exclusive farm use (EFU) special assessment, improved",industrial
+352,"Industrial, exclusive farm use (EFU) special assessment, condominium",industrial
+353,"Industrial, exclusive farm use (EFU) special assessment, state responsibility",industrial
+354,"Industrial, exclusive farm use (EFU) special assessment, partially exempt",industrial
+355,"Industrial, exclusive farm use (EFU) special assessment, taxable leased",industrial
+356,"Industrial, exclusive farm use (EFU) special assessment, waterfront",industrial
+357,"Industrial, exclusive farm use (EFU) special assessment, mobile home park",industrial
+358,"Industrial, exclusive farm use (EFU) special assessment, (third digit not assigned)",industrial
+359,"Industrial, exclusive farm use (EFU) special assessment, manufactured structure",industrial
+360,"Industrial, small tract forestland (STF) special assessment, vacant",industrial
+361,"Industrial, small tract forestland (STF) special assessment, improved",industrial
+362,"Industrial, small tract forestland (STF) special assessment, condominium",industrial
+363,"Industrial, small tract forestland (STF) special assessment, state responsibility",industrial
+364,"Industrial, small tract forestland (STF) special assessment, partially exempt",industrial
+365,"Industrial, small tract forestland (STF) special assessment, taxable leased",industrial
+366,"Industrial, small tract forestland (STF) special assessment, waterfront",industrial
+367,"Industrial, small tract forestland (STF) special assessment, mobile home park",industrial
+368,"Industrial, small tract forestland (STF) special assessment, (third digit not assigned)",industrial
+369,"Industrial, small tract forestland (STF) special assessment, manufactured structure",industrial
+370,"Industrial, permanently disqualified farm use (ORS 215.236), vacant",industrial
+371,"Industrial, permanently disqualified farm use (ORS 215.236), improved",industrial
+372,"Industrial, permanently disqualified farm use (ORS 215.236), condominium",industrial
+373,"Industrial, permanently disqualified farm use (ORS 215.236), state responsibility",industrial
+374,"Industrial, permanently disqualified farm use (ORS 215.236), partially exempt",industrial
+375,"Industrial, permanently disqualified farm use (ORS 215.236), taxable leased",industrial
+376,"Industrial, permanently disqualified farm use (ORS 215.236), waterfront",industrial
+377,"Industrial, permanently disqualified farm use (ORS 215.236), mobile home park",industrial
+378,"Industrial, permanently disqualified farm use (ORS 215.236), (third digit not assigned)",industrial
+379,"Industrial, permanently disqualified farm use (ORS 215.236), manufactured structure",industrial
+380,"Industrial, multiple special assessments, vacant",industrial
+381,"Industrial, multiple special assessments, improved",industrial
+382,"Industrial, multiple special assessments, condominium",industrial
+383,"Industrial, multiple special assessments, state responsibility",industrial
+384,"Industrial, multiple special assessments, partially exempt",industrial
+385,"Industrial, multiple special assessments, taxable leased",industrial
+386,"Industrial, multiple special assessments, waterfront",industrial
+387,"Industrial, multiple special assessments, mobile home park",industrial
+388,"Industrial, multiple special assessments, (third digit not assigned)",industrial
+389,"Industrial, multiple special assessments, manufactured structure",industrial
+390,"Industrial, potential development, vacant",industrial
+391,"Industrial, potential development, improved",industrial
+392,"Industrial, potential development, condominium",industrial
+393,"Industrial, potential development, state responsibility",industrial
+394,"Industrial, potential development, partially exempt",industrial
+395,"Industrial, potential development, taxable leased",industrial
+396,"Industrial, potential development, waterfront",industrial
+397,"Industrial, potential development, mobile home park",industrial
+398,"Industrial, potential development, (third digit not assigned)",industrial
+399,"Industrial, potential development, manufactured structure",industrial
+400,"Tract, vacant",residential
+401,"Tract, improved",residential
+402,"Tract, condominium",residential
+403,"Tract, state responsibility",residential
+404,"Tract, partially exempt",residential
+405,"Tract, taxable leased",residential
+406,"Tract, waterfront",residential
+407,"Tract, mobile home park",residential
+408,"Tract, (third digit not assigned)",residential
+409,"Tract, manufactured structure",residential
+410,"Tract, residential zone (nonconforming), vacant",residential
+411,"Tract, residential zone (nonconforming), improved",residential
+412,"Tract, residential zone (nonconforming), condominium",residential
+413,"Tract, residential zone (nonconforming), state responsibility",residential
+414,"Tract, residential zone (nonconforming), partially exempt",residential
+415,"Tract, residential zone (nonconforming), taxable leased",residential
+416,"Tract, residential zone (nonconforming), waterfront",residential
+417,"Tract, residential zone (nonconforming), mobile home park",residential
+418,"Tract, residential zone (nonconforming), (third digit not assigned)",residential
+419,"Tract, residential zone (nonconforming), manufactured structure",residential
+420,"Tract, commercial zone (nonconforming), vacant",residential
+421,"Tract, commercial zone (nonconforming), improved",residential
+422,"Tract, commercial zone (nonconforming), condominium",residential
+423,"Tract, commercial zone (nonconforming), state responsibility",residential
+424,"Tract, commercial zone (nonconforming), partially exempt",residential
+425,"Tract, commercial zone (nonconforming), taxable leased",residential
+426,"Tract, commercial zone (nonconforming), waterfront",residential
+427,"Tract, commercial zone (nonconforming), mobile home park",residential
+428,"Tract, commercial zone (nonconforming), (third digit not assigned)",residential
+429,"Tract, commercial zone (nonconforming), manufactured structure",residential
+430,"Tract, industrial zone (nonconforming), vacant",residential
+431,"Tract, industrial zone (nonconforming), improved",residential
+432,"Tract, industrial zone (nonconforming), condominium",residential
+433,"Tract, industrial zone (nonconforming), state responsibility",residential
+434,"Tract, industrial zone (nonconforming), partially exempt",residential
+435,"Tract, industrial zone (nonconforming), taxable leased",residential
+436,"Tract, industrial zone (nonconforming), waterfront",residential
+437,"Tract, industrial zone (nonconforming), mobile home park",residential
+438,"Tract, industrial zone (nonconforming), (third digit not assigned)",residential
+439,"Tract, industrial zone (nonconforming), manufactured structure",residential
+440,"Tract, special assessment by application (unzoned farmland / designated forestland), vacant",residential
+441,"Tract, special assessment by application (unzoned farmland / designated forestland), improved",residential
+442,"Tract, special assessment by application (unzoned farmland / designated forestland), condominium",residential
+443,"Tract, special assessment by application (unzoned farmland / designated forestland), state responsibility",residential
+444,"Tract, special assessment by application (unzoned farmland / designated forestland), partially exempt",residential
+445,"Tract, special assessment by application (unzoned farmland / designated forestland), taxable leased",residential
+446,"Tract, special assessment by application (unzoned farmland / designated forestland), waterfront",residential
+447,"Tract, special assessment by application (unzoned farmland / designated forestland), mobile home park",residential
+448,"Tract, special assessment by application (unzoned farmland / designated forestland), (third digit not assigned)",residential
+449,"Tract, special assessment by application (unzoned farmland / designated forestland), manufactured structure",residential
+450,"Tract, exclusive farm use (EFU) special assessment, vacant",residential
+451,"Tract, exclusive farm use (EFU) special assessment, improved",residential
+452,"Tract, exclusive farm use (EFU) special assessment, condominium",residential
+453,"Tract, exclusive farm use (EFU) special assessment, state responsibility",residential
+454,"Tract, exclusive farm use (EFU) special assessment, partially exempt",residential
+455,"Tract, exclusive farm use (EFU) special assessment, taxable leased",residential
+456,"Tract, exclusive farm use (EFU) special assessment, waterfront",residential
+457,"Tract, exclusive farm use (EFU) special assessment, mobile home park",residential
+458,"Tract, exclusive farm use (EFU) special assessment, (third digit not assigned)",residential
+459,"Tract, exclusive farm use (EFU) special assessment, manufactured structure",residential
+460,"Tract, small tract forestland (STF) special assessment, vacant",residential
+461,"Tract, small tract forestland (STF) special assessment, improved",residential
+462,"Tract, small tract forestland (STF) special assessment, condominium",residential
+463,"Tract, small tract forestland (STF) special assessment, state responsibility",residential
+464,"Tract, small tract forestland (STF) special assessment, partially exempt",residential
+465,"Tract, small tract forestland (STF) special assessment, taxable leased",residential
+466,"Tract, small tract forestland (STF) special assessment, waterfront",residential
+467,"Tract, small tract forestland (STF) special assessment, mobile home park",residential
+468,"Tract, small tract forestland (STF) special assessment, (third digit not assigned)",residential
+469,"Tract, small tract forestland (STF) special assessment, manufactured structure",residential
+470,"Tract, permanently disqualified farm use (ORS 215.236), vacant",residential
+471,"Tract, permanently disqualified farm use (ORS 215.236), improved",residential
+472,"Tract, permanently disqualified farm use (ORS 215.236), condominium",residential
+473,"Tract, permanently disqualified farm use (ORS 215.236), state responsibility",residential
+474,"Tract, permanently disqualified farm use (ORS 215.236), partially exempt",residential
+475,"Tract, permanently disqualified farm use (ORS 215.236), taxable leased",residential
+476,"Tract, permanently disqualified farm use (ORS 215.236), waterfront",residential
+477,"Tract, permanently disqualified farm use (ORS 215.236), mobile home park",residential
+478,"Tract, permanently disqualified farm use (ORS 215.236), (third digit not assigned)",residential
+479,"Tract, permanently disqualified farm use (ORS 215.236), manufactured structure",residential
+480,"Tract, multiple special assessments, vacant",residential
+481,"Tract, multiple special assessments, improved",residential
+482,"Tract, multiple special assessments, condominium",residential
+483,"Tract, multiple special assessments, state responsibility",residential
+484,"Tract, multiple special assessments, partially exempt",residential
+485,"Tract, multiple special assessments, taxable leased",residential
+486,"Tract, multiple special assessments, waterfront",residential
+487,"Tract, multiple special assessments, mobile home park",residential
+488,"Tract, multiple special assessments, (third digit not assigned)",residential
+489,"Tract, multiple special assessments, manufactured structure",residential
+490,"Tract, potential development, vacant",residential
+491,"Tract, potential development, improved",residential
+492,"Tract, potential development, condominium",residential
+493,"Tract, potential development, state responsibility",residential
+494,"Tract, potential development, partially exempt",residential
+495,"Tract, potential development, taxable leased",residential
+496,"Tract, potential development, waterfront",residential
+497,"Tract, potential development, mobile home park",residential
+498,"Tract, potential development, (third digit not assigned)",residential
+499,"Tract, potential development, manufactured structure",residential
+500,"Farm, vacant",agriculture/forest
+501,"Farm, improved",agriculture/forest
+502,"Farm, condominium",agriculture/forest
+503,"Farm, state responsibility",agriculture/forest
+504,"Farm, partially exempt",agriculture/forest
+505,"Farm, taxable leased",agriculture/forest
+506,"Farm, waterfront",agriculture/forest
+507,"Farm, mobile home park",agriculture/forest
+508,"Farm, (third digit not assigned)",agriculture/forest
+509,"Farm, manufactured structure",agriculture/forest
+510,"Farm, residential zone (nonconforming), vacant",agriculture/forest
+511,"Farm, residential zone (nonconforming), improved",agriculture/forest
+512,"Farm, residential zone (nonconforming), condominium",agriculture/forest
+513,"Farm, residential zone (nonconforming), state responsibility",agriculture/forest
+514,"Farm, residential zone (nonconforming), partially exempt",agriculture/forest
+515,"Farm, residential zone (nonconforming), taxable leased",agriculture/forest
+516,"Farm, residential zone (nonconforming), waterfront",agriculture/forest
+517,"Farm, residential zone (nonconforming), mobile home park",agriculture/forest
+518,"Farm, residential zone (nonconforming), (third digit not assigned)",agriculture/forest
+519,"Farm, residential zone (nonconforming), manufactured structure",agriculture/forest
+520,"Farm, commercial zone (nonconforming), vacant",agriculture/forest
+521,"Farm, commercial zone (nonconforming), improved",agriculture/forest
+522,"Farm, commercial zone (nonconforming), condominium",agriculture/forest
+523,"Farm, commercial zone (nonconforming), state responsibility",agriculture/forest
+524,"Farm, commercial zone (nonconforming), partially exempt",agriculture/forest
+525,"Farm, commercial zone (nonconforming), taxable leased",agriculture/forest
+526,"Farm, commercial zone (nonconforming), waterfront",agriculture/forest
+527,"Farm, commercial zone (nonconforming), mobile home park",agriculture/forest
+528,"Farm, commercial zone (nonconforming), (third digit not assigned)",agriculture/forest
+529,"Farm, commercial zone (nonconforming), manufactured structure",agriculture/forest
+530,"Farm, industrial zone (nonconforming), vacant",agriculture/forest
+531,"Farm, industrial zone (nonconforming), improved",agriculture/forest
+532,"Farm, industrial zone (nonconforming), condominium",agriculture/forest
+533,"Farm, industrial zone (nonconforming), state responsibility",agriculture/forest
+534,"Farm, industrial zone (nonconforming), partially exempt",agriculture/forest
+535,"Farm, industrial zone (nonconforming), taxable leased",agriculture/forest
+536,"Farm, industrial zone (nonconforming), waterfront",agriculture/forest
+537,"Farm, industrial zone (nonconforming), mobile home park",agriculture/forest
+538,"Farm, industrial zone (nonconforming), (third digit not assigned)",agriculture/forest
+539,"Farm, industrial zone (nonconforming), manufactured structure",agriculture/forest
+540,"Farm, special assessment by application (unzoned farmland / designated forestland), vacant",agriculture/forest
+541,"Farm, special assessment by application (unzoned farmland / designated forestland), improved",agriculture/forest
+542,"Farm, special assessment by application (unzoned farmland / designated forestland), condominium",agriculture/forest
+543,"Farm, special assessment by application (unzoned farmland / designated forestland), state responsibility",agriculture/forest
+544,"Farm, special assessment by application (unzoned farmland / designated forestland), partially exempt",agriculture/forest
+545,"Farm, special assessment by application (unzoned farmland / designated forestland), taxable leased",agriculture/forest
+546,"Farm, special assessment by application (unzoned farmland / designated forestland), waterfront",agriculture/forest
+547,"Farm, special assessment by application (unzoned farmland / designated forestland), mobile home park",agriculture/forest
+548,"Farm, special assessment by application (unzoned farmland / designated forestland), (third digit not assigned)",agriculture/forest
+549,"Farm, special assessment by application (unzoned farmland / designated forestland), manufactured structure",agriculture/forest
+550,"Farm, exclusive farm use (EFU) special assessment, vacant",agriculture/forest
+551,"Farm, exclusive farm use (EFU) special assessment, improved",agriculture/forest
+552,"Farm, exclusive farm use (EFU) special assessment, condominium",agriculture/forest
+553,"Farm, exclusive farm use (EFU) special assessment, state responsibility",agriculture/forest
+554,"Farm, exclusive farm use (EFU) special assessment, partially exempt",agriculture/forest
+555,"Farm, exclusive farm use (EFU) special assessment, taxable leased",agriculture/forest
+556,"Farm, exclusive farm use (EFU) special assessment, waterfront",agriculture/forest
+557,"Farm, exclusive farm use (EFU) special assessment, mobile home park",agriculture/forest
+558,"Farm, exclusive farm use (EFU) special assessment, (third digit not assigned)",agriculture/forest
+559,"Farm, exclusive farm use (EFU) special assessment, manufactured structure",agriculture/forest
+560,"Farm, small tract forestland (STF) special assessment, vacant",agriculture/forest
+561,"Farm, small tract forestland (STF) special assessment, improved",agriculture/forest
+562,"Farm, small tract forestland (STF) special assessment, condominium",agriculture/forest
+563,"Farm, small tract forestland (STF) special assessment, state responsibility",agriculture/forest
+564,"Farm, small tract forestland (STF) special assessment, partially exempt",agriculture/forest
+565,"Farm, small tract forestland (STF) special assessment, taxable leased",agriculture/forest
+566,"Farm, small tract forestland (STF) special assessment, waterfront",agriculture/forest
+567,"Farm, small tract forestland (STF) special assessment, mobile home park",agriculture/forest
+568,"Farm, small tract forestland (STF) special assessment, (third digit not assigned)",agriculture/forest
+569,"Farm, small tract forestland (STF) special assessment, manufactured structure",agriculture/forest
+570,"Farm, permanently disqualified farm use (ORS 215.236), vacant",agriculture/forest
+571,"Farm, permanently disqualified farm use (ORS 215.236), improved",agriculture/forest
+572,"Farm, permanently disqualified farm use (ORS 215.236), condominium",agriculture/forest
+573,"Farm, permanently disqualified farm use (ORS 215.236), state responsibility",agriculture/forest
+574,"Farm, permanently disqualified farm use (ORS 215.236), partially exempt",agriculture/forest
+575,"Farm, permanently disqualified farm use (ORS 215.236), taxable leased",agriculture/forest
+576,"Farm, permanently disqualified farm use (ORS 215.236), waterfront",agriculture/forest
+577,"Farm, permanently disqualified farm use (ORS 215.236), mobile home park",agriculture/forest
+578,"Farm, permanently disqualified farm use (ORS 215.236), (third digit not assigned)",agriculture/forest
+579,"Farm, permanently disqualified farm use (ORS 215.236), manufactured structure",agriculture/forest
+580,"Farm, multiple special assessments, vacant",agriculture/forest
+581,"Farm, multiple special assessments, improved",agriculture/forest
+582,"Farm, multiple special assessments, condominium",agriculture/forest
+583,"Farm, multiple special assessments, state responsibility",agriculture/forest
+584,"Farm, multiple special assessments, partially exempt",agriculture/forest
+585,"Farm, multiple special assessments, taxable leased",agriculture/forest
+586,"Farm, multiple special assessments, waterfront",agriculture/forest
+587,"Farm, multiple special assessments, mobile home park",agriculture/forest
+588,"Farm, multiple special assessments, (third digit not assigned)",agriculture/forest
+589,"Farm, multiple special assessments, manufactured structure",agriculture/forest
+590,"Farm, potential development, vacant",agriculture/forest
+591,"Farm, potential development, improved",agriculture/forest
+592,"Farm, potential development, condominium",agriculture/forest
+593,"Farm, potential development, state responsibility",agriculture/forest
+594,"Farm, potential development, partially exempt",agriculture/forest
+595,"Farm, potential development, taxable leased",agriculture/forest
+596,"Farm, potential development, waterfront",agriculture/forest
+597,"Farm, potential development, mobile home park",agriculture/forest
+598,"Farm, potential development, (third digit not assigned)",agriculture/forest
+599,"Farm, potential development, manufactured structure",agriculture/forest
+600,"Forest, vacant",agriculture/forest
+601,"Forest, improved",agriculture/forest
+602,"Forest, condominium",agriculture/forest
+603,"Forest, state responsibility",agriculture/forest
+604,"Forest, partially exempt",agriculture/forest
+605,"Forest, taxable leased",agriculture/forest
+606,"Forest, waterfront",agriculture/forest
+607,"Forest, mobile home park",agriculture/forest
+608,"Forest, (third digit not assigned)",agriculture/forest
+609,"Forest, manufactured structure",agriculture/forest
+610,"Forest, residential zone (nonconforming), vacant",agriculture/forest
+611,"Forest, residential zone (nonconforming), improved",agriculture/forest
+612,"Forest, residential zone (nonconforming), condominium",agriculture/forest
+613,"Forest, residential zone (nonconforming), state responsibility",agriculture/forest
+614,"Forest, residential zone (nonconforming), partially exempt",agriculture/forest
+615,"Forest, residential zone (nonconforming), taxable leased",agriculture/forest
+616,"Forest, residential zone (nonconforming), waterfront",agriculture/forest
+617,"Forest, residential zone (nonconforming), mobile home park",agriculture/forest
+618,"Forest, residential zone (nonconforming), (third digit not assigned)",agriculture/forest
+619,"Forest, residential zone (nonconforming), manufactured structure",agriculture/forest
+620,"Forest, commercial zone (nonconforming), vacant",agriculture/forest
+621,"Forest, commercial zone (nonconforming), improved",agriculture/forest
+622,"Forest, commercial zone (nonconforming), condominium",agriculture/forest
+623,"Forest, commercial zone (nonconforming), state responsibility",agriculture/forest
+624,"Forest, commercial zone (nonconforming), partially exempt",agriculture/forest
+625,"Forest, commercial zone (nonconforming), taxable leased",agriculture/forest
+626,"Forest, commercial zone (nonconforming), waterfront",agriculture/forest
+627,"Forest, commercial zone (nonconforming), mobile home park",agriculture/forest
+628,"Forest, commercial zone (nonconforming), (third digit not assigned)",agriculture/forest
+629,"Forest, commercial zone (nonconforming), manufactured structure",agriculture/forest
+630,"Forest, industrial zone (nonconforming), vacant",agriculture/forest
+631,"Forest, industrial zone (nonconforming), improved",agriculture/forest
+632,"Forest, industrial zone (nonconforming), condominium",agriculture/forest
+633,"Forest, industrial zone (nonconforming), state responsibility",agriculture/forest
+634,"Forest, industrial zone (nonconforming), partially exempt",agriculture/forest
+635,"Forest, industrial zone (nonconforming), taxable leased",agriculture/forest
+636,"Forest, industrial zone (nonconforming), waterfront",agriculture/forest
+637,"Forest, industrial zone (nonconforming), mobile home park",agriculture/forest
+638,"Forest, industrial zone (nonconforming), (third digit not assigned)",agriculture/forest
+639,"Forest, industrial zone (nonconforming), manufactured structure",agriculture/forest
+640,"Forest, special assessment by application (unzoned farmland / designated forestland), vacant",agriculture/forest
+641,"Forest, special assessment by application (unzoned farmland / designated forestland), improved",agriculture/forest
+642,"Forest, special assessment by application (unzoned farmland / designated forestland), condominium",agriculture/forest
+643,"Forest, special assessment by application (unzoned farmland / designated forestland), state responsibility",agriculture/forest
+644,"Forest, special assessment by application (unzoned farmland / designated forestland), partially exempt",agriculture/forest
+645,"Forest, special assessment by application (unzoned farmland / designated forestland), taxable leased",agriculture/forest
+646,"Forest, special assessment by application (unzoned farmland / designated forestland), waterfront",agriculture/forest
+647,"Forest, special assessment by application (unzoned farmland / designated forestland), mobile home park",agriculture/forest
+648,"Forest, special assessment by application (unzoned farmland / designated forestland), (third digit not assigned)",agriculture/forest
+649,"Forest, special assessment by application (unzoned farmland / designated forestland), manufactured structure",agriculture/forest
+650,"Forest, exclusive farm use (EFU) special assessment, vacant",agriculture/forest
+651,"Forest, exclusive farm use (EFU) special assessment, improved",agriculture/forest
+652,"Forest, exclusive farm use (EFU) special assessment, condominium",agriculture/forest
+653,"Forest, exclusive farm use (EFU) special assessment, state responsibility",agriculture/forest
+654,"Forest, exclusive farm use (EFU) special assessment, partially exempt",agriculture/forest
+655,"Forest, exclusive farm use (EFU) special assessment, taxable leased",agriculture/forest
+656,"Forest, exclusive farm use (EFU) special assessment, waterfront",agriculture/forest
+657,"Forest, exclusive farm use (EFU) special assessment, mobile home park",agriculture/forest
+658,"Forest, exclusive farm use (EFU) special assessment, (third digit not assigned)",agriculture/forest
+659,"Forest, exclusive farm use (EFU) special assessment, manufactured structure",agriculture/forest
+660,"Forest, small tract forestland (STF) special assessment, vacant",agriculture/forest
+661,"Forest, small tract forestland (STF) special assessment, improved",agriculture/forest
+662,"Forest, small tract forestland (STF) special assessment, condominium",agriculture/forest
+663,"Forest, small tract forestland (STF) special assessment, state responsibility",agriculture/forest
+664,"Forest, small tract forestland (STF) special assessment, partially exempt",agriculture/forest
+665,"Forest, small tract forestland (STF) special assessment, taxable leased",agriculture/forest
+666,"Forest, small tract forestland (STF) special assessment, waterfront",agriculture/forest
+667,"Forest, small tract forestland (STF) special assessment, mobile home park",agriculture/forest
+668,"Forest, small tract forestland (STF) special assessment, (third digit not assigned)",agriculture/forest
+669,"Forest, small tract forestland (STF) special assessment, manufactured structure",agriculture/forest
+670,"Forest, permanently disqualified farm use (ORS 215.236), vacant",agriculture/forest
+671,"Forest, permanently disqualified farm use (ORS 215.236), improved",agriculture/forest
+672,"Forest, permanently disqualified farm use (ORS 215.236), condominium",agriculture/forest
+673,"Forest, permanently disqualified farm use (ORS 215.236), state responsibility",agriculture/forest
+674,"Forest, permanently disqualified farm use (ORS 215.236), partially exempt",agriculture/forest
+675,"Forest, permanently disqualified farm use (ORS 215.236), taxable leased",agriculture/forest
+676,"Forest, permanently disqualified farm use (ORS 215.236), waterfront",agriculture/forest
+677,"Forest, permanently disqualified farm use (ORS 215.236), mobile home park",agriculture/forest
+678,"Forest, permanently disqualified farm use (ORS 215.236), (third digit not assigned)",agriculture/forest
+679,"Forest, permanently disqualified farm use (ORS 215.236), manufactured structure",agriculture/forest
+680,"Forest, multiple special assessments, vacant",agriculture/forest
+681,"Forest, multiple special assessments, improved",agriculture/forest
+682,"Forest, multiple special assessments, condominium",agriculture/forest
+683,"Forest, multiple special assessments, state responsibility",agriculture/forest
+684,"Forest, multiple special assessments, partially exempt",agriculture/forest
+685,"Forest, multiple special assessments, taxable leased",agriculture/forest
+686,"Forest, multiple special assessments, waterfront",agriculture/forest
+687,"Forest, multiple special assessments, mobile home park",agriculture/forest
+688,"Forest, multiple special assessments, (third digit not assigned)",agriculture/forest
+689,"Forest, multiple special assessments, manufactured structure",agriculture/forest
+690,"Forest, potential development, vacant",agriculture/forest
+691,"Forest, potential development, improved",agriculture/forest
+692,"Forest, potential development, condominium",agriculture/forest
+693,"Forest, potential development, state responsibility",agriculture/forest
+694,"Forest, potential development, partially exempt",agriculture/forest
+695,"Forest, potential development, taxable leased",agriculture/forest
+696,"Forest, potential development, waterfront",agriculture/forest
+697,"Forest, potential development, mobile home park",agriculture/forest
+698,"Forest, potential development, (third digit not assigned)",agriculture/forest
+699,"Forest, potential development, manufactured structure",agriculture/forest
+700,"Multi-family, vacant",residential
+701,"Multi-family, improved",residential
+702,"Multi-family, condominium",residential
+703,"Multi-family, state responsibility",residential
+704,"Multi-family, partially exempt",residential
+705,"Multi-family, taxable leased",residential
+706,"Multi-family, waterfront",residential
+707,"Multi-family, mobile home park",residential
+708,"Multi-family, (third digit not assigned)",residential
+709,"Multi-family, manufactured structure",residential
+710,"Multi-family, residential zone (nonconforming), vacant",residential
+711,"Multi-family, residential zone (nonconforming), improved",residential
+712,"Multi-family, residential zone (nonconforming), condominium",residential
+713,"Multi-family, residential zone (nonconforming), state responsibility",residential
+714,"Multi-family, residential zone (nonconforming), partially exempt",residential
+715,"Multi-family, residential zone (nonconforming), taxable leased",residential
+716,"Multi-family, residential zone (nonconforming), waterfront",residential
+717,"Multi-family, residential zone (nonconforming), mobile home park",residential
+718,"Multi-family, residential zone (nonconforming), (third digit not assigned)",residential
+719,"Multi-family, residential zone (nonconforming), manufactured structure",residential
+720,"Multi-family, commercial zone (nonconforming), vacant",residential
+721,"Multi-family, commercial zone (nonconforming), improved",residential
+722,"Multi-family, commercial zone (nonconforming), condominium",residential
+723,"Multi-family, commercial zone (nonconforming), state responsibility",residential
+724,"Multi-family, commercial zone (nonconforming), partially exempt",residential
+725,"Multi-family, commercial zone (nonconforming), taxable leased",residential
+726,"Multi-family, commercial zone (nonconforming), waterfront",residential
+727,"Multi-family, commercial zone (nonconforming), mobile home park",residential
+728,"Multi-family, commercial zone (nonconforming), (third digit not assigned)",residential
+729,"Multi-family, commercial zone (nonconforming), manufactured structure",residential
+730,"Multi-family, industrial zone (nonconforming), vacant",residential
+731,"Multi-family, industrial zone (nonconforming), improved",residential
+732,"Multi-family, industrial zone (nonconforming), condominium",residential
+733,"Multi-family, industrial zone (nonconforming), state responsibility",residential
+734,"Multi-family, industrial zone (nonconforming), partially exempt",residential
+735,"Multi-family, industrial zone (nonconforming), taxable leased",residential
+736,"Multi-family, industrial zone (nonconforming), waterfront",residential
+737,"Multi-family, industrial zone (nonconforming), mobile home park",residential
+738,"Multi-family, industrial zone (nonconforming), (third digit not assigned)",residential
+739,"Multi-family, industrial zone (nonconforming), manufactured structure",residential
+740,"Multi-family, special assessment by application (unzoned farmland / designated forestland), vacant",residential
+741,"Multi-family, special assessment by application (unzoned farmland / designated forestland), improved",residential
+742,"Multi-family, special assessment by application (unzoned farmland / designated forestland), condominium",residential
+743,"Multi-family, special assessment by application (unzoned farmland / designated forestland), state responsibility",residential
+744,"Multi-family, special assessment by application (unzoned farmland / designated forestland), partially exempt",residential
+745,"Multi-family, special assessment by application (unzoned farmland / designated forestland), taxable leased",residential
+746,"Multi-family, special assessment by application (unzoned farmland / designated forestland), waterfront",residential
+747,"Multi-family, special assessment by application (unzoned farmland / designated forestland), mobile home park",residential
+748,"Multi-family, special assessment by application (unzoned farmland / designated forestland), (third digit not assigned)",residential
+749,"Multi-family, special assessment by application (unzoned farmland / designated forestland), manufactured structure",residential
+750,"Multi-family, exclusive farm use (EFU) special assessment, vacant",residential
+751,"Multi-family, exclusive farm use (EFU) special assessment, improved",residential
+752,"Multi-family, exclusive farm use (EFU) special assessment, condominium",residential
+753,"Multi-family, exclusive farm use (EFU) special assessment, state responsibility",residential
+754,"Multi-family, exclusive farm use (EFU) special assessment, partially exempt",residential
+755,"Multi-family, exclusive farm use (EFU) special assessment, taxable leased",residential
+756,"Multi-family, exclusive farm use (EFU) special assessment, waterfront",residential
+757,"Multi-family, exclusive farm use (EFU) special assessment, mobile home park",residential
+758,"Multi-family, exclusive farm use (EFU) special assessment, (third digit not assigned)",residential
+759,"Multi-family, exclusive farm use (EFU) special assessment, manufactured structure",residential
+760,"Multi-family, small tract forestland (STF) special assessment, vacant",residential
+761,"Multi-family, small tract forestland (STF) special assessment, improved",residential
+762,"Multi-family, small tract forestland (STF) special assessment, condominium",residential
+763,"Multi-family, small tract forestland (STF) special assessment, state responsibility",residential
+764,"Multi-family, small tract forestland (STF) special assessment, partially exempt",residential
+765,"Multi-family, small tract forestland (STF) special assessment, taxable leased",residential
+766,"Multi-family, small tract forestland (STF) special assessment, waterfront",residential
+767,"Multi-family, small tract forestland (STF) special assessment, mobile home park",residential
+768,"Multi-family, small tract forestland (STF) special assessment, (third digit not assigned)",residential
+769,"Multi-family, small tract forestland (STF) special assessment, manufactured structure",residential
+770,"Multi-family, permanently disqualified farm use (ORS 215.236), vacant",residential
+771,"Multi-family, permanently disqualified farm use (ORS 215.236), improved",residential
+772,"Multi-family, permanently disqualified farm use (ORS 215.236), condominium",residential
+773,"Multi-family, permanently disqualified farm use (ORS 215.236), state responsibility",residential
+774,"Multi-family, permanently disqualified farm use (ORS 215.236), partially exempt",residential
+775,"Multi-family, permanently disqualified farm use (ORS 215.236), taxable leased",residential
+776,"Multi-family, permanently disqualified farm use (ORS 215.236), waterfront",residential
+777,"Multi-family, permanently disqualified farm use (ORS 215.236), mobile home park",residential
+778,"Multi-family, permanently disqualified farm use (ORS 215.236), (third digit not assigned)",residential
+779,"Multi-family, permanently disqualified farm use (ORS 215.236), manufactured structure",residential
+780,"Multi-family, multiple special assessments, vacant",residential
+781,"Multi-family, multiple special assessments, improved",residential
+782,"Multi-family, multiple special assessments, condominium",residential
+783,"Multi-family, multiple special assessments, state responsibility",residential
+784,"Multi-family, multiple special assessments, partially exempt",residential
+785,"Multi-family, multiple special assessments, taxable leased",residential
+786,"Multi-family, multiple special assessments, waterfront",residential
+787,"Multi-family, multiple special assessments, mobile home park",residential
+788,"Multi-family, multiple special assessments, (third digit not assigned)",residential
+789,"Multi-family, multiple special assessments, manufactured structure",residential
+790,"Multi-family, potential development, vacant",residential
+791,"Multi-family, potential development, improved",residential
+792,"Multi-family, potential development, condominium",residential
+793,"Multi-family, potential development, state responsibility",residential
+794,"Multi-family, potential development, partially exempt",residential
+795,"Multi-family, potential development, taxable leased",residential
+796,"Multi-family, potential development, waterfront",residential
+797,"Multi-family, potential development, mobile home park",residential
+798,"Multi-family, potential development, (third digit not assigned)",residential
+799,"Multi-family, potential development, manufactured structure",residential
+800,"Recreation, vacant",recreation/cultural
+801,"Recreation, improved",recreation/cultural
+802,"Recreation, condominium",recreation/cultural
+803,"Recreation, state responsibility",recreation/cultural
+804,"Recreation, partially exempt",recreation/cultural
+805,"Recreation, taxable leased",recreation/cultural
+806,"Recreation, waterfront",recreation/cultural
+807,"Recreation, mobile home park",recreation/cultural
+808,"Recreation, (third digit not assigned)",recreation/cultural
+809,"Recreation, manufactured structure",recreation/cultural
+810,"Recreation, residential zone (nonconforming), vacant",recreation/cultural
+811,"Recreation, residential zone (nonconforming), improved",recreation/cultural
+812,"Recreation, residential zone (nonconforming), condominium",recreation/cultural
+813,"Recreation, residential zone (nonconforming), state responsibility",recreation/cultural
+814,"Recreation, residential zone (nonconforming), partially exempt",recreation/cultural
+815,"Recreation, residential zone (nonconforming), taxable leased",recreation/cultural
+816,"Recreation, residential zone (nonconforming), waterfront",recreation/cultural
+817,"Recreation, residential zone (nonconforming), mobile home park",recreation/cultural
+818,"Recreation, residential zone (nonconforming), (third digit not assigned)",recreation/cultural
+819,"Recreation, residential zone (nonconforming), manufactured structure",recreation/cultural
+820,"Recreation, commercial zone (nonconforming), vacant",recreation/cultural
+821,"Recreation, commercial zone (nonconforming), improved",recreation/cultural
+822,"Recreation, commercial zone (nonconforming), condominium",recreation/cultural
+823,"Recreation, commercial zone (nonconforming), state responsibility",recreation/cultural
+824,"Recreation, commercial zone (nonconforming), partially exempt",recreation/cultural
+825,"Recreation, commercial zone (nonconforming), taxable leased",recreation/cultural
+826,"Recreation, commercial zone (nonconforming), waterfront",recreation/cultural
+827,"Recreation, commercial zone (nonconforming), mobile home park",recreation/cultural
+828,"Recreation, commercial zone (nonconforming), (third digit not assigned)",recreation/cultural
+829,"Recreation, commercial zone (nonconforming), manufactured structure",recreation/cultural
+830,"Recreation, industrial zone (nonconforming), vacant",recreation/cultural
+831,"Recreation, industrial zone (nonconforming), improved",recreation/cultural
+832,"Recreation, industrial zone (nonconforming), condominium",recreation/cultural
+833,"Recreation, industrial zone (nonconforming), state responsibility",recreation/cultural
+834,"Recreation, industrial zone (nonconforming), partially exempt",recreation/cultural
+835,"Recreation, industrial zone (nonconforming), taxable leased",recreation/cultural
+836,"Recreation, industrial zone (nonconforming), waterfront",recreation/cultural
+837,"Recreation, industrial zone (nonconforming), mobile home park",recreation/cultural
+838,"Recreation, industrial zone (nonconforming), (third digit not assigned)",recreation/cultural
+839,"Recreation, industrial zone (nonconforming), manufactured structure",recreation/cultural
+840,"Recreation, special assessment by application (unzoned farmland / designated forestland), vacant",recreation/cultural
+841,"Recreation, special assessment by application (unzoned farmland / designated forestland), improved",recreation/cultural
+842,"Recreation, special assessment by application (unzoned farmland / designated forestland), condominium",recreation/cultural
+843,"Recreation, special assessment by application (unzoned farmland / designated forestland), state responsibility",recreation/cultural
+844,"Recreation, special assessment by application (unzoned farmland / designated forestland), partially exempt",recreation/cultural
+845,"Recreation, special assessment by application (unzoned farmland / designated forestland), taxable leased",recreation/cultural
+846,"Recreation, special assessment by application (unzoned farmland / designated forestland), waterfront",recreation/cultural
+847,"Recreation, special assessment by application (unzoned farmland / designated forestland), mobile home park",recreation/cultural
+848,"Recreation, special assessment by application (unzoned farmland / designated forestland), (third digit not assigned)",recreation/cultural
+849,"Recreation, special assessment by application (unzoned farmland / designated forestland), manufactured structure",recreation/cultural
+850,"Recreation, exclusive farm use (EFU) special assessment, vacant",recreation/cultural
+851,"Recreation, exclusive farm use (EFU) special assessment, improved",recreation/cultural
+852,"Recreation, exclusive farm use (EFU) special assessment, condominium",recreation/cultural
+853,"Recreation, exclusive farm use (EFU) special assessment, state responsibility",recreation/cultural
+854,"Recreation, exclusive farm use (EFU) special assessment, partially exempt",recreation/cultural
+855,"Recreation, exclusive farm use (EFU) special assessment, taxable leased",recreation/cultural
+856,"Recreation, exclusive farm use (EFU) special assessment, waterfront",recreation/cultural
+857,"Recreation, exclusive farm use (EFU) special assessment, mobile home park",recreation/cultural
+858,"Recreation, exclusive farm use (EFU) special assessment, (third digit not assigned)",recreation/cultural
+859,"Recreation, exclusive farm use (EFU) special assessment, manufactured structure",recreation/cultural
+860,"Recreation, small tract forestland (STF) special assessment, vacant",recreation/cultural
+861,"Recreation, small tract forestland (STF) special assessment, improved",recreation/cultural
+862,"Recreation, small tract forestland (STF) special assessment, condominium",recreation/cultural
+863,"Recreation, small tract forestland (STF) special assessment, state responsibility",recreation/cultural
+864,"Recreation, small tract forestland (STF) special assessment, partially exempt",recreation/cultural
+865,"Recreation, small tract forestland (STF) special assessment, taxable leased",recreation/cultural
+866,"Recreation, small tract forestland (STF) special assessment, waterfront",recreation/cultural
+867,"Recreation, small tract forestland (STF) special assessment, mobile home park",recreation/cultural
+868,"Recreation, small tract forestland (STF) special assessment, (third digit not assigned)",recreation/cultural
+869,"Recreation, small tract forestland (STF) special assessment, manufactured structure",recreation/cultural
+870,"Recreation, permanently disqualified farm use (ORS 215.236), vacant",recreation/cultural
+871,"Recreation, permanently disqualified farm use (ORS 215.236), improved",recreation/cultural
+872,"Recreation, permanently disqualified farm use (ORS 215.236), condominium",recreation/cultural
+873,"Recreation, permanently disqualified farm use (ORS 215.236), state responsibility",recreation/cultural
+874,"Recreation, permanently disqualified farm use (ORS 215.236), partially exempt",recreation/cultural
+875,"Recreation, permanently disqualified farm use (ORS 215.236), taxable leased",recreation/cultural
+876,"Recreation, permanently disqualified farm use (ORS 215.236), waterfront",recreation/cultural
+877,"Recreation, permanently disqualified farm use (ORS 215.236), mobile home park",recreation/cultural
+878,"Recreation, permanently disqualified farm use (ORS 215.236), (third digit not assigned)",recreation/cultural
+879,"Recreation, permanently disqualified farm use (ORS 215.236), manufactured structure",recreation/cultural
+880,"Recreation, multiple special assessments, vacant",recreation/cultural
+881,"Recreation, multiple special assessments, improved",recreation/cultural
+882,"Recreation, multiple special assessments, condominium",recreation/cultural
+883,"Recreation, multiple special assessments, state responsibility",recreation/cultural
+884,"Recreation, multiple special assessments, partially exempt",recreation/cultural
+885,"Recreation, multiple special assessments, taxable leased",recreation/cultural
+886,"Recreation, multiple special assessments, waterfront",recreation/cultural
+887,"Recreation, multiple special assessments, mobile home park",recreation/cultural
+888,"Recreation, multiple special assessments, (third digit not assigned)",recreation/cultural
+889,"Recreation, multiple special assessments, manufactured structure",recreation/cultural
+890,"Recreation, potential development, vacant",recreation/cultural
+891,"Recreation, potential development, improved",recreation/cultural
+892,"Recreation, potential development, condominium",recreation/cultural
+893,"Recreation, potential development, state responsibility",recreation/cultural
+894,"Recreation, potential development, partially exempt",recreation/cultural
+895,"Recreation, potential development, taxable leased",recreation/cultural
+896,"Recreation, potential development, waterfront",recreation/cultural
+897,"Recreation, potential development, mobile home park",recreation/cultural
+898,"Recreation, potential development, (third digit not assigned)",recreation/cultural
+899,"Recreation, potential development, manufactured structure",recreation/cultural
+900,"Exempt, student housing, vacant",residential
+901,"Exempt, student housing, improved",residential
+902,"Exempt, student housing, partially exempt",residential
+903,"Exempt, student housing, taxable leased property",residential
+904,"Exempt, student housing, in lieu of value",residential
+905,"Exempt, student housing, temporarily exempt",residential
+906,"Exempt, student housing, Native American holdings",residential
+907,"Exempt, student housing, (third digit not assigned)",residential
+908,"Exempt, student housing, mineral interest",residential
+909,"Exempt, student housing, manufactured structure",residential
+910,"Exempt, church, vacant",recreation/cultural
+911,"Exempt, church, improved",recreation/cultural
+912,"Exempt, church, partially exempt",recreation/cultural
+913,"Exempt, church, taxable leased property",recreation/cultural
+914,"Exempt, church, in lieu of value",recreation/cultural
+915,"Exempt, church, temporarily exempt",recreation/cultural
+916,"Exempt, church, Native American holdings",recreation/cultural
+917,"Exempt, church, (third digit not assigned)",recreation/cultural
+918,"Exempt, church, mineral interest",recreation/cultural
+919,"Exempt, church, manufactured structure",recreation/cultural
+920,"Exempt, school, vacant",commercial-services
+921,"Exempt, school, improved",commercial-services
+922,"Exempt, school, partially exempt",commercial-services
+923,"Exempt, school, taxable leased property",commercial-services
+924,"Exempt, school, in lieu of value",commercial-services
+925,"Exempt, school, temporarily exempt",commercial-services
+926,"Exempt, school, Native American holdings",commercial-services
+927,"Exempt, school, (third digit not assigned)",commercial-services
+928,"Exempt, school, mineral interest",commercial-services
+929,"Exempt, school, manufactured structure",commercial-services
+930,"Exempt, cemetery, vacant",commercial-services
+931,"Exempt, cemetery, improved",commercial-services
+932,"Exempt, cemetery, partially exempt",commercial-services
+933,"Exempt, cemetery, taxable leased property",commercial-services
+934,"Exempt, cemetery, in lieu of value",commercial-services
+935,"Exempt, cemetery, temporarily exempt",commercial-services
+936,"Exempt, cemetery, Native American holdings",commercial-services
+937,"Exempt, cemetery, (third digit not assigned)",commercial-services
+938,"Exempt, cemetery, mineral interest",commercial-services
+939,"Exempt, cemetery, manufactured structure",commercial-services
+940,"Exempt, city, vacant",commercial-services
+941,"Exempt, city, improved",commercial-services
+942,"Exempt, city, partially exempt",commercial-services
+943,"Exempt, city, taxable leased property",commercial-services
+944,"Exempt, city, in lieu of value",commercial-services
+945,"Exempt, city, temporarily exempt",commercial-services
+946,"Exempt, city, Native American holdings",commercial-services
+947,"Exempt, city, (third digit not assigned)",commercial-services
+948,"Exempt, city, mineral interest",commercial-services
+949,"Exempt, city, manufactured structure",commercial-services
+950,"Exempt, county, vacant",commercial-services
+951,"Exempt, county, improved",commercial-services
+952,"Exempt, county, partially exempt",commercial-services
+953,"Exempt, county, taxable leased property",commercial-services
+954,"Exempt, county, in lieu of value",commercial-services
+955,"Exempt, county, temporarily exempt",commercial-services
+956,"Exempt, county, Native American holdings",commercial-services
+957,"Exempt, county, (third digit not assigned)",commercial-services
+958,"Exempt, county, mineral interest",commercial-services
+959,"Exempt, county, manufactured structure",commercial-services
+960,"Exempt, state-owned, vacant",commercial-services
+961,"Exempt, state-owned, improved",commercial-services
+962,"Exempt, state-owned, partially exempt",commercial-services
+963,"Exempt, state-owned, taxable leased property",commercial-services
+964,"Exempt, state-owned, in lieu of value",commercial-services
+965,"Exempt, state-owned, temporarily exempt",commercial-services
+966,"Exempt, state-owned, Native American holdings",commercial-services
+967,"Exempt, state-owned, (third digit not assigned)",commercial-services
+968,"Exempt, state-owned, mineral interest",commercial-services
+969,"Exempt, state-owned, manufactured structure",commercial-services
+970,"Exempt, federally owned, vacant",commercial-services
+971,"Exempt, federally owned, improved",commercial-services
+972,"Exempt, federally owned, partially exempt",commercial-services
+973,"Exempt, federally owned, taxable leased property",commercial-services
+974,"Exempt, federally owned, in lieu of value",commercial-services
+975,"Exempt, federally owned, temporarily exempt",commercial-services
+976,"Exempt, federally owned, Native American holdings",commercial-services
+977,"Exempt, federally owned, (third digit not assigned)",commercial-services
+978,"Exempt, federally owned, mineral interest",commercial-services
+979,"Exempt, federally owned, manufactured structure",commercial-services
+980,"Exempt, benevolent or fraternal ownership, vacant",recreation/cultural
+981,"Exempt, benevolent or fraternal ownership, improved",recreation/cultural
+982,"Exempt, benevolent or fraternal ownership, partially exempt",recreation/cultural
+983,"Exempt, benevolent or fraternal ownership, taxable leased property",recreation/cultural
+984,"Exempt, benevolent or fraternal ownership, in lieu of value",recreation/cultural
+985,"Exempt, benevolent or fraternal ownership, temporarily exempt",recreation/cultural
+986,"Exempt, benevolent or fraternal ownership, Native American holdings",recreation/cultural
+987,"Exempt, benevolent or fraternal ownership, (third digit not assigned)",recreation/cultural
+988,"Exempt, benevolent or fraternal ownership, mineral interest",recreation/cultural
+989,"Exempt, benevolent or fraternal ownership, manufactured structure",recreation/cultural
+990,"Exempt, port or other municipal properties, vacant",transport/utilities
+991,"Exempt, port or other municipal properties, improved",transport/utilities
+992,"Exempt, port or other municipal properties, partially exempt",transport/utilities
+993,"Exempt, port or other municipal properties, taxable leased property",transport/utilities
+994,"Exempt, port or other municipal properties, in lieu of value",transport/utilities
+995,"Exempt, port or other municipal properties, temporarily exempt",transport/utilities
+996,"Exempt, port or other municipal properties, Native American holdings",transport/utilities
+997,"Exempt, port or other municipal properties, (third digit not assigned)",transport/utilities
+998,"Exempt, port or other municipal properties, mineral interest",transport/utilities
+999,"Exempt, port or other municipal properties, manufactured structure",transport/utilities

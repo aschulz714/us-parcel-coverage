@@ -1,0 +1,320 @@
+code,label,category
+100,Agricultural (vacant/productive),agriculture/forest
+105,Agricultural vacant land,agriculture/forest
+110,Livestock and products,agriculture/forest
+111,Poultry,agriculture/forest
+112,Dairy,agriculture/forest
+113,Cattle/calves,agriculture/forest
+114,Sheep/wool,agriculture/forest
+115,Honey/beeswax,agriculture/forest
+116,Other livestock,agriculture/forest
+117,Horse farms,agriculture/forest
+120,Field crops,agriculture/forest
+129,Ag w/ development-rights acquired,agriculture/forest
+130,Truck crops (mucklands),agriculture/forest
+140,Truck crops (not mucklands),agriculture/forest
+150,Orchards,agriculture/forest
+151,Apples/pears,agriculture/forest
+152,Vineyards,agriculture/forest
+160,Other fruits,agriculture/forest
+170,Nursery/greenhouse,agriculture/forest
+180,Specialty farms,agriculture/forest
+181,Fur products,agriculture/forest
+182,Pheasant,agriculture/forest
+183,Aquatic,agriculture/forest
+184,Livestock/agritourism,agriculture/forest
+190,Fish/game/wildlife,agriculture/forest
+200,Residential,residential
+208,Res w/ small business,residential
+210,One-family year-round residence,residential
+211,One-family w/ ag use,residential
+214,One-family w/ ag use,residential
+215,One-family w/ accessory apt,residential
+216,One-family w/ 2 apts,residential
+217,Mobile home w/ structure,residential
+218,One-family w/ prof office,residential
+219,One-family w/ commercial use,residential
+220,Two-family residence,residential
+229,Multi-purpose residence,residential
+230,Three-family residence,residential
+231,Three-family w/ commercial,residential
+232,Multiple res (3 units),residential
+233,Multiple res,residential
+240,Rural residence w/ acreage,residential
+241,Primarily residential w/ ag,residential
+242,Recreational/seasonal w/ acreage,residential
+250,Estate,residential
+260,Seasonal residence,residential
+270,Mobile home,residential
+271,Mobile home park,residential
+275,Multiple mobile homes,residential
+280,Multiple residences,residential
+281,Multiple residences,residential
+283,Res w/ commercial,residential
+297,Res w/ ag,residential
+299,Other residential,residential
+300,Vacant land,undeveloped/open
+310,Residential vacant,undeveloped/open
+311,Residential vacant land,undeveloped/open
+312,Residential vacant w/ small improvement,undeveloped/open
+313,Vacant w/ trailer,undeveloped/open
+314,Rural vacant <10 acres,undeveloped/open
+315,Underwater vacant,undeveloped/open
+316,Rural vacant w/ structure,undeveloped/open
+317,Vacant w/ structure,undeveloped/open
+318,Vacant w/ misc improvement,undeveloped/open
+320,Rural vacant,undeveloped/open
+321,Abandoned ag land,undeveloped/open
+322,Rural vacant >10 acres,undeveloped/open
+323,Other rural vacant,undeveloped/open
+330,Vacant commercial land,undeveloped/open
+331,Commercial vacant w/ improvement,undeveloped/open
+340,Vacant industrial land,undeveloped/open
+341,Industrial vacant w/ improvement,undeveloped/open
+350,Urban renewal/redevelopment,undeveloped/open
+351,Redevelopment vacant,undeveloped/open
+352,Vacant,undeveloped/open
+380,Public utility vacant land,undeveloped/open
+400,Commercial,commercial-trade
+407,Parking,transport/utilities
+410,Living accommodations,residential
+411,Apartments,residential
+412,Apartments (luxury),residential
+413,Converted residence (commercial),residential
+414,Hotel,residential
+415,Motel,residential
+416,Mobile home park (commercial),residential
+417,Camps/cottages/bungalows,residential
+418,Inn/lodge/boarding house,residential
+420,Dining establishments,commercial-trade
+421,Restaurant,commercial-trade
+422,Diner/luncheonette,commercial-trade
+423,Snack bar/drive-in,commercial-trade
+424,Nightclub/cocktail lounge,commercial-trade
+425,Bar,commercial-trade
+426,Fast food,commercial-trade
+430,Motor vehicle services,commercial-trade
+431,Auto dealer (new),commercial-trade
+432,Service/gas station,commercial-trade
+433,Auto body/repair,commercial-trade
+434,Automatic car wash,commercial-trade
+435,Manual car wash/parking garage,transport/utilities
+436,Self-service car wash,transport/utilities
+437,Parts/accessories store,commercial-trade
+438,Parking garage,transport/utilities
+439,Small parking garage,transport/utilities
+440,Storage/warehouse/distribution,industrial
+441,Fuel storage/distribution,industrial
+442,Mini warehouse/self-storage,industrial
+443,Grain/feed elevator/mill,industrial
+444,Lumber yard/mill,industrial
+445,Coal yard,industrial
+446,Cold storage,industrial
+447,Trucking terminal,industrial
+448,Piers/wharves/docks,industrial
+449,Warehouse (other),industrial
+450,Retail services,commercial-trade
+451,Regional shopping,commercial-trade
+452,Area/neighborhood shopping,commercial-trade
+453,Large retail outlet,commercial-trade
+454,Large retail food store,commercial-trade
+455,Dealer products/services,commercial-trade
+456,Retail (other),commercial-trade
+457,Small retail,commercial-trade
+460,Banks/office buildings,commercial-services
+461,Standard bank,commercial-services
+462,Drive-in branch bank,commercial-services
+463,Office building (multi-story),commercial-services
+464,Office building (small),commercial-services
+465,Professional building,commercial-services
+470,Miscellaneous services,commercial-services
+471,Funeral home,commercial-services
+472,Dog kennel/veterinary,commercial-services
+473,Greenhouse/nursery (retail),commercial-trade
+474,Billboard,commercial-trade
+475,Junkyard/service,commercial-trade
+480,Multiple-use/multi-purpose,commercial-trade
+481,Downtown row type (detached),commercial-trade
+482,Downtown row type w/ apartment,commercial-trade
+483,Converted residence (commercial),commercial-trade
+484,One-story small structure,commercial-trade
+485,Multi-story small structure,commercial-trade
+486,Mini-mart/convenience,commercial-trade
+499,Other commercial,commercial-trade
+500,Recreation/entertainment,recreation/cultural
+510,Entertainment assembly,recreation/cultural
+511,Legitimate theater,recreation/cultural
+512,Motion picture theater,recreation/cultural
+513,Drive-in theater,recreation/cultural
+514,Auditorium/exhibition,recreation/cultural
+515,Media studio,recreation/cultural
+520,Sports assembly,recreation/cultural
+521,Stadium,recreation/cultural
+522,Racetrack,recreation/cultural
+530,Amusement facility,recreation/cultural
+531,Fairground,recreation/cultural
+532,Amusement park,recreation/cultural
+533,Game farm/zoo,recreation/cultural
+534,Social organization,recreation/cultural
+540,Indoor sports,recreation/cultural
+541,Bowling center,recreation/cultural
+542,Ice/roller rink,recreation/cultural
+543,YMCA/health spa,recreation/cultural
+544,Health spa,recreation/cultural
+545,Indoor swimming,recreation/cultural
+546,Other indoor sports,recreation/cultural
+550,Outdoor sports,recreation/cultural
+551,Skating rink/ski area,recreation/cultural
+552,Public golf course,recreation/cultural
+553,Private golf/country club,recreation/cultural
+554,Outdoor swimming,recreation/cultural
+555,Riding stable,recreation/cultural
+556,Other outdoor sports,recreation/cultural
+557,Other outdoor sport,recreation/cultural
+560,Improved beach,recreation/cultural
+570,Marina,recreation/cultural
+580,Camps/camping facilities,recreation/cultural
+581,Camp,recreation/cultural
+582,Camping facility,recreation/cultural
+583,Resort complex,recreation/cultural
+590,Parks (commercial),recreation/cultural
+591,Playground,recreation/cultural
+592,Athletic field,recreation/cultural
+593,Picnic grounds,recreation/cultural
+600,Community services,commercial-services
+610,Education,commercial-services
+611,Library,commercial-services
+612,School,commercial-services
+613,College/university,commercial-services
+614,Special school/institution,commercial-services
+615,Other educational,commercial-services
+620,Religious,recreation/cultural
+630,Government,commercial-services
+631,Welfare/charity,commercial-services
+632,Benevolent/moral association,commercial-services
+633,Homes for the aged,commercial-services
+640,Health facility,commercial-services
+641,Hospital,commercial-services
+642,Clinic/medical office,commercial-services
+650,Government building,commercial-services
+651,Highway garage,commercial-services
+652,Office building (govt),commercial-services
+653,Government parking,commercial-services
+660,Protection,commercial-services
+661,Army/navy/air/coast guard,commercial-services
+662,Police/fire protection,commercial-services
+670,Correctional facility,commercial-services
+680,Cultural/recreational,recreation/cultural
+681,Cultural facility,recreation/cultural
+682,Recreational facility,recreation/cultural
+690,Miscellaneous (community),commercial-services
+691,Professional association,commercial-services
+692,Roads/right-of-way,transport/utilities
+693,Indian reservation,commercial-services
+694,Animal welfare shelter,commercial-services
+695,Cemetery,commercial-services
+700,Industrial,industrial
+710,Manufacturing/processing,industrial
+712,High-tech manufacturing,industrial
+714,Light industrial/manufacturing,industrial
+715,Heavy manufacturing,industrial
+720,Mining/quarrying,industrial
+721,Sand/gravel/topsoil,industrial
+729,Other mining,industrial
+730,Wells,industrial
+731,Oil/gas well,industrial
+732,Gas well,industrial
+733,Water/brine well,industrial
+734,Salt well,industrial
+735,Other well,industrial
+736,Mineral extraction,industrial
+740,Processing/storage,industrial
+741,Refining/processing,industrial
+742,Wineries/distilleries,industrial
+743,Junkyard/scrap,industrial
+744,Bulk storage,industrial
+749,Other industrial,industrial
+800,Public services,transport/utilities
+810,Communication,transport/utilities
+811,Telephone,transport/utilities
+812,Telegraph,transport/utilities
+813,Radio,transport/utilities
+814,Television,transport/utilities
+815,Cellular/wireless,transport/utilities
+816,Other communication,transport/utilities
+817,Telecom outside plant,transport/utilities
+818,Telecom property,transport/utilities
+820,Water/sewer/utility,transport/utilities
+821,Flood control,transport/utilities
+822,Water supply,transport/utilities
+823,Water treatment,transport/utilities
+826,Gas transmission,transport/utilities
+827,Gas distribution,transport/utilities
+830,Communication (private),transport/utilities
+831,Telephone,transport/utilities
+832,Telegraph,transport/utilities
+833,Radio,transport/utilities
+834,Television,transport/utilities
+835,Cable TV,transport/utilities
+836,Telephone outside plant,transport/utilities
+837,Cellular tower,transport/utilities
+840,Transportation,transport/utilities
+841,Motor vehicle,transport/utilities
+842,Ceiling railroad,transport/utilities
+843,Buses,transport/utilities
+844,Marine/aviation,transport/utilities
+845,Railroad transportation,transport/utilities
+846,Bus/transit,transport/utilities
+847,Pipeline/oil/gas,transport/utilities
+850,Waste disposal,transport/utilities
+851,Solid waste/landfill,transport/utilities
+852,Landfill/dump,transport/utilities
+853,Sewage treatment,transport/utilities
+854,Air pollution control,transport/utilities
+860,Special franchise,transport/utilities
+861,Electric & gas,transport/utilities
+862,Water utility,transport/utilities
+866,Telephone outside plant,transport/utilities
+867,Misc utility,transport/utilities
+868,Pipeline,transport/utilities
+869,Other special franchise,transport/utilities
+870,Electric/gas utility,transport/utilities
+871,Electric transmission,transport/utilities
+872,Gas transmission,transport/utilities
+873,Water transmission,transport/utilities
+874,Electric power generation,transport/utilities
+875,Gas-fired power,transport/utilities
+876,Geothermal,transport/utilities
+877,Other power,transport/utilities
+878,Solar,transport/utilities
+879,Wind power,transport/utilities
+880,Electric distribution,transport/utilities
+882,Electric substation,transport/utilities
+883,Gas measuring/regulating,transport/utilities
+884,Electric distribution outside plant,transport/utilities
+885,Gas distribution outside plant,transport/utilities
+900,Wild/forested/conservation/public,agriculture/forest
+910,Private wild and forest land,agriculture/forest
+911,Forest land (section 480),agriculture/forest
+912,Forest land (section 480-a),agriculture/forest
+920,Private hunting/fishing club,recreation/cultural
+921,Wild/forest (other),agriculture/forest
+930,State-owned forest land,agriculture/forest
+931,State forest (480-a),agriculture/forest
+932,State forest preserve,agriculture/forest
+940,Reforested land/preservation,agriculture/forest
+941,Reforested (480),agriculture/forest
+942,Reforested (480-a),agriculture/forest
+950,Government conservation easement,undeveloped/open
+960,Public parkland,recreation/cultural
+961,State-owned public park,recreation/cultural
+962,County-owned park,recreation/cultural
+963,State-owned recreation,recreation/cultural
+970,Other recreation (public),recreation/cultural
+971,Wetlands,undeveloped/open
+972,Land under water,undeveloped/open
+980,Taxable state-owned conservation,agriculture/forest
+990,Other (misc),undeveloped/open
+991,Transition assessment,undeveloped/open
+993,Transition assessment,undeveloped/open
+994,Other taxable,undeveloped/open

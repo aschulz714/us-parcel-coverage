@@ -1,0 +1,148 @@
+code,label,category
+100,Agricultural vacant lot,agriculture/forest
+101,Cash-grain or general farm,agriculture/forest
+102,Livestock farms other than dairy and poultry,agriculture/forest
+103,Dairy farms,agriculture/forest
+104,Poultry farms,agriculture/forest
+105,Fruit and nut farms,agriculture/forest
+106,Vegetable farms,agriculture/forest
+107,Tobacco farms,agriculture/forest
+108,Nurseries,agriculture/forest
+109,Green houses; vegetables and floriculture,agriculture/forest
+110,Agricultural vacant land (CAUV),agriculture/forest
+111,Cash-grain or general farm (CAUV),agriculture/forest
+112,Livestock farms other than dairy and poultry (CAUV),agriculture/forest
+113,Dairy farms (CAUV),agriculture/forest
+114,Poultry farms (CAUV),agriculture/forest
+115,Fruit and nut farms (CAUV),agriculture/forest
+116,Vegetable farms (CAUV),agriculture/forest
+117,Tobacco farms (CAUV),agriculture/forest
+120,Timber or forest lands,agriculture/forest
+121,Timber (CAUV),agriculture/forest
+190,Other agricultural use,agriculture/forest
+199,Other agricultural use (CAUV),agriculture/forest
+210,Coal land - surface and rights,industrial
+220,Coal rights - working interest,industrial
+230,Coal rights - separate royalty interest,industrial
+240,Oil and gas rights - working interest,industrial
+250,Oil and gas rights - separate royalty,industrial
+260,Other minerals,industrial
+300,Industrial - vacant land,industrial
+310,Food and drink processing plants and storage,industrial
+320,Foundries and heavy manufacturing plants,industrial
+330,Manufacturing and assembling - medium,industrial
+340,Manufacturing and assembling - light,industrial
+350,Industrial warehouses,industrial
+360,Industrial truck terminals,industrial
+370,Small shops (machine; tool and die),industrial
+380,Mines and quarries,industrial
+390,Grain elevators,industrial
+399,Other industrial structures,industrial
+400,Commercial - vacant land,commercial-services
+401,Apartments - 4 to 19 rental units,residential
+402,Apartments - 20 to 39 rental units,residential
+403,Apartments - 40 or more rental units,residential
+410,Motels and tourist cabins,commercial-services
+411,Hotels,commercial-services
+412,Nursing homes and private hospitals,commercial-services
+415,Trailer or mobile home park,residential
+416,Commercial camp grounds,recreation/cultural
+419,Other commercial housing,residential
+420,Small detached retail stores (under 10000 sq ft),commercial-trade
+421,Supermarkets,commercial-trade
+422,Discount stores and junior department stores,commercial-trade
+424,Full line department stores,commercial-trade
+425,Neighborhood shopping center,commercial-trade
+426,Community shopping center,commercial-trade
+427,Regional shopping center,commercial-trade
+429,Other retail structures,commercial-trade
+430,Restaurant; cafeteria; and/or bar,commercial-trade
+435,Drive-in restaurant or food service facility,commercial-trade
+439,Other food service structures,commercial-trade
+440,Dry cleaning plants and laundries,commercial-services
+441,Funeral homes,commercial-services
+442,Medical clinics and offices,commercial-services
+444,Full service banks,commercial-services
+445,Savings and loans,commercial-services
+447,Office buildings - 1 and 2 stories,commercial-services
+448,Office buildings - 3 or more stories - walk up,commercial-services
+449,Office buildings - 3 or more stories - elevator,commercial-services
+450,Condominium office units,commercial-services
+452,Automotive service station,commercial-services
+453,Car washes,commercial-services
+454,Automotive car sales and services,commercial-trade
+455,Commercial garages,commercial-services
+456,Parking garage; structures and lots,commercial-services
+460,Theatres,recreation/cultural
+461,Drive-in theatres,recreation/cultural
+462,Golf driving ranges and miniature golf courses,recreation/cultural
+463,Golf courses,recreation/cultural
+464,Bowling alleys,recreation/cultural
+465,Lodge halls and amusement parks,recreation/cultural
+480,Commercial warehouses,commercial-services
+482,Commercial truck terminals,transport/utilities
+489,Commercial/industrial land owned by a public utility (non-railroad),transport/utilities
+490,Marine service facilities,commercial-services
+496,Marina (small boat),recreation/cultural
+499,Other commercial structures,commercial-services
+500,Residential vacant land,residential
+501,Residential vacant land (unplatted 0-9.99 ac),residential
+502,Residential vacant land (unplatted 10-19.99 ac),residential
+503,Residential vacant land (unplatted 20-29.99 ac),residential
+504,Residential vacant land (unplatted 30-39.99 ac),residential
+505,Residential vacant land (unplatted 40+ ac),residential
+510,Single family dwelling,residential
+511,Single family dwelling (unplatted 0-9.99 ac),residential
+512,Single family dwelling (unplatted 10-19.99 ac),residential
+513,Single family dwelling (unplatted 20-29.99 ac),residential
+514,Single family dwelling (unplatted 30-39.99 ac),residential
+515,Single family dwelling (unplatted 40+ ac),residential
+520,Two family dwelling,residential
+521,Two family dwelling (unplatted 0-9.99 ac),residential
+522,Two family dwelling (unplatted 10-19.99 ac),residential
+523,Two family dwelling (unplatted 20-29.99 ac),residential
+524,Two family dwelling (unplatted 30-39.99 ac),residential
+525,Two family dwelling (unplatted 40+ ac),residential
+530,Three family dwelling,residential
+531,Three family dwelling (unplatted 0-9.99 ac),residential
+532,Three family dwelling (unplatted 10-19.99 ac),residential
+533,Three family dwelling (unplatted 20-29.99 ac),residential
+534,Three family dwelling (unplatted 30-39.99 ac),residential
+535,Three family dwelling (unplatted 40+ ac),residential
+550,Condominium residential unit,residential
+560,House trailers or mobile homes affixed to real estate,residential
+561,House trailers or mobile homes (unplatted 0-9.99 ac),residential
+562,House trailers or mobile homes (unplatted 10-19.99 ac),residential
+563,House trailers or mobile homes (unplatted 20-29.99 ac),residential
+564,House trailers or mobile homes (unplatted 30-39.99 ac),residential
+565,House trailers or mobile homes (unplatted 40+ ac),residential
+599,Other residential structures,residential
+600,Exempt - United States of America,
+610,Exempt - State of Ohio,
+620,Exempt - counties,
+630,Exempt - townships,
+640,Exempt - municipalities,
+645,Exempt - metropolitan housing authority,residential
+650,Exempt - Board of Education,recreation/cultural
+660,Exempt - park district (public),recreation/cultural
+670,Exempt - colleges; academies (private),recreation/cultural
+680,Charitable - hospitals; homes for the aged,commercial-services
+685,Churches; public worship,recreation/cultural
+690,Graveyards; monuments; and cemeteries,recreation/cultural
+700,Community urban redevelopment tax abatement,
+710,Community reinvestment area tax abatement,
+720,Municipal improvement tax abatement,
+730,Municipal urban redevelopment tax abatement,
+740,Other tax abatements,
+800,Agricultural land owned by a public utility (non-railroad),agriculture/forest
+810,Mineral land owned by a public utility (non-railroad),industrial
+820,Industrial land owned by a public utility (non-railroad),industrial
+830,Commercial/residential land owned by a public utility (non-railroad),commercial-services
+840,Railroad real property used in operations,transport/utilities
+850,Railroad real property not used in operations,transport/utilities
+860,Railroad personal property used in operations,transport/utilities
+861,Railroad personal property used in operations,transport/utilities
+870,Railroad personal property not used in operations,transport/utilities
+871,Railroad personal property not used in operations,transport/utilities
+880,Public utility personal property (non-railroad),transport/utilities
+881,Public utility personal property (non-railroad),transport/utilities
