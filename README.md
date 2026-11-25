@@ -12,8 +12,13 @@ sources alone. As of the July 2026 build the answer is **143,955,093 parcel reco
 
 The county coverage map is at <https://aschulz714.github.io/us-parcel-coverage/> (or open
 `docs/index.html` from a copy of this repository). It shows, county by county, whether the
-record could be collected, where it came from, and how often each field is filled. It shows
-county totals only.
+record could be collected, where it came from, and how often each field is filled.
+
+Zoom in on a county and the map draws its parcel outlines. Those outlines come live from the
+county's own public server, at the address recorded in the catalog, not from the store. The
+page asks only for the outline and the parcel number, never for an owner name or an address.
+A county draws only while its server still answers at that address and allows other websites
+to read it.
 
 ## What is in this repository
 
@@ -27,7 +32,7 @@ county totals only.
 | `src/county_methods.csv` | One row per county or county-equivalent (3,230 rows): how its owner record can be reached, or why it cannot. |
 | `data/landuse_codes/` | Land-use code tables by state. |
 | `docs/` | The coverage map, the land-use taxonomy, and the release-safety rules. |
-| `tools/` | The script that builds the map's county totals file. |
+| `tools/` | The script that builds the map's data file: county totals and each county's public source address. |
 
 ## What is not here
 

@@ -1,17 +1,31 @@
 """Build the data file behind the county coverage map (docs/counties.js).
 
-The map page reads one small file of county totals. This script makes that file
-from the county status file that src/build_map_data.py writes
-(output/counties_status.geojson). It keeps county-level totals only: no parcel
-records, no owner names, no addresses.
+The map page reads one small file. This script makes that file from two inputs:
+
+  1. the county status file that src/build_map_data.py writes
+     (output/counties_status.geojson): county totals and fill rates
+  2. the source manifest (data/parcels/manifest.json): each county's public
+     map-service address and the name of its parcel-number field
+
+The output holds county-level totals and public source addresses only. It holds
+no parcel records, no owner names and no addresses of properties.
+
+The map uses the source address to draw parcel outlines live from the county's
+own server when a visitor zooms in. Only secure (https) ArcGIS layer addresses
+are passed through, because a secure page cannot call anything else.
 
 Usage:
-  python tools/make_coverage_map_data.py output/counties_status.geojson docs/counties.js
+  python tools/make_coverage_map_data.py output/counties_status.geojson data/parcels/manifest.json docs/counties.js
 """
 import collections
 import json
 import re
 import sys
+
+LAYER_QUERY = re.compile(r'^https://[^?#\s]+/(FeatureServer|MapServer)/[0-9]+/query$')
+SIMPLE_FIELD = re.compile(r'^[A-Za-z_][A-Za-z0-9_.]*$')
+# A parcel-number field whose name could be a person or address field is not passed to the map.
+DOUBTFUL_FIELD = re.compile('own|name|addr|mail|situs|street|taxpayer', re.I)
 
 
 def clean_date(value):
@@ -41,9 +55,23 @@ def category(props):
     return 'pending'
 
 
-def main(src, dest):
+def live_source(entry):
+    """Return (layer query address, parcel-number field) for a manifest entry, or ('', '')."""
+    for key in ('source_url', 'query_url'):
+        url = entry.get(key)
+        if isinstance(url, str) and LAYER_QUERY.match(url):
+            field = (entry.get('field_map') or {}).get('apn')
+            ok = isinstance(field, str) and SIMPLE_FIELD.match(field) and not DOUBTFUL_FIELD.search(field)
+            field = field if ok else ''
+            return url, field
+    return '', ''
+
+
+def main(src, manifest_path, dest):
     with open(src, encoding='utf-8') as fh:
         feats = json.load(fh)['features']
+    with open(manifest_path, encoding='utf-8') as fh:
+        manifest = json.load(fh)
 
     # State abbreviation by FIPS prefix, learned from counties that carry one.
     state_by_prefix = {}
@@ -56,6 +84,7 @@ def main(src, dest):
     out = []
     cats = collections.Counter()
     total = 0
+    live = 0
     for feat in feats:
         props = feat['properties']
         cat = category(props)
@@ -80,12 +109,18 @@ def main(src, dest):
                 'mail': round(float(props.get('mail_cov') or 0), 3),
                 'landuse': round(float(props.get('landuse_cov') or 0), 3),
             })
+            url, field = live_source(manifest.get(props['fips']) or {})
+            if url:
+                live += 1
+                row['q'] = url
+                if field:
+                    row['pn'] = field
         out.append({'type': 'Feature', 'properties': row, 'geometry': feat['geometry']})
 
     body = json.dumps({'type': 'FeatureCollection', 'features': out},
                       separators=(',', ':'), ensure_ascii=False)
     with open(dest, 'w', encoding='utf-8', newline='\n') as fh:
-        fh.write('// County-level coverage status. Totals only: no parcel records, no owner names.\n')
+        fh.write('// County-level coverage status and public source addresses. No parcel records, no owner names.\n')
         fh.write('window.COUNTY_STATUS = ')
         fh.write(body)
         fh.write(';\n')
@@ -93,9 +128,10 @@ def main(src, dest):
     print('counties', len(out), dict(cats))
     print('parcel records in the store', f'{total:,}')
     print('counties excluding Puerto Rico', len(out) - cats['pr'])
+    print('store counties with a live map-service address', live)
 
 
 if __name__ == '__main__':
-    if len(sys.argv) != 3:
+    if len(sys.argv) != 4:
         sys.exit(__doc__)
-    main(sys.argv[1], sys.argv[2])
+    main(sys.argv[1], sys.argv[2], sys.argv[3])

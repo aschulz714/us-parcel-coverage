@@ -56,6 +56,10 @@
   footer { color: var(--ink-muted); font-size: 13px; padding: 16px 0 34px; max-width: 860px; }
   footer p { margin: 6px 0; }
   .note { margin-top: 10px; font-size: 13px; color: var(--ink-muted); }
+  .mapwrap { position: relative; min-width: 0; }
+  #pstatus { position: absolute; left: 10px; bottom: 10px; max-width: calc(100% - 64px); background: rgba(250,247,238,.96); border: 1px solid var(--rule); border-radius: 3px; padding: 6px 10px; font-size: 13px; line-height: 1.35; color: var(--ink); pointer-events: none; }
+  #pstatus[data-state="error"] { border-color: var(--signal); }
+  #parcel-info { border-top: 1px solid var(--rule-soft); margin-top: 14px; padding-top: 12px; }
   @media (max-width: 860px) {
     .main { grid-template-columns: 1fr; }
     #map { height: 62vh; min-height: 380px; }
@@ -69,7 +73,7 @@
   <header>
     <div class="eyebrow">National Parcel Coverage · July 2026</div>
     <h1>Where US land records are free to collect</h1>
-    <p class="lede">Every county keeps a public record of who owns each piece of land. Most publish it online, each in its own format. This map shows, county by county, whether that record could be collected from a free public source and put into one national store.</p>
+    <p class="lede">Every county keeps a public record of who owns each piece of land. Most publish it online, each in its own format. This map shows, county by county, whether that record could be collected from a free public source and put into one national store. Zoom in on a green county to see its parcel outlines, drawn live from the county's own server where that server still answers.</p>
   </header>
 
   <div class="stats" aria-live="polite">
@@ -93,6 +97,12 @@
       <button class="chip" data-view="hi">Hawaii</button>
       <button class="chip" data-view="pr">Puerto Rico</button>
     </div>
+    <div class="group" role="group" aria-label="See parcel outlines downtown in">
+      <span>See parcels in</span>
+      <button class="chip" data-parcels="-122.3331,47.6030">Seattle</button>
+      <button class="chip" data-parcels="-77.0300,38.9000">Washington DC</button>
+      <button class="chip" data-parcels="-84.3880,33.7550">Atlanta</button>
+    </div>
     <div class="group">
       <label for="find"><span>Find a county</span></label>
       <input class="find" id="find" list="county-list" placeholder="e.g. King, WA" autocomplete="off">
@@ -101,18 +111,22 @@
   </div>
 
   <div class="main">
-    <div id="map" role="application" aria-label="Map of US counties colored by parcel-record coverage"></div>
+    <div class="mapwrap">
+      <div id="map" role="application" aria-label="Map of US counties colored by parcel-record coverage"></div>
+      <div id="pstatus" role="status" aria-live="polite" data-state="idle" hidden></div>
+    </div>
     <aside id="panel" aria-live="polite">
       <div class="eyebrow">County</div>
       <p class="hint" id="panel-hint">Click or tap a county to see what the store holds for it.</p>
       <div id="panel-body" hidden></div>
+      <div id="parcel-info" hidden></div>
     </aside>
   </div>
 
   <div class="legend" id="legend"></div>
 
   <footer>
-    <p><strong>What this page shows.</strong> County totals only: how many parcel records are in the store, where they came from, and how often each field is filled. It does not show any parcel, owner name, or address.</p>
+    <p><strong>What this page shows.</strong> County totals from the store: how many parcel records it holds, where they came from, and how often each field is filled. Zoomed in close, it also draws parcel outlines and parcel numbers straight from the county's own public server. Those do not come from the store, and this page never asks for an owner name or an address.</p>
     <p><strong>What "filled" means.</strong> The share of a county's records where the field has a value. It does not measure whether the value is correct.</p>
     <p><strong>Limits.</strong> Counts are from the July 2026 build. A source date is recorded for about a third of the counties in the store. Puerto Rico's 78 municipios are recorded but are outside the store.</p>
     <p><strong>Code and method.</strong> <a href="https://github.com/aschulz714/us-parcel-coverage" style="color:inherit">github.com/aschulz714/us-parcel-coverage</a></p>
@@ -178,6 +192,7 @@
   }
 
   var BLANK = { version: 8, sources: {}, layers: [{ id: 'bg', type: 'background', paint: { 'background-color': '#faf7ee' } }] };
+  var EMPTY = { type: 'FeatureCollection', features: [] };
   var map = new maplibregl.Map({
     container: 'map',
     style: 'https://tiles.openfreemap.org/styles/positron',
@@ -194,18 +209,37 @@
     var firstSymbol;
     (map.getStyle().layers || []).some(function (l) { if (l.type === 'symbol') { firstSymbol = l.id; return true; } return false; });
     map.addSource('counties', { type: 'geojson', data: DATA });
-    map.addLayer({ id: 'county-fill', type: 'fill', source: 'counties', paint: { 'fill-color': STATUS_FILL, 'fill-opacity': 0.86 } }, firstSymbol);
+    // The county color fades as you zoom in, so streets and parcel outlines show through.
+    map.addLayer({ id: 'county-fill', type: 'fill', source: 'counties', paint: { 'fill-color': STATUS_FILL, 'fill-opacity': ['interpolate', ['linear'], ['zoom'], 9, 0.86, 13, 0.12] } }, firstSymbol);
     map.addLayer({ id: 'county-line', type: 'line', source: 'counties', paint: { 'line-color': '#faf7ee', 'line-width': ['interpolate', ['linear'], ['zoom'], 3, 0.15, 6, 0.6, 9, 1.2] } }, firstSymbol);
     map.addLayer({ id: 'county-pick', type: 'line', source: 'counties', paint: { 'line-color': '#17222e', 'line-width': ['case', ['boolean', ['feature-state', 'picked'], false], 2.4, 0] } });
+    map.addSource('parcels', { type: 'geojson', data: EMPTY });
+    map.addSource('parcel-pick', { type: 'geojson', data: EMPTY });
+    map.addLayer({ id: 'parcel-line', type: 'line', source: 'parcels', paint: { 'line-color': '#17222e', 'line-opacity': 0.82, 'line-width': ['interpolate', ['linear'], ['zoom'], 14, 0.6, 18, 1.6] } });
+    map.addLayer({ id: 'parcel-pick', type: 'line', source: 'parcel-pick', paint: { 'line-color': '#b8402c', 'line-width': 3 } });
     document.getElementById('map').setAttribute('data-ready', '1');
+    scheduleParcels();
   }
   map.on('load', addLayers);
   // If the background map cannot be reached, fall back to a plain background.
   var fallback = setTimeout(function () { if (!layersAdded) { map.setStyle(BLANK); map.once('styledata', addLayers); } }, 7000);
   map.on('load', function () { clearTimeout(fallback); });
 
+  // A point that is inside the county and near its middle. The middle of a county's bounding
+  // box can fall in the county next door, so pick from a grid of points known to be inside.
+  function insidePoint(f) {
+    var bb = bounds(f.geometry), rings = ringsOf(f.geometry), pts = [], sx = 0, sy = 0, N = 14;
+    for (var i = 0; i < N; i++) for (var j = 0; j < N; j++) {
+      var x = bb[0][0] + (bb[1][0] - bb[0][0]) * (i + 0.5) / N, y = bb[0][1] + (bb[1][1] - bb[0][1]) * (j + 0.5) / N;
+      if (inRings(x, y, rings)) { pts.push([x, y]); sx += x; sy += y; }
+    }
+    if (!pts.length) return [(bb[0][0] + bb[1][0]) / 2, (bb[0][1] + bb[1][1]) / 2];
+    var cx = sx / pts.length, cy = sy / pts.length, best = pts[0], bd = Infinity;
+    pts.forEach(function (q) { var d = (q[0] - cx) * (q[0] - cx) + (q[1] - cy) * (q[1] - cy); if (d < bd) { bd = d; best = q; } });
+    return best;
+  }
   var picked = null;
-  function show(f) {
+  function show(f, at) {
     var p = f.properties, body = document.getElementById('panel-body');
     if (picked !== null) map.setFeatureState({ source: 'counties', id: picked }, { picked: false });
     picked = f.id;
@@ -223,14 +257,23 @@
         [['Owner name', p.owner], ['Assessed value', p.value], ['Site address', p.situs], ['Mailing address', p.mail], ['Land use', p.landuse]].map(function (r) {
           return '<div class="bar"><span>' + r[0] + '</span><i><b style="width:' + Math.round(r[1] * 100) + '%"></b></i><em>' + pct(r[1]) + '</em></div>';
         }).join('') + '</div>';
+      html += p.q
+        ? '<p style="margin:14px 0 0"><button class="chip" id="to-parcels">Zoom in to parcel outlines</button></p>'
+        : '<p class="note">Parcel outlines cannot be drawn live for this county. Its records did not come from a live map service.</p>';
     } else {
       html += '<p>' + CAT_WHY[p.cat] + '</p>';
     }
     body.innerHTML = html;
     body.hidden = false;
     document.getElementById('panel-hint').hidden = true;
+    var go = document.getElementById('to-parcels');
+    if (go) go.addEventListener('click', function () {
+      // Go to the spot that was clicked. From the search box, go to a point inside the county.
+      var spot = at || insidePoint(f);
+      map.flyTo({ center: spot, zoom: 15.4, duration: 1600 });
+    });
   }
-  map.on('click', 'county-fill', function (e) { if (e.features && e.features[0]) show(e.features[0]); });
+  map.on('click', 'county-fill', function (e) { if (e.features && e.features[0]) show(e.features[0], [e.lngLat.lng, e.lngLat.lat]); });
   map.on('mouseenter', 'county-fill', function () { map.getCanvas().style.cursor = 'pointer'; });
   map.on('mouseleave', 'county-fill', function () { map.getCanvas().style.cursor = ''; });
 
@@ -263,17 +306,220 @@
     })(geom.coordinates);
     return [[w, s], [e, n]];
   }
-  document.getElementById('find').addEventListener('change', function (ev) {
-    var f = byLabel[ev.target.value.trim()];
-    if (!f) return;
+  // Act once per chosen county. The browser reports a choice more than once (while typing or
+  // picking, and again when the box loses focus); a repeat must not pull the map back.
+  var lastFind = null;
+  function onFind(ev) {
+    var v = ev.target.value.trim(), f = byLabel[v];
+    if (!f) { lastFind = null; return; }
+    if (v === lastFind) return;
+    lastFind = v;
     map.fitBounds(bounds(f.geometry), { padding: 90, maxZoom: 8.5, duration: 700 });
     if (map.getSource('counties')) show(f);
-  });
+  }
+  document.getElementById('find').addEventListener('input', onFind);
+  document.getElementById('find').addEventListener('change', onFind);
 
   var VIEWS = { lower48: [[-125.5, 24.0], [-66.5, 49.8]], ak: [[-170.5, 52.5], [-129.5, 71.6]], hi: [[-160.6, 18.7], [-154.6, 22.4]], pr: [[-67.5, 17.8], [-65.1, 18.6]] };
   document.querySelectorAll('button[data-view]').forEach(function (b) {
     b.addEventListener('click', function () { map.fitBounds(VIEWS[b.getAttribute('data-view')], { padding: 12, duration: 600 }); });
   });
+  document.querySelectorAll('button[data-parcels]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      map.flyTo({ center: b.getAttribute('data-parcels').split(',').map(Number), zoom: 15.6, duration: 2200 });
+    });
+  });
+
+  // ---- Parcel outlines, drawn live from the county's own public server ----
+  // Nothing below comes from the store. The page asks the county's server for the
+  // outlines in view and, where the catalog names one, the parcel-number field.
+  // It never asks for owner names or addresses, and it keeps nothing.
+  var PARCEL_ZOOM = 14.5;
+  var GONE = "This county's public server no longer answers at the address in the catalog";
+  var pstatus = document.getElementById('pstatus'), parcelInfo = document.getElementById('parcel-info');
+  var parcels = [], lastFetch = null, pending = null, moveTimer = null;
+  var worked = {};   // per county: which request form the server accepted, or -1 for none
+  var misses = {};   // per county: requests in a row that got no answer at all
+  // Request forms, tried in order the first time a county is asked. Later moves reuse the one that worked.
+  var FORMS = [
+    { f: 'geojson', field: true },
+    { f: 'json', field: true },
+    { f: 'geojson', field: false },
+    { f: 'json', field: false }
+  ];
+
+  function setStatus(state, text) {
+    pstatus.setAttribute('data-state', state);
+    pstatus.textContent = text;
+    pstatus.hidden = !text;
+  }
+  function hostOf(u) { return u.replace(/^https?:\/\//, '').split('/')[0]; }
+  function ringsOf(g) {
+    if (!g) return [];
+    if (g.rings) return g.rings;
+    if (g.type === 'Polygon' || g.type === 'MultiLineString') return g.coordinates;
+    if (g.type === 'MultiPolygon') return [].concat.apply([], g.coordinates);
+    return [];
+  }
+  function inRings(x, y, rings) {
+    var inside = false;
+    for (var r = 0; r < rings.length; r++) {
+      var ring = rings[r];
+      for (var i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+        var xi = ring[i][0], yi = ring[i][1], xj = ring[j][0], yj = ring[j][1];
+        if ((yi > y) !== (yj > y) && x < (xj - xi) * (y - yi) / (yj - yi) + xi) inside = !inside;
+      }
+    }
+    return inside;
+  }
+  // Which county is under a point. Worked out from the county shapes on this page,
+  // so it does not depend on what the map has finished drawing.
+  var countyBoxes = null;
+  function countyAt(x, y) {
+    if (!countyBoxes) countyBoxes = feats.map(function (f) { var b = bounds(f.geometry); return [b[0][0], b[0][1], b[1][0], b[1][1]]; });
+    for (var i = 0; i < feats.length; i++) {
+      var b = countyBoxes[i];
+      if (x < b[0] || x > b[2] || y < b[1] || y > b[3]) continue;
+      if (inRings(x, y, ringsOf(feats[i].geometry))) return feats[i];
+    }
+    return null;
+  }
+  function clearParcels() {
+    if (pending) { pending.abort(); pending = null; }
+    if (parcels.length && map.getSource('parcels')) map.getSource('parcels').setData(EMPTY);
+    if (map.getSource('parcel-pick')) map.getSource('parcel-pick').setData(EMPTY);
+    parcels = []; lastFetch = null;
+    parcelInfo.hidden = true;
+  }
+  // "soft" = the server answered, but with a refusal. "again" = worth one more try (a server hiccup).
+  function soft(again) { var e = new Error('refused'); e.soft = true; e.again = !!again; return e; }
+
+  // County servers hiccup. When one errors, ask again after a short pause, three tries at
+  // most; two when it gives no answer at all. Not when it plainly refuses (moved, removed,
+  // sign-in needed).
+  function ask(p, form, box, signal, tries) {
+    tries = tries || 1;
+    return askOnce(p, form, box, signal).catch(function (err) {
+      if (signal.aborted || tries >= (err && err.soft ? 3 : 2) || (err && err.soft && !err.again)) throw err;
+      return new Promise(function (resolve) { setTimeout(resolve, 800); }).then(function () {
+        if (signal.aborted) throw err;
+        return ask(p, form, box, signal, tries + 1);
+      });
+    });
+  }
+
+  function askOnce(p, form, box, signal) {
+    var url = p.q + '?where=1%3D1&geometry=' + box.join('%2C') +
+      '&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects' +
+      '&returnGeometry=true&outSR=4326&geometryPrecision=6' +
+      (form.field ? '&outFields=' + encodeURIComponent(p.pn) : '') + '&f=' + form.f;
+    return fetch(url, { signal: signal, credentials: 'omit' }).then(function (r) {
+      if (!r.ok) throw soft(r.status >= 500);
+      return r.text();
+    }).then(function (text) {
+      var j;
+      try { j = JSON.parse(text); } catch (e) { throw soft(); }
+      if (!j || j.error || !Array.isArray(j.features)) throw soft();
+      var want = (p.pn || '').toLowerCase(), out = [];
+      j.features.forEach(function (ft) {
+        var rings = ringsOf(ft.geometry);
+        if (!rings.length) return;
+        var a = ft.properties || ft.attributes || {}, pn = '';
+        if (want) for (var k in a) { if (k.toLowerCase() === want && a[k] !== null && a[k] !== '') pn = String(a[k]); }
+        // Keep the outline and the parcel number. Anything else the server sent is dropped here.
+        out.push({ type: 'Feature', properties: { pn: pn }, geometry: { type: 'MultiLineString', coordinates: rings } });
+      });
+      return { features: out, cut: !!(j.exceededTransferLimit || (j.properties && j.properties.exceededTransferLimit)) };
+    });
+  }
+
+  function updateParcels() {
+    if (!map.getSource('parcels')) return;
+    var z = map.getZoom(), c = map.getCenter();
+    var hit = z >= 9 ? countyAt(c.lng, c.lat) : null;
+    var p = hit && hit.properties;
+    if (!p || z < PARCEL_ZOOM) {
+      clearParcels();
+      setStatus('idle', p && p.q && z >= 9 ? 'Zoom in to see parcel outlines' : '');
+      return;
+    }
+    if (p.cat !== 'store') { clearParcels(); setStatus('none', 'This county is not in the store, so no outlines are drawn here.'); return; }
+    if (!p.q) { clearParcels(); setStatus('none', 'Outlines cannot be drawn live here. This county\'s records did not come from a live map service.'); return; }
+    var host = hostOf(p.q);
+    if (worked[p.fips] === -1) { clearParcels(); setStatus('error', GONE + ' (' + host + ')'); return; }
+    var b = map.getBounds(), box = [b.getWest(), b.getSouth(), b.getEast(), b.getNorth()].map(function (v) { return Number(v.toFixed(5)); });
+    // Already holding everything for this view? Then do not ask again.
+    if (lastFetch && lastFetch.fips === p.fips && !lastFetch.cut &&
+        box[0] >= lastFetch.box[0] && box[1] >= lastFetch.box[1] && box[2] <= lastFetch.box[2] && box[3] <= lastFetch.box[3]) return;
+
+    // One request per map move. A newer move cancels the one before it.
+    if (pending) pending.abort();
+    var ctl = pending = new AbortController();
+    var timer = setTimeout(function () { ctl.abort(); }, 25000);
+    setStatus('loading', 'Asking ' + host + ' for parcel outlines…');
+    var firstTime = worked[p.fips] === undefined;
+    var order = firstTime ? FORMS.map(function (f, i) { return i; }).filter(function (i) { return p.pn || !FORMS[i].field; }) : [worked[p.fips]];
+    (function attempt(n) {
+      return ask(p, FORMS[order[n]], box, ctl.signal).then(function (res) { worked[p.fips] = order[n]; return res; }, function (err) {
+        if (err && err.soft && n + 1 < order.length) return attempt(n + 1);
+        throw err;
+      });
+    })(0).then(function (res) {
+      clearTimeout(timer);
+      if (ctl !== pending) return;
+      pending = null; misses[p.fips] = 0;
+      parcels = res.features;
+      lastFetch = { fips: p.fips, box: box, cut: res.cut, host: host };
+      map.getSource('parcels').setData({ type: 'FeatureCollection', features: parcels });
+      map.getSource('parcel-pick').setData(EMPTY);
+      parcelInfo.hidden = true;
+      var n = parcels.length;
+      pstatus.setAttribute('data-n', n);
+      pstatus.setAttribute('data-form', worked[p.fips]);
+      if (!n) setStatus('empty', host + ' has no parcels in this view.');
+      else setStatus('done', fmt(n) + ' parcel outline' + (n === 1 ? '' : 's') + ', drawn live from ' + host +
+        (res.cut ? '. The server sent only its first ' + fmt(n) + '. Zoom in for the rest.' : ''));
+    }).catch(function (err) {
+      clearTimeout(timer);
+      if (ctl !== pending) return;   // a newer map move took over
+      clearParcels();
+      if (err && err.soft) {
+        // Every form was refused. Stop asking this server for the rest of the visit.
+        if (firstTime) worked[p.fips] = -1;
+        setStatus('error', GONE + ' (' + host + ')');
+      } else {
+        // No answer at all: blocked, down, or too slow. Give up on it after two in a row.
+        misses[p.fips] = (misses[p.fips] || 0) + 1;
+        if (misses[p.fips] >= 2) worked[p.fips] = -1;
+        setStatus('error', host + ' did not answer just now.');
+      }
+    });
+  }
+  function scheduleParcels() { clearTimeout(moveTimer); moveTimer = setTimeout(updateParcels, 350); }
+  map.on('moveend', scheduleParcels);
+
+  // Click a drawn outline to see its parcel number.
+  map.on('click', function (e) {
+    if (!parcels.length) return;
+    var x = e.lngLat.lng, y = e.lngLat.lat, found = null, best = Infinity;
+    parcels.forEach(function (ft) {
+      var rings = ft.geometry.coordinates;
+      if (!inRings(x, y, rings)) return;
+      // Where outlines overlap (a condo inside a block, say), take the smallest.
+      var w = 180, s = 90, ee = -180, n = -90;
+      rings.forEach(function (ring) { ring.forEach(function (c) { if (c[0] < w) w = c[0]; if (c[0] > ee) ee = c[0]; if (c[1] < s) s = c[1]; if (c[1] > n) n = c[1]; }); });
+      var size = (ee - w) * (n - s);
+      if (size < best) { best = size; found = ft; }
+    });
+    map.getSource('parcel-pick').setData(found ? { type: 'FeatureCollection', features: [found] } : EMPTY);
+    if (!found) { parcelInfo.hidden = true; return; }
+    parcelInfo.innerHTML = '<div class="eyebrow">Parcel</div><dl><dt>Parcel number</dt><dd>' + esc(found.properties.pn || 'not sent by the server') + '</dd>' +
+      '<dt>Outline from</dt><dd>' + esc(lastFetch ? lastFetch.host : '') + '</dd></dl>' +
+      '<p class="note">Drawn live from the county\'s own server, not from the store. This page does not ask for owner names or addresses.</p>';
+    parcelInfo.hidden = false;
+  });
+
+  window.coverageMap = map;
 })();
 </script>
 </body>
