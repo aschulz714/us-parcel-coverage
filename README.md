@@ -17,8 +17,18 @@ record could be collected, where it came from, and how often each field is fille
 Zoom in on a county and the map draws its parcel outlines. Click one for its parcel number
 and, where the county's server has them, its land use, value, size, year built, zoning and
 last sale. All of that comes live from the county's own public server, at the address
-recorded in the catalog, not from the store. The page never asks for an owner name or an
-address.
+recorded in the catalog, not from the store.
+
+A click also asks that server who owns the one parcel clicked, by its parcel number. Where
+the request cannot be narrowed to that one parcel, the page does not ask. The owner's name and the
+parcel's street address are shown only when the name plainly reads as an organization, such
+as a company, a public body or a church. Any other name is dropped in the browser as it
+arrives: it is never shown and never kept. The rule leans toward hiding, so it also hides
+organizations it does not recognize, and a company named after a person still shows as a
+company. New Jersey counties are not asked for owners at all
+(`config/publication_policy.json`). The rule is in `docs/index.html` between the
+`owner-rule` markers.
+
 A county draws only while its server still answers at that address and allows other websites
 to read it.
 
@@ -34,13 +44,15 @@ to read it.
 | `src/county_methods.csv` | One row per county or county-equivalent (3,230 rows): how its owner record can be reached, or why it cannot. |
 | `data/landuse_codes/` | Land-use code tables by state. |
 | `docs/` | The coverage map, the land-use taxonomy, and the release-safety rules. |
-| `tools/` | The script that builds the map's data file: county totals and each county's public source address. |
+| `tools/` | The script that builds the map's data file: county totals, each county's public source address and the names of its fields. No records. |
 
 ## What is not here
 
-- **The parcel records themselves.** This is a code and catalog release. No parcel, owner
-  name, or address is published. `docs/RELEASE_SAFETY.md` describes the checks a data
-  release has to pass first, including source terms and privacy review.
+- **The parcel records themselves.** This is a code and catalog release. The repository
+  holds no parcel record, owner name, or street address. The coverage map reads the fields
+  described above live from county servers and keeps none of them. `docs/RELEASE_SAFETY.md`
+  describes the checks a data release has to pass first, including source terms and privacy
+  review.
 - **Per-county research notes and probe evidence.** They are held back until they have been
   reviewed for personal information.
 - **Sources known to prohibit redistribution.** They were kept out of the store. The rest

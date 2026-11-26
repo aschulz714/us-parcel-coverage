@@ -127,7 +127,7 @@
   <div class="legend" id="legend"></div>
 
   <footer>
-    <p><strong>What this page shows.</strong> County totals from the store: how many parcel records it holds, where they came from, and how often each field is filled. Zoomed in close, it also draws parcel outlines straight from the county's own public server. Click one for its parcel number and, where the county's server has them, its land use, value, size, year built, zoning and last sale. Those do not come from the store, and this page never asks for an owner name or an address.</p>
+    <p><strong>What this page shows.</strong> County totals from the store: how many parcel records it holds, where they came from, and how often each field is filled. Zoomed in close, it also draws parcel outlines straight from the county's own public server. Click one for its parcel number and, where the county's server has them, its land use, value, size, year built, zoning and last sale. A click also asks that server who owns the one parcel clicked. The owner's name and the parcel's street address are shown only when the name plainly reads as an organization, such as a company, a public body or a church. Any other name is dropped as it arrives: it is never shown and never kept. New Jersey counties are not asked for owners at all. None of this comes from the store.</p>
     <p><strong>What "filled" means.</strong> The share of a county's records where the field has a value. It does not measure whether the value is correct.</p>
     <p><strong>Limits.</strong> Counts are from the July 2026 build. A source date is recorded for about a third of the counties in the store. Puerto Rico's 78 municipios are recorded but are outside the store.</p>
     <p><strong>Code and method.</strong> <a href="https://github.com/aschulz714/us-parcel-coverage" style="color:inherit">github.com/aschulz714/us-parcel-coverage</a></p>
@@ -336,7 +336,9 @@
   // Nothing below comes from the store. The page asks the county's server for the
   // outlines in view and, where the catalog names them, the parcel number and a few
   // facts about the land: land use, value, size, year built, zoning, last sale.
-  // It never asks for owner names or addresses, and it keeps nothing.
+  // That request never asks for owner names or addresses. The owner is asked for
+  // separately, one parcel at a time, when a visitor clicks one (see "Owner" below).
+  // The page keeps nothing.
   var PARCEL_ZOOM = 14.5;
   var GONE = "This county's public server no longer answers at the address in the catalog";
   var pstatus = document.getElementById('pstatus'), parcelInfo = document.getElementById('parcel-info');
@@ -423,7 +425,20 @@
     if (parcels.length && map.getSource('parcels')) map.getSource('parcels').setData(EMPTY);
     if (map.getSource('parcel-pick')) map.getSource('parcel-pick').setData(EMPTY);
     parcels = []; lastFetch = null;
+    closeParcelBox();
+  }
+  function closeParcelBox() {
+    if (ownerCtl) { ownerCtl.abort(); ownerCtl = null; }
     parcelInfo.hidden = true;
+    parcelInfo.innerHTML = '';
+    parcelInfo.removeAttribute('data-owner');
+  }
+  // A field named with its table ("Parcels.PIN") may come back under the short name ("PIN").
+  // "low" is one record's values keyed by lower-case field name.
+  function pickField(low, name) {
+    var k = name.toLowerCase(), v = low[k];
+    if (v === undefined) v = low[k.split('.').pop()];
+    return v === null || v === undefined || v === '' ? undefined : v;
   }
   // "soft" = the server answered, but with a refusal. "again" = worth one more try (a server
   // hiccup). "final" = the service is gone or closed, so no other request form is tried.
@@ -462,7 +477,8 @@
       try { j = JSON.parse(r.text); } catch (e) {}
       if (j && j.error && closed(j.error.code, j.error.message)) throw soft(false, true);
       if (!j && closed(r.status, '')) throw soft(false, true);
-      if (j && Array.isArray(j.fields)) { set = {}; j.fields.forEach(function (f) { set[String(f.name).toLowerCase()] = true; }); }
+      // Remember each field's name and its type (text or number).
+      if (j && Array.isArray(j.fields)) { set = {}; j.fields.forEach(function (f) { set[String(f.name).toLowerCase()] = String(f.type || 'unknown'); }); }
       // A server hiccup tells us nothing; do not remember it, so a later move asks again.
       if (set || r.status < 500) layerFields[base] = set;
       return set;
@@ -487,19 +503,13 @@
       if (!r.ok) throw soft(r.status >= 500, closed(r.status, ''));
       if (!j || !Array.isArray(j.features)) throw soft();
       var wantPn = plan.pn.toLowerCase(), wantFacts = form.fields === 'all' ? plan.facts : [], out = [];
-      // A field named with its table ("Parcels.PIN") may come back under the short name ("PIN").
-      function pick(low, name) {
-        var k = name.toLowerCase(), v = low[k];
-        if (v === undefined) v = low[k.split('.').pop()];
-        return v === null || v === undefined || v === '' ? undefined : v;
-      }
       j.features.forEach(function (ft) {
         var rings = ringsOf(ft.geometry);
         if (!rings.length) return;
         var a = ft.properties || ft.attributes || {}, low = {}, facts = {};
         for (var k in a) low[k.toLowerCase()] = a[k];
-        var pn = wantPn ? pick(low, wantPn) : undefined;
-        wantFacts.forEach(function (kv) { var v = pick(low, kv[1]); if (v !== undefined) facts[kv[0]] = v; });
+        var pn = wantPn ? pickField(low, wantPn) : undefined;
+        wantFacts.forEach(function (kv) { var v = pickField(low, kv[1]); if (v !== undefined) facts[kv[0]] = v; });
         // Keep the outline, the parcel number and the land facts that were asked for.
         // Anything else the server sent is dropped here.
         out.push({ type: 'Feature', properties: { pn: pn === undefined ? '' : String(pn), facts: facts }, geometry: { type: 'MultiLineString', coordinates: rings } });
@@ -548,11 +558,11 @@
       if (ctl !== pending) return;
       pending = null; misses[p.fips] = 0;
       parcels = res.features;
-      lastFetch = { fips: p.fips, box: box, cut: res.cut, host: host };
+      lastFetch = { fips: p.fips, box: box, cut: res.cut, host: host, county: p };
       // The map gets the outlines only. The facts stay in this page's own list for the click box.
       map.getSource('parcels').setData({ type: 'FeatureCollection', features: parcels.map(function (ft) { return { type: 'Feature', properties: {}, geometry: ft.geometry }; }) });
       map.getSource('parcel-pick').setData(EMPTY);
-      parcelInfo.hidden = true;
+      closeParcelBox();
       var n = parcels.length;
       pstatus.setAttribute('data-n', n);
       pstatus.setAttribute('data-form', worked[p.fips]);
@@ -603,6 +613,151 @@
     return rows;
   }
 
+  // ---- Owner: asked for one parcel at a time, shown only for organizations ----
+  // <owner-rule>
+  // Which owner names may be shown. A name is shown only when it plainly reads as an
+  // organization: it carries a mark from ORG_MARK, nothing from PERSON_MARK, and does not
+  // pair an organization with what looks like a person's name. Every other name is treated
+  // as a private person's. The rule leans toward hiding, so it also hides organizations it
+  // does not recognize. Words that are also surnames or given names (Bank, Church, Temple,
+  // Parish, Hoa, Co) are left out of ORG_MARK on purpose.
+  var ORG_MARK = new RegExp('\\b(?:' + [
+    'LLC', 'LLLP', 'LLP', 'PLLC', 'PLC', 'INC', 'INCORPORATED', 'CORP', 'CORPORATION', 'LTD', 'LIMITED',
+    'COMPANY', 'COMPANIES', 'PARTNERSHIP', 'PARTNERS', 'ASSOCIATES', 'ASSOCIATION', 'ASSN', 'ASSOC',
+    'HOMEOWNERS', 'CONDOMINIUMS?', 'CONDOS', 'HOLDINGS', 'PROPERTIES', 'INVESTMENTS', 'INVESTORS', 'ENTERPRISES',
+    'VENTURES', 'REALTY', 'DEVELOPMENT', 'DEVELOPERS', 'MANAGEMENT', 'APARTMENTS', 'CAPITAL', 'FOUNDATION',
+    'MORTGAGE', 'INSURANCE', 'FINANCIAL', 'INDUSTRIES', 'INTERNATIONAL', 'STORES', 'CREDIT UNION', 'BANK OF',
+    '(?:NATIONAL|SAVINGS|STATE|FEDERAL) BANK', 'BANK NA', 'SHOPPING CENTER', 'MEDICAL CENTER', 'HOSPITAL', 'CLINIC',
+    '(?:CITY|COUNTY|TOWN|VILLAGE|BOROUGH|TOWNSHIP|STATE|COMMONWEALTH|PORT) OF', 'UNITED STATES', 'USA', 'COUNTY',
+    'TOWNSHIP', 'MUNICIPAL', 'MUNICIPALITY', 'DISTRICT', 'AUTHORITY', 'COMMISSION', 'DEPARTMENT', 'DEPT', 'BUREAU OF',
+    'AGENCY', 'ADMINISTRATION', 'BOARD OF', 'GOVERNMENT', 'FEDERAL', 'HOUSING', 'TRANSIT', 'TRANSPORTATION',
+    'RAILROAD', 'RAILWAY', 'UTILITY', 'UTILITIES', 'COOPERATIVE', 'ENERGY', 'TELEPHONE', 'FOREST SERVICE',
+    'POSTAL SERVICE', 'UNIVERSITY', 'COMMUNITY COLLEGE', 'STATE COLLEGE', 'COLLEGE OF', 'SCHOOLS?', 'ACADEMY',
+    'CHURCH OF', '(?:BAPTIST|COMMUNITY|BIBLE|UNITED|ORTHODOX|REFORMED|APOSTOLIC|NAZARENE|COVENANT|GOSPEL|MISSIONARY) CHURCH',
+    'METHODIST', 'LUTHERAN', 'PRESBYTERIAN', 'EPISCOPAL', 'CATHOLIC', 'PENTECOSTAL', 'ADVENTIST', 'DIOCESE',
+    'ARCHDIOCESE', 'CONGREGATION', 'SYNAGOGUE', 'MINISTRY', 'MINISTRIES', 'FELLOWSHIP', 'SALVATION ARMY', 'YMCA',
+    'YWCA', 'HABITAT FOR HUMANITY', 'SOCIETY', 'CEMETERY', 'MUSEUM', 'LIBRARY', 'CONSERVANCY', 'CLUB'
+  ].join('|') + ')\\b|\\bLP(?=$| ?[;,&])');
+  // Words that mean a person, a household, a trust or an estate is on the title.
+  var PERSON_MARK = new RegExp('\\b(?:' + [
+    'TRUSTS?', 'TRUSTEES?', 'TRSTEE', 'TRST', 'TRS', 'TR', 'TTEES?', 'TSTEE', 'ESTATE', 'EST', 'HEIRS?', 'DEVISEES?',
+    'ET[ -]?ALS?', 'ET[ -]?UX', 'ET[ -]?VIR', 'JT', 'JTS', 'JTWROS', 'JTRS', 'JOINT', 'TIC', 'TEN', 'TENANTS?',
+    'HUSBAND', 'WIFE', 'SPOUSE', 'MARRIED', 'UNMARRIED', 'SINGLE', 'WIDOW', 'WIDOWER', 'DOMESTIC', 'PARTNER',
+    'SEPARATE', 'SOLE', 'INDIVIDUAL', 'INDIVIDUALLY', 'PERSON', 'MAN', 'WOMAN', 'DECEASED', 'DECD', 'DEC',
+    'AKA', 'FKA', 'NKA', 'DBA', 'JR', 'SR', 'MR', 'MRS', 'MS', 'FAMILY', 'REVOCABLE', 'REVOC', 'REV', 'IRREVOCABLE',
+    'IRREV', 'SURVIVORS?', 'SURVIVORSHIP', 'CUSTODIAN', 'CUST', 'GUARDIAN', 'MINOR', 'EXECUTOR', 'EXECUTRIX',
+    'EXEC', 'EXR', 'ADMINISTRATOR', 'ADMINISTRATRIX', 'ADMR', 'REPRESENTATIVE', 'CONSERVATOR', 'ATTORNEY',
+    'BENEFICIARY', 'FBO', 'IRA', 'ROTH', 'UTMA', 'UGMA', 'TOD', 'POD', 'LE',
+    'LIFE (?:EST|ESTATE|TENANT|TEN|INT|INTEREST|USE|RIGHTS?)', 'LIFETIME', 'REMAINDER', 'REMAINDERMAN', 'RLT',
+    'DTD', 'UTD', 'UA', 'UTA', 'INT', 'INTEREST', 'UND', 'UNDIVIDED', 'CARE OF', 'ATTN', 'ATTENTION'
+  ].join('|') + ')\\b|C\\/O|%|\\bH ?[\\/&] ?W\\b');
+  // "ACME, LLC" is one name, not two.
+  var SUFFIX_COMMA = /,\s*(?=(?:LLC|L L C|LLLP|LLP|PLLC|PLC|LP|INC|INCORPORATED|CORP|CORPORATION|LTD|LIMITED|CO|COMPANY|NA)\b)/g;
+  var PLACE_OF = /^(?:CITY|COUNTY|TOWN|VILLAGE|BOROUGH|TOWNSHIP|STATE|COMMONWEALTH|PORT|UNIVERSITY) OF$/;
+  // Returns the name to show, or '' when it must not be shown.
+  function orgName(raw) {
+    // Tidy what is shown: single spaces, no empty ", , ," left over from a county's export.
+    var shown = String(raw === null || raw === undefined ? '' : raw).replace(/\s+/g, ' ')
+      .replace(/(?: ?,){2,}/g, ',').replace(/[ ,;]+$/, '').trim();
+    if (!shown || shown.length > 90) return '';
+    // Wide gaps and line breaks usually separate two owners squeezed into one field.
+    var s = String(raw).toUpperCase().replace(/[.'’`]/g, '').replace(/\s{2,}|[\r\n\t]+/g, ' ; ')
+      .replace(/\bREAL ESTATE\b/g, 'REALESTATE').replace(/\s+/g, ' ').trim();
+    if (PERSON_MARK.test(s) || !ORG_MARK.test(s)) return '';
+    // "DOE JOHN & DOE HOLDINGS LLC" names a person next to a company. Split the name where
+    // owners are usually joined; the parts without an organization mark may hold one word
+    // between them ("JOHNSON & JOHNSON INC"), not a person's full name.
+    var parts = s.replace(SUFFIX_COMMA, ' ').split(/\s*(?:[&+;\/,]|\bAND\b)\s*/).filter(Boolean);
+    if (!PLACE_OF.test(parts[parts.length - 1])) {   // "SEATTLE, CITY OF" is fine as it is
+      var loose = 0;
+      parts.forEach(function (part) { if (!ORG_MARK.test(part)) loose += (part.match(/[A-Z]{2,}/g) || []).length; });
+      if (loose > 1) return '';
+    }
+    return shown;
+  }
+  // One parcel can carry several owner fields. The owner is shown only if every one that is
+  // filled in passes the rule. state: 'shown', 'hidden', or 'blank' (the county sent no name).
+  function ownerShown(values) {
+    var seen = {}, out = [];
+    for (var i = 0; i < values.length; i++) {
+      var v = values[i];
+      if (v === null || v === undefined || !String(v).trim()) continue;
+      var name = orgName(v);
+      if (!name) return { state: 'hidden', name: '' };
+      if (!seen[name.toUpperCase()]) { seen[name.toUpperCase()] = true; out.push(name); }
+    }
+    if (!out.length) return { state: 'blank', name: '' };
+    if (out.length > 3) return { state: 'hidden', name: '' };
+    return { state: 'shown', name: out.join(' · ') };
+  }
+  // </owner-rule>
+
+  // What to ask a county's server for one parcel's owner: the owner fields the catalog
+  // names and the layer has, plus the parcel's own street address. null = do not ask.
+  // A county the publication policy bars (New Jersey) has no owner field in the data file.
+  // The request must be narrowed to the clicked parcel by its number. Where that cannot be
+  // done (no number, or the layer would not say what kind of field holds it), the owner is
+  // not asked for at all: a bare point on a condominium tower would bring back every unit.
+  function ownerPlan(p, parcelNumber) {
+    if (!p || !p.q || !p.o || !p.pn || !parcelNumber) return null;
+    var known = layerFields[p.q.replace(/\/query$/, '')];
+    if (!known) return null;
+    function typeOf(name) { var k = name.toLowerCase(); return known[k] || known[k.split('.').pop()] || ''; }
+    var names = String(p.o).split('|').filter(function (n) { return n && typeOf(n); });
+    var pnType = typeOf(p.pn), where = '';
+    if (pnType === 'esriFieldTypeString') where = p.pn + "='" + parcelNumber.replace(/'/g, "''") + "'";
+    else if (/Integer|Double|Single|OID/.test(pnType) && /^-?\d+(\.\d+)?$/.test(parcelNumber)) where = p.pn + '=' + parcelNumber;
+    if (!names.length || !where) return null;
+    return { names: names, site: p.sa && typeOf(p.sa) ? p.sa : '', pn: p.pn, where: where };
+  }
+  // Ask for the owner of the parcel under one point. The reply is read here and nowhere
+  // else: a name that passes the rule is returned, any other is dropped before this returns.
+  var ownerCtl = null;
+  function askOwner(p, plan, x, y, pn, signal, tries) {
+    var fields = plan.names.concat(plan.site ? [plan.site] : [], [plan.pn]);
+    // Asks for the clicked parcel only: its number, at the point clicked.
+    var url = p.q + '?where=' + encodeURIComponent(plan.where) + '&geometry=' + x.toFixed(6) + '%2C' + y.toFixed(6) +
+      '&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&returnGeometry=false' +
+      '&outFields=' + encodeURIComponent(fields.join(',')) + '&f=json';
+    return fetch(url, { signal: signal, credentials: 'omit' }).then(function (r) {
+      return r.text().then(function (text) { return { ok: r.ok, status: r.status, text: text }; });
+    }).then(function (r) {
+      var j = null;
+      try { j = JSON.parse(r.text); } catch (e) {}
+      if (j && j.error) throw soft(Number(j.error.code) >= 500);
+      if (!r.ok) throw soft(r.status >= 500);
+      if (!j || !Array.isArray(j.features)) throw soft();
+      var rows = j.features.map(function (ft) {
+        var a = ft.attributes || ft.properties || {}, low = {};
+        for (var k in a) low[k.toLowerCase()] = a[k];
+        return low;
+      });
+      // Keep only records that carry the clicked parcel's own number.
+      rows = rows.filter(function (low) { var v = pickField(low, plan.pn); return v !== undefined && String(v) === pn; });
+      if (!rows.length) return { state: 'missing', name: '', site: '' };
+      if (rows.length > 6) return { state: 'hidden', name: '', site: '' };
+      var values = [];
+      rows.forEach(function (low) { plan.names.forEach(function (n) { values.push(pickField(low, n)); }); });
+      var res = ownerShown(values), site = '';
+      if (res.state === 'shown' && plan.site) {
+        var sv = pickField(rows[0], plan.site);
+        site = sv === undefined ? '' : String(sv).replace(/\s+/g, ' ').trim().slice(0, 90);
+        // A bare house number or a county's "unknown" filler is not an address worth showing.
+        if (!/[A-Za-z]{2}/.test(site) || /\bunknown\b/i.test(site) || /^0+\b/.test(site)) site = '';
+      }
+      return { state: res.state, name: res.name, site: site };
+    }).catch(function (err) {
+      tries = tries || 1;
+      // One more try after a server hiccup or no answer. Not after a plain refusal.
+      if (signal.aborted || tries >= 2 || (err && err.soft && !err.again)) throw err;
+      return new Promise(function (resolve) { setTimeout(resolve, 800); }).then(function () {
+        if (signal.aborted) throw err;
+        return askOwner(p, plan, x, y, pn, signal, tries + 1);
+      });
+    });
+  }
+  var OWNER_TEXT = { hidden: 'Not shown', blank: 'Not recorded', missing: 'No record came back', error: 'Could not be checked just now' };
+
   // Click a drawn outline to see what the county's server says about that parcel.
   map.on('click', function (e) {
     if (!parcels.length) return;
@@ -617,12 +772,31 @@
       if (size < best) { best = size; found = ft; }
     });
     map.getSource('parcel-pick').setData(found ? { type: 'FeatureCollection', features: [found] } : EMPTY);
-    if (!found) { parcelInfo.hidden = true; return; }
+    closeParcelBox();
+    if (!found) return;
+    var county = lastFetch && lastFetch.county, plan = ownerPlan(county, found.properties.pn || '');
     parcelInfo.innerHTML = '<div class="eyebrow">Parcel</div><dl><dt>Parcel number</dt><dd>' + esc(found.properties.pn || 'not sent by the server') + '</dd>' +
+      (plan ? '<dt>Owner</dt><dd id="owner-cell">Checking…</dd>' : '') +
       factRows(found.properties.facts || {}).map(function (r) { return '<dt>' + r[0] + '</dt><dd>' + esc(r[1]) + '</dd>'; }).join('') +
       '<dt>Sent by</dt><dd>' + esc(lastFetch ? lastFetch.host : '') + '</dd></dl>' +
-      '<p class="note">Sent live by the county\'s own server, as the county records it. Not from the store. This page does not ask for owner names or addresses.</p>';
+      '<p class="note">Sent live by the county\'s own server, as the county records it. Not from the store.' +
+      (plan ? ' The owner is shown only when the name plainly reads as an organization, such as a company, a public body or a church. Any other name is dropped as it arrives.' : ' This page does not ask for this parcel\'s owner.') + '</p>';
     parcelInfo.hidden = false;
+    parcelInfo.setAttribute('data-owner', plan ? 'wait' : 'none');
+    if (!plan) return;
+    var ctl = ownerCtl = new AbortController();
+    var timer = setTimeout(function () { ctl.abort(); }, 15000);
+    function finish(res) {
+      clearTimeout(timer);
+      if (ctl !== ownerCtl) return;   // a newer click, or the box was closed
+      ownerCtl = null;
+      var cell = document.getElementById('owner-cell');
+      if (!cell) return;
+      cell.textContent = res.state === 'shown' ? res.name : OWNER_TEXT[res.state];
+      if (res.state === 'shown' && res.site) cell.insertAdjacentHTML('afterend', '<dt>Street address</dt><dd>' + esc(res.site) + '</dd>');
+      parcelInfo.setAttribute('data-owner', res.state);
+    }
+    askOwner(county, plan, x, y, found.properties.pn || '', ctl.signal).then(finish, function () { finish({ state: 'error' }); });
   });
 
   window.coverageMap = map;

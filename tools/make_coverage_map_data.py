@@ -5,24 +5,32 @@ The map page reads one small file. This script makes that file from two inputs:
   1. the county status file that src/build_map_data.py writes
      (output/counties_status.geojson): county totals and fill rates
   2. the source manifest (data/parcels/manifest.json): each county's public
-     map-service address, the name of its parcel-number field, and the names
-     of its fields for a few facts about the land (land use, value, size,
-     year built, zoning, last sale)
+     map-service address, the name of its parcel-number field, the names of
+     its fields for a few facts about the land (land use, value, size, year
+     built, zoning, last sale), and the names of its owner and site-address
+     fields
+  3. the publication policy (config/publication_policy.json): states whose
+     owner and address fields must not be passed to the map at all
 
-The output holds county-level totals and public source addresses only. It holds
-no parcel records, no owner names and no addresses of properties.
+The output holds county-level totals, public source addresses and field NAMES
+only. It holds no parcel records, no owner names and no addresses of properties.
 
 The map uses the source address to draw parcel outlines live from the county's
-own server when a visitor zooms in. Only secure (https) ArcGIS layer addresses
-are passed through, because a secure page cannot call anything else.
+own server when a visitor zooms in. When a visitor clicks one parcel, the map
+asks that server for that parcel's owner and shows the name only when it reads
+as an organization. Only secure (https) ArcGIS layer addresses are passed
+through, because a secure page cannot call anything else.
 
 Usage:
   python tools/make_coverage_map_data.py output/counties_status.geojson data/parcels/manifest.json docs/counties.js
 """
 import collections
 import json
+import pathlib
 import re
 import sys
+
+POLICY_PATH = pathlib.Path(__file__).resolve().parent.parent / 'config' / 'publication_policy.json'
 
 LAYER_QUERY = re.compile(r'^https://[^?#\s]+/(FeatureServer|MapServer)/[0-9]+/query$')
 SIMPLE_FIELD = re.compile(r'^[A-Za-z_][A-Za-z0-9_.]*$')
@@ -39,6 +47,12 @@ EXTRA_FIELDS = [
 # whatever column the manifest files it under.
 PERSON_FIELD = re.compile('owner|ownr|ownnam|own_|^own|mail|taxpayer|addr|situs|street|grantee|grantor|'
                           'buyer|seller|resident|occupant|contact|phone|email|person', re.I)
+# The owner column may list several source fields ("NAME1|NAME2"). A part whose name says
+# it is a mailing or care-of line is left out: the map never asks for a mailing field.
+NOT_AN_OWNER_NAME = re.compile('mail|addr|care|street|city|zip|phone|email|attn|contact', re.I)
+# A site-address field whose name suggests the owner's mailing address is not passed on.
+NOT_A_SITE_ADDRESS = re.compile('mail|taxpayer|ownr|owner(?!ship)|care|contact|phone|email', re.I)
+MAX_OWNER_FIELDS = 4
 
 
 def clean_date(value):
@@ -91,11 +105,44 @@ def extra_fields(entry):
     return ';'.join(out)
 
 
+def excluded_columns(policy, state):
+    """Columns the publication policy bars for a state."""
+    rule = (policy.get('states') or {}).get(state) or policy.get('default') or {}
+    return set(rule.get('exclude_fields') or [])
+
+
+def owner_fields(entry, barred):
+    """Return 'FIELD|FIELD' naming the source fields that hold the owner's name, or ''."""
+    if 'owner' in barred:
+        return ''
+    raw = (entry.get('field_map') or {}).get('owner')
+    if not isinstance(raw, str) or not raw.strip():
+        return ''
+    parts = [part.strip() for part in raw.split('|')]
+    # Anything that is not a plain list of field names (a "withheld" marker, say) is skipped.
+    if not all(SIMPLE_FIELD.match(part) for part in parts):
+        return ''
+    keep = [part for part in parts if not NOT_AN_OWNER_NAME.search(part)]
+    return '|'.join(keep[:MAX_OWNER_FIELDS])
+
+
+def site_field(entry, barred):
+    """Return the source field that holds the parcel's own street address, or ''."""
+    if 'situs_address' in barred:
+        return ''
+    field = (entry.get('field_map') or {}).get('situs_address')
+    if isinstance(field, str) and SIMPLE_FIELD.match(field) and not NOT_A_SITE_ADDRESS.search(field):
+        return field
+    return ''
+
+
 def main(src, manifest_path, dest):
     with open(src, encoding='utf-8') as fh:
         feats = json.load(fh)['features']
     with open(manifest_path, encoding='utf-8') as fh:
         manifest = json.load(fh)
+    with open(POLICY_PATH, encoding='utf-8') as fh:
+        policy = json.load(fh)
 
     # State abbreviation by FIPS prefix, learned from counties that carry one.
     state_by_prefix = {}
@@ -109,6 +156,7 @@ def main(src, manifest_path, dest):
     cats = collections.Counter()
     total = 0
     live = 0
+    with_owner = with_site = barred_live = 0
     for feat in feats:
         props = feat['properties']
         cat = category(props)
@@ -142,12 +190,24 @@ def main(src, manifest_path, dest):
                 extras = extra_fields(manifest.get(props['fips']) or {})
                 if extras:
                     row['x'] = extras
+                barred = excluded_columns(policy, row['st'])
+                if barred:
+                    barred_live += 1
+                owners = owner_fields(manifest.get(props['fips']) or {}, barred)
+                if owners:
+                    with_owner += 1
+                    row['o'] = owners
+                    # The site address is shown only next to an owner, so it is passed only with one.
+                    site = site_field(manifest.get(props['fips']) or {}, barred)
+                    if site:
+                        with_site += 1
+                        row['sa'] = site
         out.append({'type': 'Feature', 'properties': row, 'geometry': feat['geometry']})
 
     body = json.dumps({'type': 'FeatureCollection', 'features': out},
                       separators=(',', ':'), ensure_ascii=False)
     with open(dest, 'w', encoding='utf-8', newline='\n') as fh:
-        fh.write('// County-level coverage status and public source addresses. No parcel records, no owner names.\n')
+        fh.write('// County-level coverage status, public source addresses and field names. No parcel records, no owner names.\n')
         fh.write('window.COUNTY_STATUS = ')
         fh.write(body)
         fh.write(';\n')
@@ -156,6 +216,8 @@ def main(src, manifest_path, dest):
     print('parcel records in the store', f'{total:,}')
     print('counties excluding Puerto Rico', len(out) - cats['pr'])
     print('store counties with a live map-service address', live)
+    print('  of those: owner field passed', with_owner, '| site-address field passed', with_site,
+          '| in a state the policy bars', barred_live)
 
 
 if __name__ == '__main__':
