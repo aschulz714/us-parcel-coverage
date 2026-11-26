@@ -19,6 +19,12 @@ and, where the county's server has them, its land use, value, size, year built, 
 last sale. All of that comes live from the county's own public server, at the address
 recorded in the catalog, not from the store.
 
+King County, Washington is the one exception to "the address recorded in the catalog". The
+layer the catalog names for it carries the parcel number and nothing else, so the map reads
+the county's own property-information layer on the same server instead, for land use, land
+and building value, size and zoning. No owner or address field is asked for there. The
+substitution is `MAP_ONLY_SOURCE` in `tools/make_coverage_map_data.py`.
+
 A click also asks that server who owns the one parcel clicked, by its parcel number. Where
 the request cannot be narrowed to that one parcel, the page does not ask. The owner's name and the
 parcel's street address are shown only when the name plainly reads as an organization, such
@@ -41,7 +47,7 @@ to read it.
 | `qa/` | Regression tests and the validation suite. |
 | `config/` | The publication policy: which fields may be published, state by state. |
 | `data/parcels/manifest.json` | One entry per county in the store: source address, field mapping, record count, fill rates, and dates. |
-| `src/county_methods.csv` | One row per county or county-equivalent (3,230 rows): how its owner record can be reached, or why it cannot. |
+| `src/county_methods.csv` | One row per county or county-equivalent (3,230 rows: 3,221 county-equivalents plus 9 alias rows for Connecticut's planning regions): how its owner record can be reached, or why it cannot. |
 | `data/landuse_codes/` | Land-use code tables by state. |
 | `docs/` | The coverage map, the land-use taxonomy, and the release-safety rules. |
 | `tools/` | The script that builds the map's data file: county totals, each county's public source address and the names of its fields. No records. |

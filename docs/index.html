@@ -33,7 +33,7 @@
   button.chip[aria-pressed="true"] { background: var(--ink); color: var(--paper-soft); border-color: var(--ink); }
   button.chip:focus-visible { outline: 2px solid var(--signal); outline-offset: 2px; }
   .main { display: grid; grid-template-columns: minmax(0, 1fr) 330px; gap: 14px; align-items: stretch; }
-  #map { height: clamp(430px, calc(100vh - 390px), 700px); border: 1px solid var(--rule); background: var(--paper-soft); }
+  #map { height: clamp(430px, calc(100vh - 440px), 700px); border: 1px solid var(--rule); background: var(--paper-soft); }
   .find { font: inherit; font-size: 13px; padding: 6px 10px; border: 1px solid var(--rule); background: var(--paper-soft); color: var(--ink); border-radius: 3px; min-height: 34px; width: 210px; max-width: 100%; }
   .find:focus-visible { outline: 2px solid var(--signal); outline-offset: 2px; }
   .rampwrap { white-space: nowrap; }
@@ -56,7 +56,7 @@
   footer { color: var(--ink-muted); font-size: 13px; padding: 16px 0 34px; max-width: 860px; }
   footer p { margin: 6px 0; }
   .note { margin-top: 10px; font-size: 13px; color: var(--ink-muted); }
-  .mapwrap { position: relative; min-width: 0; }
+  .mapwrap { position: relative; min-width: 0; align-self: start; }
   #pstatus { position: absolute; left: 10px; bottom: 10px; max-width: calc(100% - 64px); background: rgba(250,247,238,.96); border: 1px solid var(--rule); border-radius: 3px; padding: 6px 10px; font-size: 13px; line-height: 1.35; color: var(--ink); pointer-events: none; }
   #pstatus[data-state="error"] { border-color: var(--signal); }
   #parcel-info { border-bottom: 1px solid var(--rule); margin-bottom: 14px; padding-bottom: 6px; }
@@ -65,6 +65,32 @@
     #map { height: 62vh; min-height: 380px; }
     .stat { padding-right: 8px; }
     .stat + .stat { padding-left: 10px; }
+  }
+  /* Phone: one column. The example buttons and the map come straight after the totals, the
+     panel follows the map, and the other controls move below it, so the map is on the first
+     screen and an answer is next to the map that was tapped. */
+  @media (max-width: 640px) {
+    .wrap { display: flex; flex-direction: column; }
+    .controls, .main { display: contents; }
+    header { order: 1; padding: 14px 0 6px; }
+    h1 { font-size: 27px; margin: 6px 0 8px; }
+    .lede { font-size: 14.5px; line-height: 1.45; }
+    .stats { order: 2; margin: 10px 0; }
+    .stat { padding: 8px 6px 8px 0; }
+    .stat + .stat { padding-left: 8px; }
+    .stat b { font-size: 19px; }
+    .stat span { display: block; font-size: 12px; line-height: 1.3; }
+    .g-parcels { order: 3; margin-bottom: 8px; }
+    .g-parcels > span { flex-basis: 100%; }
+    .mapwrap { order: 4; align-self: stretch; }
+    #map { height: min(62vh, 430px); min-height: 340px; }
+    aside { order: 5; margin-top: 12px; }
+    .g-find { order: 6; margin-top: 14px; }
+    .g-color { order: 7; margin-top: 10px; }
+    .g-jump { order: 8; margin-top: 10px; }
+    .legend { order: 9; }
+    footer { order: 10; }
+    button.chip { padding: 6px 10px; }
   }
 </style>
 </head>
@@ -83,28 +109,28 @@
   </div>
 
   <div class="controls">
-    <div class="group" role="group" aria-label="Color the map by">
+    <div class="group g-color" role="group" aria-label="Color the map by">
       <span>Color by</span>
       <button class="chip" data-metric="status" aria-pressed="true">Status</button>
       <button class="chip" data-metric="owner" aria-pressed="false">Owner filled</button>
       <button class="chip" data-metric="value" aria-pressed="false">Value filled</button>
       <button class="chip" data-metric="landuse" aria-pressed="false">Land use filled</button>
     </div>
-    <div class="group" role="group" aria-label="Jump to">
+    <div class="group g-jump" role="group" aria-label="Jump to">
       <span>Jump to</span>
       <button class="chip" data-view="lower48">Lower 48</button>
       <button class="chip" data-view="ak">Alaska</button>
       <button class="chip" data-view="hi">Hawaii</button>
       <button class="chip" data-view="pr">Puerto Rico</button>
     </div>
-    <div class="group" role="group" aria-label="See parcel outlines downtown in">
+    <div class="group g-parcels" role="group" aria-label="See parcel outlines downtown in">
       <span>See parcels in</span>
       <button class="chip" data-parcels="-117.4260,47.6588,15.8">Spokane</button>
       <button class="chip" data-parcels="-77.0300,38.9000,15.8">Washington DC</button>
       <button class="chip" data-parcels="-71.0589,42.3560,16.4">Boston</button>
       <button class="chip" data-parcels="-122.3331,47.6030,15.8">Seattle</button>
     </div>
-    <div class="group">
+    <div class="group g-find">
       <label for="find"><span>Find a county</span></label>
       <input class="find" id="find" list="county-list" placeholder="e.g. King, WA" autocomplete="off">
       <datalist id="county-list"></datalist>
@@ -194,14 +220,53 @@
 
   var BLANK = { version: 8, sources: {}, layers: [{ id: 'bg', type: 'background', paint: { 'background-color': '#faf7ee' } }] };
   var EMPTY = { type: 'FeatureCollection', features: [] };
+  // On a phone the map is taller than the lower 48 are wide. Start with them at the top of
+  // the map, so the whole country shows on the first screen.
+  var mapEl = document.getElementById('map');
+  var phone = !!(window.matchMedia && window.matchMedia('(max-width: 640px)').matches);
+  var startPad = phone
+    ? { top: 12, left: 12, right: 12, bottom: Math.max(12, mapEl.clientHeight - 26 - Math.round((mapEl.clientWidth - 24) * 0.56)) }
+    : 12;
   var map = new maplibregl.Map({
     container: 'map',
     style: 'https://tiles.openfreemap.org/styles/positron',
     bounds: [[-125.5, 24.0], [-66.5, 49.8]],
-    fitBoundsOptions: { padding: 12 },
+    fitBoundsOptions: { padding: startPad },
     attributionControl: { compact: true }
   });
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
+
+  // ---- Keeping the map and its answers on screen ----
+  // On a narrow screen the page is one column, so the map can be off screen when a button
+  // moves it, and the panel can be off screen when the map is tapped. These bring them back.
+  var mapwrap = document.querySelector('.mapwrap'), panel = document.getElementById('panel');
+  var calm = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+  function scrollPageBy(dy) { if (Math.abs(dy) > 4) window.scrollBy({ top: dy, behavior: calm ? 'auto' : 'smooth' }); }
+  // After a button that moves the map: show the whole map, with the example buttons when they sit just above it.
+  function bringMap() {
+    var m = mapwrap.getBoundingClientRect(), vh = window.innerHeight;
+    if (m.top >= 0 && m.bottom <= vh) return;
+    var a = panel.getBoundingClientRect(), g = document.querySelector('.g-parcels').getBoundingClientRect();
+    var top = (g.bottom <= m.top + 1 && m.top - g.top < 140 ? g.top : m.top) - 8;
+    // Beside the panel (a wide screen) and only cut off at the bottom: move just far enough.
+    // In one column: go all the way, so the start of the panel shows under the map too.
+    scrollPageBy(a.top < m.bottom - 1 && m.top >= 0 ? Math.min(top, m.bottom - vh + 8) : top);
+  }
+  // After a tap on the map: when the panel sits below the map and little of it shows, put the map
+  // at the top of the screen so the panel follows it into view.
+  function bringPanel() {
+    var m = mapwrap.getBoundingClientRect(), a = panel.getBoundingClientRect();
+    if (a.top < m.bottom - 1) return;                                   // side by side with the map
+    if (a.top >= 0 && a.top <= window.innerHeight - 160) return;        // enough of it shows already
+    scrollPageBy(m.top - 8);
+  }
+  // On a narrow screen the map credit starts folded behind its "i" button, so it does not cover the map.
+  function foldCredit() {
+    if (!phone) return;
+    var c = document.querySelector('#map .maplibregl-ctrl-attrib.maplibregl-compact');
+    if (c) { c.classList.remove('maplibregl-compact-show'); c.removeAttribute('open'); }
+  }
+  map.once('idle', foldCredit);
 
   var layersAdded = false;
   function addLayers() {
@@ -219,6 +284,7 @@
     map.addLayer({ id: 'parcel-line', type: 'line', source: 'parcels', paint: { 'line-color': '#17222e', 'line-opacity': 0.82, 'line-width': ['interpolate', ['linear'], ['zoom'], 14, 0.6, 18, 1.6] } });
     map.addLayer({ id: 'parcel-pick', type: 'line', source: 'parcel-pick', paint: { 'line-color': '#b8402c', 'line-width': 3 } });
     document.getElementById('map').setAttribute('data-ready', '1');
+    foldCredit();
     scheduleParcels();
   }
   map.on('load', addLayers);
@@ -272,9 +338,10 @@
       // Go to the spot that was clicked. From the search box, go to a point inside the county.
       var spot = at || insidePoint(f);
       map.flyTo({ center: spot, zoom: 15.4, duration: 1600 });
+      bringMap();
     });
   }
-  map.on('click', 'county-fill', function (e) { if (e.features && e.features[0]) show(e.features[0], [e.lngLat.lng, e.lngLat.lat]); });
+  map.on('click', 'county-fill', function (e) { if (e.features && e.features[0]) { show(e.features[0], [e.lngLat.lng, e.lngLat.lat]); bringPanel(); } });
   map.on('mouseenter', 'county-fill', function () { map.getCanvas().style.cursor = 'pointer'; });
   map.on('mouseleave', 'county-fill', function () { map.getCanvas().style.cursor = ''; });
 
@@ -317,18 +384,22 @@
     lastFind = v;
     map.fitBounds(bounds(f.geometry), { padding: 90, maxZoom: 8.5, duration: 700 });
     if (map.getSource('counties')) show(f);
+    // On a narrow screen the box sits below the map: put the keyboard away and show the map.
+    var m = mapwrap.getBoundingClientRect();
+    if (m.top < 0 || m.bottom > window.innerHeight) { ev.target.blur(); bringMap(); }
   }
   document.getElementById('find').addEventListener('input', onFind);
   document.getElementById('find').addEventListener('change', onFind);
 
   var VIEWS = { lower48: [[-125.5, 24.0], [-66.5, 49.8]], ak: [[-170.5, 52.5], [-129.5, 71.6]], hi: [[-160.6, 18.7], [-154.6, 22.4]], pr: [[-67.5, 17.8], [-65.1, 18.6]] };
   document.querySelectorAll('button[data-view]').forEach(function (b) {
-    b.addEventListener('click', function () { map.fitBounds(VIEWS[b.getAttribute('data-view')], { padding: 12, duration: 600 }); });
+    b.addEventListener('click', function () { map.fitBounds(VIEWS[b.getAttribute('data-view')], { padding: 12, duration: 600 }); bringMap(); });
   });
   document.querySelectorAll('button[data-parcels]').forEach(function (b) {
     b.addEventListener('click', function () {
       var at = b.getAttribute('data-parcels').split(',').map(Number);
       map.flyTo({ center: [at[0], at[1]], zoom: at[2], duration: 2200 });
+      bringMap();
     });
   });
 
@@ -783,6 +854,7 @@
       (plan ? ' The owner is shown only when the name plainly reads as an organization, such as a company, a public body or a church. Any other name is dropped as it arrives.' : ' This page does not ask for this parcel\'s owner.') + '</p>';
     parcelInfo.hidden = false;
     parcelInfo.setAttribute('data-owner', plan ? 'wait' : 'none');
+    bringPanel();
     if (!plan) return;
     var ctl = ownerCtl = new AbortController();
     var timer = setTimeout(function () { ctl.abort(); }, 15000);

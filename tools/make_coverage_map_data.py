@@ -12,6 +12,9 @@ The map page reads one small file. This script makes that file from two inputs:
   3. the publication policy (config/publication_policy.json): states whose
      owner and address fields must not be passed to the map at all
 
+One county (King, WA) is drawn from a different public layer of the same county
+than the manifest names. See MAP_ONLY_SOURCE below.
+
 The output holds county-level totals, public source addresses and field NAMES
 only. It holds no parcel records, no owner names and no addresses of properties.
 
@@ -53,6 +56,30 @@ NOT_AN_OWNER_NAME = re.compile('mail|addr|care|street|city|zip|phone|email|attn|
 # A site-address field whose name suggests the owner's mailing address is not passed on.
 NOT_A_SITE_ADDRESS = re.compile('mail|taxpayer|ownr|owner(?!ship)|care|contact|phone|email', re.I)
 MAX_OWNER_FIELDS = 4
+
+# Map-only sources. For these counties the map draws from a different public layer of the
+# same county than the one named in the manifest. This changes what the map asks for when a
+# visitor zooms in. It does not change the store or the manifest.
+#
+# King County, WA: the layer in the manifest (Property/KingCo_Parcels/MapServer/0) carries
+# the parcel number and nothing else, so the map could show only that. The county publishes
+# land use, land and building value, size and zoning on its own property-information layer
+# on the same server (checked 2026-11-26). That layer also carries a street address and a
+# property name; neither is listed here, and no owner field is listed, so none is asked for.
+MAP_ONLY_SOURCE = {
+    '53033': {
+        'source_url': 'https://gismaps.kingcounty.gov/arcgis/rest/services/Property/KingCo_PropertyInfo/MapServer/2/query',
+        'field_map': {
+            'apn': 'PIN',
+            'land_use': 'PREUSE_CODE',
+            'land_use_desc': 'PREUSE_DESC',
+            'land_value': 'APPRLNDVAL',
+            'improvement_value': 'APPR_IMPR',
+            'acreage': 'KCA_ACRES',
+            'zoning': 'KCA_ZONING',
+        },
+    },
+}
 
 
 def clean_date(value):
@@ -156,7 +183,7 @@ def main(src, manifest_path, dest):
     cats = collections.Counter()
     total = 0
     live = 0
-    with_owner = with_site = barred_live = 0
+    with_owner = with_site = barred_live = map_only = 0
     for feat in feats:
         props = feat['properties']
         cat = category(props)
@@ -181,24 +208,29 @@ def main(src, manifest_path, dest):
                 'mail': round(float(props.get('mail_cov') or 0), 3),
                 'landuse': round(float(props.get('landuse_cov') or 0), 3),
             })
-            url, field = live_source(manifest.get(props['fips']) or {})
+            # A map-only source replaces the manifest entry whole, and goes through the same
+            # checks. It names no owner or address field, so none is passed for that county.
+            entry = MAP_ONLY_SOURCE.get(props['fips']) or manifest.get(props['fips']) or {}
+            if props['fips'] in MAP_ONLY_SOURCE:
+                map_only += 1
+            url, field = live_source(entry)
             if url:
                 live += 1
                 row['q'] = url
                 if field:
                     row['pn'] = field
-                extras = extra_fields(manifest.get(props['fips']) or {})
+                extras = extra_fields(entry)
                 if extras:
                     row['x'] = extras
                 barred = excluded_columns(policy, row['st'])
                 if barred:
                     barred_live += 1
-                owners = owner_fields(manifest.get(props['fips']) or {}, barred)
+                owners = owner_fields(entry, barred)
                 if owners:
                     with_owner += 1
                     row['o'] = owners
                     # The site address is shown only next to an owner, so it is passed only with one.
-                    site = site_field(manifest.get(props['fips']) or {}, barred)
+                    site = site_field(entry, barred)
                     if site:
                         with_site += 1
                         row['sa'] = site
@@ -218,6 +250,7 @@ def main(src, manifest_path, dest):
     print('store counties with a live map-service address', live)
     print('  of those: owner field passed', with_owner, '| site-address field passed', with_site,
           '| in a state the policy bars', barred_live)
+    print('  of those: drawn from a map-only source (MAP_ONLY_SOURCE)', map_only)
 
 
 if __name__ == '__main__':
